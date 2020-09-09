@@ -38,6 +38,18 @@ export default {
     return {
       title: 'Verduzco.Me'
     }
+  },
+  mounted() {
+    // Change theme automatically
+    this.changeTheme()
+  },
+  methods: {
+    // Change theme automatically
+    changeTheme() {
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        this.$vuetify.theme.dark = true
+      }
+    }
   }
 }
 </script>
