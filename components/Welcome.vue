@@ -14,7 +14,7 @@
         </h1>
         <v-spacer id="text-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-h5">
-          Ingeniero de DevOps
+          Azure Solutions Architect Expert
         </h2>
       </v-flex>
       <v-flex
@@ -24,7 +24,7 @@
         md6
         lg6
       >
-        <img id="welcome-image" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco.png" alt="Verduzco.Dev Welcome Image">
+        <img id="welcome-image" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco.png" alt="Jesús Verduzco">
       </v-flex>
     </v-layout>
   </v-container>
