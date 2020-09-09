@@ -41,7 +41,7 @@
           target="_blank"
           title="Visitar Verduzco.Dev"
         >
-          Visitar Verduzo.Dev
+          Visitar Verduzco.Dev
         </v-btn>
         <v-spacer class="elements-spacer" />
       </v-flex>
