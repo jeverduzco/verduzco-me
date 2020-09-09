@@ -21,15 +21,19 @@ export default {
   data() {
     return {
       title: 'Jesús Verduzco | Ingeniero de DevOps',
-      description: '',
+      description:
+        '¿Quién es Jesús Verduzco? Soy un Ingeniero de DevOps apasionado por la tecnología, la inteligencia artificial y la nube, creo que son los pilares del futuro. ',
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'Person',
         name: 'Jesús Verduzco',
-        url: 'https://www.verduzco.me/',
-        logo: 'https://storage.verduzco.dev/website/main/verduzco-dev-logo.png',
-        foundingDate: '2019',
-        sameAs: ['https://www.linkedin.com/in/verduzco-dev/']
+        url: 'https://verduzco.me/',
+        image:
+          'https://storage.verduzco.dev/dotme/website/jesus-verduzco-op.png',
+        sameAs: [
+          'https://www.linkedin.com/in/verduzco-dev/',
+          'https://github.com/jeverduzco'
+        ]
       }
     }
   },
@@ -70,7 +74,7 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.dev/website/main/verduzco-de-op-image.png'
+            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-op.png'
         },
         {
           property: 'og:locale',
@@ -111,7 +115,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.dev/website/main/verduzco-de-op-image.png'
+            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-op.png'
         }
       ]
     }
