@@ -8,8 +8,8 @@
     "start": "nuxt start"
   },
   "engines": {
-    "node": "10.14.1",
-    "npm": "6.4.1"
+    "node": "14.8.0",
+    "npm": "6.14.7"
   },
   "dependencies": {
     "nuxt": "^2.14.4"
