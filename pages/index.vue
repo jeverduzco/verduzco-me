@@ -11,6 +11,17 @@
       <Welcome />
       <Waves />
     </section>
+    <section id="business">
+      <Business />
+      <WavesSecondary />
+    </section>
+    <section id="consulting" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
+      <Consulting />
+      <Waves />
+    </section>
+    <section id="content">
+      <Content />
+    </section>
     <!-- End page content -->
   </div>
 </template>
@@ -20,16 +31,16 @@ export default {
   name: 'Landing',
   data() {
     return {
-      title: 'Jesús Verduzco | Ingeniero de DevOps',
+      title: 'Jesús Verduzco | Azure Solutions Architect Expert',
       description:
-        '¿Quién es Jesús Verduzco? Soy un Ingeniero de DevOps apasionado por la tecnología, la inteligencia artificial y la nube, creo que son los pilares del futuro. ',
+        'Arquitecto de soluciones con tecnología de Microsoft Azure, apasionado por el código, la inteligencia artificial y con una sed nata de conocimiento.',
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'Person',
         name: 'Jesús Verduzco',
         url: 'https://verduzco.me/',
         image:
-          'https://storage.verduzco.dev/dotme/website/jesus-verduzco-op.png',
+          'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open.png',
         sameAs: [
           'https://www.linkedin.com/in/verduzco-dev/',
           'https://github.com/jeverduzco'
@@ -74,7 +85,7 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-op.png'
+            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open.png'
         },
         {
           property: 'og:locale',
@@ -115,7 +126,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-op.png'
+            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open.png'
         }
       ]
     }
