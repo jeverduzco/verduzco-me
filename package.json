@@ -11,17 +11,29 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
-    "nuxt": "^2.14.0"
+    "nuxt": "^2.14.4"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/eslint-config": "^0.0.1",
     "@nuxtjs/vuetify": "^1.11.2",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.5.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-nuxt": "^1.0.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5"
+    "babel-eslint": "^8.2.6",
+    "caniuse-lite": "1.0.30000974",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-config-vuetify": "^0.2.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^22.21.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-nuxt": "^0.4.3",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "prettier": "1.14.3",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2"
   }
 }

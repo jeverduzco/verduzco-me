@@ -1,0 +1,40 @@
+<template>
+  <v-container
+    grid-list-xl
+    class="content-container"
+  >
+    <v-layout
+      wrap
+      row
+      align-center
+    >
+      <v-flex xs12 sm12 md6 lg6>
+        <h1 class="text-lg-h1 text-md-h2 text-h3">
+          Jesús Verduzco
+        </h1>
+        <v-spacer id="text-spacer" />
+        <h2 class="text-lg-h5 text-md-h5 text-h5">
+          Ingeniero de DevOps
+        </h2>
+      </v-flex>
+      <v-flex
+        class="text-center"
+        xs12
+        sm12
+        md6
+        lg6
+      >
+        <img id="welcome-image" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco.png" alt="Verduzco.Dev Welcome Image">
+      </v-flex>
+    </v-layout>
+  </v-container>
+</template>
+<style>
+#welcome-image {
+  max-width: 100%;
+  height: auto;
+}
+#text-spacer {
+  height: 25px;
+}
+</style>

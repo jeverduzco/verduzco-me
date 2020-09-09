@@ -1,5 +1,3 @@
-import colors from 'vuetify/es5/util/colors'
-
 export default {
   /*
    ** Nuxt rendering mode
@@ -16,23 +14,40 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
-    title: process.env.npm_package_name || '',
+    htmlAttrs: {
+      lang: 'es'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: process.env.npm_package_description || '',
-      },
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'default' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://use.fontawesome.com/releases/v5.14.0/css/all.css'
+      },
+      {
+        rel: 'icon',
+        type: 'shortcut icon',
+        href: 'https://storage.verduzco.dev/dotme/website/icon-128.png'
+      },
+      {
+        rel: 'apple-touch-icon',
+        type: 'image/x-icon',
+        href: 'https://storage.verduzco.dev/dotme/website/icon-192.png'
+      }
+    ]
   },
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['~/assets/main.css'],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -49,36 +64,43 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    '@nuxtjs/vuetify',
+    [
+      '@nuxtjs/vuetify',
+      {
+        treeShake: true,
+        theme: {
+          dark: false,
+          themes: {
+            dark: {
+              primary: '#03a9f4',
+              secondary: '#00bcd4',
+              accent: '#009688',
+              error: '#f44336',
+              warning: '#ff5722',
+              info: '#ffc107',
+              success: '#4caf50'
+            },
+            light: {
+              primary: '#03a9f4',
+              secondary: '#00bcd4',
+              accent: '#009688',
+              error: '#f44336',
+              warning: '#ff5722',
+              info: '#ffc107',
+              success: '#4caf50'
+            }
+          }
+        }
+      }
+    ]
   ],
   /*
    ** Nuxt.js modules
    */
   modules: [],
   /*
-   ** vuetify module configuration
-   ** https://github.com/nuxt-community/vuetify-module
-   */
-  vuetify: {
-    customVariables: ['~/assets/variables.scss'],
-    theme: {
-      dark: true,
-      themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3,
-        },
-      },
-    },
-  },
-  /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {},
+  build: {}
 }
