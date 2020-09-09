@@ -97,7 +97,10 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['applicationinsightsfornuxt'],
+  appInsights: {
+    instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf'
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
