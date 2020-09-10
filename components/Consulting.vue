@@ -20,7 +20,7 @@
         </h1>
         <v-spacer id="text-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1">
-          Adicionalmente ofrezco consultoría en Microsoft Azure, con la finalidad de ayudar a más empresas a beneficiarse de la tecnología de nube más moderna. 
+          Adicionalmente ofrezco consultoría en Microsoft Azure, para ayudar a más empresas a beneficiarse de la tecnología en la nube más moderna. 
         </h2>
         <v-btn
           id="more-info"
