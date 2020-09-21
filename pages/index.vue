@@ -31,7 +31,7 @@ export default {
   name: 'Landing',
   data() {
     return {
-      title: 'Jesús Verduzco | Azure Solutions Architect Expert',
+      title: 'Jesús Verduzco | Divulgador de ideas y pensador tecnológico.',
       description:
         'Arquitecto de soluciones con tecnología de Microsoft Azure, apasionado por el código, la inteligencia artificial y con una sed nata de conocimiento.',
       structuredData: {
@@ -40,7 +40,7 @@ export default {
         name: 'Jesús Verduzco',
         url: 'https://verduzco.me/',
         image:
-          'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open.png',
+          'https://storage.verduzco.dev/dotme/website/jesus-verduzco-o-p.png',
         sameAs: [
           'https://www.linkedin.com/in/verduzco-dev/',
           'https://github.com/jeverduzco'
@@ -85,7 +85,7 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open.png'
+            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-o-p.png'
         },
         {
           property: 'og:locale',
@@ -126,7 +126,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open.png'
+            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-o-p.png'
         }
       ]
     }

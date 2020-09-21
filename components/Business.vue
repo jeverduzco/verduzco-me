@@ -25,11 +25,11 @@
         lg6
       >
         <h1 class="text-lg-h1 text-md-h2 text-h3">
-          Negocio
+          ¿De qué vivo?
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1">
-          Soy cofundador y CEO de Verduzco.Dev, una empresa dedicada al desarrollo de Software como Servicio con lo último en tecnología de la nube. 
+          Soy Cofundador y CEO de Verduzco.Dev, una empresa dedicada al desarrollo de Software como Servicio, exclusivo para Latinoamérica.
         </h2>
         <v-btn
           id="more-info"
