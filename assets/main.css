@@ -1,3 +1,21 @@
 .content-container {
-    max-width: 1185px !important;
-  }
+  max-width: 1185px !important;
+}
+.nuxt-content-highlight {
+  position: relative;
+}
+.nuxt-content-highlight pre {
+  border-radius: 3px;
+}
+.nuxt-content-highlight .filename {
+  position: absolute;
+  right: 5px;
+  color: whitesmoke;
+  font-weight: 300;
+  z-index: 10;
+}
+.v-application code {
+  background-color: transparent !important;
+  color: #c3cee3 !important;
+  padding: 0 !important;
+}

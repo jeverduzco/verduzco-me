@@ -97,9 +97,16 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['applicationinsightsfornuxt'],
+  modules: ['applicationinsightsfornuxt', '@nuxt/content'],
   appInsights: {
     instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf'
+  },
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-oceanic.css'
+      }
+    }
   },
   /*
    ** Build configuration
