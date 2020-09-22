@@ -37,6 +37,7 @@
         </p>
       </v-card>
     </v-footer>
+    <Telegram />
   </v-app>
 </template>
 
