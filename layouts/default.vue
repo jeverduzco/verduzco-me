@@ -1,10 +1,12 @@
 <template>
   <v-app>
     <v-app-bar flat fixed app>
-      <img
-        src="https://storage.verduzco.dev/dotme/website/perfil-menu.png"
-        alt="Jesús Verduzco"
-      >
+      <nuxt-link to="/">
+        <img
+          src="https://storage.verduzco.dev/dotme/website/perfil-menu.png"
+          alt="Jesús Verduzco"
+        >
+      </nuxt-link>
       <v-spacer />
       <v-btn
         class="menu-button"
