@@ -29,7 +29,7 @@
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1">
-          Escribir y compartir mis ideas es mi pasatiempo, en mi blog hablo desde cómo codificar algo hasta un libro interesante, es así de diverso.
+          Escribir y compartir mis ideas es mi pasatiempo, en mi blog escribo lo que pienso sin importar el tema, así que es un rincón muy diverso.
         </h2>
         <v-btn
           id="more-info"
