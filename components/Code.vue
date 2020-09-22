@@ -20,7 +20,7 @@
         </h1>
         <v-spacer id="text-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1">
-          Vivo de escribir código que se convierte en Software como Servicio exclusivo para Latinoamérica, usando lo último en tecnología de la nube. 
+          Vivo de transformar en Software como Servicio para Latinoamérica algunas de mis ideas, usando tecnologías de Microsoft Azure.
         </h2>
         <v-btn
           id="more-info"
@@ -41,7 +41,7 @@
         md6
         lg6
       >
-        <img id="saas-image" src="https://storage.verduzco.dev/dotme/website/code.svg" alt="Mi Código">
+        <img id="saas-image" src="https://storage.verduzco.dev/dotme/website/programming.svg" alt="Mi Código">
       </v-flex>
     </v-layout>
   </v-container>

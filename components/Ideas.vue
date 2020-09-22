@@ -29,7 +29,7 @@
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1">
-          Escribir mis ideas y compartirlas es mi pasatiempo, mi blog no tiene una temática específica, pues representa lo que pienso en mi día a día.
+          Escribir y compartir mis ideas es mi pasatiempo, en mi blog hablo desde cómo codificar algo hasta un libro interesante, es así de diverso.
         </h2>
         <v-btn
           id="more-info"

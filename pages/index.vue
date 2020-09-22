@@ -27,16 +27,15 @@ export default {
   name: 'Landing',
   data() {
     return {
-      title: 'Jesús Verduzco | Escritor de ideas y código.',
+      title: 'Jesús Verduzco | Escritor y programador de ideas.',
       description:
-        'Arquitecto de soluciones con tecnología de Microsoft Azure, apasionado por el código, la inteligencia artificial y con una sed nata de conocimiento.',
+        '¿Jesús Verduzco? Soy un escritor y programador de ideas, me gusta compartirlas con el mundo en este blog, pero algunas las convierto en software.',
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'Person',
         name: 'Jesús Verduzco',
         url: 'https://verduzco.me/',
-        image:
-          'https://storage.verduzco.dev/dotme/website/jesus-verduzco-o-p.png',
+        image: 'https://storage.verduzco.dev/dotme/website/jesus-verduzco.jpg',
         sameAs: [
           'https://www.linkedin.com/in/verduzco-dev/',
           'https://github.com/jeverduzco'
@@ -81,7 +80,7 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-o-p.png'
+            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open-g.png'
         },
         {
           property: 'og:locale',
@@ -122,7 +121,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-o-p.png'
+            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open-g.png'
         }
       ]
     }

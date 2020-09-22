@@ -14,7 +14,7 @@
         </h1>
         <v-spacer id="text-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-h5">
-          Escritor de ideas y código.
+          Escritor y programador de ideas.
         </h2>
       </v-flex>
       <v-flex
