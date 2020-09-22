@@ -16,11 +16,11 @@
         lg6
       >
         <h1 class="text-lg-h1 text-md-h2 text-h3">
-          Consultoría
+          Mi Código
         </h1>
         <v-spacer id="text-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1">
-          Adicionalmente ofrezco consultoría en Microsoft Azure, para ayudar a más empresas a beneficiarse de la tecnología en la nube más moderna. 
+          Vivo de escribir código que se convierte en Software como Servicio exclusivo para Latinoamérica, usando lo último en tecnología de la nube. 
         </h2>
         <v-btn
           id="more-info"
@@ -28,10 +28,10 @@
           large
           rounded
           depressed
-          href="https://www.linkedin.com/in/verduzco-dev"
-          title="Visitar LinkedIn"
+          href="https://www.verduzco.dev/"
+          title="Verduzco.Dev"
         >
-          Envíar mensaje en LinkedIn
+          Visitar Verduzco.Dev
         </v-btn>
       </v-flex>
       <v-flex
@@ -41,7 +41,7 @@
         md6
         lg6
       >
-        <img id="saas-image" src="https://storage.verduzco.dev/website/main/digital-adoption.svg" alt="Consultoría en Microsoft Azure">
+        <img id="saas-image" src="https://storage.verduzco.dev/dotme/website/code.svg" alt="Mi Código">
       </v-flex>
     </v-layout>
   </v-container>

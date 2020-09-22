@@ -25,7 +25,7 @@
         lg6
       >
         <h1 class="text-lg-h1 text-md-h2 text-h3">
-          Ideas y Pensamientos
+          Mis Ideas
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1">

@@ -26,3 +26,6 @@
     letter-spacing: .03125em!important;
     font-family: Roboto,sans-serif!important;
 }
+.v-btn--active.no-active::before {                                                                             
+  opacity: 0 !important;
+}

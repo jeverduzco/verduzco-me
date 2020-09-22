@@ -15,7 +15,7 @@
         md6
         lg6
       >
-        <img id="saas-image" src="https://storage.verduzco.dev/website/main/software-development-service.svg" alt="Verduzco.Dev">
+        <img id="saas-image" src="https://storage.verduzco.dev/dotme/website/blogging.svg" alt="Blog">
       </v-flex>
       <v-flex
         class="text-right"
@@ -25,11 +25,11 @@
         lg6
       >
         <h1 class="text-lg-h1 text-md-h2 text-h3">
-          ¿De qué vivo?
+          Mi Ideas
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1">
-          Soy Cofundador y CEO de Verduzco.Dev, una empresa dedicada al desarrollo de Software como Servicio, exclusivo para Latinoamérica.
+          Escribir mis ideas y compartirlas es mi pasatiempo, mi blog no tiene una temática específica, pues representa lo que pienso en mi día a día.
         </h2>
         <v-btn
           id="more-info"
@@ -37,11 +37,11 @@
           large
           rounded
           depressed
-          href="https://www.verduzco.dev/"
-          target="_blank"
-          title="Visitar Verduzco.Dev"
+          to="/blog/"
+          nuxt
+          title="Leer ideas"
         >
-          Visitar Verduzco.Dev
+          Ver mis ideas
         </v-btn>
         <v-spacer class="elements-spacer" />
       </v-flex>

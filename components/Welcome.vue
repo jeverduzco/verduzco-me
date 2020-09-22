@@ -14,7 +14,7 @@
         </h1>
         <v-spacer id="text-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-h5">
-          Divulgador de ideas y pensador tecnológico. 
+          Escritor de ideas y código.
         </h2>
       </v-flex>
       <v-flex
@@ -24,7 +24,7 @@
         md6
         lg6
       >
-        <img id="welcome-image" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco-perfil.png" alt="Jesús Verduzco">
+        <img id="welcome-image" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco-ar.png" alt="Jesús Verduzco">
       </v-flex>
     </v-layout>
   </v-container>

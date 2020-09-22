@@ -12,15 +12,11 @@
       <Waves />
     </section>
     <section id="business">
-      <Business />
+      <Ideas />
       <WavesSecondary />
     </section>
     <section id="consulting" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
-      <Consulting />
-      <Waves />
-    </section>
-    <section id="content">
-      <Content />
+      <Code />
     </section>
     <!-- End page content -->
   </div>
@@ -31,7 +27,7 @@ export default {
   name: 'Landing',
   data() {
     return {
-      title: 'Jesús Verduzco | Divulgador de ideas y pensador tecnológico.',
+      title: 'Jesús Verduzco | Escritor de ideas y código.',
       description:
         'Arquitecto de soluciones con tecnología de Microsoft Azure, apasionado por el código, la inteligencia artificial y con una sed nata de conocimiento.',
       structuredData: {
