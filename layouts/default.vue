@@ -5,6 +5,7 @@
         <img
           src="https://storage.verduzco.dev/dotme/website/perfil-menu.png"
           alt="Jesús Verduzco"
+          height="36"
         >
       </nuxt-link>
       <v-spacer />
