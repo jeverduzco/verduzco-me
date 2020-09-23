@@ -1,11 +1,22 @@
 <template>
   <v-app>
     <v-app-bar flat fixed app>
-      <img
-        src="https://storage.verduzco.dev/dotme/website/perfil-menu.png"
-        alt="Jesús Verduzco"
-      >
+      <nuxt-link to="/">
+        <img
+          src="https://storage.verduzco.dev/dotme/website/perfil-menu.png"
+          alt="Jesús Verduzco"
+        >
+      </nuxt-link>
       <v-spacer />
+      <v-btn icon to="/" nuxt title="Inicio" active-class="no-active">
+        <v-icon>home</v-icon>
+      </v-btn>
+      <v-btn icon to="/blog/" nuxt title="Ideas" active-class="no-active">
+        <v-icon>emoji_objects</v-icon>
+      </v-btn>
+      <v-btn icon title="Cambiar Tema" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
+        <v-icon>invert_colors</v-icon>
+      </v-btn>
       <v-btn
         class="menu-button"
         icon
@@ -14,9 +25,6 @@
         target="_blank"
       >
         <v-icon>fab fa-linkedin-in</v-icon>
-      </v-btn>
-      <v-btn icon @click="$vuetify.theme.dark = !$vuetify.theme.dark">
-        <v-icon>invert_colors</v-icon>
       </v-btn>
     </v-app-bar>
     <v-main>
@@ -29,6 +37,7 @@
         </p>
       </v-card>
     </v-footer>
+    <Telegram />
   </v-app>
 </template>
 

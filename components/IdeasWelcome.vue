@@ -10,11 +10,11 @@
     >
       <v-flex xs12 sm12 md6 lg6>
         <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-left">
-          Jesús Verduzco
+          Mis Ideas
         </h1>
         <v-spacer id="text-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-h5 text-center text-md-left">
-          Escritor y programador de ideas.
+          Te presento a mi baúl de ideas, aquí encontrarás lo que decido compartir con el mundo sin importar el tema, que lo disfrutes.
         </h2>
       </v-flex>
       <v-flex
@@ -24,7 +24,7 @@
         md6
         lg6
       >
-        <img id="welcome-image" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco-ar.png" alt="Jesús Verduzco">
+        <img id="welcome-image" src="https://storage.verduzco.dev/dotme/website/blogging.svg" alt="Mi Ideas">
       </v-flex>
     </v-layout>
   </v-container>
