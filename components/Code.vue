@@ -15,25 +15,27 @@
         md6
         lg6
       >
-        <h1 class="text-lg-h1 text-md-h2 text-h3">
+        <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-left">
           Mi Código
         </h1>
         <v-spacer id="text-spacer" />
-        <h2 class="text-lg-h5 text-md-h5 text-body-1">
+        <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
           Vivo de transformar en Software como Servicio para Latinoamérica algunas de mis ideas, usando tecnologías de Microsoft Azure.
         </h2>
-        <v-btn
-          id="more-info"
-          color="secondary"
-          large
-          rounded
-          depressed
-          href="https://www.verduzco.dev/"
-          target="_blank"
-          title="Verduzco.Dev"
-        >
-          Visitar Verduzco.Dev
-        </v-btn>
+        <div class="text-center text-md-left">
+          <v-btn
+            id="more-info"
+            color="secondary"
+            large
+            rounded
+            depressed
+            href="https://www.verduzco.dev/"
+            target="_blank"
+            title="Verduzco.Dev"
+          >
+            Visitar Verduzco.Dev
+          </v-btn>
+        </div>
       </v-flex>
       <v-flex
         class="text-center"
