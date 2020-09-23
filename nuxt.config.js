@@ -123,11 +123,11 @@ export default {
   generate: {
     async routes() {
       const { $content } = require('@nuxt/content')
-      const files = await $content('/', { deep: true })
+      const articles = await $content('articles', { deep: true })
         .only(['path'])
         .fetch()
 
-      return files.map(file => (file.path === '/index' ? '/' : file.path))
+      return articles.map(file => (file.path === '/index' ? '/' : file.path))
     }
   },
   /*
