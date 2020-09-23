@@ -45,7 +45,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/' + this.article.slug + '/'
+          href: 'https://www.verduzco.me/blog/' + this.article.slug + '/'
         }
       ],
       meta: [
@@ -53,7 +53,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.description
+          content: this.article.description
         },
         {
           property: 'og:title',
@@ -61,12 +61,11 @@ export default {
         },
         {
           property: 'og:description',
-          content: this.description
+          content: this.article.description
         },
         {
           property: 'og:image',
-          content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-o-p.png'
+          content: this.article.opimg
         },
         {
           property: 'og:locale',
@@ -78,7 +77,7 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/' + this.article.slug + '/'
+          content: 'https://www.verduzco.me/blog/' + this.article.slug + '/'
         },
         {
           property: 'og:site_name',
@@ -98,7 +97,7 @@ export default {
         },
         {
           name: 'twitter:description',
-          content: this.description
+          content: this.article.description
         },
         {
           name: 'twitter:title',
@@ -106,8 +105,7 @@ export default {
         },
         {
           name: 'twitter:image',
-          content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-o-p.png'
+          content: this.article.opimg
         }
       ]
     }

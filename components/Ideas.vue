@@ -24,25 +24,27 @@
         md6
         lg6
       >
-        <h1 class="text-lg-h1 text-md-h2 text-h3">
+        <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-right">
           Mi Ideas
         </h1>
         <v-spacer class="elements-spacer" />
-        <h2 class="text-lg-h5 text-md-h5 text-body-1">
-          Escribir y compartir mis ideas es mi pasatiempo, en mi blog escribo lo que pienso sin importar el tema, así que es un rincón muy diverso.
+        <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
+          Escribir y compartir mis ideas es mi pasatiempo favorito, por eso en mi blog escribo lo que pienso sin importar el tema, el día o la hora.
         </h2>
-        <v-btn
-          id="more-info"
-          color="secondary"
-          large
-          rounded
-          depressed
-          to="/blog/"
-          nuxt
-          title="Leer ideas"
-        >
-          Ver mis ideas
-        </v-btn>
+        <div class="text-center text-md-right">
+          <v-btn
+            id="more-info"
+            color="secondary"
+            large
+            rounded
+            depressed
+            to="/blog/"
+            nuxt
+            title="Leer ideas"
+          >
+            Ver mis ideas
+          </v-btn>
+        </div>
         <v-spacer class="elements-spacer" />
       </v-flex>
     </v-layout>

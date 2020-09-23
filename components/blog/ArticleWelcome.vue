@@ -12,10 +12,10 @@
         <h1 class="text-h4 text-center text-md-left">
           {{ title }}
         </h1>
+        <v-spacer id="text-spacer" />
         <p class="text-overline text-center text-md-left">
           {{ formatDate(date) }}
         </p>
-        <v-spacer id="text-spacer" />
       </v-flex>
       <v-flex
         class="text-center"
@@ -24,7 +24,7 @@
         md6
         lg6
       >
-        <img id="welcome-image" :src="img" alt="Jesús Verduzco">
+        <img id="welcome-image" :src="img" :alt="title">
       </v-flex>
     </v-layout>
   </v-container>

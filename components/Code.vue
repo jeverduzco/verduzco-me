@@ -29,6 +29,7 @@
           rounded
           depressed
           href="https://www.verduzco.dev/"
+          target="_blank"
           title="Verduzco.Dev"
         >
           Visitar Verduzco.Dev

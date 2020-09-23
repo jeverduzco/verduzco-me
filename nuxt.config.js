@@ -97,7 +97,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['applicationinsightsfornuxt', '@nuxt/content'],
+  modules: ['applicationinsightsfornuxt', '@nuxt/content', '@nuxtjs/sitemap'],
   appInsights: {
     instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf'
   },
@@ -107,6 +107,23 @@ export default {
         theme: 'prism-themes/themes/prism-material-oceanic.css'
       }
     }
+  },
+  sitemap: {
+    hostname: 'https://www.verduzco.me',
+    sitemaps: [
+      {
+        path: '/sitemap.xml',
+        cacheTime: 1000 * 60 * 15,
+        gzip: true,
+        generate: false,
+        routes: [
+          '/',
+          '/blog/',
+          '/blog/la-mejor-idea-ser-programador-consejos/'
+        ],
+        exclude: ['/blog']
+      }
+    ]
   },
   /*
    ** Build configuration
