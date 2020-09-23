@@ -11,13 +11,13 @@
       <IdeasWelcome />
       <Waves />
     </section>
-    <section id="articles-section">
+    <section id="blog-section">
       <v-container
         grid-list-xl
         class="content-container"
       >
         <v-card
-          v-for="article of articles"
+          v-for="article of blog"
           :key="article.slug"
           class="article-card"
           nuxt
@@ -70,13 +70,13 @@ export default {
     }
   },
   async asyncData({ $content, params }) {
-    const articles = await $content('articles', params.slug)
+    const blog = await $content('blog', params.slug)
       .only(['title', 'description', 'img', 'slug', 'updatedAt'])
       .sortBy('createdAt', 'desc')
       .fetch()
 
     return {
-      articles
+      blog
     }
   },
   methods: {
@@ -179,7 +179,7 @@ export default {
 .article-image {
   max-height: 200px;
 }
-#articles-section {
+#blog-section {
   margin-bottom: 35px;
 }
 .article-card {
