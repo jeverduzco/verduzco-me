@@ -121,13 +121,14 @@ export default {
     ]
   },
   generate: {
+    crawler: false,
     async routes() {
       const { $content } = require('@nuxt/content')
-      const articles = await $content('articles', { deep: true })
+      const blog = await $content('blog', { deep: true })
         .only(['path'])
         .fetch()
 
-      return articles.map(file => (file.path === '/index' ? '/' : file.path))
+      return blog.map(file => (file.path === '/index' ? '/' : file.path + '/'))
     }
   },
   /*
