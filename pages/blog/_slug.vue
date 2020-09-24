@@ -8,7 +8,7 @@
           : 'primary-background'
       "
     >
-      <ArticleWelcome :title="article.title" :img="article.img" :date="article.updatedAt" />
+      <ArticleWelcome :title="article.title" :img="article.img" :date="article.createdAt" />
       <Waves />
     </section>
     <v-container
