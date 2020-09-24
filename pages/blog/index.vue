@@ -31,7 +31,7 @@
             row
             align-center
           >
-            <v-flex xs12 sm12 md6 lg6>
+            <v-flex xs12 sm12 md8 lg8>
               <h2 class="text-h5 text-center text-md-left">
                 {{ article.title }}
               </h2>
@@ -48,8 +48,8 @@
               class="text-center"
               xs12
               sm12
-              md6
-              lg6
+              md4
+              lg4
             >
               <img class="article-image" :src="article.img" :alt="article.title">
             </v-flex>
@@ -66,7 +66,7 @@ export default {
     return {
       title: 'Jesús Verduzco | Mi ideas',
       description:
-        'Te presento a mi baúl de ideas, aquí encontrarás lo que decido compartir con el mundo sin importar el tema, que lo disfrutes.'
+        'Te presento a mi baúl de ideas, aquí encontrarás lo que decido compartir con el mundo, sin importar el tema, que lo disfrutes.'
     }
   },
   async asyncData({ $content, params }) {
