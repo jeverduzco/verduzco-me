@@ -3,6 +3,8 @@ title: La mejor idea, te cuento cómo me convertí en programador y te doy unos 
 description: Cinco consejos que puedo darle a todo aquel que quiera desarrollar desde cero una aplicación y emprender con ella de forma individual.
 img: https://storage.verduzco.dev/dotme/blog/programador.png
 opimg: https://storage.verduzco.dev/dotme/blog/programador-op.png
+createdAt: 2020-09-22 10:00 PM
+updatedAt: 2020-09-22 10:00 PM
 ---
 
 Hace ocho años que me llegó por primera vez el pensamiento de ser desarrollador, por aquel entonces era solo una idea, estaba más enfocado en la seguridad, después de la seguridad y antes de la programación como buena alma aventurera que soy también pasé por marketing digital. 
