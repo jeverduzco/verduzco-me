@@ -66,7 +66,7 @@ export default {
     return {
       title: 'Jesús Verduzco | Mi ideas',
       description:
-        'Te presento a mi baúl de ideas, aquí encontrarás lo que decido compartir con el mundo sin importar el tema, que lo disfrutes.'
+        'Te presento a mi baúl de ideas, aquí encontrarás lo que decido compartir con el mundo, sin importar el tema, que lo disfrutes.'
     }
   },
   async asyncData({ $content, params }) {
