@@ -41,7 +41,7 @@
               </h2>
               <v-spacer class="text-spacer" />
               <p class="text-overline text-center text-md-left">
-                {{ formatDate(article.updatedAt) }}
+                {{ formatDate(article.createdAt) }}
               </p>
             </v-flex>
             <v-flex
@@ -71,7 +71,7 @@ export default {
   },
   async asyncData({ $content, params }) {
     const blog = await $content('blog', params.slug)
-      .only(['title', 'description', 'img', 'slug', 'updatedAt'])
+      .only(['title', 'description', 'img', 'slug', 'createdAt'])
       .sortBy('createdAt', 'desc')
       .fetch()
 
