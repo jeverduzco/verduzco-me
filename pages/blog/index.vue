@@ -183,6 +183,6 @@ export default {
   margin-bottom: 35px;
 }
 .article-card {
-  margin: 15px !important;
+  margin: 15px 15px 25px 15px !important;
 }
 </style>

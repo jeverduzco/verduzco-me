@@ -114,7 +114,8 @@ export default {
         routes: [
           '/',
           '/blog/',
-          '/blog/la-mejor-idea-ser-programador-consejos/'
+          '/blog/la-mejor-idea-ser-programador-consejos/',
+          '/blog/inteligencia-artificial-estupidez-humana/'
         ],
         exclude: ['/blog']
       }
