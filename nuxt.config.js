@@ -111,12 +111,7 @@ export default {
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,
-        routes: [
-          '/',
-          '/blog/',
-          '/blog/la-mejor-idea-ser-programador-consejos/',
-          '/blog/inteligencia-artificial-estupidez-humana/'
-        ],
+        routes: ['/', '/blog/'],
         exclude: ['/blog']
       }
     ]
