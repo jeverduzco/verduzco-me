@@ -3,7 +3,7 @@
     <v-app-bar flat fixed app>
       <nuxt-link to="/">
         <img
-          src="https://storage.verduzco.dev/dotme/website/perfil-menu.png"
+          src="https://storage.verduzco.dev/dotme/website/icon-new-128.png"
           alt="Jesús Verduzco"
           height="36"
         >
