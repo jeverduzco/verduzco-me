@@ -66,7 +66,7 @@ export default {
     return {
       title: 'Jesús Verduzco | Mi ideas',
       description:
-        'Te presento a mi baúl de ideas, aquí encontrarás lo que decido compartir con el mundo, sin importar el tema, que lo disfrutes.'
+        'Te presento a mi baúl de ideas. Aquí encontrarás lo que decido compartir. Espero que lo disfrutes tanto como yo disfruto escribiéndolo y, además, que aprendas algo nuevo.'
     }
   },
   async asyncData({ $content, params }) {
@@ -157,6 +157,14 @@ export default {
           name: 'twitter:image',
           content:
             'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open-g.png'
+        },
+        {
+          name: 'twitter:site',
+          content: '@jesus_verduzco'
+        },
+        {
+          name: 'twitter:creator',
+          content: '@jesus_verduzco'
         }
       ]
     }

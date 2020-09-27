@@ -29,7 +29,7 @@ export default {
     return {
       title: 'Jesús Verduzco | Escritor y programador de ideas.',
       description:
-        '¿Jesús Verduzco? Soy un escritor y programador de ideas, me gusta compartirlas con el mundo en este blog, pero algunas las convierto en software.',
+        'Me fascina compartir mis ideas y mi conocimiento. ¿Por qué? Creo, firmemente, que así puedo ayudar a impulsar el desarrollo tecnológico y educativo de Latinoamérica.',
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'Person',
@@ -38,7 +38,8 @@ export default {
         image: 'https://storage.verduzco.dev/dotme/website/jesus-verduzco.jpg',
         sameAs: [
           'https://www.linkedin.com/in/verduzco-dev/',
-          'https://github.com/jeverduzco'
+          'https://github.com/jeverduzco',
+          'https://twitter.com/jesus_verduzco'
         ]
       }
     }
@@ -122,6 +123,10 @@ export default {
           name: 'twitter:image',
           content:
             'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open-g.png'
+        },
+        {
+          name: 'twitter:site',
+          content: '@jesus_verduzco'
         }
       ]
     }
