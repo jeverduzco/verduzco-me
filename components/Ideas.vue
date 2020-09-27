@@ -29,7 +29,7 @@
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Escribir y compartir mis ideas es mi pasatiempo favorito, por eso en mi blog escribo lo que pienso sin importar el tema, el día o la hora.
+          Me fascina compartir mis ideas y mi conocimiento. ¿Por qué? Creo, firmemente, que así puedo ayudar a impulsar el desarrollo tecnológico y educativo de Latinoamérica.
         </h2>
         <div class="text-center text-md-right">
           <v-btn

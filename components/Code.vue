@@ -20,7 +20,7 @@
         </h1>
         <v-spacer id="text-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          Vivo de transformar en Software como Servicio para Latinoamérica algunas de mis ideas, usando tecnologías de Microsoft Azure.
+          Algunas de mis ideas las convierto en código para ganarme la vida. Puedo decir que, además, de escribir mis ideas en mi blog lo que más me apasiona en la vida es codificar.
         </h2>
         <div class="text-center text-md-left">
           <v-btn

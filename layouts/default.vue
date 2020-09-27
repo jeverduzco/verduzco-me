@@ -27,6 +27,24 @@
       >
         <v-icon>fab fa-linkedin-in</v-icon>
       </v-btn>
+      <v-btn
+        class="menu-button"
+        icon
+        title="Mi Twitter"
+        href="https://twitter.com/jesus_verduzco"
+        target="_blank"
+      >
+        <v-icon>fab fa-twitter</v-icon>
+      </v-btn>
+      <v-btn
+        class="menu-button"
+        icon
+        title="Mi Twitch"
+        href="https://www.twitch.tv/jeverduzco"
+        target="_blank"
+      >
+        <v-icon>fab fa-twitch</v-icon>
+      </v-btn>
     </v-app-bar>
     <v-main>
       <nuxt />
