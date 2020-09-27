@@ -24,7 +24,7 @@
         md6
         lg6
       >
-        <img id="welcome-image" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco-ar.png" alt="Jesús Verduzco">
+        <img id="welcome-image" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco-new.png" alt="Jesús Verduzco">
       </v-flex>
     </v-layout>
   </v-container>
