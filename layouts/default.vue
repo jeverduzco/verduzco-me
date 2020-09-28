@@ -18,42 +18,58 @@
       <v-btn icon title="Cambiar Tema" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
         <v-icon>invert_colors</v-icon>
       </v-btn>
-      <v-btn
-        class="menu-button"
-        icon
-        title="Mi LinkedIn"
-        href="https://www.linkedin.com/in/verduzco-dev"
-        target="_blank"
+      <v-menu
+        bottom
+        left
       >
-        <v-icon>fab fa-linkedin-in</v-icon>
-      </v-btn>
-      <v-btn
-        class="menu-button"
-        icon
-        title="Mi Twitter"
-        href="https://twitter.com/jesus_verduzco"
-        target="_blank"
-      >
-        <v-icon>fab fa-twitter</v-icon>
-      </v-btn>
-      <v-btn
-        class="menu-button"
-        icon
-        title="Mi Twitch"
-        href="https://www.twitch.tv/jeverduzco"
-        target="_blank"
-      >
-        <v-icon>fab fa-twitch</v-icon>
-      </v-btn>
-      <v-btn
-        class="menu-button"
-        icon
-        title="Mi Github"
-        href="https://github.com/jeverduzco"
-        target="_blank"
-      >
-        <v-icon>fab fa-github</v-icon>
-      </v-btn>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            icon
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon>mdi-dots-vertical</v-icon>
+          </v-btn>
+        </template>
+
+        <v-list>
+          <v-list-item
+            title="Mi Linkedin"
+            href="https://www.linkedin.com/in/verduzco-dev"
+            target="_blank"
+          >
+            <v-list-item-title>Mi Linkedin</v-list-item-title>
+          </v-list-item>
+          <v-list-item
+            title="Mi Twitter"
+            href="https://twitter.com/jesus_verduzco"
+            target="_blank"
+          >
+            <v-list-item-title>Mi Twitter</v-list-item-title>
+          </v-list-item>
+          <v-list-item
+            title="Mi Twitch"
+            href="https://www.twitch.tv/jeverduzco"
+            target="_blank"
+          >
+            <v-list-item-title>Mi Twitch</v-list-item-title>
+          </v-list-item>
+          <v-list-item
+            title="Mi YouTube"
+            href="https://www.youtube.com/channel/UCLS-IeTV50b7yBYytRcsi2Q"
+            target="_blank"
+          >
+            <v-list-item-title>Mi YouTube</v-list-item-title>
+          </v-list-item>
+          <v-list-item
+            title="Mi Github"
+            href="https://github.com/jeverduzco"
+            target="_blank"
+          >
+            <v-list-item-title>Mi Github</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
     </v-app-bar>
     <v-main>
       <nuxt />
