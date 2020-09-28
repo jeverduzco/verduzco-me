@@ -24,14 +24,14 @@
         md6
         lg6
       >
-        <img id="welcome-image" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco-new.png" alt="Jesús Verduzco">
+        <img id="welcome-image-profile" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco-p.png" alt="Jesús Verduzco">
       </v-flex>
     </v-layout>
   </v-container>
 </template>
 <style>
-#welcome-image {
-  max-width: 100%;
+#welcome-image-profile {
+  max-width: 80%;
   height: auto;
 }
 #text-spacer {

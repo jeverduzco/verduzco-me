@@ -3,7 +3,7 @@
     <v-app-bar flat fixed app>
       <nuxt-link to="/">
         <img
-          src="https://storage.verduzco.dev/dotme/website/icon-new-128.png"
+          src="https://storage.verduzco.dev/dotme/website/icon-n-128.png"
           alt="Jesús Verduzco"
           height="36"
         >
@@ -44,6 +44,15 @@
         target="_blank"
       >
         <v-icon>fab fa-twitch</v-icon>
+      </v-btn>
+      <v-btn
+        class="menu-button"
+        icon
+        title="Mi Github"
+        href="https://github.com/jeverduzco"
+        target="_blank"
+      >
+        <v-icon>fab fa-github</v-icon>
       </v-btn>
     </v-app-bar>
     <v-main>

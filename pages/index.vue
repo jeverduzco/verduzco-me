@@ -81,7 +81,7 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open-gr.png'
+            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open-gra.png'
         },
         {
           property: 'og:locale',
@@ -122,7 +122,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open-gr.png'
+            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open-gra.png'
         },
         {
           name: 'twitter:site',
