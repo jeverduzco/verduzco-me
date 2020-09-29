@@ -27,6 +27,7 @@
         </v-flex>
       </v-layout>
     </v-container>
+    <WavesSecondary />
   </div>
 </template>
 <script>

@@ -17,6 +17,11 @@
     </section>
     <section id="consulting" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
       <Code />
+      <Waves />
+    </section>
+    <section id="gamicharlas">
+      <Gamicharlas />
+      <WavesSecondary />
     </section>
     <!-- End page content -->
   </div>

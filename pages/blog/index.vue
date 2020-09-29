@@ -57,6 +57,7 @@
         </v-card>
       </v-container>
     </section>
+    <WavesSecondary />
   </div>
 </template>
 <script>
