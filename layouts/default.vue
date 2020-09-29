@@ -55,13 +55,6 @@
             <v-list-item-title>Mi Twitch</v-list-item-title>
           </v-list-item>
           <v-list-item
-            title="Mi YouTube"
-            href="https://www.youtube.com/channel/UCLS-IeTV50b7yBYytRcsi2Q"
-            target="_blank"
-          >
-            <v-list-item-title>Mi YouTube</v-list-item-title>
-          </v-list-item>
-          <v-list-item
             title="Mi Github"
             href="https://github.com/jeverduzco"
             target="_blank"
