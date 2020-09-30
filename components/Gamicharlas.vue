@@ -29,7 +29,7 @@
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Acompáñame todos los días a las 09:00 PM del centro de México en las Gamicharlas. Un <i>Streaming</i> en el que se comparte conocimiento tecnológico y se debate mientras se juega.
+          ¿Quieres aprender cómo aprovechar mejor la tecnología? Acompáñame a las 09:00 PM UTC-5 en las Gamicharlas. Un <i>Streaming</i> donde se debate sobre tecnología y su impacto en Latinoamérica. 
         </h2>
         <div class="text-center text-md-right">
           <v-btn
