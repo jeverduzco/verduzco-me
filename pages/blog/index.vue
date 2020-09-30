@@ -161,11 +161,7 @@ export default {
         },
         {
           name: 'twitter:site',
-          content: '@jesus_verduzco'
-        },
-        {
-          name: 'twitter:creator',
-          content: '@jesus_verduzco'
+          content: '@jeverduzco'
         }
       ]
     }

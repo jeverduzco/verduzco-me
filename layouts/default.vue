@@ -35,14 +35,14 @@
         <v-list>
           <v-list-item
             title="Mi Linkedin"
-            href="https://www.linkedin.com/in/verduzco-dev"
+            href="https://www.linkedin.com/in/jeverduzco"
             target="_blank"
           >
             <v-list-item-title>Mi Linkedin</v-list-item-title>
           </v-list-item>
           <v-list-item
             title="Mi Twitter"
-            href="https://twitter.com/jesus_verduzco"
+            href="https://twitter.com/jeverduzco"
             target="_blank"
           >
             <v-list-item-title>Mi Twitter</v-list-item-title>
