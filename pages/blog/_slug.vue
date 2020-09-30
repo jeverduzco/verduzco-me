@@ -107,6 +107,10 @@ export default {
         {
           name: 'twitter:image',
           content: this.article.opimg
+        },
+        {
+          name: 'twitter:creator',
+          content: '@jeverduzco'
         }
       ]
     }

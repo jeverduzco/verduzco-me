@@ -42,9 +42,9 @@ export default {
         url: 'https://verduzco.me/',
         image: 'https://storage.verduzco.dev/dotme/website/jesus-verduzco.jpg',
         sameAs: [
-          'https://www.linkedin.com/in/verduzco-dev/',
+          'https://www.linkedin.com/in/jeverduzco/',
           'https://github.com/jeverduzco',
-          'https://twitter.com/jesus_verduzco'
+          'https://twitter.com/jeverduzco'
         ]
       }
     }
@@ -131,7 +131,7 @@ export default {
         },
         {
           name: 'twitter:site',
-          content: '@jesus_verduzco'
+          content: '@jeverduzco'
         }
       ]
     }
