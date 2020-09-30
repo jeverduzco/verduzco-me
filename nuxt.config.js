@@ -111,7 +111,7 @@ export default {
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,
-        routes: ['/', '/blog/'],
+        routes: ['/', '/blog/', '/blog/trabajo-remoto/'],
         exclude: ['/blog']
       }
     ]
