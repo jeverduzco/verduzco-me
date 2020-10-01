@@ -124,4 +124,7 @@ export default {
 .primary-background-dark {
   background-color: #272727;
 }
+.content-container {
+  padding-bottom: 50px;
+}
 </style>
