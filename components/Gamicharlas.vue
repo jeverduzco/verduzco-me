@@ -25,11 +25,11 @@
         lg6
       >
         <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-right">
-          Gamicharlas
+          En vivo
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          ¿Te gusta aprender y jugar videojuegos? Acompáñame a las 09:00 PM UTC-5 en las Gamicharlas. Un <i>Streaming</i> donde aprendemos juntos sobre tecnología, crecimiento personal y mucho más.
+          ¿Te gusta aprender todos los días? Acompáñame a las 09:00 PM UTC-5 en un <i>Streaming</i> donde aprendemos juntos sobre tecnología, crecimiento personal y mucho más. 
         </h2>
         <div class="text-center text-md-right">
           <v-btn
@@ -38,11 +38,11 @@
             large
             rounded
             depressed
-            href="https://www.twitch.tv/jeverduzco"
+            href="https://youtube.com/c/Jes%C3%BAsVerduzco"
             target="_blank"
-            title="Leer ideas"
+            title="Suscríbete en Youtube"
           >
-            Sígueme en Twitch
+            Suscríbete en YouTube
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
