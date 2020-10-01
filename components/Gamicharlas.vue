@@ -15,7 +15,7 @@
         md6
         lg6
       >
-        <img id="saas-image" src="https://storage.verduzco.dev/dotme/website/gaming.svg" alt="Gamicharlas">
+        <img id="charlas-image" src="https://storage.verduzco.dev/dotme/website/gamer.svg" alt="Gamicharlas">
       </v-flex>
       <v-flex
         class="text-right"
@@ -29,7 +29,7 @@
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          ¿Quieres aprender cómo aprovechar mejor la tecnología? Acompáñame a las 09:00 PM UTC-5 en las Gamicharlas. Un <i>Streaming</i> donde se debate sobre tecnología y su impacto en Latinoamérica. 
+          ¿Te gusta aprender y jugar videojuegos? Acompáñame a las 09:00 PM UTC-5 en las Gamicharlas. Un <i>Streaming</i> donde aprendemos juntos sobre tecnología, crecimiento personal y mucho más.
         </h2>
         <div class="text-center text-md-right">
           <v-btn
@@ -51,9 +51,8 @@
   </v-container>
 </template>
 <style>
-#saas-image {
-  max-width: 100%;
-  height: auto;
+#charlas-image {
+  max-height: 450px;
 }
 .elements-spacer {
   height: 25px;

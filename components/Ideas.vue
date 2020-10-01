@@ -15,7 +15,7 @@
         md6
         lg6
       >
-        <img id="saas-image" src="https://storage.verduzco.dev/dotme/website/blogging.svg" alt="Blog">
+        <img id="ideas-image" src="https://storage.verduzco.dev/dotme/website/blogging.svg" alt="Blog">
       </v-flex>
       <v-flex
         class="text-right"
@@ -51,9 +51,8 @@
   </v-container>
 </template>
 <style>
-#saas-image {
-  max-width: 100%;
-  height: auto;
+#ideas-image {
+  max-height: 500px;
 }
 .elements-spacer {
   height: 25px;
