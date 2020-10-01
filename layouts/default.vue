@@ -49,10 +49,10 @@
           </v-list-item>
           <v-list-item
             title="Mi Twitch"
-            href="https://www.twitch.tv/jeverduzco"
+            href="https://youtube.com/c/Jes%C3%BAsVerduzco"
             target="_blank"
           >
-            <v-list-item-title>Mi Twitch</v-list-item-title>
+            <v-list-item-title>Mi YouTube</v-list-item-title>
           </v-list-item>
           <v-list-item
             title="Mi Github"
