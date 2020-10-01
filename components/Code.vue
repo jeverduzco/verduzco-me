@@ -52,6 +52,7 @@
 <style>
 #code-image {
   max-height: 500px;
+  max-width: 100%;
 }
 #text-spacer {
   height: 25px;

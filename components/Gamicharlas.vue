@@ -53,6 +53,7 @@
 <style>
 #charlas-image {
   max-height: 450px;
+  max-width: 100%;
 }
 .elements-spacer {
   height: 25px;

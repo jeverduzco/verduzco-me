@@ -53,6 +53,7 @@
 <style>
 #ideas-image {
   max-height: 500px;
+  max-width: 100%;
 }
 .elements-spacer {
   height: 25px;
