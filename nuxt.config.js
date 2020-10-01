@@ -111,7 +111,12 @@ export default {
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,
-        routes: ['/', '/blog/', '/blog/trabajo-remoto/'],
+        routes: [
+          '/',
+          '/blog/',
+          '/blog/trabajo-remoto/',
+          '/blog/como-aumentar-la-productividad/'
+        ],
         exclude: ['/blog']
       }
     ]
