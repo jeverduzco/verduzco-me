@@ -32,6 +32,7 @@
 <style>
 #welcome-image-profile {
   max-height: 450px;
+  max-width: 100%;
 }
 #text-spacer {
   height: 25px;
