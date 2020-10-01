@@ -24,15 +24,14 @@
         md6
         lg6
       >
-        <img id="welcome-image" src="https://storage.verduzco.dev/dotme/website/blogging.svg" alt="Mi Ideas">
+        <img id="ideas-welcome-image" src="https://storage.verduzco.dev/dotme/website/blogging.svg" alt="Mi Ideas">
       </v-flex>
     </v-layout>
   </v-container>
 </template>
 <style>
-#welcome-image {
-  max-width: 100%;
-  height: auto;
+#ideas-welcome-image {
+  max-height: 500px;
 }
 #text-spacer {
   height: 25px;

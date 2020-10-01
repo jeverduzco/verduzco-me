@@ -44,15 +44,14 @@
         md6
         lg6
       >
-        <img id="saas-image" src="https://storage.verduzco.dev/dotme/website/programming.svg" alt="Mi Código">
+        <img id="code-image" src="https://storage.verduzco.dev/dotme/website/coding.svg" alt="Mi Código">
       </v-flex>
     </v-layout>
   </v-container>
 </template>
 <style>
-#saas-image {
-  max-width: 100%;
-  height: auto;
+#code-image {
+  max-height: 500px;
 }
 #text-spacer {
   height: 25px;

@@ -31,8 +31,7 @@
 </template>
 <style>
 #welcome-image-profile {
-  max-width: 80%;
-  height: auto;
+  max-height: 450px;
 }
 #text-spacer {
   height: 25px;
