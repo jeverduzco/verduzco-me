@@ -25,11 +25,11 @@
         lg6
       >
         <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-right">
-          Mi Ideas
+          ¿Quién soy?
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Me fascina compartir mis ideas y mi conocimiento. ¿Por qué? Creo, firmemente, que así puedo ayudar a impulsar el desarrollo tecnológico y educativo de Latinoamérica.
+          Soy un arquitecto de soluciones en la nube que nunca para de aprender. Además, de escritor y programador de ideas porque las escribo en mi blog y otras las convierto en software.
         </h2>
         <div class="text-center text-md-right">
           <v-btn

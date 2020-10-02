@@ -16,11 +16,11 @@
         lg6
       >
         <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-left">
-          Mi Código
+          ¿Qué hago?
         </h1>
         <v-spacer id="text-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          Algunas de mis ideas las convierto en código para ganarme la vida. Puedo decir que, además, de escribir mis ideas en mi blog lo que más me apasiona en la vida es codificar.
+          Desarrollo software como servicio adaptado al mercado de América Latina. Herramientas que ayuden a las personas a ser más productivas y a trabajar, inteligentemente.
         </h2>
         <div class="text-center text-md-left">
           <v-btn
@@ -44,7 +44,7 @@
         md6
         lg6
       >
-        <img id="code-image" src="https://storage.verduzco.dev/dotme/website/coding.svg" alt="Mi Código">
+        <img id="code-image" src="https://storage.verduzco.dev/dotme/website/programming-animate.svg" alt="Mi Trabajo">
       </v-flex>
     </v-layout>
   </v-container>
