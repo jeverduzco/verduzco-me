@@ -27,6 +27,7 @@
         </v-flex>
       </v-layout>
     </v-container>
+    <prev-next :prev="prev" :next="next" />
     <WavesSecondary />
   </div>
 </template>
@@ -34,8 +35,13 @@
 export default {
   async asyncData({ $content, params }) {
     const article = await $content('blog', params.slug).fetch()
+    const [prev, next] = await $content('blog')
+      .only(['title', 'slug'])
+      .sortBy('createdAt', 'desc')
+      .surround(params.slug)
+      .fetch()
 
-    return { article }
+    return { article, prev, next }
   },
   head() {
     return {
