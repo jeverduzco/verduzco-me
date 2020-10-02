@@ -1,5 +1,5 @@
 ---
-title: Cómo aumentar tu productividad haciendo una sola cosa. Además, es rápida.
+title: Cómo aumentar tu productividad haciendo una sola cosa. Además, es rápida
 description: ¿Sientes que no eres productivo? A mí también me pasaba. Pero descubrí cómo aumentar mi productividad haciendo algo muy simple. Y no es nada motivacional.
 img: https://storage.verduzco.dev/dotme/blog/productividad.png
 opimg: https://storage.verduzco.dev/dotme/blog/productividad-op.png

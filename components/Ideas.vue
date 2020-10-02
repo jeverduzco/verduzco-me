@@ -29,7 +29,7 @@
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Soy un arquitecto de soluciones en la nube que nunca para de aprender. Además, de escritor y programador de ideas porque las escribo en mi blog y otras las convierto en software.
+          Soy un arquitecto de soluciones en la nube que nunca para de aprender. Además, escritor y programador de ideas; porque las escribo en mi blog y otras las convierto en software.
         </h2>
         <div class="text-center text-md-right">
           <v-btn
