@@ -1,5 +1,5 @@
 ---
-title: ¿El trabajo remoto te tomó por sorpresa? No te preocupes, te doy unos consejos.
+title: ¿El trabajo remoto te tomó por sorpresa? No te preocupes, te doy unos consejos
 description: Si el trabajo remoto no te tomó por sorpresa este año es porque ya lo hacías antes. Pero si lo hizo, te comparto unos consejos para que sea mejor.
 img: https://storage.verduzco.dev/dotme/blog/remote.png
 opimg: https://storage.verduzco.dev/dotme/blog/remote-op.png
