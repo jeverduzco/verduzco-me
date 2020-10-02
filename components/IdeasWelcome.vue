@@ -14,7 +14,7 @@
         </h1>
         <v-spacer id="text-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-h5 text-center text-md-left">
-          Te presento a mi baúl de ideas. Aquí encontrarás lo que decido compartir. Espero que lo disfrutes tanto como yo disfruto escribiéndolo y, además, que aprendas algo nuevo.
+          Te presento a mi baúl de ideas. Aquí encontrarás todos los días algo nuevo. Espero que lo disfrutes tanto como yo disfruto escribiéndolo y, además, que aprendas algo nuevo.
         </h2>
       </v-flex>
       <v-flex

@@ -11,7 +11,7 @@
       <v-flex xs12 sm12 md12 lg12 xl12>
         <v-text-field
           v-model="searchQuery"
-          label="Búscar artículos"
+          label="Buscar artículos"
           color="secondary"
           outlined
           class="article-list"
