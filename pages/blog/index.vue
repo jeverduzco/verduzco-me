@@ -12,6 +12,7 @@
       <Waves />
     </section>
     <section id="blog-section">
+      <AppSearchInput />
       <v-container
         grid-list-xl
         class="content-container"
