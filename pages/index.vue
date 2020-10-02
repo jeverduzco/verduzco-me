@@ -34,7 +34,7 @@ export default {
     return {
       title: 'Jesús Verduzco | Escritor y programador de ideas.',
       description:
-        'Me fascina compartir mis ideas y mi conocimiento. ¿Por qué? Creo, firmemente, que así puedo ayudar a impulsar el desarrollo tecnológico y educativo de Latinoamérica.',
+        'Soy un arquitecto de soluciones en la nube que nunca para de aprender. Además, de escritor y programador de ideas porque las escribo en mi blog y otras las convierto en Software.',
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'Person',
@@ -44,7 +44,8 @@ export default {
         sameAs: [
           'https://www.linkedin.com/in/jeverduzco/',
           'https://github.com/jeverduzco',
-          'https://twitter.com/jeverduzco'
+          'https://twitter.com/jeverduzco',
+          'https://youtube.com/c/Jes%C3%BAsVerduzco'
         ]
       }
     }

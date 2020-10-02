@@ -15,7 +15,7 @@
         md6
         lg6
       >
-        <img id="charlas-image" src="https://storage.verduzco.dev/dotme/website/gamer.svg" alt="Gamicharlas">
+        <img id="charlas-image" src="https://storage.verduzco.dev/dotme/website/developer-activity-animate.svg" alt="¿Por qué lo hago?">
       </v-flex>
       <v-flex
         class="text-right"
@@ -25,11 +25,11 @@
         lg6
       >
         <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-right">
-          En vivo
+          ¿Por qué?
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          ¿Te gusta aprender todos los días? Acompáñame a las 09:00 PM UTC-5 en un <i>Streaming</i> donde aprendemos juntos sobre tecnología, crecimiento personal y mucho más. 
+          Mi propósito en la vida es ayudar al crecimiento de Latinoamérica, ofreciendo software adaptado a la región y enseñando a usar la tecnología para crecer en los ámbitos personal y profesional.
         </h2>
         <div class="text-center text-md-right">
           <v-btn
