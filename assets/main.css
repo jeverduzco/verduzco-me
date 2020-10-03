@@ -7,6 +7,9 @@
 .nuxt-content-highlight pre {
   border-radius: 3px;
 }
+.nuxt-content h2 {
+  margin: 3px 0px 10px 0px;
+}
 .nuxt-content-highlight .filename {
   position: absolute;
   right: 5px;
