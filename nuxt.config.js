@@ -116,7 +116,8 @@ export default {
           '/blog/',
           '/blog/trabajo-remoto/',
           '/blog/como-aumentar-la-productividad/',
-          '/blog/elegir-herramienta-trabajo-remoto/'
+          '/blog/elegir-herramienta-trabajo-remoto/',
+          '/blog/consejos-aprender-en-linea/'
         ],
         exclude: ['/blog']
       }
