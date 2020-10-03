@@ -49,7 +49,7 @@
           </v-list-item>
           <v-list-item
             title="Mi Twitch"
-            href="https://youtube.com/c/Jes%C3%BAsVerduzco"
+            href="https://www.youtube.com/channel/UCLS-IeTV50b7yBYytRcsi2Q"
             target="_blank"
           >
             <v-list-item-title>Mi YouTube</v-list-item-title>
