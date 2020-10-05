@@ -92,7 +92,12 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['applicationinsightsfornuxt', '@nuxt/content', '@nuxtjs/sitemap'],
+  modules: [
+    'applicationinsightsfornuxt',
+    '@nuxt/content',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots'
+  ],
   appInsights: {
     instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf'
   },
