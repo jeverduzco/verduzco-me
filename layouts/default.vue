@@ -88,6 +88,12 @@ export default {
   mounted() {
     // Change theme automatically
     this.changeTheme()
+    // eslint-disable-next-line no-console
+    console.log(
+      '%cEspera!',
+      'color: red; font-size: 30px; font-weight: bold;',
+      'La consola del navegador está pensada solo para desarrolladores, si no tienes claro lo que estás haciendo; no lo hagas. Alguien podría robar tu información.'
+    )
   },
   methods: {
     // Change theme automatically
