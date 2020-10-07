@@ -31,4 +31,4 @@ Si lo tuyo es ser un pro por naturaleza, entonces debes elegir [Azure Static Web
 
 Puedes agregar lógica de una forma muy simple utilizando la tecnología de **Azure Functions** en tu sitio o aplicación. Por lo que sin duda para aplicaciones y sitios a medida que quieran evolucionar conforme el negocio evoluciona este servicio es el mejor. 
 
-Hice un vídeo en vivo sobre como desplegar una aplicación o página web basada en **Nuxt.js** en este servicio. Puedes verlo en YouTube y aprender en unos pocos minutos sobre cómo tener tu aplicación o sitio web desplegados de forma totalmente gratuita. 
+Hice un vídeo en vivo sobre como desplegar una aplicación o página web basada en **Nuxt.js** en este servicio. Puedes verlo en [YouTube](https://www.youtube.com/watch?v=50PnzqJm0vc) y aprender en unos pocos minutos sobre cómo tener tu aplicación o sitio web desplegados de forma totalmente gratuita. 
