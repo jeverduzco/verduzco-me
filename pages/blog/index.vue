@@ -18,7 +18,7 @@
         class="content-container"
       >
         <v-card
-          v-for="article of blog"
+          v-for="article of blog.slice(0, postsLoaded)"
           :key="article.slug"
           class="article-card"
           nuxt
@@ -56,6 +56,19 @@
             </v-flex>
           </v-layout>
         </v-card>
+        <div class="text-center">
+          <v-btn
+            v-if="postsLoaded <= blog.length"
+            color="secondary"
+            rounded
+            large
+            depressed
+            title="Cargar Más"
+            @click="loadMore"
+          >
+            Cargar Más
+          </v-btn>
+        </div>
       </v-container>
     </section>
     <WavesSecondary />
@@ -67,6 +80,7 @@ export default {
   data() {
     return {
       title: 'Jesús Verduzco | Mi ideas',
+      postsLoaded: 3,
       description:
         'Te presento a mi baúl de ideas. Aquí encontrarás lo que decido compartir. Espero que lo disfrutes tanto como yo disfruto escribiéndolo y, además, que aprendas algo nuevo.'
     }
@@ -85,6 +99,9 @@ export default {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('es', options)
+    },
+    loadMore() {
+      this.postsLoaded = this.postsLoaded + 3
     }
   },
   head() {
