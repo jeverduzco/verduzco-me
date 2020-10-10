@@ -33,7 +33,7 @@
             target="_blank"
             title="Verduzco.Dev"
           >
-            Visitar Verduzco.Dev
+            Visita Verduzco.Dev
           </v-btn>
         </div>
       </v-flex>
