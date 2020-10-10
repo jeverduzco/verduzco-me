@@ -10,11 +10,11 @@
     >
       <v-flex xs12 sm12 md6 lg6>
         <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-left">
-          Mis Ideas
+          Mi Blog
         </h1>
         <v-spacer id="text-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-h5 text-center text-md-left">
-          Te presento a mi baúl de ideas. Aquí encontrarás todos los días algo nuevo. Espero que lo disfrutes tanto como yo disfruto escribiéndolo y, además, que aprendas algo nuevo.
+          Te doy la bienvenida a mi blog. Un espacio en el que encontrarás contenido muy variado. Comparto desde un artículo técnico hasta una idea loca o simplemente mi opinión sobre algo.
         </h2>
       </v-flex>
       <v-flex

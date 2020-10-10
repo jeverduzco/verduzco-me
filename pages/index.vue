@@ -32,9 +32,9 @@ export default {
   name: 'Landing',
   data() {
     return {
-      title: 'Jesús Verduzco | Escritor y programador de ideas.',
+      title: 'Jesús Verduzco | Ingeniero de DevOps',
       description:
-        'Soy un arquitecto de soluciones en la nube que nunca para de aprender. Además, de escritor y programador de ideas porque las escribo en mi blog y otras las convierto en Software.',
+        'Soy Jesús Verduzco, un ingeniero de DevOps que nunca para de aprender. Me gusta compartir lo que pienso y lo que sé: para ayudar a convertir este mundo en uno mejor para todas y todos.',
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'Person',
@@ -86,8 +86,7 @@ export default {
         },
         {
           property: 'og:image',
-          content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open-gra.png'
+          content: 'https://storage.verduzco.dev/dotme/website/j-op.png'
         },
         {
           property: 'og:locale',
@@ -127,8 +126,7 @@ export default {
         },
         {
           name: 'twitter:image',
-          content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open-gra.png'
+          content: 'https://storage.verduzco.dev/dotme/website/j-op.png'
         },
         {
           name: 'twitter:site',

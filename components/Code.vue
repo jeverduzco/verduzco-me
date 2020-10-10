@@ -20,7 +20,7 @@
         </h1>
         <v-spacer id="text-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          Desarrollo software como servicio adaptado al mercado de América Latina. Herramientas que ayuden a las personas a ser más productivas y a trabajar, inteligentemente.
+          Desarrollo Software como Servicio (SaaS) exclusivo para el mercado mexicano. Herramientas que ayuden a las personas a ser más productivas y a trabajar, inteligentemente. 
         </h2>
         <div class="text-center text-md-left">
           <v-btn

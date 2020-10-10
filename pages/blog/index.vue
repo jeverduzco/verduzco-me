@@ -79,10 +79,10 @@ export default {
   name: 'Blog',
   data() {
     return {
-      title: 'Jesús Verduzco | Mi ideas',
+      title: 'Jesús Verduzco | Mi Blog',
       postsLoaded: 3,
       description:
-        'Te presento a mi baúl de ideas. Aquí encontrarás lo que decido compartir. Espero que lo disfrutes tanto como yo disfruto escribiéndolo y, además, que aprendas algo nuevo.'
+        'Te doy la bienvenida a mi blog. Un espacio en el que encontrarás contenido muy variado. Comparto desde un artículo técnico hasta una idea loca o simplemente mi opinión sobre algo.'
     }
   },
   async asyncData({ $content, params }) {
@@ -133,8 +133,7 @@ export default {
         },
         {
           property: 'og:image',
-          content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open-gra.png'
+          content: 'https://storage.verduzco.dev/dotme/website/j-op.png'
         },
         {
           property: 'og:locale',
@@ -174,8 +173,7 @@ export default {
         },
         {
           name: 'twitter:image',
-          content:
-            'https://storage.verduzco.dev/dotme/website/jesus-verduzco-open-gra.png'
+          content: 'https://storage.verduzco.dev/dotme/website/j-op.png'
         },
         {
           name: 'twitter:site',

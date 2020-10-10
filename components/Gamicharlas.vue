@@ -29,7 +29,7 @@
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Mi propósito en la vida es ayudar al crecimiento de Latinoamérica, ofreciendo software adaptado a la región y enseñando a usar la tecnología para crecer en los ámbitos personal y profesional.
+          Mi propósito en la vida es ayudar al crecimiento de México. Ofreciendo software adaptado a la región y enseñando a usar la tecnología para crecer en los ámbitos personal y profesional.
         </h2>
         <div class="text-center text-md-right">
           <v-btn
