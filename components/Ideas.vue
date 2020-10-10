@@ -29,7 +29,7 @@
         </h1>
         <v-spacer class="elements-spacer" />
         <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Soy un arquitecto de soluciones en la nube que nunca para de aprender. Además, escritor y programador de ideas; porque las escribo en mi blog y otras las convierto en software.
+          Soy Jesús Verduzco, un ingeniero de DevOps que nunca para de aprender. Me gusta compartir lo que pienso y lo que sé: para ayudar a convertir este mundo en uno mejor para todas y todos.
         </h2>
         <div class="text-center text-md-right">
           <v-btn
@@ -42,7 +42,7 @@
             nuxt
             title="Leer ideas"
           >
-            Ver mis ideas
+            Leer mi blog
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />

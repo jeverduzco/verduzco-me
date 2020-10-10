@@ -12,8 +12,8 @@
       <v-btn icon to="/" nuxt title="Inicio" active-class="no-active">
         <v-icon>home</v-icon>
       </v-btn>
-      <v-btn icon to="/blog/" nuxt title="Ideas" active-class="no-active">
-        <v-icon>emoji_objects</v-icon>
+      <v-btn icon to="/blog/" nuxt title="Blog" active-class="no-active">
+        <v-icon>article</v-icon>
       </v-btn>
       <v-btn icon title="Cambiar Tema" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
         <v-icon>invert_colors</v-icon>
