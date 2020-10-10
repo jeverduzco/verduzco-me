@@ -42,7 +42,7 @@
             nuxt
             title="Leer ideas"
           >
-            Leer mi blog
+            Navega por mi blog
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
