@@ -24,13 +24,13 @@
         md6
         lg6
       >
-        <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-right">
+        <h2 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-right">
           ¿Por qué?
-        </h1>
-        <v-spacer class="elements-spacer" />
-        <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Mi propósito en la vida es ayudar al crecimiento de México. Ofreciendo software adaptado a la región y enseñando a usar la tecnología para crecer en los ámbitos personal y profesional.
         </h2>
+        <v-spacer class="elements-spacer" />
+        <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
+          Mi propósito en la vida es ayudar al crecimiento de México. Ofreciendo software adaptado a la región y enseñando a usar la tecnología para crecer en los ámbitos personal y profesional.
+        </p>
         <div class="text-center text-md-right">
           <v-btn
             id="more-info"
