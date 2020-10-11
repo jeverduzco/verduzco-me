@@ -15,13 +15,13 @@
         md6
         lg6
       >
-        <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-left">
+        <h2 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-left">
           ¿Qué hago?
-        </h1>
-        <v-spacer id="text-spacer" />
-        <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          Desarrollo Software como Servicio (SaaS) exclusivo para el mercado mexicano. Herramientas que ayuden a las personas a ser más productivas y a trabajar, inteligentemente. 
         </h2>
+        <v-spacer id="text-spacer" />
+        <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
+          Desarrollo Software como Servicio (SaaS) exclusivo para el mercado mexicano. Herramientas que ayuden a las personas a ser más productivas y a trabajar, inteligentemente. 
+        </p>
         <div class="text-center text-md-left">
           <v-btn
             id="more-info"

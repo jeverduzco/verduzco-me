@@ -13,9 +13,9 @@
           Jesús Verduzco
         </h1>
         <v-spacer id="text-spacer" />
-        <h2 class="text-lg-h5 text-md-h5 text-h5 text-center text-md-left">
+        <p class="text-lg-h5 text-md-h5 text-h5 text-center text-md-left">
           Ingeniero de DevOps
-        </h2>
+        </p>
       </v-flex>
       <v-flex
         class="text-center"

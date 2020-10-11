@@ -24,13 +24,13 @@
         md6
         lg6
       >
-        <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-right">
+        <h2 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-right">
           ¿Quién soy?
-        </h1>
-        <v-spacer class="elements-spacer" />
-        <h2 class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Soy Jesús Verduzco, un ingeniero de DevOps que nunca para de aprender. Me gusta compartir lo que pienso y lo que sé: para ayudar a convertir este mundo en uno mejor para todas y todos.
         </h2>
+        <v-spacer class="elements-spacer" />
+        <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
+          Soy Jesús Verduzco, un ingeniero de DevOps que nunca para de aprender. Me gusta compartir lo que pienso y lo que sé: para ayudar a convertir este mundo en uno mejor para todas y todos.
+        </p>
         <div class="text-center text-md-right">
           <v-btn
             id="more-info"
