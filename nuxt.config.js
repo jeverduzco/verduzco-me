@@ -122,7 +122,12 @@ export default {
           '/blog/trabajo-remoto/',
           '/blog/como-aumentar-la-productividad/',
           '/blog/elegir-herramienta-trabajo-remoto/',
-          '/blog/consejos-aprender-en-linea/'
+          '/blog/consejos-aprender-en-linea/',
+          '/blog/mejor-sistema-operativo/',
+          '/blog/hosting-gratuitos/',
+          '/blog/passwordless-el-mundo-sin-contrasenas/',
+          '/blog/tu-dia-depende-de-los-programadores/',
+          '/blog/que-es-la-telemetria/'
         ],
         exclude: ['/blog']
       }
