@@ -96,7 +96,30 @@ export default {
     'applicationinsightsfornuxt',
     '@nuxt/content',
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    [
+      'nuxt-i18n',
+      {
+        locales: [
+          {
+            name: 'Español',
+            code: 'es',
+            iso: 'es',
+            file: 'es.js'
+          },
+          {
+            name: 'English',
+            code: 'en',
+            iso: 'en',
+            file: 'en.js'
+          }
+        ],
+        lazy: true,
+        langDir: 'lang/',
+        defaultLocale: 'en',
+        fallbackLocale: 'en'
+      }
+    ]
   ],
   appInsights: {
     instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf'

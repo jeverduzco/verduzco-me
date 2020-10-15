@@ -18,6 +18,34 @@
       <v-btn icon title="Cambiar Tema" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
         <v-icon>invert_colors</v-icon>
       </v-btn>
+      <!-- Start language button -->
+      <v-menu
+        bottom
+        origin="center center"
+        transition="scale-transition"
+      >
+        <template v-slot:activator="{ on }">
+          <v-btn
+            class="menu-button"
+            :title="$t('menu.language')"
+            icon
+            v-on="on"
+            @click="$appInsights.trackEvent({ name: 'change-language' })"
+          >
+            <v-icon>translate</v-icon>
+          </v-btn>
+        </template>
+        <v-list>
+          <v-list-item
+            v-for="locale in $i18n.locales"
+            :key="locale.code"
+            :to="switchLocalePath(locale.code)"
+          >
+            <v-list-item-title>{{ locale.name }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
+      <!-- End language button -->
       <v-menu
         bottom
         left
