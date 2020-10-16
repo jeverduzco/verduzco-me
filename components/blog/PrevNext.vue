@@ -11,7 +11,7 @@
       <v-flex xs12 md6>
         <v-card
           v-if="prev"
-          :to="{ name: 'blog-slug', params: { slug: prev.slug } }"
+          :to="localePath('blog') + '/' + prev.slug + '/'"
           nuxt
           exact
           outlined
@@ -40,7 +40,7 @@
       <v-flex xs12 md6>
         <v-card
           v-if="next"
-          :to="{ name: 'blog-slug', params: { slug: next.slug } }"
+          :to="localePath('blog') + '/' + next.slug + '/'"
           nuxt
           exact
           outlined

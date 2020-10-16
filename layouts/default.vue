@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar flat fixed app>
-      <nuxt-link to="/">
+      <nuxt-link :to="localePath('/') + '/'">
         <img
           src="https://storage.verduzco.dev/dotme/website/icon-n-128.png"
           alt="Jesús Verduzco"
@@ -9,10 +9,10 @@
         >
       </nuxt-link>
       <v-spacer />
-      <v-btn icon to="/" nuxt title="Inicio" active-class="no-active">
+      <v-btn icon :to="localePath('/')" nuxt title="Inicio" active-class="no-active">
         <v-icon>home</v-icon>
       </v-btn>
-      <v-btn icon to="/blog/" nuxt title="Blog" active-class="no-active">
+      <v-btn icon :to="localePath('blog') + '/'" nuxt title="Blog" active-class="no-active">
         <v-icon>article</v-icon>
       </v-btn>
       <v-btn icon title="Cambiar Tema" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
@@ -39,7 +39,7 @@
           <v-list-item
             v-for="locale in $i18n.locales"
             :key="locale.code"
-            :to="switchLocalePath(locale.code)"
+            :to="switchLocalePath(locale.code) + '/'"
           >
             <v-list-item-title>{{ locale.name }}</v-list-item-title>
           </v-list-item>

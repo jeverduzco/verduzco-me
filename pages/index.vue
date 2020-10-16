@@ -60,7 +60,7 @@ export default {
         }
       ],
       htmlAttrs: {
-        lang: 'es'
+        lang: this.$i18n.locale
       },
       title: this.title,
       link: [
@@ -90,7 +90,7 @@ export default {
         },
         {
           property: 'og:locale',
-          content: 'es'
+          content: this.$i18n.locale
         },
         {
           property: 'og:type',

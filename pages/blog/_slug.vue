@@ -33,9 +33,12 @@
 </template>
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const article = await $content('blog', params.slug).fetch()
-    const [prev, next] = await $content('blog')
+  async asyncData({ $content, app, params }) {
+    const article = await $content(
+      `${app.i18n.locale}/blog`,
+      params.slug
+    ).fetch()
+    const [prev, next] = await $content(`${app.i18n.locale}/blog`)
       .only(['title', 'slug'])
       .sortBy('createdAt', 'desc')
       .surround(params.slug)

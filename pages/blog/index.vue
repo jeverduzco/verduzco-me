@@ -12,7 +12,7 @@
       <Waves />
     </section>
     <section id="blog-section">
-      <!-- <AppSearchInput /> -->
+      <AppSearchInput />
       <v-container
         grid-list-xl
         class="content-container"
@@ -22,7 +22,7 @@
           :key="article.slug"
           class="article-card"
           nuxt
-          :to="article.slug + '/'"
+          :to="localePath('blog') + '/' + article.slug + '/'"
           flat
           :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'"
         >
@@ -104,7 +104,7 @@ export default {
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('es', options)
+      return new Date(date).toLocaleDateString(this.$i18n.locale, options)
     },
     loadMore() {
       this.postsLoaded = this.postsLoaded + 3
@@ -113,13 +113,16 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'es'
+        lang: this.$i18n.locale
       },
       title: this.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/blog/'
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://www.verduzco.me/en/blog/'
+              : 'https://www.verduzco.me/es/blog/'
         }
       ],
       meta: [
@@ -143,7 +146,7 @@ export default {
         },
         {
           property: 'og:locale',
-          content: 'es'
+          content: this.$i18n.locale
         },
         {
           property: 'og:type',

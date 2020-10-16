@@ -104,20 +104,21 @@ export default {
           {
             name: 'English',
             code: 'en',
-            iso: 'en',
+            iso: 'en-US',
             file: 'en.js'
           },
           {
             name: 'Español',
             code: 'es',
-            iso: 'es',
+            iso: 'es-MX',
             file: 'es.js'
           }
         ],
         lazy: true,
         langDir: 'lang/',
         defaultLocale: 'en',
-        fallbackLocale: 'en'
+        fallbackLocale: 'en',
+        strategy: 'prefix'
       }
     ]
   ],
@@ -160,7 +161,7 @@ export default {
     crawler: false,
     async routes() {
       const { $content } = require('@nuxt/content')
-      const blog = await $content('blog', { deep: true })
+      const blog = await $content({ deep: true })
         .only(['path'])
         .fetch()
 
