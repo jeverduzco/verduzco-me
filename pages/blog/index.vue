@@ -91,9 +91,8 @@ export default {
         'Te doy la bienvenida a mi blog. Un espacio en el que encontrarás contenido muy variado. Comparto desde un artículo técnico hasta una idea loca o simplemente mi opinión sobre algo.'
     }
   },
-  async asyncData(context) {
-    const { $content, app, params } = context
-    const blog = await $content(`${app.i18n.locale}/blog'`, params.slug)
+  async asyncData({ $content, app, params }) {
+    const blog = await $content(`${app.i18n.locale}/blog`, params.slug)
       .only(['title', 'description', 'img', 'slug', 'createdAt'])
       .sortBy('createdAt', 'desc')
       .fetch()
