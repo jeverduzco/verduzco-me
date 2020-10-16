@@ -157,6 +157,9 @@ export default {
       }
     ]
   },
+  router: {
+    trailingSlash: true
+  },
   generate: {
     crawler: false,
     async routes() {

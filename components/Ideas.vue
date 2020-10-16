@@ -38,7 +38,7 @@
             large
             rounded
             depressed
-            :to="localePath('blog') + '/'"
+            :to="localePath('blog')"
             nuxt
             title="Leer ideas"
           >

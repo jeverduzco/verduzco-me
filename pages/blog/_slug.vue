@@ -55,7 +55,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/blog/' + this.article.slug + '/'
+          href: 'https://www.verduzco.me/blog/' + this.article.slug
         }
       ],
       meta: [
@@ -87,7 +87,7 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/blog/' + this.article.slug + '/'
+          content: 'https://www.verduzco.me/blog/' + this.article.slug
         },
         {
           property: 'og:site_name',

@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar flat fixed app>
-      <nuxt-link :to="localePath('/') + '/'">
+      <nuxt-link :to="localePath('/')" :title="$t('menu.home')">
         <img
           src="https://storage.verduzco.dev/dotme/website/icon-n-128.png"
           alt="Jesús Verduzco"
@@ -9,13 +9,13 @@
         >
       </nuxt-link>
       <v-spacer />
-      <v-btn icon :to="localePath('/')" nuxt title="Inicio" active-class="no-active">
+      <v-btn icon :to="localePath('/')" nuxt :title="$t('menu.home')" active-class="no-active">
         <v-icon>home</v-icon>
       </v-btn>
-      <v-btn icon :to="localePath('blog') + '/'" nuxt title="Blog" active-class="no-active">
+      <v-btn icon :to="localePath('blog')" nuxt :title="$t('menu.blog')" active-class="no-active">
         <v-icon>article</v-icon>
       </v-btn>
-      <v-btn icon title="Cambiar Tema" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
+      <v-btn icon :title="$t('menu.theme')" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
         <v-icon>invert_colors</v-icon>
       </v-btn>
       <!-- Start language button -->
@@ -39,7 +39,7 @@
           <v-list-item
             v-for="locale in $i18n.locales"
             :key="locale.code"
-            :to="switchLocalePath(locale.code) + '/'"
+            :to="switchLocalePath(locale.code)"
           >
             <v-list-item-title>{{ locale.name }}</v-list-item-title>
           </v-list-item>
@@ -52,6 +52,7 @@
       >
         <template v-slot:activator="{ on, attrs }">
           <v-btn
+            :title="$t('menu.more')"
             icon
             v-bind="attrs"
             v-on="on"
@@ -62,32 +63,32 @@
 
         <v-list>
           <v-list-item
-            title="Mi Linkedin"
+            :title="$t('menu.linkedin')"
             href="https://www.linkedin.com/in/jeverduzco"
             target="_blank"
           >
-            <v-list-item-title>Mi Linkedin</v-list-item-title>
+            <v-list-item-title>{{ $t('menu.linkedin') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
-            title="Mi Twitter"
+            :title="$t('menu.twitter')"
             href="https://twitter.com/jeverduzco"
             target="_blank"
           >
-            <v-list-item-title>Mi Twitter</v-list-item-title>
+            <v-list-item-title>{{ $t('menu.twitter') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
-            title="Mi Twitch"
+            :title="$t('menu.youtube')"
             href="https://www.youtube.com/channel/UCLS-IeTV50b7yBYytRcsi2Q"
             target="_blank"
           >
-            <v-list-item-title>Mi YouTube</v-list-item-title>
+            <v-list-item-title>{{ $t('menu.youtube') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
-            title="Mi Github"
+            :title="$t('menu.github')"
             href="https://github.com/jeverduzco"
             target="_blank"
           >
-            <v-list-item-title>Mi Github</v-list-item-title>
+            <v-list-item-title>{{ $t('menu.github') }}</v-list-item-title>
           </v-list-item>
         </v-list>
       </v-menu>
@@ -118,9 +119,9 @@ export default {
     this.changeTheme()
     // eslint-disable-next-line no-console
     console.log(
-      '%cEspera!',
+      '%cStop!',
       'color: red; font-size: 30px; font-weight: bold;',
-      'La consola del navegador está pensada solo para desarrolladores, si no tienes claro lo que estás haciendo; no lo hagas. Alguien podría robar tu información.'
+      'The browser console is intended only for developers, if you are not clear about what you are doing; do not do it. Someone might steal your information.'
     )
   },
   methods: {
