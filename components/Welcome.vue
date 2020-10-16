@@ -13,8 +13,8 @@
           Jesús Verduzco
         </h1>
         <v-spacer id="text-spacer" />
-        <p class="text-lg-h5 text-md-h5 text-h5 text-center text-md-left">
-          Ingeniero de DevOps
+        <p class="text-lg-h4 text-md-h4 text-h5 text-center text-md-left">
+          {{ $t('welcome.slogan') }}
         </p>
       </v-flex>
       <v-flex

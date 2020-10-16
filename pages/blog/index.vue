@@ -12,7 +12,7 @@
       <Waves />
     </section>
     <section id="blog-section">
-      <AppSearchInput />
+      <!-- <AppSearchInput /> -->
       <v-container
         grid-list-xl
         class="content-container"
@@ -77,6 +77,12 @@
 <script>
 export default {
   name: 'Blog',
+  nuxtI18n: {
+    paths: {
+      es: '/blog/',
+      en: '/blog/'
+    }
+  },
   data() {
     return {
       title: 'Jesús Verduzco | Mi Blog',
@@ -85,8 +91,9 @@ export default {
         'Te doy la bienvenida a mi blog. Un espacio en el que encontrarás contenido muy variado. Comparto desde un artículo técnico hasta una idea loca o simplemente mi opinión sobre algo.'
     }
   },
-  async asyncData({ $content, params }) {
-    const blog = await $content('blog', params.slug)
+  async asyncData(context) {
+    const { $content, app, params } = context
+    const blog = await $content(`${app.i18n.locale}/blog'`, params.slug)
       .only(['title', 'description', 'img', 'slug', 'createdAt'])
       .sortBy('createdAt', 'desc')
       .fetch()

@@ -32,7 +32,7 @@ export default {
   name: 'Landing',
   data() {
     return {
-      title: 'Jesús Verduzco | Ingeniero de DevOps',
+      title: this.$t('index.title'),
       description:
         'Soy Jesús Verduzco, un ingeniero de DevOps que nunca para de aprender. Me gusta compartir lo que pienso y lo que sé: para ayudar a convertir este mundo en uno mejor para todas y todos.',
       structuredData: {
