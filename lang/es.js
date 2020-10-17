@@ -23,8 +23,14 @@ export default {
   whatido: {
     title: '¿Qué hago?',
     description:
-      'Vivo de convertir mi código en Software como Servicio para las empresas mexicanas.',
+      'Me gusta convertir mi código en Software como Servicio para las empresas mexicanas.',
     button: 'Conoce Mi Empresa'
+  },
+  why: {
+    title: '¿Por qué?',
+    description:
+      'Ayudar a las personas a ser más productivas gracias a mi código es lo que me motiva cada día.',
+    button: 'Visita Mi YouTube'
   },
   prevNext: {
     newer: 'Más nuevo',

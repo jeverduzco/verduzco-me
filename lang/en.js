@@ -23,8 +23,14 @@ export default {
   whatido: {
     title: 'What do I do?',
     description:
-      'I live to convert my code into Software as a Service for Mexican companies.',
-    button: 'Know My Business (Spanish)'
+      'I like to turn my code into Software as a Service for Mexican companies.',
+    button: 'My Business (Spanish only)'
+  },
+  why: {
+    title: 'Why?',
+    description:
+      'Helping people to be more productive because of my code is what motivates me every day.',
+    button: 'My YouTube (Spanish only)'
   },
   prevNext: {
     newer: 'Newer',
