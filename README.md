@@ -1,4 +1,8 @@
-# verduzco-me
+# Jesús's personal website
+
+Hello everyone, this is my personal web site.
+
+I made this whit Nuxt.js Nuxt Content and Nuxt i18n, hosted in Azure Static Web App.
 
 ## Build Setup
 
@@ -18,3 +22,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## License
+
+[MIT](/license)

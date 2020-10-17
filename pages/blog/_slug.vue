@@ -1,13 +1,6 @@
 <template>
   <div>
-    <section
-      id="post-welcome"
-      :class="
-        this.$vuetify.theme.dark
-          ? 'primary-background-dark'
-          : 'primary-background'
-      "
-    >
+    <section id="post-welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
       <ArticleWelcome :title="article.title" :img="article.img" :date="article.createdAt" />
       <Waves />
     </section>
@@ -53,13 +46,16 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'es'
+        lang: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
       },
       title: this.article.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/blog/' + this.article.slug
+          href:
+            this.$i18n.locale === 'es'
+              ? 'https://www.verduzco.me/es/blog/' + this.article.slug + '/'
+              : 'https://www.verduzco.me/en/blog/' + this.article.slug + '/'
         }
       ],
       meta: [
@@ -83,7 +79,7 @@ export default {
         },
         {
           property: 'og:locale',
-          content: 'es'
+          content: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
         },
         {
           property: 'og:type',
@@ -91,7 +87,10 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/blog/' + this.article.slug
+          content:
+            this.$i18n.locale === 'es'
+              ? 'https://www.verduzco.me/es/blog/' + this.article.slug + '/'
+              : 'https://www.verduzco.me/en/blog/' + this.article.slug + '/'
         },
         {
           property: 'og:site_name',
