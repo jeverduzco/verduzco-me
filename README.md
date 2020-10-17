@@ -1,8 +1,8 @@
-# Jesús's personal website
+# My personal website
 
 Hello everyone, this is my personal web site.
 
-I made this whit Nuxt.js Nuxt Content and Nuxt i18n, hosted in Azure Static Web App.
+I made this with Nuxt.js, Nuxt Content, Nuxt i18n and hosted in Azure Static Web App.
 
 ## Build Setup
 
