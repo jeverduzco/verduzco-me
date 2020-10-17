@@ -56,6 +56,14 @@ export default {
             this.$i18n.locale === 'es'
               ? 'https://www.verduzco.me/es/blog/' + this.article.slug + '/'
               : 'https://www.verduzco.me/en/blog/' + this.article.slug + '/'
+        },
+        {
+          rel: 'alternate',
+          hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
+          href:
+            this.$i18n.locale === 'es'
+              ? 'https://verduzco.me/en/blog/' + this.article.slug + '/'
+              : 'https://verduzco.me/es/blog/' + this.article.slug + '/'
         }
       ],
       meta: [
