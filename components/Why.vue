@@ -50,7 +50,7 @@
     </v-layout>
   </v-container>
 </template>
-<style>
+<style scoped>
 #charlas-image {
   max-height: 450px;
   max-width: 100%;

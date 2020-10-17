@@ -38,10 +38,23 @@ export default {
     noNewer: 'No hay artículos más nuevos.',
     noOlder: 'No hay artículos más antiguos.'
   },
+  blogWelcome: {
+    title: 'Mi Blog',
+    description: 'Aquí escribo lo que pienso y comparto lo que sé.'
+  },
+  search: {
+    label: 'Buscar artículos'
+  },
   index: {
     title:
       'Jesús Verduzco | Soy un Ingeniero de DevOps que nunca para de aprender',
     description:
-      'Soy Jesús Verduzco, un ingeniero de DevOps y Software que nunca para de aprender. Me gusta compartir lo que pienso y lo que sé: para ayudar a convertir este mundo en uno mejor para todas y todos.'
+      'Soy Jesús Verduzco, un ingeniero de DevOps que nunca para de aprender. Me gusta compartir lo que pienso y lo que sé: para ayudar a convertir este mundo en uno mejor para todas y todos.'
+  },
+  blogIndex: {
+    title: 'Jesús Verduzco | Mi Blog',
+    description:
+      'Aquí escribo lo que pienso, comparto lo que sé y devuelvo a internet un poco de lo que me ha dado. ',
+    loadMore: 'Cargar Más'
   }
 }

@@ -1,14 +1,7 @@
 <template>
   <div id="blog-page">
-    <section
-      id="welcome"
-      :class="
-        this.$vuetify.theme.dark
-          ? 'primary-background-dark'
-          : 'primary-background'
-      "
-    >
-      <IdeasWelcome />
+    <section id="welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
+      <BlogWelcome />
       <Waves />
     </section>
     <section id="blog-section">
@@ -63,10 +56,10 @@
             rounded
             large
             depressed
-            title="Cargar Más"
+            :title="$t('blogIndex.loadMore')"
             @click="loadMore"
           >
-            Cargar Más
+            {{ $t('blogIndex.loadMore') }}
           </v-btn>
         </div>
       </v-container>
@@ -85,10 +78,9 @@ export default {
   },
   data() {
     return {
-      title: 'Jesús Verduzco | Mi Blog',
+      title: this.$t('blogIndex.title'),
       postsLoaded: 3,
-      description:
-        'Te doy la bienvenida a mi blog. Un espacio en el que encontrarás contenido muy variado. Comparto desde un artículo técnico hasta una idea loca o simplemente mi opinión sobre algo.'
+      description: this.$t('blogIndex.description')
     }
   },
   async asyncData({ $content, app, params }) {
@@ -113,7 +105,7 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: this.$i18n.locale
+        lang: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
       },
       title: this.title,
       link: [
@@ -123,6 +115,14 @@ export default {
             this.$i18n.locale === 'en'
               ? 'https://www.verduzco.me/en/blog/'
               : 'https://www.verduzco.me/es/blog/'
+        },
+        {
+          rel: 'alternate',
+          hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
+          href:
+            this.$i18n.locale === 'es'
+              ? 'https://verduzco.me/en/blog/'
+              : 'https://verduzco.me/es/blog/'
         }
       ],
       meta: [
@@ -146,7 +146,7 @@ export default {
         },
         {
           property: 'og:locale',
-          content: this.$i18n.locale
+          content: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
         },
         {
           property: 'og:type',
@@ -154,7 +154,10 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/blog/'
+          content:
+            this.$i18n.locale === 'en'
+              ? 'https://www.verduzco.me/en/blog/'
+              : 'https://www.verduzco.me/es/blog/'
         },
         {
           property: 'og:site_name',
