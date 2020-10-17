@@ -1,5 +1,6 @@
 <template>
   <div id="index-page">
+    <!-- start page content -->
     <section id="welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
       <Welcome />
       <Waves />
