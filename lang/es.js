@@ -26,6 +26,12 @@ export default {
       'Vivo de convertir mi código en Software como Servicio para las empresas mexicanas.',
     button: 'Conoce Mi Empresa'
   },
+  prevNext: {
+    newer: 'Más nuevo',
+    older: 'Más antiguo',
+    noNewer: 'No hay artículos más nuevos.',
+    noOlder: 'No hay artículos más antiguos.'
+  },
   index: {
     title:
       'Jesús Verduzco | Soy un Ingeniero de DevOps que nunca para de aprender',

@@ -18,7 +18,7 @@
           height="125"
         >
           <v-card-title primary-title>
-            Más nuevo
+            {{ $t('prevNext.newer') }}
           </v-card-title>
           <v-card-text>
             {{ prev.title }}
@@ -30,10 +30,10 @@
           height="125"
         >
           <v-card-title primary-title>
-            Más nuevo
+            {{ $t('prevNext.newer') }}
           </v-card-title>
           <v-card-text>
-            No hay artículos más nuevos.
+            {{ $t('prevNext.noNewer') }}
           </v-card-text>
         </v-card>
       </v-flex>
@@ -47,7 +47,7 @@
           height="125"
         >
           <v-card-title primary-title>
-            Más antiguo
+            {{ $t('prevNext.older') }}
           </v-card-title>
           <v-card-text>
             {{ next.title }}
@@ -59,10 +59,10 @@
           height="125"
         >
           <v-card-title primary-title>
-            Más antiguo
+            {{ $t('prevNext.older') }}
           </v-card-title>
           <v-card-text>
-            No hay artículos más antiguos.
+            {{ $t('prevNext.noOlder') }}
           </v-card-text>
         </v-card>
       </v-flex>
