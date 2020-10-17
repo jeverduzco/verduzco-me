@@ -1,26 +1,19 @@
 <template>
   <div id="index-page">
-    <section
-      id="welcome"
-      :class="
-        this.$vuetify.theme.dark
-          ? 'primary-background-dark'
-          : 'primary-background'
-      "
-    >
+    <section id="welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
       <Welcome />
       <Waves />
     </section>
-    <section id="business">
-      <Ideas />
+    <section id="whoiam">
+      <WhoIam />
       <WavesSecondary />
     </section>
-    <section id="consulting" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
-      <Code />
+    <section id="whatido" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
+      <WhatIdo />
       <Waves />
     </section>
-    <section id="gamicharlas">
-      <Gamicharlas />
+    <section id="why">
+      <Why />
       <WavesSecondary />
     </section>
     <!-- End page content -->
@@ -38,7 +31,10 @@ export default {
         '@context': 'http://schema.org',
         '@type': 'Person',
         name: 'Jesús Verduzco',
-        url: 'https://verduzco.me/',
+        url:
+          this.$i18n.locale === 'en'
+            ? 'https://verduzco.me/en/'
+            : 'https://verduzco.me/es/',
         image: 'https://storage.verduzco.dev/dotme/website/jesus-verduzco.jpg',
         sameAs: [
           'https://www.linkedin.com/in/jeverduzco/',
@@ -59,13 +55,24 @@ export default {
         }
       ],
       htmlAttrs: {
-        lang: this.$i18n.locale
+        lang: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
       },
       title: this.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/'
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/'
+              : 'https://verduzco.me/es/'
+        },
+        {
+          rel: 'alternate',
+          hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
+          href:
+            this.$i18n.locale === 'es'
+              ? 'https://verduzco.me/en/'
+              : 'https://verduzco.me/es/'
         }
       ],
       meta: [
@@ -89,7 +96,7 @@ export default {
         },
         {
           property: 'og:locale',
-          content: this.$i18n.locale
+          content: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
         },
         {
           property: 'og:type',
@@ -97,7 +104,10 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/'
+          content:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/'
+              : 'https://verduzco.me/es/'
         },
         {
           property: 'og:site_name',

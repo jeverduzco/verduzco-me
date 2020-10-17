@@ -22,7 +22,7 @@
           :key="article.slug"
           class="article-card"
           nuxt
-          :to="localePath('blog') + article.slug + '/'"
+          :to="localePath('blog') + '/' + article.slug + '/'"
           flat
           :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'"
         >

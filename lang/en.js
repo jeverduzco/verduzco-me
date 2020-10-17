@@ -12,12 +12,23 @@ export default {
   },
   welcome: {
     name: 'Jesús Verduzco',
-    slogan: 'DevOps & Software Engineer who never stops learning.'
+    slogan: 'I am a DevOps Engineer who never stops learning.'
+  },
+  whoiam: {
+    title: 'Who am I?',
+    description:
+      "I'm Jesús Verduzco, a Geek enthusiastic about code and creating great things with it.",
+    button: 'Browse my blog'
+  },
+  whatido: {
+    title: 'What do I do?',
+    description:
+      'I live to convert my code into Software as a Service for Mexican companies.',
+    button: 'Know My Business (Spanish)'
   },
   index: {
-    title:
-      'Jesús Verduzco | DevOps & Software Engineer who never stops learning',
+    title: 'Jesús Verduzco | I am a DevOps Engineer who never stops learning',
     description:
-      'I am Jesus Verduzco, a DevOps & Software engineer who never stops learning. I like to share what I think and what I know to help make this world a better place for everyone.'
+      'I am Jesús Verduzco, a DevOps & Software engineer who never stops learning. I like to share what I think and what I know to help make this world a better place for everyone.'
   }
 }

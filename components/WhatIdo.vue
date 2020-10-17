@@ -16,11 +16,11 @@
         lg6
       >
         <h2 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-left">
-          ¿Qué hago?
+          {{ $t('whatido.title') }}
         </h2>
         <v-spacer id="text-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          Desarrollo Software como Servicio (SaaS) exclusivo para el mercado mexicano. Herramientas que ayuden a las personas a ser más productivas y a trabajar, inteligentemente. 
+          {{ $t('whatido.description') }}
         </p>
         <div class="text-center text-md-left">
           <v-btn
@@ -31,9 +31,9 @@
             depressed
             href="https://www.verduzco.dev/"
             target="_blank"
-            title="Verduzco.Dev"
+            :title="$t('whatido.button')"
           >
-            Visita Verduzco.Dev
+            {{ $t('whatido.button') }}
           </v-btn>
         </div>
       </v-flex>

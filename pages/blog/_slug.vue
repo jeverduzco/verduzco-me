@@ -33,6 +33,7 @@
 </template>
 <script>
 export default {
+  name: 'Article',
   async asyncData({ $content, app, params }) {
     const article = await $content(
       `${app.i18n.locale}/blog`,
@@ -45,6 +46,9 @@ export default {
       .fetch()
 
     return { article, prev, next }
+  },
+  beforeMount() {
+    this.$nuxt.$emit('related-article', this.article.related)
   },
   head() {
     return {

@@ -25,11 +25,11 @@
         lg6
       >
         <h2 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-right">
-          ¿Quién soy?
+          {{ $t('whoiam.title') }}
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Soy Jesús Verduzco, un ingeniero de DevOps que nunca para de aprender. Me gusta compartir lo que pienso y lo que sé: para ayudar a convertir este mundo en uno mejor para todas y todos.
+          {{ $t('whoiam.description') }}
         </p>
         <div class="text-center text-md-right">
           <v-btn
@@ -38,11 +38,11 @@
             large
             rounded
             depressed
-            :to="localePath('blog')"
+            :to="localePath('blog') + '/'"
             nuxt
-            title="Leer ideas"
+            :title="$t('whoiam.button')"
           >
-            Navega por mi blog
+            {{ $t('whoiam.button') }}
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />

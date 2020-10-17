@@ -118,7 +118,12 @@ export default {
         langDir: 'lang/',
         defaultLocale: 'en',
         fallbackLocale: 'en',
-        strategy: 'prefix'
+        strategy: 'prefix',
+        detectBrowserLanguage: {
+          useCookie: true,
+          cookieKey: 'i18n_redirected',
+          onlyOnRoot: true
+        }
       }
     ]
   ],
@@ -156,9 +161,6 @@ export default {
         exclude: ['/blog']
       }
     ]
-  },
-  router: {
-    trailingSlash: true
   },
   generate: {
     crawler: false,

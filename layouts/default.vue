@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar flat fixed app>
-      <nuxt-link :to="localePath('/')" :title="$t('menu.home')">
+      <nuxt-link :to="localePath('/') + '/'" :title="$t('menu.home')">
         <img
           src="https://storage.verduzco.dev/dotme/website/icon-n-128.png"
           alt="Jesús Verduzco"
@@ -9,10 +9,10 @@
         >
       </nuxt-link>
       <v-spacer />
-      <v-btn icon :to="localePath('/')" nuxt :title="$t('menu.home')" active-class="no-active">
+      <v-btn icon :to="localePath('/') + '/'" nuxt :title="$t('menu.home')" active-class="no-active">
         <v-icon>home</v-icon>
       </v-btn>
-      <v-btn icon :to="localePath('blog')" nuxt :title="$t('menu.blog')" active-class="no-active">
+      <v-btn icon :to="localePath('blog') + '/'" nuxt :title="$t('menu.blog')" active-class="no-active">
         <v-icon>article</v-icon>
       </v-btn>
       <v-btn icon :title="$t('menu.theme')" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
@@ -35,13 +35,20 @@
             <v-icon>translate</v-icon>
           </v-btn>
         </template>
-        <v-list>
+        <v-list v-if="!activeArticle">
           <v-list-item
             v-for="locale in $i18n.locales"
             :key="locale.code"
-            :to="switchLocalePath(locale.code)"
+            :to="activeArticle ? localePath('blog') + '/' + relatedArticle + '/' : switchLocalePath(locale.code) + '/'"
           >
             <v-list-item-title>{{ locale.name }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+        <v-list v-if="activeArticle">
+          <v-list-item
+            :to="$i18n.locale === 'es' ? '/en/blog/' + relatedArticle + '/' : '/es/blog/' + relatedArticle + '/'"
+          >
+            <v-list-item-title>{{ $i18n.locale === 'es' ? 'Read in English' : 'Leer en Español' }}</v-list-item-title>
           </v-list-item>
         </v-list>
       </v-menu>
@@ -111,8 +118,27 @@
 export default {
   data() {
     return {
-      title: 'Verduzco.Me'
+      title: 'Verduzco.Me',
+      relatedArticle: ''
     }
+  },
+  computed: {
+    activeArticle() {
+      if (
+        this.$route.matched.some(({ name }) => name === 'blog-slug___es') ||
+        this.$route.matched.some(({ name }) => name === 'blog-slug___en')
+      ) {
+        return true
+      } else {
+        return false
+      }
+    }
+  },
+  // Listening events
+  created() {
+    this.$nuxt.$on('related-article', value => {
+      this.relatedArticle = value
+    })
   },
   mounted() {
     // Change theme automatically
