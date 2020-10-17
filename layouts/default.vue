@@ -39,7 +39,7 @@
           <v-list-item
             v-for="locale in $i18n.locales"
             :key="locale.code"
-            :to="activeArticle ? localePath('blog') + '/' + relatedArticle + '/' : switchLocalePath(locale.code) + '/'"
+            :to="switchLocalePath(locale.code) + '/'"
           >
             <v-list-item-title>{{ locale.name }}</v-list-item-title>
           </v-list-item>
