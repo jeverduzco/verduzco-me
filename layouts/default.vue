@@ -62,7 +62,8 @@
           </v-btn>
         </template>
 
-        <v-list>
+        <v-list width="250">
+          <v-subheader>{{ $t('menu.navigation') }}</v-subheader>
           <v-list-item
             :title="$t('menu.home')"
             :to="localePath('/') + '/'"
@@ -83,6 +84,7 @@
           >
             <v-list-item-title>{{ $t('menu.about') }}</v-list-item-title>
           </v-list-item>
+          <v-subheader>{{ $t('menu.networks') }}</v-subheader>
           <v-list-item
             :title="$t('menu.linkedin')"
             href="https://www.linkedin.com/in/jeverduzco"

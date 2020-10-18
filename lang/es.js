@@ -1,14 +1,16 @@
 export default {
   menu: {
+    navigation: 'NAVEGACIÓN',
     home: 'Inicio',
     blog: 'Mi Blog',
     about: 'Acerca de mí',
-    theme: 'Cambiar Tema',
+    theme: 'Tema',
     language: 'Idioma',
     more: 'Más',
-    linkedin: 'Mi Linkedin',
-    twitter: 'Mi Twitter',
-    github: 'Mi Github'
+    networks: 'REDES SOCIALES',
+    linkedin: 'Linkedin',
+    twitter: 'Twitter',
+    github: 'Github'
   },
   welcome: {
     name: 'Jesús Verduzco',
