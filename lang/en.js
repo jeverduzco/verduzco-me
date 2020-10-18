@@ -7,7 +7,6 @@ export default {
     more: 'More',
     linkedin: 'My Linkedin',
     twitter: 'My Twitter',
-    youtube: 'My YouTube',
     github: 'My Github'
   },
   welcome: {
@@ -18,7 +17,7 @@ export default {
     title: 'Who am I?',
     description:
       "I'm Jesús Verduzco, a Geek enthusiastic about code and creating great things with it.",
-    button: 'Browse my blog'
+    button: 'Know more about me'
   },
   whatido: {
     title: 'What do I do?',
@@ -30,7 +29,7 @@ export default {
     title: 'Why?',
     description:
       'Helping people to be more productive because of my code is what motivates me every day.',
-    button: 'My YouTube (Spanish only)'
+    button: 'Browse my blog'
   },
   prevNext: {
     newer: 'Newer',

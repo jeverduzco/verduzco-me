@@ -38,8 +38,8 @@
             large
             rounded
             depressed
-            href="https://youtube.com/c/Jes%C3%BAsVerduzco"
-            target="_blank"
+            :to="localePath('blog') + '/'"
+            nuxt
             :title="$t('why.button')"
           >
             {{ $t('why.button') }}

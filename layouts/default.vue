@@ -84,13 +84,6 @@
             <v-list-item-title>{{ $t('menu.twitter') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
-            :title="$t('menu.youtube')"
-            href="https://www.youtube.com/channel/UCLS-IeTV50b7yBYytRcsi2Q"
-            target="_blank"
-          >
-            <v-list-item-title>{{ $t('menu.youtube') }}</v-list-item-title>
-          </v-list-item>
-          <v-list-item
             :title="$t('menu.github')"
             href="https://github.com/jeverduzco"
             target="_blank"

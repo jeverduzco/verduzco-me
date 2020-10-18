@@ -38,7 +38,6 @@
             large
             rounded
             depressed
-            :to="localePath('blog') + '/'"
             nuxt
             :title="$t('whoiam.button')"
           >
