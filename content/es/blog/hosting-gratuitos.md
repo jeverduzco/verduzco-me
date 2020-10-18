@@ -5,6 +5,7 @@ img: https://storage.verduzco.dev/dotme/blog/static.png
 opimg: https://storage.verduzco.dev/dotme/blog/static-op.png
 createdAt: 2020-10-06 10:00
 updatedAt: 2020-10-06 10:00
+related: free-hosting
 ---
 
 No podemos negar que tenemos una crisis que está dejando a mucha gente con pocas opciones, una de estas opciones es sin duda emprender por Internet; **ya sea vendiendo productos o servicios**. El problema es que no siempre se tiene el dinero para la infraestructura (hosting, certificados SSL, etc.). Afortunadamente la nube puede salvarnos el día, sigue leyendo y aprende cómo. 

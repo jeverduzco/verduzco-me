@@ -5,6 +5,7 @@ img: https://storage.verduzco.dev/dotme/blog/zoom.png
 opimg: https://storage.verduzco.dev/dotme/blog/zoom-op.png
 createdAt: 2020-10-02 10:00
 updatedAt: 2020-10-02 10:00
+related: choose-tool-work-remote
 ---
 Este año muchísima gente se vio de pronto en la situación de trabajar en remoto y de comunicarse de forma virtual pero efectiva. El problema es que no todos conocen las herramientas adecuadas para hacerlo dependiendo de sus necesidades. ¿Quieres aprender cuál herramienta se adapta mejor a ti? Si la respuesta es sí, entonces necesitas hacerte la siguiente pregunta. 
 

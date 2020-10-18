@@ -5,6 +5,7 @@ img: https://storage.verduzco.dev/dotme/blog/remote.png
 opimg: https://storage.verduzco.dev/dotme/blog/remote-op.png
 createdAt: 2020-09-25 10:00
 updatedAt: 2020-09-25 10:00
+related: remote-work
 ---
 
 Si ya estás aquí es porque seguramente el trabajo remoto te ha causado frustración. No te preocupes, no eres el único que se siente así. 
