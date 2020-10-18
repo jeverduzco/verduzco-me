@@ -143,19 +143,24 @@ export default {
         gzip: true,
         generate: false,
         routes: [
-          '/',
-          '/blog/',
-          '/blog/trabajo-remoto/',
-          '/blog/como-aumentar-la-productividad/',
-          '/blog/elegir-herramienta-trabajo-remoto/',
-          '/blog/consejos-aprender-en-linea/',
-          '/blog/mejor-sistema-operativo/',
-          '/blog/hosting-gratuitos/',
-          '/blog/passwordless-el-mundo-sin-contrasenas/',
-          '/blog/tu-dia-depende-de-los-programadores/',
-          '/blog/que-es-la-telemetria/'
+          '/es/',
+          '/en/',
+          '/es/blog/',
+          '/en/blog/',
+          '/es/blog/trabajo-remoto/',
+          '/en/blog/remote-work/',
+          '/es/blog/como-aumentar-la-productividad/',
+          '/en/blog/how-to-increase-productivity/',
+          '/es/blog/elegir-herramienta-trabajo-remoto/',
+          '/en/blog/choose-tool-work-remote/',
+          '/es/blog/consejos-aprender-en-linea/',
+          '/en/blog/tips-to-learn-online/',
+          '/es/blog/hosting-gratuitos/',
+          '/en/blog/free-hosting/',
+          '/es/blog/que-es-la-telemetria/',
+          '/en/blog/what-is-telemetry/'
         ],
-        exclude: ['/blog']
+        exclude: ['/', '/blog']
       }
     ]
   },

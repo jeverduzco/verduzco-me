@@ -3,8 +3,8 @@ title: Qué es, qué no es y por qué es necesaria la telemetría en aplicacione
 description: La telemetría en aplicaciones es fundamental en el proceso de DevOps. El problema está en que se confunde con analítica comercial. ¿Quieres saber qué es, qué no es y por qué es importante?
 img: https://storage.verduzco.dev/dotme/blog/telemetria.png
 opimg: https://storage.verduzco.dev/dotme/blog/telemetria-op.png
-createdAt: 2020-10-12 10:00
-updatedAt: 2020-10-12 10:00
+createdAt: 2020-10-16 10:00
+updatedAt: 2020-10-16 10:00
 related: what-is-telemetry
 ---
 
