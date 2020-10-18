@@ -9,12 +9,6 @@
         >
       </nuxt-link>
       <v-spacer />
-      <v-btn icon :to="localePath('/') + '/'" nuxt :title="$t('menu.home')" active-class="no-active">
-        <v-icon>home</v-icon>
-      </v-btn>
-      <v-btn icon :to="localePath('blog') + '/'" nuxt :title="$t('menu.blog')" active-class="no-active">
-        <v-icon>article</v-icon>
-      </v-btn>
       <v-btn icon :title="$t('menu.theme')" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
         <v-icon>invert_colors</v-icon>
       </v-btn>
@@ -69,6 +63,26 @@
         </template>
 
         <v-list>
+          <v-list-item
+            :title="$t('menu.home')"
+            :to="localePath('/') + '/'"
+            exact
+          >
+            <v-list-item-title>{{ $t('menu.home') }}</v-list-item-title>
+          </v-list-item>
+          <v-list-item
+            :title="$t('menu.blog')"
+            :to="localePath('blog') + '/'"
+          >
+            <v-list-item-title>{{ $t('menu.blog') }}</v-list-item-title>
+          </v-list-item>
+          <v-list-item
+            :title="$t('menu.about')"
+            :to="localePath('about-me') + '/'"
+            exact
+          >
+            <v-list-item-title>{{ $t('menu.about') }}</v-list-item-title>
+          </v-list-item>
           <v-list-item
             :title="$t('menu.linkedin')"
             href="https://www.linkedin.com/in/jeverduzco"

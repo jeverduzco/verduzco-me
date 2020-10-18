@@ -2,6 +2,7 @@ export default {
   menu: {
     home: 'Home',
     blog: 'My Blog',
+    about: 'About me',
     theme: 'Change Theme',
     language: 'Language',
     more: 'More',
@@ -44,6 +45,10 @@ export default {
   search: {
     label: 'Search articles'
   },
+  aboutWelcome: {
+    name: 'About me',
+    slogan: 'Here I tell you how I am, what I like and what I can do.'
+  },
   index: {
     title: "Jesús Verduzco | I'm a DevOps Engineer who never stops learning",
     description:
@@ -54,5 +59,9 @@ export default {
     description:
       'Here I write what I think, share what I know and give back to the internet a little bit of what it has given me.',
     loadMore: 'Load More'
+  },
+  aboutMe: {
+    title: 'Jesús Verduzco | About me',
+    description: 'Here I tell you how I am, what I like and what I can do.'
   }
 }

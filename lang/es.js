@@ -2,6 +2,7 @@ export default {
   menu: {
     home: 'Inicio',
     blog: 'Mi Blog',
+    about: 'Acerca de mí',
     theme: 'Cambiar Tema',
     language: 'Idioma',
     more: 'Más',
@@ -44,6 +45,10 @@ export default {
   search: {
     label: 'Buscar artículos'
   },
+  aboutWelcome: {
+    name: 'Acerca de mí',
+    slogan: 'Aquí te cuento cómo soy, qué me gusta y qué sé hacer.'
+  },
   index: {
     title:
       'Jesús Verduzco | Soy un Ingeniero de DevOps que nunca para de aprender',
@@ -55,5 +60,9 @@ export default {
     description:
       'Aquí escribo lo que pienso, comparto lo que sé y devuelvo a internet un poco de lo que me ha dado. ',
     loadMore: 'Cargar Más'
+  },
+  aboutMe: {
+    title: 'Jesús Verduzco | Acerca de mí',
+    description: 'Aquí te cuento cómo soy, qué me gusta y qué sé hacer.'
   }
 }

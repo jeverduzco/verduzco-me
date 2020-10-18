@@ -15,7 +15,7 @@
         md6
         lg6
       >
-        <img id="ideas-image" src="https://storage.verduzco.dev/dotme/website/blogging.svg" alt="Blog">
+        <img id="who-image" src="https://storage.verduzco.dev/dotme/website/whoiam.svg" alt="Blog">
       </v-flex>
       <v-flex
         class="text-right"
@@ -38,6 +38,7 @@
             large
             rounded
             depressed
+            :to="localePath('about-me') + '/'"
             nuxt
             :title="$t('whoiam.button')"
           >
@@ -50,9 +51,9 @@
   </v-container>
 </template>
 <style>
-#ideas-image {
-  max-height: 500px;
-  max-width: 100%;
+#who-image {
+  max-height: 450px;
+  max-width: 90%;
 }
 .elements-spacer {
   height: 25px;
