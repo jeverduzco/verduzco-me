@@ -62,7 +62,7 @@
           </v-btn>
         </template>
 
-        <v-list width="250">
+        <v-list width="250" shaped>
           <v-subheader>{{ $t('menu.navigation') }}</v-subheader>
           <v-list-item
             :title="$t('menu.home')"

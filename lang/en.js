@@ -2,7 +2,7 @@ export default {
   menu: {
     navigation: 'NAVIGATION',
     home: 'Home',
-    blog: 'Blog',
+    blog: 'My Blog',
     about: 'About me',
     theme: 'Theme',
     language: 'Language',
