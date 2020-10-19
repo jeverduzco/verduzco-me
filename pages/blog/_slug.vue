@@ -33,7 +33,7 @@ export default {
       params.slug
     ).fetch()
     const [prev, next] = await $content(`${app.i18n.locale}/blog`)
-      .only(['title', 'slug'])
+      .only(['title', 'related', 'slug'])
       .sortBy('createdAt', 'desc')
       .surround(params.slug)
       .fetch()
@@ -62,8 +62,8 @@ export default {
           hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
           href:
             this.$i18n.locale === 'es'
-              ? 'https://verduzco.me/en/blog/' + this.article.slug + '/'
-              : 'https://verduzco.me/es/blog/' + this.article.slug + '/'
+              ? 'https://verduzco.me/en/blog/' + this.article.related + '/'
+              : 'https://verduzco.me/es/blog/' + this.article.related + '/'
         }
       ],
       meta: [
