@@ -15,7 +15,7 @@ export default {
   },
   welcome: {
     name: 'Jesús Verduzco',
-    slogan: 'Soy un Ingeniero de DevOps que nunca para de aprender.'
+    slogan: 'Ingeniero de DevOps'
   },
   whoiam: {
     title: '¿Quién soy?',
@@ -53,10 +53,9 @@ export default {
     slogan: 'Aquí te cuento cómo soy, qué me gusta y qué sé hacer.'
   },
   index: {
-    title:
-      'Jesús Verduzco | Soy un Ingeniero de DevOps que nunca para de aprender',
+    title: 'Jesús Verduzco | Ingeniero de DevOps',
     description:
-      'Soy Jesús Verduzco, un ingeniero de DevOps que nunca para de aprender. Me gusta compartir lo que pienso y lo que sé: para ayudar a convertir este mundo en uno mejor para todas y todos.'
+      'Soy Jesús Verduzco, un Geek entusiasta del código y de crear cosas geniales con él.'
   },
   blogIndex: {
     title: 'Jesús Verduzco | Mi Blog',

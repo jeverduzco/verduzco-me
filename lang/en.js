@@ -15,7 +15,7 @@ export default {
   },
   welcome: {
     name: 'Jesús Verduzco',
-    slogan: "I'm a DevOps Engineer who never stops learning."
+    slogan: 'DevOps Engineer'
   },
   whoiam: {
     title: 'Who am I?',
@@ -53,9 +53,9 @@ export default {
     slogan: 'Here I tell you how I am, what I like and what I can do.'
   },
   index: {
-    title: "Jesús Verduzco | I'm a DevOps Engineer who never stops learning",
+    title: 'Jesús Verduzco | DevOps Engineer',
     description:
-      "I'm Jesús Verduzco, a DevOps engineer who never stops learning. I like to share what I think and what I know to help make this world a better place for everyone."
+      "I'm Jesús Verduzco, a Geek enthusiastic about code and creating great things with it."
   },
   blogIndex: {
     title: 'Jesús Verduzco | My Blog',
