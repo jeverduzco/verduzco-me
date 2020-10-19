@@ -144,8 +144,8 @@ export default {
           property: 'og:image',
           content:
             this.$i18n.locale === 'es'
-              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open.png'
-              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open.png'
+              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
+              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open-g.png'
         },
         {
           property: 'og:locale',
@@ -190,8 +190,8 @@ export default {
           name: 'twitter:image',
           content:
             this.$i18n.locale === 'es'
-              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open.png'
-              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open.png'
+              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
+              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open-g.png'
         },
         {
           name: 'twitter:site',
