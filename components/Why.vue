@@ -38,7 +38,8 @@
             large
             rounded
             depressed
-            :to="localePath('blog') + '/'"
+            href="https://www.twitch.tv/jeverduzco"
+            target="_blank"
             nuxt
             :title="$t('why.button')"
           >

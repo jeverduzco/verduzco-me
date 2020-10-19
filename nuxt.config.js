@@ -147,8 +147,6 @@ export default {
           '/en/',
           '/es/blog/',
           '/en/blog/',
-          '/en/about-me/',
-          '/es/acerca-de-mi/',
           '/es/blog/trabajo-remoto/',
           '/en/blog/remote-work/',
           '/es/blog/como-aumentar-la-productividad/',

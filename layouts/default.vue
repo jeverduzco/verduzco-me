@@ -77,14 +77,14 @@
           >
             <v-list-item-title>{{ $t('menu.blog') }}</v-list-item-title>
           </v-list-item>
-          <v-list-item
-            :title="$t('menu.about')"
-            :to="localePath('about-me') + '/'"
-            exact
-          >
-            <v-list-item-title>{{ $t('menu.about') }}</v-list-item-title>
-          </v-list-item>
           <v-subheader>{{ $t('menu.networks') }}</v-subheader>
+          <v-list-item
+            :title="$t('menu.twitch')"
+            href="https://www.twitch.tv/jeverduzco"
+            target="_blank"
+          >
+            <v-list-item-title>{{ $t('menu.twitch') }}</v-list-item-title>
+          </v-list-item>
           <v-list-item
             :title="$t('menu.linkedin')"
             href="https://www.linkedin.com/in/jeverduzco"

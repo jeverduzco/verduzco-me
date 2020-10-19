@@ -8,6 +8,7 @@ export default {
     language: 'Idioma',
     more: 'Más',
     networks: 'REDES SOCIALES',
+    twitch: 'Twitch',
     linkedin: 'Linkedin',
     twitter: 'Twitter',
     github: 'Github'
@@ -20,7 +21,7 @@ export default {
     title: '¿Quién soy?',
     description:
       'Soy Jesús Verduzco, un Geek entusiasta del código y de crear cosas geniales con él.',
-    button: 'Conoce más de mí'
+    button: 'Visita mi blog'
   },
   whatido: {
     title: '¿Qué hago?',
@@ -32,7 +33,7 @@ export default {
     title: '¿Por qué?',
     description:
       'Ayudar a las personas a ser más productivas gracias a mi código es lo que me motiva cada día.',
-    button: 'Navega por mi blog'
+    button: 'Visita mi Twitch'
   },
   prevNext: {
     newer: 'Más nuevo',

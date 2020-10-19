@@ -8,6 +8,7 @@ export default {
     language: 'Language',
     more: 'More',
     networks: 'SOCIAL NETWORKS',
+    twitch: 'Twitch',
     linkedin: 'Linkedin',
     twitter: 'Twitter',
     github: 'Github'
@@ -20,7 +21,7 @@ export default {
     title: 'Who am I?',
     description:
       "I'm Jesús Verduzco, a Geek enthusiastic about code and creating great things with it.",
-    button: 'Know more about me'
+    button: 'Browse my blog'
   },
   whatido: {
     title: 'What do I do?',
@@ -32,7 +33,7 @@ export default {
     title: 'Why?',
     description:
       'Helping people to be more productive because of my code is what motivates me every day.',
-    button: 'Browse my blog'
+    button: 'My Twitch (Spanish Only)'
   },
   prevNext: {
     newer: 'Newer',
