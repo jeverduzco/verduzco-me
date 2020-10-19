@@ -55,16 +55,12 @@ export default {
   index: {
     title: "Jesús Verduzco | I'm a DevOps Engineer who never stops learning",
     description:
-      "I'm Jesús Verduzco, a DevOps & Software engineer who never stops learning. I like to share what I think and what I know to help make this world a better place for everyone."
+      "I'm Jesús Verduzco, a DevOps engineer who never stops learning. I like to share what I think and what I know to help make this world a better place for everyone."
   },
   blogIndex: {
     title: 'Jesús Verduzco | My Blog',
     description:
       'Here I write what I think, share what I know and give back to the internet a little bit of what it has given me.',
     loadMore: 'Load More'
-  },
-  aboutMe: {
-    title: 'Jesús Verduzco | About me',
-    description: 'Here I tell you how I am, what I like and what I can do.'
   }
 }

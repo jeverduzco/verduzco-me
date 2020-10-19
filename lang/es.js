@@ -61,11 +61,7 @@ export default {
   blogIndex: {
     title: 'Jesús Verduzco | Mi Blog',
     description:
-      'Aquí escribo lo que pienso, comparto lo que sé y devuelvo a internet un poco de lo que me ha dado. ',
+      'Aquí escribo lo que pienso, comparto lo que sé y devuelvo a internet un poco de lo que me ha dado.',
     loadMore: 'Cargar Más'
-  },
-  aboutMe: {
-    title: 'Jesús Verduzco | Acerca de mí',
-    description: 'Aquí te cuento cómo soy, qué me gusta y qué sé hacer.'
   }
 }
