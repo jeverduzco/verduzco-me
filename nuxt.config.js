@@ -9,9 +9,6 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    htmlAttrs: {
-      lang: 'es'
-    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -96,7 +93,36 @@ export default {
     'applicationinsightsfornuxt',
     '@nuxt/content',
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    [
+      'nuxt-i18n',
+      {
+        locales: [
+          {
+            name: 'English',
+            code: 'en',
+            iso: 'en-US',
+            file: 'en.js'
+          },
+          {
+            name: 'Español',
+            code: 'es',
+            iso: 'es-MX',
+            file: 'es.js'
+          }
+        ],
+        lazy: true,
+        langDir: 'lang/',
+        defaultLocale: 'en',
+        fallbackLocale: 'en',
+        strategy: 'prefix',
+        detectBrowserLanguage: {
+          useCookie: true,
+          cookieKey: 'i18n_redirected',
+          onlyOnRoot: true
+        }
+      }
+    ]
   ],
   appInsights: {
     instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf'
@@ -117,19 +143,22 @@ export default {
         gzip: true,
         generate: false,
         routes: [
-          '/',
-          '/blog/',
-          '/blog/trabajo-remoto/',
-          '/blog/como-aumentar-la-productividad/',
-          '/blog/elegir-herramienta-trabajo-remoto/',
-          '/blog/consejos-aprender-en-linea/',
-          '/blog/mejor-sistema-operativo/',
-          '/blog/hosting-gratuitos/',
-          '/blog/passwordless-el-mundo-sin-contrasenas/',
-          '/blog/tu-dia-depende-de-los-programadores/',
-          '/blog/que-es-la-telemetria/'
+          '/es/',
+          '/en/',
+          '/es/blog/',
+          '/en/blog/',
+          '/es/blog/trabajo-remoto/',
+          '/en/blog/remote-work/',
+          '/es/blog/como-aumentar-la-productividad/',
+          '/en/blog/how-to-increase-productivity/',
+          '/es/blog/consejos-aprender-en-linea/',
+          '/en/blog/tips-to-learn-online/',
+          '/es/blog/hosting-gratuitos/',
+          '/en/blog/free-hosting/',
+          '/es/blog/que-es-la-telemetria/',
+          '/en/blog/what-is-telemetry/'
         ],
-        exclude: ['/blog']
+        exclude: ['/', '/blog']
       }
     ]
   },
@@ -137,7 +166,7 @@ export default {
     crawler: false,
     async routes() {
       const { $content } = require('@nuxt/content')
-      const blog = await $content('blog', { deep: true })
+      const blog = await $content({ deep: true })
         .only(['path'])
         .fetch()
 

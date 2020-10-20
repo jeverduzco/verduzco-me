@@ -2,9 +2,10 @@
 title: Qué es, qué no es y por qué es necesaria la telemetría en aplicaciones para el proceso DevOps
 description: La telemetría en aplicaciones es fundamental en el proceso de DevOps. El problema está en que se confunde con analítica comercial. ¿Quieres saber qué es, qué no es y por qué es importante?
 img: https://storage.verduzco.dev/dotme/blog/telemetria.png
-opimg: https://storage.verduzco.dev/dotme/blog/telemetria-op.png
-createdAt: 2020-10-12 10:00
-updatedAt: 2020-10-12 10:00
+opimg: https://storage.verduzco.dev/dotme/blog/es/telemetria.png
+createdAt: 2020-10-16 10:00
+updatedAt: 2020-10-16 10:00
+related: what-is-telemetry
 ---
 
 Seguramente has escuchado que Windows 10 tiene mucha telemetría que envía en tiempo real a Microsoft y que Android envía telemetría en tiempo real a Google. Seguramente también pensaste que te está espiando el sistema operativo con dicha telemetría. Pero la telemetría **no tiene nada que ver con espiarte**, tiene que ver con la operación misma de cada sistema o aplicación y es parte del ciclo DevOps. 

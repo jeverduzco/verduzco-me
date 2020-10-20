@@ -1,14 +1,7 @@
 <template>
   <div id="blog-page">
-    <section
-      id="welcome"
-      :class="
-        this.$vuetify.theme.dark
-          ? 'primary-background-dark'
-          : 'primary-background'
-      "
-    >
-      <IdeasWelcome />
+    <section id="welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
+      <BlogWelcome />
       <Waves />
     </section>
     <section id="blog-section">
@@ -22,7 +15,7 @@
           :key="article.slug"
           class="article-card"
           nuxt
-          :to="article.slug + '/'"
+          :to="localePath('blog') + '/' + article.slug + '/'"
           flat
           :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'"
         >
@@ -63,10 +56,10 @@
             rounded
             large
             depressed
-            title="Cargar Más"
+            :title="$t('blogIndex.loadMore')"
             @click="loadMore"
           >
-            Cargar Más
+            {{ $t('blogIndex.loadMore') }}
           </v-btn>
         </div>
       </v-container>
@@ -77,16 +70,21 @@
 <script>
 export default {
   name: 'Blog',
-  data() {
-    return {
-      title: 'Jesús Verduzco | Mi Blog',
-      postsLoaded: 3,
-      description:
-        'Te doy la bienvenida a mi blog. Un espacio en el que encontrarás contenido muy variado. Comparto desde un artículo técnico hasta una idea loca o simplemente mi opinión sobre algo.'
+  nuxtI18n: {
+    paths: {
+      es: '/blog/',
+      en: '/blog/'
     }
   },
-  async asyncData({ $content, params }) {
-    const blog = await $content('blog', params.slug)
+  data() {
+    return {
+      title: this.$t('blogIndex.title'),
+      postsLoaded: 3,
+      description: this.$t('blogIndex.description')
+    }
+  },
+  async asyncData({ $content, app, params }) {
+    const blog = await $content(`${app.i18n.locale}/blog`, params.slug)
       .only(['title', 'description', 'img', 'slug', 'createdAt'])
       .sortBy('createdAt', 'desc')
       .fetch()
@@ -98,7 +96,7 @@ export default {
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('es', options)
+      return new Date(date).toLocaleDateString(this.$i18n.locale, options)
     },
     loadMore() {
       this.postsLoaded = this.postsLoaded + 3
@@ -107,13 +105,24 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'es'
+        lang: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
       },
       title: this.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/blog/'
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://www.verduzco.me/en/blog/'
+              : 'https://www.verduzco.me/es/blog/'
+        },
+        {
+          rel: 'alternate',
+          hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
+          href:
+            this.$i18n.locale === 'es'
+              ? 'https://verduzco.me/en/blog/'
+              : 'https://verduzco.me/es/blog/'
         }
       ],
       meta: [
@@ -133,11 +142,14 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'https://storage.verduzco.dev/dotme/website/j-op.png'
+          content:
+            this.$i18n.locale === 'es'
+              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
+              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open-g.png'
         },
         {
           property: 'og:locale',
-          content: 'es'
+          content: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
         },
         {
           property: 'og:type',
@@ -145,7 +157,10 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/blog/'
+          content:
+            this.$i18n.locale === 'en'
+              ? 'https://www.verduzco.me/en/blog/'
+              : 'https://www.verduzco.me/es/blog/'
         },
         {
           property: 'og:site_name',
@@ -173,7 +188,10 @@ export default {
         },
         {
           name: 'twitter:image',
-          content: 'https://storage.verduzco.dev/dotme/website/j-op.png'
+          content:
+            this.$i18n.locale === 'es'
+              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
+              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open-g.png'
         },
         {
           name: 'twitter:site',

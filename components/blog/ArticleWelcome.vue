@@ -24,7 +24,7 @@
         md6
         lg6
       >
-        <img id="welcome-image" :src="img" :alt="title">
+        <img id="article-image" :src="img" :alt="title">
       </v-flex>
     </v-layout>
   </v-container>
@@ -48,13 +48,13 @@ export default {
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('es', options)
+      return new Date(date).toLocaleDateString(this.$i18n.locale, options)
     }
   }
 }
 </script>
-<style>
-#welcome-image {
+<style scoped>
+#article-image {
   max-width: 95%;
   height: auto;
 }

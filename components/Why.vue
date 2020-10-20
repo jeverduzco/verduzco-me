@@ -15,7 +15,7 @@
         md6
         lg6
       >
-        <img id="ideas-image" src="https://storage.verduzco.dev/dotme/website/blogging.svg" alt="Blog">
+        <img id="charlas-image" src="https://storage.verduzco.dev/dotme/website/developer-activity-animate.svg" alt="¿Por qué lo hago?">
       </v-flex>
       <v-flex
         class="text-right"
@@ -25,11 +25,11 @@
         lg6
       >
         <h2 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-right">
-          ¿Quién soy?
+          {{ $t('why.title') }}
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Soy Jesús Verduzco, un ingeniero de DevOps que nunca para de aprender. Me gusta compartir lo que pienso y lo que sé: para ayudar a convertir este mundo en uno mejor para todas y todos.
+          {{ $t('why.description') }}
         </p>
         <div class="text-center text-md-right">
           <v-btn
@@ -38,11 +38,12 @@
             large
             rounded
             depressed
-            to="/blog/"
+            href="https://www.twitch.tv/jeverduzco"
+            target="_blank"
             nuxt
-            title="Leer ideas"
+            :title="$t('why.button')"
           >
-            Navega por mi blog
+            {{ $t('why.button') }}
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
@@ -50,9 +51,9 @@
     </v-layout>
   </v-container>
 </template>
-<style>
-#ideas-image {
-  max-height: 500px;
+<style scoped>
+#charlas-image {
+  max-height: 450px;
   max-width: 100%;
 }
 .elements-spacer {

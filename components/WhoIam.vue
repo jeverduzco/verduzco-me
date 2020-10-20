@@ -15,7 +15,7 @@
         md6
         lg6
       >
-        <img id="charlas-image" src="https://storage.verduzco.dev/dotme/website/developer-activity-animate.svg" alt="¿Por qué lo hago?">
+        <img id="who-image" src="https://storage.verduzco.dev/dotme/website/whoiam.svg" alt="Blog">
       </v-flex>
       <v-flex
         class="text-right"
@@ -25,35 +25,33 @@
         lg6
       >
         <h2 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-right">
-          ¿Por qué?
+          {{ $t('whoiam.title') }}
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Mi propósito en la vida es ayudar al crecimiento de México. Ofreciendo software adaptado a la región y enseñando a usar la tecnología para crecer en los ámbitos personal y profesional.
+          {{ $t('whoiam.description') }}
         </p>
-        <div class="text-center text-md-right">
-          <v-btn
-            id="more-info"
-            color="secondary"
-            large
-            rounded
-            depressed
-            href="https://youtube.com/c/Jes%C3%BAsVerduzco"
-            target="_blank"
-            title="Suscríbete en Youtube"
-          >
-            Suscríbete en YouTube
-          </v-btn>
-        </div>
+        <v-btn
+          id="more-info"
+          color="secondary"
+          large
+          rounded
+          depressed
+          :to="localePath('blog') + '/'"
+          nuxt
+          :title="$t('whoiam.button')"
+        >
+          {{ $t('whoiam.button') }}
+        </v-btn>
         <v-spacer class="elements-spacer" />
       </v-flex>
     </v-layout>
   </v-container>
 </template>
 <style>
-#charlas-image {
+#who-image {
   max-height: 450px;
-  max-width: 100%;
+  max-width: 90%;
 }
 .elements-spacer {
   height: 25px;

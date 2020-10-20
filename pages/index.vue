@@ -1,26 +1,20 @@
 <template>
   <div id="index-page">
-    <section
-      id="welcome"
-      :class="
-        this.$vuetify.theme.dark
-          ? 'primary-background-dark'
-          : 'primary-background'
-      "
-    >
+    <!-- start page content -->
+    <section id="welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
       <Welcome />
       <Waves />
     </section>
-    <section id="business">
-      <Ideas />
+    <section id="whoiam">
+      <WhoIam />
       <WavesSecondary />
     </section>
-    <section id="consulting" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
-      <Code />
+    <section id="whatido" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
+      <WhatIdo />
       <Waves />
     </section>
-    <section id="gamicharlas">
-      <Gamicharlas />
+    <section id="why">
+      <Why />
       <WavesSecondary />
     </section>
     <!-- End page content -->
@@ -32,14 +26,16 @@ export default {
   name: 'Landing',
   data() {
     return {
-      title: 'Jesús Verduzco | Ingeniero de DevOps',
-      description:
-        'Soy Jesús Verduzco, un ingeniero de DevOps que nunca para de aprender. Me gusta compartir lo que pienso y lo que sé: para ayudar a convertir este mundo en uno mejor para todas y todos.',
+      title: this.$t('index.title'),
+      description: this.$t('index.description'),
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'Person',
         name: 'Jesús Verduzco',
-        url: 'https://verduzco.me/',
+        url:
+          this.$i18n.locale === 'en'
+            ? 'https://verduzco.me/en/'
+            : 'https://verduzco.me/es/',
         image: 'https://storage.verduzco.dev/dotme/website/jesus-verduzco.jpg',
         sameAs: [
           'https://www.linkedin.com/in/jeverduzco/',
@@ -60,13 +56,24 @@ export default {
         }
       ],
       htmlAttrs: {
-        lang: 'es'
+        lang: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
       },
       title: this.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/'
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/'
+              : 'https://verduzco.me/es/'
+        },
+        {
+          rel: 'alternate',
+          hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
+          href:
+            this.$i18n.locale === 'es'
+              ? 'https://verduzco.me/en/'
+              : 'https://verduzco.me/es/'
         }
       ],
       meta: [
@@ -86,11 +93,14 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'https://storage.verduzco.dev/dotme/website/j-op.png'
+          content:
+            this.$i18n.locale === 'es'
+              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
+              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open-g.png'
         },
         {
           property: 'og:locale',
-          content: 'es'
+          content: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
         },
         {
           property: 'og:type',
@@ -98,7 +108,10 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/'
+          content:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/'
+              : 'https://verduzco.me/es/'
         },
         {
           property: 'og:site_name',
@@ -126,7 +139,10 @@ export default {
         },
         {
           name: 'twitter:image',
-          content: 'https://storage.verduzco.dev/dotme/website/j-op.png'
+          content:
+            this.$i18n.locale === 'es'
+              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
+              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open-g.png'
         },
         {
           name: 'twitter:site',

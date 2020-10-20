@@ -1,13 +1,6 @@
 <template>
   <div>
-    <section
-      id="post-welcome"
-      :class="
-        this.$vuetify.theme.dark
-          ? 'primary-background-dark'
-          : 'primary-background'
-      "
-    >
+    <section id="post-welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
       <ArticleWelcome :title="article.title" :img="article.img" :date="article.createdAt" />
       <Waves />
     </section>
@@ -33,26 +26,44 @@
 </template>
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const article = await $content('blog', params.slug).fetch()
-    const [prev, next] = await $content('blog')
-      .only(['title', 'slug'])
+  name: 'Article',
+  async asyncData({ $content, app, params }) {
+    const article = await $content(
+      `${app.i18n.locale}/blog`,
+      params.slug
+    ).fetch()
+    const [prev, next] = await $content(`${app.i18n.locale}/blog`)
+      .only(['title', 'related', 'slug'])
       .sortBy('createdAt', 'desc')
       .surround(params.slug)
       .fetch()
 
     return { article, prev, next }
   },
+  beforeMount() {
+    this.$nuxt.$emit('related-article', this.article.related)
+  },
   head() {
     return {
       htmlAttrs: {
-        lang: 'es'
+        lang: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
       },
       title: this.article.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/blog/' + this.article.slug + '/'
+          href:
+            this.$i18n.locale === 'es'
+              ? 'https://www.verduzco.me/es/blog/' + this.article.slug + '/'
+              : 'https://www.verduzco.me/en/blog/' + this.article.slug + '/'
+        },
+        {
+          rel: 'alternate',
+          hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
+          href:
+            this.$i18n.locale === 'es'
+              ? 'https://verduzco.me/en/blog/' + this.article.related + '/'
+              : 'https://verduzco.me/es/blog/' + this.article.related + '/'
         }
       ],
       meta: [
@@ -76,7 +87,7 @@ export default {
         },
         {
           property: 'og:locale',
-          content: 'es'
+          content: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
         },
         {
           property: 'og:type',
@@ -84,7 +95,10 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/blog/' + this.article.slug + '/'
+          content:
+            this.$i18n.locale === 'es'
+              ? 'https://www.verduzco.me/es/blog/' + this.article.slug + '/'
+              : 'https://www.verduzco.me/en/blog/' + this.article.slug + '/'
         },
         {
           property: 'og:site_name',

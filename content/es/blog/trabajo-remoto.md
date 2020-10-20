@@ -2,9 +2,10 @@
 title: ¿El trabajo remoto te tomó por sorpresa? No te preocupes, te doy unos consejos
 description: Si el trabajo remoto no te tomó por sorpresa este año es porque ya lo hacías antes. Pero si lo hizo, te comparto unos consejos para que sea mejor.
 img: https://storage.verduzco.dev/dotme/blog/remote.png
-opimg: https://storage.verduzco.dev/dotme/blog/remote-op.png
-createdAt: 2020-09-25 10:00
-updatedAt: 2020-09-25 10:00
+opimg: https://storage.verduzco.dev/dotme/blog/es/remoto.png
+createdAt: 2020-10-12 10:00
+updatedAt: 2020-10-12 10:00
+related: remote-work
 ---
 
 Si ya estás aquí es porque seguramente el trabajo remoto te ha causado frustración. No te preocupes, no eres el único que se siente así. 

@@ -13,6 +13,7 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "applicationinsightsfornuxt": "^1.4.5",
     "nuxt": "^2.14.6",
+    "nuxt-i18n": "^6.15.3",
     "prism-themes": "^1.4.0"
   },
   "devDependencies": {

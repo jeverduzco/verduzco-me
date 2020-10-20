@@ -10,11 +10,11 @@
     >
       <v-flex xs12 sm12 md6 lg6>
         <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-left">
-          Jesús Verduzco
+          {{ $t('welcome.name') }}
         </h1>
         <v-spacer id="text-spacer" />
-        <p class="text-lg-h5 text-md-h5 text-h5 text-center text-md-left">
-          Ingeniero de DevOps
+        <p class="text-lg-h4 text-md-h4 text-h5 text-center text-md-left">
+          {{ $t('welcome.slogan') }}
         </p>
       </v-flex>
       <v-flex
