@@ -2,8 +2,8 @@ export default {
   menu: {
     navigation: 'NAVIGATION',
     home: 'Home',
-    blog: 'My Blog',
-    about: 'About me',
+    blog: 'Blog',
+    about: 'About',
     theme: 'Theme',
     language: 'Language',
     more: 'More',
@@ -12,6 +12,9 @@ export default {
     linkedin: 'Linkedin',
     twitter: 'Twitter',
     github: 'Github'
+  },
+  telegram: {
+    message: 'Send Message'
   },
   welcome: {
     name: 'Jesús Verduzco',

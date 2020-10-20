@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-btn
-      title="Envíar mensaje"
+      :title="$t('telegram.message')"
       color="#0088cc"
       href="https://t.me/jeverduzco"
       target="_blank"

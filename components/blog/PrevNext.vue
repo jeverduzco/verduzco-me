@@ -15,7 +15,7 @@
           nuxt
           exact
           outlined
-          height="125"
+          height="150"
         >
           <v-card-title primary-title>
             {{ $t('prevNext.newer') }}
@@ -27,7 +27,7 @@
         <v-card
           v-if="!prev"
           outlined
-          height="125"
+          height="150"
         >
           <v-card-title primary-title>
             {{ $t('prevNext.newer') }}
@@ -44,7 +44,7 @@
           nuxt
           exact
           outlined
-          height="125"
+          height="150"
         >
           <v-card-title primary-title>
             {{ $t('prevNext.older') }}
@@ -56,7 +56,7 @@
         <v-card
           v-if="!next"
           outlined
-          height="125"
+          height="150"
         >
           <v-card-title primary-title>
             {{ $t('prevNext.older') }}
