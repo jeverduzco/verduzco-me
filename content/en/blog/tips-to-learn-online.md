@@ -2,9 +2,9 @@
 title: Tips for learning online from someone who is 100% self-taught
 description: The Internet is the biggest school that exists. But having an infinite source of knowledge we don't know where to start. Do you want to be better at being self-taught? Read on.
 img: https://storage.verduzco.dev/dotme/blog/estudiar.png
-opimg: https://storage.verduzco.dev/dotme/blog/estudiar-op.png
-createdAt: 2020-10-03 10:00
-updatedAt: 2020-10-03 10:00
+opimg: https://storage.verduzco.dev/dotme/blog/en/tips.png
+createdAt: 2020-10-19 10:00
+updatedAt: 2020-10-19 10:00
 related: consejos-aprender-en-linea
 ---
 
@@ -44,6 +44,6 @@ Test your knowledge by creating **complete projects.** The most effective way I 
 
 ## Debate, collaborate and share with everyone. 
 
-One of the drawbacks of being self-taught is that you don't have classmates with whom you can discuss and share what you have learned in person. Fortunately, on the Internet you can find communities of all the topics you can imagine. **Discuss, collaborate and share!
+One of the drawbacks of being self-taught is that you don't have classmates with whom you can discuss and share what you have learned in person. Fortunately, on the Internet you can find communities of all the topics you can imagine. **Discuss, collaborate and share!**
 
 And most importantly... **Never stop learning!** We currently live in a world that changes faster than most people realize. Don't wait to learn something new once you need it, learn from before; prepare for the future.

@@ -2,9 +2,9 @@
 title: Did the remote work take you by surprise? Don't worry, here are some tips
 description: If remote working didn't take you by surprise this year, it's because you were doing it before. But if it did, I'll share some tips to make it better.
 img: https://storage.verduzco.dev/dotme/blog/remote.png
-opimg: https://storage.verduzco.dev/dotme/blog/remote-op.png
-createdAt: 2020-09-25 10:00
-updatedAt: 2020-09-25 10:00
+opimg: https://storage.verduzco.dev/dotme/blog/en/remote.png
+createdAt: 2020-10-12 10:00
+updatedAt: 2020-10-12 10:00
 related: trabajo-remoto
 ---
 

@@ -2,9 +2,9 @@
 title: Consejos para aprender en línea de alguien 100% autodidacta
 description: Internet es la mayor escuela que existe. Pero al tener una fuente infinita de conocimiento no sabemos por dónde empezar. ¿Quieres ser mejor autodidacta? Sigue leyendo.
 img: https://storage.verduzco.dev/dotme/blog/estudiar.png
-opimg: https://storage.verduzco.dev/dotme/blog/estudiar-op.png
-createdAt: 2020-10-03 10:00
-updatedAt: 2020-10-03 10:00
+opimg: https://storage.verduzco.dev/dotme/blog/es/consejos.png
+createdAt: 2020-10-19 10:00
+updatedAt: 2020-10-19 10:00
 related: tips-to-learn-online
 ---
 

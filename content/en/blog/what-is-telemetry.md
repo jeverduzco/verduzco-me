@@ -2,7 +2,7 @@
 title: What it is, what it is not and why telemetry is necessary in applications for the DevOps process
 description: Application telemetry is fundamental to the DevOps process. The problem is that it is confused with business analytics. Do you want to know what it is, what it is not and why it is important?
 img: https://storage.verduzco.dev/dotme/blog/telemetria.png
-opimg: https://storage.verduzco.dev/dotme/blog/telemetria-op.png
+opimg: https://storage.verduzco.dev/dotme/blog/en/telemetry.png
 createdAt: 2020-10-16 10:00
 updatedAt: 2020-10-16 10:00
 related: que-es-la-telemetria

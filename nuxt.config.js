@@ -151,8 +151,6 @@ export default {
           '/en/blog/remote-work/',
           '/es/blog/como-aumentar-la-productividad/',
           '/en/blog/how-to-increase-productivity/',
-          '/es/blog/elegir-herramienta-trabajo-remoto/',
-          '/en/blog/choose-tool-work-remote/',
           '/es/blog/consejos-aprender-en-linea/',
           '/en/blog/tips-to-learn-online/',
           '/es/blog/hosting-gratuitos/',

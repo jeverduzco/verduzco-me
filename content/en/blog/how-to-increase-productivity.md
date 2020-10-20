@@ -2,9 +2,9 @@
 title: How to increase your productivity by doing just one thing. Also, it's fast
 description: Do you feel that you are not productive? I did too. But I discovered how to increase my productivity by doing something very simple. And it's not at all motivational.
 img: https://storage.verduzco.dev/dotme/blog/productividad.png
-opimg: https://storage.verduzco.dev/dotme/blog/productividad-op.png
-createdAt: 2020-10-01 10:00
-updatedAt: 2020-10-01 10:00
+opimg: https://storage.verduzco.dev/dotme/blog/en/productivity.png
+createdAt: 2020-10-09 10:00
+updatedAt: 2020-10-09 10:00
 related: como-aumentar-la-productividad
 ---
 

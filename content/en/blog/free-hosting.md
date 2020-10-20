@@ -2,9 +2,9 @@
 title: Three free hosting services you can use to start and grow without changing anything
 description: In times of crisis many people want to start an Internet business. The problem is that you don't always have the money for the infrastructure. Do you want to know how to solve it?
 img: https://storage.verduzco.dev/dotme/blog/static.png
-opimg: https://storage.verduzco.dev/dotme/blog/static-op.png
-createdAt: 2020-10-06 10:00
-updatedAt: 2020-10-06 10:00
+opimg: https://storage.verduzco.dev/dotme/blog/en/hosting.png
+createdAt: 2020-10-14 10:00
+updatedAt: 2020-10-14 10:00
 related: hosting-gratuitos
 ---
 
