@@ -31,18 +31,20 @@
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
           {{ $t('whoiam.description') }}
         </p>
-        <v-btn
-          id="more-info"
-          color="secondary"
-          large
-          rounded
-          depressed
-          :to="localePath('blog') + '/'"
-          nuxt
-          :title="$t('whoiam.button')"
-        >
-          {{ $t('whoiam.button') }}
-        </v-btn>
+        <div class="text-center text-md-right">
+          <v-btn
+            id="more-info"
+            color="secondary"
+            large
+            rounded
+            depressed
+            :to="localePath('blog') + '/'"
+            nuxt
+            :title="$t('whoiam.button')"
+          >
+            {{ $t('whoiam.button') }}
+          </v-btn>
+        </div>
         <v-spacer class="elements-spacer" />
       </v-flex>
     </v-layout>
