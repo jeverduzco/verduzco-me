@@ -8,7 +8,7 @@ export default {
     language: 'Idioma',
     more: 'Más',
     networks: 'REDES SOCIALES',
-    twitch: 'Twitch',
+    youtube: 'YouTube',
     linkedin: 'Linkedin',
     twitter: 'Twitter',
     github: 'Github'
@@ -36,7 +36,7 @@ export default {
     title: '¿Por qué?',
     description:
       'Ayudar a las personas a ser más productivas gracias a mi código es lo que me motiva cada día.',
-    button: 'Visita mi Twitch'
+    button: 'Visita mi YouTube'
   },
   prevNext: {
     newer: 'Más nuevo',

@@ -99,16 +99,16 @@ export default {
       {
         locales: [
           {
-            name: 'English',
-            code: 'en',
-            iso: 'en-US',
-            file: 'en.js'
-          },
-          {
             name: 'Español',
             code: 'es',
             iso: 'es-MX',
             file: 'es.js'
+          },
+          {
+            name: 'English',
+            code: 'en',
+            iso: 'en-US',
+            file: 'en.js'
           }
         ],
         lazy: true,

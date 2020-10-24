@@ -79,11 +79,11 @@
           </v-list-item>
           <v-subheader>{{ $t('menu.networks') }}</v-subheader>
           <v-list-item
-            :title="$t('menu.twitch')"
-            href="https://www.twitch.tv/jeverduzco"
+            :title="$t('menu.youtube')"
+            href="https://www.youtube.com/c/Jes%C3%BAsVerduzco/"
             target="_blank"
           >
-            <v-list-item-title>{{ $t('menu.twitch') }}</v-list-item-title>
+            <v-list-item-title>{{ $t('menu.youtube') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
             :title="$t('menu.linkedin')"
