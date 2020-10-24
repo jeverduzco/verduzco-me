@@ -113,8 +113,8 @@ export default {
         ],
         lazy: true,
         langDir: 'lang/',
-        defaultLocale: 'en',
-        fallbackLocale: 'en',
+        defaultLocale: 'es',
+        fallbackLocale: 'es',
         strategy: 'prefix',
         detectBrowserLanguage: {
           useCookie: true,
