@@ -17,6 +17,9 @@
 .nuxt-content h2 {
   margin: 3px 0px 10px 0px;
 }
+.nuxt-content img {
+  max-width: 100%;
+}
 .nuxt-content-highlight .filename {
   position: absolute;
   right: 5px;
