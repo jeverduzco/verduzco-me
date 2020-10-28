@@ -8,7 +8,7 @@ export default {
     language: 'Language',
     more: 'More',
     networks: 'SOCIAL NETWORKS',
-    youtube: 'YouTube',
+    twitch: 'Twitch',
     linkedin: 'Linkedin',
     twitter: 'Twitter',
     github: 'Github'
@@ -36,7 +36,7 @@ export default {
     title: 'Why?',
     description:
       'Helping people to be more productive because of my code is what motivates me every day.',
-    button: 'My YouTube (Spanish Only)'
+    button: 'My Twitch (Spanish Only)'
   },
   prevNext: {
     newer: 'Newer',

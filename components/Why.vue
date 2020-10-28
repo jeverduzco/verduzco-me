@@ -38,7 +38,7 @@
             large
             rounded
             depressed
-            href="https://www.youtube.com/c/Jes%C3%BAsVerduzco/"
+            href="https://www.twitch.tv/jeverduzco"
             target="_blank"
             nuxt
             :title="$t('why.button')"
