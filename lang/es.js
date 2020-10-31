@@ -8,7 +8,6 @@ export default {
     language: 'Idioma',
     more: 'Más',
     networks: 'REDES SOCIALES',
-    twitch: 'Twitch',
     linkedin: 'Linkedin',
     twitter: 'Twitter',
     github: 'Github'
