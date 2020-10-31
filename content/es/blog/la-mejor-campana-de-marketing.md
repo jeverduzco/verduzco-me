@@ -25,8 +25,9 @@ Como podemos ver en la imagen anterior **el producto fue víctima de una serie d
 Para las personas que habían hecho todos esos memes **la novedad ya había pasado.** Para el mercado también; puesto que **ya no había tendencias del producto** y los medios del sector hablaban de otra cosa. 
 
 Pero de pronto... al entrar a Twitter resulta que encontré a **Xbox como tendencia** y la gente parecía haber perdido la cabeza por el producto, pero... ¿por qué? Resulta que a alguien se le ocurrió que había que **convertir el meme en realidad.** ¡Aquí lo tienes! 
-
-<center><iframe width="100%" height="315" src="https://www.youtube.com/embed/3VOaNmN-hKs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<div class="videoResponsive">
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/3VOaNmN-hKs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</div>
 
 ## Una genialidad de la que podemos aprender. 
 
