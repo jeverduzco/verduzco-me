@@ -25,7 +25,9 @@ For the people who had made all those memes **the novelty had already passed.** 
 
 But suddenly... when I went on Twitter it turned out that I found **Xbox as a trend** and people seemed to have lost their heads over the product, but... why? It turns out that someone had to **turn the meme into reality.** Here it is!
 
+<div class="videoResponsive">
 <center><iframe width="100%" height="315" src="https://www.youtube.com/embed/3VOaNmN-hKs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</div>
 
 ## A genius from which we can learn. 
 
