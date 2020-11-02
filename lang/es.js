@@ -46,7 +46,7 @@ export default {
     title: 'DevOps',
     description:
       'DevOps es mi trabajo favorito, disfruto al máximo el arte de conectar desarrollo con operaciones.',
-    elementOne: 'Integración y entrega continuos (CI/CD)',
+    elementOne: 'Integración y entrega continuos',
     elementTwo: 'Control de versiones',
     elementThree: 'Desarrollo ágil de software',
     elementFour: 'Infraestructura como código',
