@@ -60,7 +60,7 @@ export default {
     elementOne: 'Frontend (HTML, CSS, JS, UX)',
     elementTwo: 'Backend (JS, PYTHON)',
     elementThree: 'Authentication (OAuth 2.0, SSO)',
-    elementFour: 'Frameworks (Vue.js, React.js, Express.js)',
+    elementFour: 'Frameworks (Nuxt, Express, Django)',
     elementFive: "API's (REST, GraphQL)",
     elementSix: 'Databases (Mongo DB, Cosmos DB)'
   },
