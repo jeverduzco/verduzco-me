@@ -3,6 +3,7 @@ export default {
     navigation: 'NAVEGACIÓN',
     home: 'Inicio',
     blog: 'Blog',
+    knowMe: 'Habilidades',
     about: 'Acerca de mí',
     theme: 'Tema',
     language: 'Idioma',
@@ -20,22 +21,59 @@ export default {
     slogan: 'Ingeniero de DevOps'
   },
   whoiam: {
-    title: '¿Quién soy?',
+    title: 'Quién soy',
     description:
       'Soy Jesús Verduzco, un Geek entusiasta del código y de crear cosas geniales con él.',
     button: 'Visita mi blog'
   },
   whatido: {
-    title: '¿Qué hago?',
+    title: 'Qué sé hacer',
     description:
-      'Me gusta convertir mi código en Software como Servicio para las empresas mexicanas.',
-    button: 'Conoce Mi Empresa'
+      'Nunca parar de aprender me ha permitido saber de DevOps, Software, Marketing y otras cosas.',
+    button: 'Conoce qué sé hacer'
   },
-  why: {
-    title: '¿Por qué?',
+  work: {
+    title: 'Mi trabajo',
     description:
-      'Ayudar a las personas a ser más productivas gracias a mi código es lo que me motiva cada día.',
-    button: 'Visita mi Twitch'
+      'Convierto mi código en Software como Servicio (SaaS) para las empresas mexicanas.',
+    button: 'Conoce mi empresa'
+  },
+  knowMeWelcome: {
+    title: 'Qué sé hacer',
+    description: 'Conoce lo qué soy capaz de hacer por ti'
+  },
+  devOps: {
+    title: 'DevOps',
+    description:
+      'DevOps es mi trabajo favorito, disfruto al máximo el arte de conectar desarrollo con operaciones.',
+    elementOne: 'Integración y entrega continuos (CI/CD)',
+    elementTwo: 'Control de versiones',
+    elementThree: 'Desarrollo ágil de software',
+    elementFour: 'Infraestructura como código',
+    elementFive: 'Despliegue continuo',
+    elementSix: 'Supervisión continua'
+  },
+  development: {
+    title: 'Desarrollo',
+    description:
+      'Después de DevOps el desarrollo de aplicaciones web es algo que disfruto mucho y es parte de mi trabajo.',
+    elementOne: 'Frontend (HTML, CSS, JS, UX)',
+    elementTwo: 'Backend (JS, PYTHON)',
+    elementThree: 'Autenticación (OAuth 2.0, SSO)',
+    elementFour: 'Frameworks (Vue.js, React.js, Express.js)',
+    elementFive: "API's (REST, GraphQL)",
+    elementSix: 'Bases de datos (Mongo DB, Cosmos DB)'
+  },
+  others: {
+    title: 'Extras',
+    description:
+      'Mi sed nata de conocimiento e internet son el complemento perfecto para nunca dejar de aprender.',
+    elementOne: 'Seguridad informática',
+    elementTwo: 'Marketing digital',
+    elementThree: 'Ciencia de datos e IA',
+    elementFour: 'Internet de las cosas',
+    elementFive: 'Negocios y emprendimiento',
+    elementSix: 'Gestión de proyectos'
   },
   prevNext: {
     newer: 'Más nuevo',
@@ -64,5 +102,10 @@ export default {
     description:
       'Aquí escribo lo que pienso, comparto lo que sé y devuelvo a internet un poco de lo que me ha dado.',
     loadMore: 'Cargar Más'
+  },
+  knowMe: {
+    title: 'Jesús Verduzco | Qué sé hacer',
+    description:
+      'Nunca parar de aprender me ha permitido saber de DevOps, Software, Marketing y otras cosas.'
   }
 }

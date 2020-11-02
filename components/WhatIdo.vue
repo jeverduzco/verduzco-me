@@ -29,8 +29,8 @@
             large
             rounded
             depressed
-            href="https://www.verduzco.dev/"
-            target="_blank"
+            :to="localePath('know-me') + '/'"
+            nuxt
             :title="$t('whatido.button')"
           >
             {{ $t('whatido.button') }}

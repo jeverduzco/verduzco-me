@@ -2,19 +2,19 @@
   <div id="index-page">
     <!-- start page content -->
     <section id="welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
-      <Welcome />
+      <KnowMeWelcome />
       <Waves />
     </section>
     <section id="whoiam">
-      <WhoIam />
+      <DevOps />
       <WavesSecondary />
     </section>
     <section id="whatido" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
-      <WhatIdo />
+      <Development />
       <Waves />
     </section>
     <section id="why">
-      <Work />
+      <Others />
       <WavesSecondary />
     </section>
     <!-- End page content -->
@@ -23,38 +23,21 @@
 
 <script>
 export default {
-  name: 'Landing',
+  name: 'KnowMe',
+  nuxtI18n: {
+    paths: {
+      es: '/conoceme/',
+      en: '/know-me/'
+    }
+  },
   data() {
     return {
-      title: this.$t('index.title'),
-      description: this.$t('index.description'),
-      structuredData: {
-        '@context': 'http://schema.org',
-        '@type': 'Person',
-        name: 'Jesús Verduzco',
-        url:
-          this.$i18n.locale === 'en'
-            ? 'https://verduzco.me/en/'
-            : 'https://verduzco.me/es/',
-        image: 'https://storage.verduzco.dev/dotme/website/jesus-verduzco.jpg',
-        sameAs: [
-          'https://www.linkedin.com/in/jeverduzco/',
-          'https://github.com/jeverduzco',
-          'https://twitter.com/jeverduzco',
-          'https://youtube.com/c/Jes%C3%BAsVerduzco'
-        ]
-      }
+      title: this.$t('knowMe.title'),
+      description: this.$t('knowMe.description')
     }
   },
   head() {
     return {
-      __dangerouslyDisableSanitizers: ['script'],
-      script: [
-        {
-          innerHTML: JSON.stringify(this.structuredData),
-          type: 'application/ld+json'
-        }
-      ],
       htmlAttrs: {
         lang: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
       },
@@ -64,16 +47,16 @@ export default {
           rel: 'canonical',
           href:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/en/'
-              : 'https://verduzco.me/es/'
+              ? 'https://verduzco.me/en/know-me/'
+              : 'https://verduzco.me/es/conoceme/'
         },
         {
           rel: 'alternate',
           hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
           href:
             this.$i18n.locale === 'es'
-              ? 'https://verduzco.me/en/'
-              : 'https://verduzco.me/es/'
+              ? 'https://verduzco.me/en/know-me/'
+              : 'https://verduzco.me/es/conoceme/'
         }
       ],
       meta: [
@@ -110,8 +93,8 @@ export default {
           property: 'og:url',
           content:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/en/'
-              : 'https://verduzco.me/es/'
+              ? 'https://verduzco.me/en/know-me/'
+              : 'https://verduzco.me/es/conoceme/'
         },
         {
           property: 'og:site_name',

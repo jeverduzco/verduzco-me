@@ -77,6 +77,12 @@
           >
             <v-list-item-title>{{ $t('menu.blog') }}</v-list-item-title>
           </v-list-item>
+          <v-list-item
+            :title="$t('menu.knowMe')"
+            :to="localePath('know-me') + '/'"
+          >
+            <v-list-item-title>{{ $t('menu.knowMe') }}</v-list-item-title>
+          </v-list-item>
           <v-subheader>{{ $t('menu.networks') }}</v-subheader>
           <v-list-item
             :title="$t('menu.linkedin')"

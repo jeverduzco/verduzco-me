@@ -157,6 +157,8 @@ export default {
         routes: [
           '/es/',
           '/en/',
+          '/es/conoceme/',
+          '/en/know-me/',
           '/es/blog/',
           '/en/blog/',
           '/es/blog/trabajo-remoto/',
@@ -172,7 +174,7 @@ export default {
           '/es/blog/la-mejor-campana-de-marketing/',
           '/en/blog/wthe-best-marketing-campaign/'
         ],
-        exclude: ['/', '/blog']
+        exclude: ['/', '/blog', '/know-me']
       }
     ]
   },

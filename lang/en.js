@@ -3,6 +3,7 @@ export default {
     navigation: 'NAVIGATION',
     home: 'Home',
     blog: 'Blog',
+    knowMe: 'Skills',
     about: 'About',
     theme: 'Theme',
     language: 'Language',
@@ -26,16 +27,53 @@ export default {
     button: 'Browse my blog'
   },
   whatido: {
-    title: 'What do I do?',
+    title: 'What can I do?',
     description:
-      'I like to turn my code into Software as a Service for Mexican companies.',
-    button: 'My Business (Spanish only)'
+      'Never stopping learning has allowed me to know about DevOps, Software, Marketing and other things.',
+    button: 'Know what I can do'
   },
-  why: {
-    title: 'Why?',
+  work: {
+    title: 'My work',
     description:
-      'Helping people to be more productive because of my code is what motivates me every day.',
-    button: 'My Twitch (Spanish Only)'
+      'I convert my code into Software as a Service (SaaS) for Mexican companies.',
+    button: 'My Business (Spanish Only)'
+  },
+  knowMeWelcome: {
+    title: 'What I can do',
+    description: 'Know what I can do for you'
+  },
+  devOps: {
+    title: 'DevOps',
+    description:
+      'DevOps is my favorite work, I enjoy the art of connecting development with operations.',
+    elementOne: 'Continuous integration and delivery (CI/CD)',
+    elementTwo: 'Version Control',
+    elementThree: 'Agile software development',
+    elementFour: 'Infrastructure as code',
+    elementFive: 'Continuous deployment',
+    elementSix: 'Continuous monitoring'
+  },
+  development: {
+    title: 'Development',
+    description:
+      'After DevOps, web application development is something I enjoy very much and is part of my job.',
+    elementOne: 'Frontend (HTML, CSS, JS, UX)',
+    elementTwo: 'Backend (JS, PYTHON)',
+    elementThree: 'Authentication (OAuth 2.0, SSO)',
+    elementFour: 'Frameworks (Vue.js, React.js, Express.js)',
+    elementFive: "API's (REST, GraphQL)",
+    elementSix: 'Databases (Mongo DB, Cosmos DB)'
+  },
+  others: {
+    title: 'Extras',
+    description:
+      'My natural thirst for knowledge and the Internet are the perfect complement to never stop learning.',
+    elementOne: 'Computer security',
+    elementTwo: 'Digital marketing',
+    elementThree: 'Data science and AI',
+    elementFour: 'The Internet of Things',
+    elementFive: 'Business and entrepreneurship',
+    elementSix: 'Project Management'
   },
   prevNext: {
     newer: 'Newer',
@@ -64,5 +102,10 @@ export default {
     description:
       'Here I write what I think, share what I know and give back to the internet a little bit of what it has given me.',
     loadMore: 'Load More'
+  },
+  knowMe: {
+    title: 'Jesús Verduzco | What I can do',
+    description:
+      'Never stopping learning has allowed me to learn about DevOps, Software, Marketing and other things.'
   }
 }

@@ -25,11 +25,11 @@
         lg6
       >
         <h2 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-right">
-          {{ $t('why.title') }}
+          {{ $t('work.title') }}
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          {{ $t('why.description') }}
+          {{ $t('work.description') }}
         </p>
         <div class="text-center text-md-right">
           <v-btn
@@ -38,12 +38,12 @@
             large
             rounded
             depressed
-            href="https://www.twitch.tv/jeverduzco"
+            href="https://www.verduzco.dev/"
             target="_blank"
             nuxt
-            :title="$t('why.button')"
+            :title="$t('work.button')"
           >
-            {{ $t('why.button') }}
+            {{ $t('work.button') }}
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
