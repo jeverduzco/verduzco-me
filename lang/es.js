@@ -29,7 +29,7 @@ export default {
   whatido: {
     title: '¿Qué hago?',
     description:
-      'Me gusta el juego del emprendimiento, obviamente hago lo que sea necesario hacer y cuando haya que hacerlo.',
+      'Me gusta el juego del emprendimiento, obviamente, hago lo que sea necesario hacer y cuando haya que hacerlo.',
     button: 'Conoce mis habilidades'
   },
   work: {
@@ -46,7 +46,7 @@ export default {
   devOps: {
     title: 'DevOps',
     description:
-      'DevOps es mi trabajo favorito, disfruto al máximo el arte de conectar desarrollo con operaciones.',
+      'DevOps es mi trabajo favorito, disfruto al máximo el arte de conectar el desarrollo con las operaciones.',
     elementOne: 'Integración y entrega continuos',
     elementTwo: 'Control de versiones',
     elementThree: 'Desarrollo ágil de software',
@@ -84,7 +84,7 @@ export default {
   },
   blogWelcome: {
     title: 'Mi Blog',
-    description: 'Aquí escribo lo que pienso y comparto lo que sé.'
+    description: 'Aquí escribo lo que pienso y comparto lo que sé hacer'
   },
   search: {
     label: 'Buscar artículos'
