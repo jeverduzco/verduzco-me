@@ -40,7 +40,7 @@ export default {
   },
   skillsWelcome: {
     title: 'Skills',
-    description: 'Know what I can do for you'
+    description: 'Know everything I can do for you thanks to my main skills'
   },
   devOps: {
     title: 'DevOps',

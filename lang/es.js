@@ -33,14 +33,15 @@ export default {
     button: 'Conoce mis habilidades'
   },
   work: {
-    title: '¿De dónde?',
+    title: '¿De dónde soy?',
     description:
       'Soy ciudadano del universo, mi oficina es internet, mi pasaporte es mexicano y mi infraestructura es la nube.',
     button: 'Conoce mi empresa'
   },
   skillsWelcome: {
     title: 'Habilidades',
-    description: 'Conoce lo qué soy capaz de hacer por ti'
+    description:
+      'Conoce todo lo que puedo hacer por ti gracias a mis habilidades principales'
   },
   devOps: {
     title: 'DevOps',
