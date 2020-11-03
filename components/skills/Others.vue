@@ -9,6 +9,7 @@
       align-center
     >
       <v-flex
+        v-if="$vuetify.breakpoint.mdAndUp"
         xs12
         sm12
         md6
@@ -79,6 +80,63 @@
           {{ $t('others.description') }}
         </p>
         <v-spacer class="elements-spacer" />
+      </v-flex>
+      <v-flex
+        v-if="$vuetify.breakpoint.smAndDown"
+        xs12
+        sm12
+        md6
+        lg6
+      >
+        <v-spacer class="section-spacer" />
+        <span class="overline">{{ $t('others.elementOne') }}</span>
+        <v-progress-linear
+          color="primary"
+          height="10"
+          value="95"
+          striped
+        />
+        <v-spacer class="progress-spacer" />
+        <span class="overline">{{ $t('others.elementTwo') }}</span>
+        <v-progress-linear
+          color="secondary"
+          height="10"
+          value="85"
+          striped
+        />
+        <v-spacer class="progress-spacer" />
+        <span class="overline">{{ $t('others.elementThree') }}</span>
+        <v-progress-linear
+          color="primary"
+          height="10"
+          value="83"
+          striped
+        />
+        <v-spacer class="progress-spacer" />
+        <span class="overline">{{ $t('others.elementFour') }}</span>
+        <v-progress-linear
+          color="secondary"
+          height="10"
+          value="84"
+          striped
+        />
+        <v-spacer class="progress-spacer" />
+        <span class="overline">{{ $t('others.elementFive') }}</span>
+        <v-progress-linear
+          color="primary"
+          height="10"
+          value="91"
+          striped
+        />
+        <v-spacer class="progress-spacer" />
+        <span class="overline">{{ $t('others.elementSix') }}</span>
+        <v-progress-linear
+          color="secondary"
+          height="10"
+          value="92"
+          striped
+        />
+        <v-spacer class="section-spacer" />
       </v-flex>
     </v-layout>
   </v-container>
