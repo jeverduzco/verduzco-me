@@ -107,5 +107,10 @@ export default {
     title: 'Jesús Verduzco | Qué sé hacer',
     description:
       'Nunca parar de aprender me ha permitido saber de DevOps, Software, Marketing y otras cosas.'
+  },
+  footer: {
+    ok: 'Aceptar',
+    text: 'Este sitio usa 🍪 (cookies) de las que no se comen.',
+    link: 'Política de Cookies'
   }
 }

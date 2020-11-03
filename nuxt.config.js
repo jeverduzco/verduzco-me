@@ -56,7 +56,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: [{ src: '~plugins/vue-cookie-law.js', ssr: false }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -174,7 +174,7 @@ export default {
           '/es/blog/la-mejor-campana-de-marketing/',
           '/en/blog/wthe-best-marketing-campaign/'
         ],
-        exclude: ['/', '/blog', '/know-me']
+        exclude: ['/', '/blog', '/know-me', '/legal/cookies']
       }
     ]
   },

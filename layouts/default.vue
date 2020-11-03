@@ -117,6 +117,19 @@
           &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO
         </p>
       </v-card>
+      <no-ssr>
+        <cookie-law
+          theme="dark-lime"
+          :button-text="$t('footer.ok')"
+        >
+          <div slot="message">
+            {{ $t('footer.text') }}
+            <nuxt-link :title="$t('footer.link')" :to="localePath('legal-cookies') + '/'">
+              {{ $t('footer.link') }}
+            </nuxt-link>
+          </div>
+        </cookie-law>
+      </no-ssr>
     </v-footer>
     <Telegram />
   </v-app>

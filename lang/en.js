@@ -107,5 +107,10 @@ export default {
     title: 'Jesús Verduzco | What I can do',
     description:
       'Never stopping learning has allowed me to learn about DevOps, Software, Marketing and other things.'
+  },
+  footer: {
+    ok: 'Accept',
+    text: 'This site uses 🍪 (cookies) that are not eaten.',
+    link: 'Cookies Policy'
   }
 }
