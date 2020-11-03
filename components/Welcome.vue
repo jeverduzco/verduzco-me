@@ -24,17 +24,8 @@
         md6
         lg6
       >
-        <img id="welcome-image-profile" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco-p.png" alt="Jesús Verduzco">
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco-p.png" alt="Jesús Verduzco">
       </v-flex>
     </v-layout>
   </v-container>
 </template>
-<style>
-#welcome-image-profile {
-  max-height: 450px;
-  max-width: 100%;
-}
-#text-spacer {
-  height: 25px;
-}
-</style>

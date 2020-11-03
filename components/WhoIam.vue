@@ -9,13 +9,14 @@
       align-center
     >
       <v-flex
+        v-if="$vuetify.breakpoint.mdAndUp"
         class="text-center"
         xs12
         sm12
         md6
         lg6
       >
-        <img id="who-image" src="https://storage.verduzco.dev/dotme/website/whoiam.svg" alt="Blog">
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/whoiam.png" :alt="$t('whoiam.title')">
       </v-flex>
       <v-flex
         class="text-right"
@@ -33,7 +34,7 @@
         </p>
         <div class="text-center text-md-right">
           <v-btn
-            id="more-info"
+            class="more-info-btn"
             color="secondary"
             large
             rounded
@@ -47,18 +48,16 @@
         </div>
         <v-spacer class="elements-spacer" />
       </v-flex>
+      <v-flex
+        v-if="$vuetify.breakpoint.smAndDown"
+        class="text-center"
+        xs12
+        sm12
+        md6
+        lg6
+      >
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/whoiam.png" :alt="$t('whoiam.title')">
+      </v-flex>
     </v-layout>
   </v-container>
 </template>
-<style>
-#who-image {
-  max-height: 450px;
-  max-width: 90%;
-}
-.elements-spacer {
-  height: 25px;
-}
-#more-info {
-  margin-top: 25px;
-}
-</style>

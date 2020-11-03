@@ -21,16 +21,16 @@ export default {
     slogan: 'Ingeniero de DevOps'
   },
   whoiam: {
-    title: 'Quién soy',
+    title: '¿Quién soy?',
     description:
-      'Soy Jesús Verduzco, un Geek entusiasta del código y de crear cosas geniales con él.',
-    button: 'Visita mi blog'
+      'Soy un organismo complejo con conciencia propia que nunca para de aprender, al que llamaron Jesús Verduzco.',
+    button: 'Deberías leer mi blog'
   },
   whatido: {
-    title: 'Qué sé hacer',
+    title: '¿Qué hago?',
     description:
-      'Nunca parar de aprender me ha permitido saber de DevOps, Software, Marketing y otras cosas.',
-    button: 'Conoce qué sé hacer'
+      'Me gusta el juego del emprendimiento, obviamente hago lo que sea necesario hacer y cuando haya que hacerlo.',
+    button: 'Mis habilidades principales'
   },
   work: {
     title: 'Mi trabajo',
