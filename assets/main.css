@@ -72,6 +72,6 @@
   height: 25px;
 }
 .section-image {
-  height: 350px;
+  max-height: 350px;
   max-width: 100%;
 }

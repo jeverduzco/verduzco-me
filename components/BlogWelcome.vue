@@ -12,7 +12,7 @@
         <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-left">
           {{ $t('blogWelcome.title') }}
         </h1>
-        <v-spacer id="text-spacer" />
+        <v-spacer class="elements-spacer" />
         <p class="text-lg-h4 text-md-h4 text-h5 text-center text-md-left">
           {{ $t('blogWelcome.description') }}
         </p>
@@ -24,17 +24,8 @@
         md6
         lg6
       >
-        <img id="blog-welcome-image" src="https://storage.verduzco.dev/dotme/website/blogging.svg" alt="Mi Ideas">
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/blogging.svg" :alt="$t('blogWelcome.title')">
       </v-flex>
     </v-layout>
   </v-container>
 </template>
-<style scoped>
-#blog-welcome-image {
-  max-height: 500px;
-  max-width: 100%;
-}
-#text-spacer {
-  height: 25px;
-}
-</style>

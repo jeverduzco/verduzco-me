@@ -29,7 +29,7 @@
             large
             rounded
             depressed
-            :to="localePath('know-me') + '/'"
+            :to="localePath('skills') + '/'"
             nuxt
             :title="$t('whatido.button')"
           >

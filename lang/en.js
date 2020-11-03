@@ -3,7 +3,7 @@ export default {
     navigation: 'NAVIGATION',
     home: 'Home',
     blog: 'Blog',
-    knowMe: 'Skills',
+    skills: 'Skills',
     about: 'About',
     theme: 'Theme',
     language: 'Language',
@@ -23,23 +23,23 @@ export default {
   whoiam: {
     title: 'Who am I?',
     description:
-      "I'm Jesús Verduzco, a Geek enthusiastic about code and creating great things with it.",
-    button: 'Browse my blog'
+      'I am a complex organism with its own consciousness that never stops learning, which they called Jesús Verduzco.',
+    button: 'You should read my blog'
   },
   whatido: {
-    title: 'What can I do?',
+    title: 'What do I do?',
     description:
-      'Never stopping learning has allowed me to know about DevOps, Software, Marketing and other things.',
-    button: 'Know what I can do'
+      'I like the game of entrepreneurship, obviously I do what needs to be done and when it needs to be done.',
+    button: 'Know my skills'
   },
   work: {
-    title: 'My work',
+    title: 'From where?',
     description:
-      'I convert my code into Software as a Service (SaaS) for Mexican companies.',
+      'I am a citizen of the universe, my office is internet, my passport is Mexican and my infrastructure is the cloud.',
     button: 'My Business (Spanish Only)'
   },
-  knowMeWelcome: {
-    title: 'What I can do',
+  skillsWelcome: {
+    title: 'Skills',
     description: 'Know what I can do for you'
   },
   devOps: {
@@ -103,7 +103,7 @@ export default {
       'Here I write what I think, share what I know and give back to the internet a little bit of what it has given me.',
     loadMore: 'Load More'
   },
-  knowMe: {
+  skills: {
     title: 'Jesús Verduzco | What I can do',
     description:
       'Never stopping learning has allowed me to learn about DevOps, Software, Marketing and other things.'

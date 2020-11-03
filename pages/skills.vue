@@ -2,7 +2,7 @@
   <div id="index-page">
     <!-- start page content -->
     <section id="welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
-      <KnowMeWelcome />
+      <SkillsWelcome />
       <Waves />
     </section>
     <section id="whoiam">
@@ -23,17 +23,17 @@
 
 <script>
 export default {
-  name: 'KnowMe',
+  name: 'Skills',
   nuxtI18n: {
     paths: {
-      es: '/conoceme/',
-      en: '/know-me/'
+      es: '/habilidades/',
+      en: '/skills/'
     }
   },
   data() {
     return {
-      title: this.$t('knowMe.title'),
-      description: this.$t('knowMe.description')
+      title: this.$t('skills.title'),
+      description: this.$t('skills.description')
     }
   },
   head() {

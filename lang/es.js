@@ -3,7 +3,7 @@ export default {
     navigation: 'NAVEGACIÓN',
     home: 'Inicio',
     blog: 'Blog',
-    knowMe: 'Habilidades',
+    skills: 'Habilidades',
     about: 'Acerca de mí',
     theme: 'Tema',
     language: 'Idioma',
@@ -30,16 +30,16 @@ export default {
     title: '¿Qué hago?',
     description:
       'Me gusta el juego del emprendimiento, obviamente hago lo que sea necesario hacer y cuando haya que hacerlo.',
-    button: 'Mis habilidades principales'
+    button: 'Conoce mis habilidades'
   },
   work: {
-    title: 'Mi trabajo',
+    title: '¿De dónde?',
     description:
-      'Convierto mi código en Software como Servicio (SaaS) para las empresas mexicanas.',
+      'Soy ciudadano del universo, mi oficina es internet, mi pasaporte es mexicano y mi infraestructura es la nube.',
     button: 'Conoce mi empresa'
   },
-  knowMeWelcome: {
-    title: 'Qué sé hacer',
+  skillsWelcome: {
+    title: 'Habilidades',
     description: 'Conoce lo qué soy capaz de hacer por ti'
   },
   devOps: {
@@ -103,7 +103,7 @@ export default {
       'Aquí escribo lo que pienso, comparto lo que sé y devuelvo a internet un poco de lo que me ha dado.',
     loadMore: 'Cargar Más'
   },
-  knowMe: {
+  skills: {
     title: 'Jesús Verduzco | Qué sé hacer',
     description:
       'Nunca parar de aprender me ha permitido saber de DevOps, Software, Marketing y otras cosas.'

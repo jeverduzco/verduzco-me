@@ -12,7 +12,7 @@
         <h1 class="text-h4 text-center text-md-left">
           {{ title }}
         </h1>
-        <v-spacer id="text-spacer" />
+        <v-spacer class="elements-spacer" />
         <p class="text-overline text-center text-md-left">
           {{ formatDate(date) }}
         </p>
@@ -24,7 +24,7 @@
         md6
         lg6
       >
-        <img id="article-image" :src="img" :alt="title">
+        <img class="section-image" :src="img" :alt="title">
       </v-flex>
     </v-layout>
   </v-container>
@@ -53,12 +53,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-#article-image {
-  max-width: 95%;
-  height: auto;
-}
-#text-spacer {
-  height: 25px;
-}
-</style>
