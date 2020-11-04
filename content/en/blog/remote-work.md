@@ -56,4 +56,6 @@ If you don't trust them change them, but let them make decisions that allow for 
 
 ## In short. 
 
-A remote team reaches its maximum potential when it is valued for the work and not for the time, there is a suitable time of day when everyone is available to solve pending issues, you avoid exaggerated virtual meetings, you encourage asynchronous communication, you have the necessary technology, all members have the necessary information to work and you give them autonomy of decision so as not to create bottlenecks in authorizations. 
+A remote team reaches its maximum potential when it is valued for the work and not for the time, there is a suitable time of day when everyone is available to solve pending issues, you avoid exaggerated virtual meetings, you encourage asynchronous communication, you have the necessary technology, all members have the necessary information to work and you give them autonomy of decision so as not to create bottlenecks in authorizations.
+
+*Content translated by DeepL Pro API*

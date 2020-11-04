@@ -47,3 +47,5 @@ Test your knowledge by creating **complete projects.** The most effective way I 
 One of the drawbacks of being self-taught is that you don't have classmates with whom you can discuss and share what you have learned in person. Fortunately, on the Internet you can find communities of all the topics you can imagine. **Discuss, collaborate and share!**
 
 And most importantly... **Never stop learning!** We currently live in a world that changes faster than most people realize. Don't wait to learn something new once you need it, learn from before; prepare for the future.
+
+*Content translated by DeepL Pro API*

@@ -43,4 +43,6 @@ Some cookies such as **CloudFlare and Microsoft Azure** are essential for the op
 
 You can remove and block all cookies from My Website, but some of it will not work or the quality may be affected.  
 
-If you have any questions about My Website's cookie policy, you can send a message from the Telegram button. 
+If you have any questions about My Website's cookie policy, you can send a message from the Telegram button.
+
+*Content translated by DeepL Pro API*

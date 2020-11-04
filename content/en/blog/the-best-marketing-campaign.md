@@ -36,3 +36,5 @@ Getting people to talk about a product in a world where attention is increasingl
 What they have done with Xbox is a clear example, **you take advantage of people's mockery** to get all the media in the technology sector and social networks to give you publicity that is worth gold with something as simple as turning a meme into reality. 
 
 So I suggest that when you launch a product and people meme about it, **don't bother.** Find out how to make the most of the attention people are giving you and **mock your product with them.**
+
+*Content translated by DeepL Pro API*

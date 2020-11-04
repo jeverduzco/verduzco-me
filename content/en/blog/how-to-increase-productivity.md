@@ -20,4 +20,6 @@ Let me ask you a question **do you check your mobile because you want to or beca
 
 Surely, you will realize that at **less than 50%** of notifications that make you waste a minute of your time are garbage. 
 
-So follow my advice. **Turn off the fucking notifications!** It may seem silly, but it's from someone who has greatly increased his productivity simply by turning off the notifications and checking his cell phone when he wants not to when a notification arrives.  
+So follow my advice. **Turn off the fucking notifications!** It may seem silly, but it's from someone who has greatly increased his productivity simply by turning off the notifications and checking his cell phone when he wants not to when a notification arrives.
+
+*Content translated by DeepL Pro API*

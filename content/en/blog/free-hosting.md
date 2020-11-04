@@ -32,4 +32,6 @@ If you are a natural pro, then you should choose [Azure Static Web Apps](https:/
 
 You can add logic in a very simple way using the technology of **Azure Functions** in your site or application. So without a doubt for applications and sites that want to evolve as the business evolves this service is the best. 
 
-I made a live video about how to deploy an application or web page based on **Nuxt.js** on this service. You can watch it on [YouTube](https://www.youtube.com/watch?v=50PnzqJm0vc) and learn in a few minutes how to have your application or website deployed for free. 
+I made a live video about how to deploy an application or web page based on **Nuxt.js** on this service. You can watch it on [YouTube](https://www.youtube.com/watch?v=50PnzqJm0vc) and learn in a few minutes how to have your application or website deployed for free.
+
+*Content translated by DeepL Pro API*

@@ -39,3 +39,5 @@ In short, telemetry is important because it is the only way that **the developme
 Now that you know what it is, what it is not and what telemetry is for in the software development world. Don't be alarmed if Windows 10, Android or iOS incorporate it. It is absolutely **necessary** for the team to **detect failures** and work for you to enjoy that system or a certain application. 
 
 What you should be worried about are the services that **collect information destined to monitor you** and not the service itself, from those systems **run** as if you were being chased by a horde of zombies. But **that's not telemetry**, that's directly analysis about you, not the system you use.
+
+*Content translated by DeepL Pro API*
