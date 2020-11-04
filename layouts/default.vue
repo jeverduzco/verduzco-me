@@ -118,6 +118,10 @@
           <nuxt-link :to="localePath('legal-cookies') + '/'" :title="$t('footer.cookies')">
             {{ $t('footer.cookies') }}
           </nuxt-link>
+          &nbsp;
+          <nuxt-link :title="$t('footer.privacy')" :to="localePath('legal-privacy') + '/'">
+            {{ $t('footer.privacy') }}
+          </nuxt-link>
         </p>
       </v-card>
       <client-only>

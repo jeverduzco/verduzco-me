@@ -111,6 +111,7 @@ export default {
   footer: {
     ok: 'Accept',
     text: 'This site uses 🍪 (cookies) that are not eaten.',
-    cookies: 'Cookies Policy'
+    cookies: 'Cookies policy',
+    privacy: 'Privacy policy'
   }
 }
