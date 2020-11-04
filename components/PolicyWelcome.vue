@@ -20,7 +20,7 @@
         md6
         lg6
       >
-        <img id="article-image" src="https://storage.verduzco.dev/dotme/website/agreement-animate.svg" :alt="title">
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/document.png" :alt="title">
       </v-flex>
     </v-layout>
   </v-container>
@@ -35,12 +35,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-#article-image {
-  max-height: 500px;
-  max-width: 100%;
-}
-#text-spacer {
-  height: 25px;
-}
-</style>

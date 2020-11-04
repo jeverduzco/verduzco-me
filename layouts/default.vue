@@ -114,7 +114,10 @@
     <v-footer absolute app height="auto">
       <v-card class="flex" flat tile color="transparent">
         <p id="copyright" class="text-center caption">
-          &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO
+          &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br>
+          <nuxt-link :to="localePath('legal-cookies') + '/'" :title="$t('footer.cookies')">
+            {{ $t('footer.cookies') }}
+          </nuxt-link>
         </p>
       </v-card>
       <client-only>
@@ -124,8 +127,8 @@
         >
           <div slot="message">
             {{ $t('footer.text') }}
-            <nuxt-link :title="$t('footer.link')" :to="localePath('legal-cookies') + '/'">
-              {{ $t('footer.link') }}
+            <nuxt-link :title="$t('footer.cookies')" :to="localePath('legal-cookies') + '/'">
+              {{ $t('footer.cookies') }}
             </nuxt-link>
           </div>
         </cookie-law>

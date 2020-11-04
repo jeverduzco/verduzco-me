@@ -19,11 +19,11 @@ Mi Sitio Web utiliza los siguientes tipos de cookies:
 
 Son aquéllas que bien tratadas por mi o por terceros, permiten cuantificar el número de usuarios y así realizar la medición y análisis estadístico de la utilización que se hace del servicio ofertado.  
 
-Para ello se analiza la navegación en La Plataforma con el fin de mejorar la oferta de productos o servicios que ofrezco.  
+Para ello se analiza la navegación en Mi Sitio Web con el fin de mejorar la oferta de productos o servicios que ofrezco.  
 
 **Cookies de personalización.**  
 
-Son aquellas que permiten acceder a Mi Sitio Web con algunas características de carácter general predefinidas en función de una serie de criterios del dispositivo, como, por ejemplo, sería el idioma en base al del navegador a través del cual se accede al servicio.  
+Son aquellas que permiten acceder a Mi Sitio Web con algunas características de carácter general predefinidas en función de una serie de criterios del dispositivo, como, por ejemplo, sería el idioma en base al navegador a través del cual se accede al servicio.  
 
 ### Desactivar las cookies.  
 

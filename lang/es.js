@@ -112,6 +112,6 @@ export default {
   footer: {
     ok: 'Aceptar',
     text: 'Este sitio usa 🍪 (cookies) de las que no se comen.',
-    link: 'Política de Cookies'
+    cookies: 'Política de Cookies'
   }
 }
