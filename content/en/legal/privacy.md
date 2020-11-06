@@ -75,7 +75,7 @@ Nor will followers be tracked in social networks for advertising purposes, nor w
 
 ## How your data is protected. 
 
-See the legal notice for information on how the information is protected.  
+See the [legal notice](https://www.verduzco.me/en/legal/legal-notice/) for information on how the information is protected.  
 
 The **Website** is hosted by **Microsoft Azure**, it also uses services from **CloudFlare** as security services.  
 

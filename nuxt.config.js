@@ -175,7 +175,14 @@ export default {
           '/es/blog/que-es-la-telemetria/',
           '/en/blog/what-is-telemetry/'
         ],
-        exclude: ['/', '/blog', '/skills', '/legal/cookies']
+        exclude: [
+          '/',
+          '/blog',
+          '/skills',
+          '/legal/cookies',
+          '/legal/privacy',
+          '/legal/notice'
+        ]
       }
     ]
   },

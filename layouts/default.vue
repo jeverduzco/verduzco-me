@@ -122,6 +122,10 @@
           <nuxt-link :title="$t('footer.privacy')" :to="localePath('legal-privacy') + '/'">
             {{ $t('footer.privacy') }}
           </nuxt-link>
+          &nbsp;
+          <nuxt-link :title="$t('footer.notice')" :to="localePath('legal-notice') + '/'">
+            {{ $t('footer.notice') }}
+          </nuxt-link>
         </p>
       </v-card>
       <client-only>

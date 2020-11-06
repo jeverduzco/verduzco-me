@@ -112,6 +112,7 @@ export default {
     ok: 'Accept',
     text: 'This site uses 🍪 (cookies) that are not eaten.',
     cookies: 'Cookies policy',
-    privacy: 'Privacy policy'
+    privacy: 'Privacy policy',
+    notice: 'Legal Notice'
   }
 }
