@@ -173,9 +173,7 @@ export default {
           '/es/blog/hosting-gratuitos/',
           '/en/blog/free-hosting/',
           '/es/blog/que-es-la-telemetria/',
-          '/en/blog/what-is-telemetry/',
-          '/es/blog/la-mejor-campana-de-marketing/',
-          '/en/blog/wthe-best-marketing-campaign/'
+          '/en/blog/what-is-telemetry/'
         ],
         exclude: ['/', '/blog', '/skills', '/legal/cookies']
       }

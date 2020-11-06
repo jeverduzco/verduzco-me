@@ -99,13 +99,13 @@ export default {
       'Soy Jesús Verduzco, un Geek entusiasta del código y de crear cosas geniales con él.'
   },
   blogIndex: {
-    title: 'Jesús Verduzco | Mi Blog',
+    title: 'Mi Blog',
     description:
       'Aquí escribo lo que pienso, comparto lo que sé y devuelvo a internet un poco de lo que me ha dado.',
     loadMore: 'Cargar Más'
   },
   skills: {
-    title: 'Jesús Verduzco | Qué sé hacer',
+    title: 'Mis Habilidades',
     description:
       'Nunca parar de aprender me ha permitido saber de DevOps, Software, Marketing y otras cosas.'
   },

@@ -33,7 +33,7 @@ export default {
     button: 'Know my skills'
   },
   work: {
-    title: 'From where?',
+    title: 'Where am I from?',
     description:
       'I am a citizen of the universe, my office is internet, my passport is Mexican and my infrastructure is the cloud.',
     button: 'My Business (Spanish Only)'
@@ -98,13 +98,13 @@ export default {
       "I'm Jesús Verduzco, a Geek enthusiastic about code and creating great things with it."
   },
   blogIndex: {
-    title: 'Jesús Verduzco | My Blog',
+    title: 'My Blog',
     description:
       'Here I write what I think, share what I know and give back to the internet a little bit of what it has given me.',
     loadMore: 'Load More'
   },
   skills: {
-    title: 'Jesús Verduzco | What I can do',
+    title: 'My Skills',
     description:
       'Never stopping learning has allowed me to learn about DevOps, Software, Marketing and other things.'
   },

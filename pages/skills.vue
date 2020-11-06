@@ -47,16 +47,16 @@ export default {
           rel: 'canonical',
           href:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/en/know-me/'
-              : 'https://verduzco.me/es/conoceme/'
+              ? 'https://verduzco.me/en/skills/'
+              : 'https://verduzco.me/es/habilidades/'
         },
         {
           rel: 'alternate',
           hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
           href:
             this.$i18n.locale === 'es'
-              ? 'https://verduzco.me/en/know-me/'
-              : 'https://verduzco.me/es/conoceme/'
+              ? 'https://verduzco.me/en/skills/'
+              : 'https://verduzco.me/es/habilidades/'
         }
       ],
       meta: [
@@ -93,8 +93,8 @@ export default {
           property: 'og:url',
           content:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/en/know-me/'
-              : 'https://verduzco.me/es/conoceme/'
+              ? 'https://verduzco.me/en/skills/'
+              : 'https://verduzco.me/es/habilidades/'
         },
         {
           property: 'og:site_name',
