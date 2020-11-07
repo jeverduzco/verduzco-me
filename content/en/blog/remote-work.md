@@ -6,6 +6,7 @@ opimg: https://storage.verduzco.dev/dotme/blog/en/remote.png
 createdAt: 2020-10-12 10:00
 updatedAt: 2020-10-12 10:00
 related: trabajo-remoto
+category: opinion
 ---
 
 If you're already here, it's probably because remote working has caused you frustration. Don't worry, you're not the only one who feels this way. 

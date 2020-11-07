@@ -10,6 +10,19 @@
         grid-list-xl
         class="content-container"
       >
+        <v-chip-group
+          id="article-filter"
+          color="secondary"
+        >
+          <v-chip
+            v-for="tag in tags"
+            :key="tag.index"
+            :to="tag.slug != 'all' ? localePath('blog') + '/' + '?filter=' + tag.slug : localePath('blog') + '/'"
+            exact
+          >
+            {{ $i18n.locale === 'es' ? tag.name : tag.name_en }}
+          </v-chip>
+        </v-chip-group>
         <v-card
           v-for="article of blog.slice(0, postsLoaded)"
           :key="article.slug"
@@ -69,6 +82,7 @@
 </template>
 <script>
 export default {
+  watchQuery: ['filter'],
   name: 'Blog',
   nuxtI18n: {
     paths: {
@@ -80,17 +94,96 @@ export default {
     return {
       title: this.$t('blogIndex.title'),
       postsLoaded: 3,
-      description: this.$t('blogIndex.description')
+      description: this.$t('blogIndex.description'),
+      tags: [
+        {
+          name: 'VER TODO',
+          name_en: 'VIEW ALL',
+          slug: 'all'
+        },
+        {
+          name: 'DEVOPS',
+          name_en: 'DEVOPS',
+          slug: 'dev-ops'
+        },
+        {
+          name: 'DESARROLLO WEB',
+          name_en: 'WEB DEVELOPMENT',
+          slug: 'web-development'
+        },
+        {
+          name: 'COMPUTACIÓN EN LA NUBE',
+          name_en: 'CLOUD COMPUTING',
+          slug: 'cloud-computing'
+        },
+        {
+          name: 'TECNOLOGÍA',
+          name_en: 'TECHNOLOGY',
+          slug: 'technology'
+        },
+        {
+          name: 'SOFTWARE',
+          name_en: 'SOFTWARE',
+          slug: 'software'
+        },
+        {
+          name: 'EDUCACIÓN',
+          name_en: 'EDUCATION',
+          slug: 'education'
+        },
+        {
+          name: 'OPINIÓN',
+          name_en: 'OPINION',
+          slug: 'opinion'
+        },
+        {
+          name: 'NEGOCIOS',
+          name_en: 'BUSINESS',
+          slug: 'business'
+        },
+        {
+          name: 'MARKETING',
+          name_en: 'MARKETING',
+          slug: 'marketing'
+        },
+        {
+          name: 'CIENCIA',
+          name_en: 'SCIENCE',
+          slug: 'science'
+        },
+        {
+          name: 'LIBROS',
+          name_en: 'BOOKS',
+          slug: 'books'
+        },
+        {
+          name: 'OTROS TEMAS',
+          name_en: 'OTHER TOPICS',
+          slug: 'other-topics'
+        }
+      ]
     }
   },
-  async asyncData({ $content, app, params }) {
-    const blog = await $content(`${app.i18n.locale}/blog`, params.slug)
-      .only(['title', 'description', 'img', 'slug', 'createdAt'])
-      .sortBy('createdAt', 'desc')
-      .fetch()
+  async asyncData({ $content, app, params, route }) {
+    if (route.query.filter) {
+      const blog = await $content(`${app.i18n.locale}/blog`, params.slug)
+        .only(['title', 'description', 'img', 'slug', 'createdAt'])
+        .sortBy('createdAt', 'desc')
+        .where({ category: route.query.filter })
+        .fetch()
 
-    return {
-      blog
+      return {
+        blog
+      }
+    } else {
+      const blog = await $content(`${app.i18n.locale}/blog`, params.slug)
+        .only(['title', 'description', 'img', 'slug', 'createdAt'])
+        .sortBy('createdAt', 'desc')
+        .fetch()
+
+      return {
+        blog
+      }
     }
   },
   methods: {
@@ -223,5 +316,8 @@ export default {
 }
 .article-card {
   margin: 15px 15px 25px 15px !important;
+}
+#article-filter {
+  margin: 0px 15px 0px 15px !important;
 }
 </style>

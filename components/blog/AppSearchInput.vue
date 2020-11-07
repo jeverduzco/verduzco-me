@@ -17,8 +17,15 @@
           class="article-list"
         />
       </v-flex>
-      <v-flex xs12 sm12 md12 lg12 xl12>
-        <v-list v-if="blog.length" :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'" rounded class="article-list">
+      <v-flex
+        v-if="blog.length"
+        xs12
+        sm12
+        md12
+        lg12
+        xl12
+      >
+        <v-list :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'" rounded class="article-list">
           <template
             v-for="(article, index) of blog"
           >

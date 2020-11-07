@@ -6,6 +6,7 @@ opimg: https://storage.verduzco.dev/dotme/blog/en/tips.png
 createdAt: 2020-10-19 10:00
 updatedAt: 2020-10-19 10:00
 related: consejos-aprender-en-linea
+category: education
 ---
 
 To deny that the Internet is the greatest school and source of information that humanity has created would be like denying today that the earth is a sphere. On the Internet we can learn **what we want, the day we want, and in the place we want.** The problem comes when we are presented with that vast amount of information, we don't know where to start, and we end up stressed out instead of excited as we should be. 

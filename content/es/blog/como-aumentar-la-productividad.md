@@ -6,6 +6,7 @@ opimg: https://storage.verduzco.dev/dotme/blog/es/productividad.png
 createdAt: 2020-10-09 10:00
 updatedAt: 2020-10-09 10:00
 related: how-to-increase-productivity
+category: opinion
 ---
 
 **¿Conoces la diferencia entre tiempo proactivo y tiempo reactivo?** Si no la conoces no te preocupes. Para eso estoy aquí, para decirte cuál es. 

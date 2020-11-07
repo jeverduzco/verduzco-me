@@ -6,6 +6,7 @@ opimg: https://storage.verduzco.dev/dotme/blog/en/productivity.png
 createdAt: 2020-10-09 10:00
 updatedAt: 2020-10-09 10:00
 related: como-aumentar-la-productividad
+category: opinion
 ---
 
 **Do you know the difference between proactive and reactive time?** That's why I'm here, to tell you what it is. 
