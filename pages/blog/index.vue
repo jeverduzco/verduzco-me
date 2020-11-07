@@ -12,19 +12,20 @@
       >
         <v-chip-group
           id="article-filter"
+          v-model="activeTag"
           color="secondary"
         >
           <v-chip
             v-for="tag in tags"
             :key="tag.index"
-            :to="tag.slug != 'all' ? localePath('blog') + '/' + '?filter=' + tag.slug : localePath('blog') + '/'"
-            exact
+            :value="tag.slug"
+            filter
           >
             {{ $i18n.locale === 'es' ? tag.name : tag.name_en }}
           </v-chip>
         </v-chip-group>
         <v-card
-          v-for="article of blog.slice(0, postsLoaded)"
+          v-for="article of blogFiltered.slice(0, postsLoaded)"
           :key="article.slug"
           class="article-card"
           nuxt
@@ -64,7 +65,7 @@
         </v-card>
         <div class="text-center">
           <v-btn
-            v-if="postsLoaded <= blog.length"
+            v-if="postsLoaded <= blogFiltered.length"
             color="secondary"
             rounded
             large
@@ -95,6 +96,7 @@ export default {
       title: this.$t('blogIndex.title'),
       postsLoaded: 3,
       description: this.$t('blogIndex.description'),
+      activeTag: 'all',
       tags: [
         {
           name: 'VER TODO',
@@ -164,26 +166,26 @@ export default {
       ]
     }
   },
-  async asyncData({ $content, app, params, route }) {
-    if (route.query.filter) {
-      const blog = await $content(`${app.i18n.locale}/blog`, params.slug)
-        .only(['title', 'description', 'img', 'slug', 'createdAt'])
-        .sortBy('createdAt', 'desc')
-        .where({ category: route.query.filter })
-        .fetch()
-
-      return {
-        blog
+  computed: {
+    // return posts filtered
+    blogFiltered() {
+      if (this.activeTag !== 'all') {
+        return this.blog.filter(item => {
+          return item.category.includes(this.activeTag)
+        })
+      } else {
+        return this.blog
       }
-    } else {
-      const blog = await $content(`${app.i18n.locale}/blog`, params.slug)
-        .only(['title', 'description', 'img', 'slug', 'createdAt'])
-        .sortBy('createdAt', 'desc')
-        .fetch()
+    }
+  },
+  async asyncData({ $content, app, params }) {
+    const blog = await $content(`${app.i18n.locale}/blog`, params.slug)
+      .only(['title', 'description', 'img', 'slug', 'category', 'createdAt'])
+      .sortBy('createdAt', 'desc')
+      .fetch()
 
-      return {
-        blog
-      }
+    return {
+      blog
     }
   },
   methods: {
