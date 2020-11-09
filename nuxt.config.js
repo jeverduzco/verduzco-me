@@ -107,30 +107,20 @@ export default {
         gzip: true,
         generate: false,
         routes: [
-          '/es/',
-          '/en/',
-          '/es/habilidades/',
-          '/en/skills/',
-          '/es/blog/',
-          '/en/blog/',
-          '/es/blog/trabajo-remoto/',
-          '/en/blog/remote-work/',
-          '/es/blog/como-aumentar-la-productividad/',
-          '/en/blog/how-to-increase-productivity/',
-          '/es/blog/consejos-aprender-en-linea/',
-          '/en/blog/tips-to-learn-online/',
-          '/es/blog/hosting-gratuitos/',
-          '/en/blog/free-hosting/',
-          '/es/blog/que-es-la-telemetria/',
-          '/en/blog/what-is-telemetry/'
+          '/',
+          '/habilidades/',
+          '/blog/',
+          '/blog/como-aumentar-la-productividad/',
+          '/blog/consejos-aprender-en-linea/',
+          '/blog/hosting-gratuitos/',
+          '/blog/que-es-la-telemetria/'
         ],
         exclude: [
-          '/',
           '/blog',
-          '/skills',
           '/legal/cookies',
-          '/legal/privacy',
-          '/legal/notice'
+          '/legal/privacidad',
+          '/legal/aviso',
+          '/habilidades'
         ]
       }
     ]
