@@ -93,19 +93,17 @@
           </nuxt-link>
         </p>
       </v-card>
-      <client-only>
-        <cookie-law
-          theme="dark-lime"
-          button-text="Aceptar"
-        >
-          <div slot="message">
-            Este sitio usa 🍪 (cookies) de las que no se comen.
-            <nuxt-link title="Política de cookies" to="/legal/cookies/">
-              Política de cookies
-            </nuxt-link>
-          </div>
-        </cookie-law>
-      </client-only>
+      <cookie-law
+        theme="dark-lime"
+        button-text="Aceptar"
+      >
+        <div slot="message">
+          Este sitio usa 🍪 (cookies) de las que no se comen.
+          <nuxt-link title="Política de cookies" to="/legal/cookies/">
+            Política de cookies
+          </nuxt-link>
+        </div>
+      </cookie-law>
     </v-footer>
     <Telegram />
   </v-app>
