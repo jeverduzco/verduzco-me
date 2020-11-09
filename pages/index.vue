@@ -13,7 +13,7 @@
       <WhatIdo />
       <Waves />
     </section>
-    <section id="why">
+    <section id="from">
       <Work />
       <WavesSecondary />
     </section>
@@ -26,16 +26,14 @@ export default {
   name: 'Landing',
   data() {
     return {
-      title: this.$t('index.title'),
-      description: this.$t('index.description'),
+      title: 'Jesús Verduzco - Ingeniero de DevOps',
+      description:
+        'Soy Jesús Verduzco, un Geek entusiasta del código y de crear cosas geniales con él.',
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'Person',
         name: 'Jesús Verduzco',
-        url:
-          this.$i18n.locale === 'en'
-            ? 'https://verduzco.me/en/'
-            : 'https://verduzco.me/es/',
+        url: 'https://verduzco.me/',
         image: 'https://storage.verduzco.dev/dotme/website/jesus-verduzco.jpg',
         sameAs: [
           'https://www.linkedin.com/in/jeverduzco/',
@@ -56,24 +54,13 @@ export default {
         }
       ],
       htmlAttrs: {
-        lang: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
+        lang: 'es-MX'
       },
       title: this.title,
       link: [
         {
           rel: 'canonical',
-          href:
-            this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/en/'
-              : 'https://verduzco.me/es/'
-        },
-        {
-          rel: 'alternate',
-          hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
-          href:
-            this.$i18n.locale === 'es'
-              ? 'https://verduzco.me/en/'
-              : 'https://verduzco.me/es/'
+          href: 'https://verduzco.me/'
         }
       ],
       meta: [
@@ -94,13 +81,11 @@ export default {
         {
           property: 'og:image',
           content:
-            this.$i18n.locale === 'es'
-              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
-              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open-g.png'
+            'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
         },
         {
           property: 'og:locale',
-          content: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
+          content: 'es-MX'
         },
         {
           property: 'og:type',
@@ -108,10 +93,7 @@ export default {
         },
         {
           property: 'og:url',
-          content:
-            this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/en/'
-              : 'https://verduzco.me/es/'
+          content: 'https://verduzco.me/'
         },
         {
           property: 'og:site_name',
@@ -140,9 +122,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            this.$i18n.locale === 'es'
-              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
-              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open-g.png'
+            'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
         },
         {
           name: 'twitter:site',
@@ -153,11 +133,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-.primary-background {
-  background-color: whitesmoke;
-}
-.primary-background-dark {
-  background-color: #272727;
-}
-</style>

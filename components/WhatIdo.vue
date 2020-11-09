@@ -16,11 +16,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h3 text-center text-md-left">
-          {{ $t('whatido.title') }}
+          ¿Qué hago?
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          {{ $t('whatido.description') }}
+          Me gusta el juego del emprendimiento, obviamente, hago lo que sea necesario hacer y cuando haya que hacerlo.
         </p>
         <div class="text-center text-md-left">
           <v-btn
@@ -29,11 +29,11 @@
             large
             rounded
             depressed
-            :to="localePath('skills') + '/'"
+            to="/habilidades/"
             nuxt
-            :title="$t('whatido.button')"
+            title="Conoce mis habilidades"
           >
-            {{ $t('whatido.button') }}
+            Conoce mis habilidades
           </v-btn>
         </div>
       </v-flex>
@@ -44,7 +44,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/whatido.png" :alt="$t('whatido.title')">
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/whatido.png" alt="¿Qué hago?">
       </v-flex>
     </v-layout>
   </v-container>

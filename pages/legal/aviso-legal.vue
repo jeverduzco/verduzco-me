@@ -25,9 +25,9 @@
 </template>
 <script>
 export default {
-  name: 'CookiesPolicy',
+  name: 'LegalNotice',
   async asyncData({ $content, app, params }) {
-    const policy = await $content(`legal`, 'cookies').fetch()
+    const policy = await $content(`legal`, 'aviso-legal').fetch()
 
     return { policy }
   },
@@ -40,7 +40,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/legal/cookies/'
+          href: 'https://www.verduzco.me/legal/aviso-legal/'
         }
       ],
       meta: [
@@ -78,7 +78,7 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/legal/cookies/'
+          content: 'https://www.verduzco.me/legal/aviso-legal/'
         },
         {
           property: 'og:site_name',

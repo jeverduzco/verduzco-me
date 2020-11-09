@@ -25,39 +25,28 @@
 </template>
 <script>
 export default {
-  name: 'LegalNotice',
+  name: 'PrivacyPolicy',
   nuxtI18n: {
     paths: {
-      es: '/legal/aviso-legal/',
-      en: '/legal/legal-notice/'
+      es: '/legal/privacidad/',
+      en: '/legal/privacy/'
     }
   },
   async asyncData({ $content, app, params }) {
-    const policy = await $content(`${app.i18n.locale}/legal`, 'notice').fetch()
+    const policy = await $content(`legal`, 'privacy').fetch()
 
     return { policy }
   },
   head() {
     return {
       htmlAttrs: {
-        lang: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
+        lang: 'es-MX'
       },
       title: this.policy.title,
       link: [
         {
           rel: 'canonical',
-          href:
-            this.$i18n.locale === 'es'
-              ? 'https://www.verduzco.me/es/legal/aviso-legal/'
-              : 'https://www.verduzco.me/en/legal/legal-notice/'
-        },
-        {
-          rel: 'alternate',
-          hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
-          href:
-            this.$i18n.locale === 'es'
-              ? 'https://verduzco.me/en/legal/legal-notice/'
-              : 'https://verduzco.me/es/legal/aviso-legal/'
+          href: 'https://www.verduzco.me/legal/privacidad/'
         }
       ],
       meta: [
@@ -83,13 +72,11 @@ export default {
         {
           property: 'og:image',
           content:
-            this.$i18n.locale === 'es'
-              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
-              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open-g.png'
+            'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
         },
         {
           property: 'og:locale',
-          content: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
+          content: 'es-MX'
         },
         {
           property: 'og:type',
@@ -97,10 +84,7 @@ export default {
         },
         {
           property: 'og:url',
-          content:
-            this.$i18n.locale === 'es'
-              ? 'https://www.verduzco.me/es/legal/aviso-legal/'
-              : 'https://www.verduzco.me/en/legal/legal-notice/'
+          content: 'https://www.verduzco.me/legal/privacidad/'
         },
         {
           property: 'og:site_name',
@@ -129,9 +113,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            this.$i18n.locale === 'es'
-              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
-              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open-g.png'
+            'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
         },
         {
           name: 'twitter:creator',

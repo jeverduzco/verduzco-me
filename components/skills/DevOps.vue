@@ -16,7 +16,7 @@
         lg6
       >
         <v-spacer class="section-spacer" />
-        <span class="overline">{{ $t('devOps.elementOne') }}</span>
+        <span class="overline">Integración y entrega continuos</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -24,7 +24,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('devOps.elementTwo') }}</span>
+        <span class="overline">Control de versiones</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -32,7 +32,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('devOps.elementThree') }}</span>
+        <span class="overline">Desarrollo ágil de software</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -40,7 +40,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('devOps.elementFour') }}</span>
+        <span class="overline">Infraestructura como código</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -48,7 +48,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('devOps.elementFive') }}</span>
+        <span class="overline">Despliegue continuo</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -56,7 +56,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('devOps.elementSix') }}</span>
+        <span class="overline">Supervisión continua</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -73,11 +73,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h3 text-center text-md-right">
-          {{ $t('devOps.title') }}
+          DevOps
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          {{ $t('devOps.description') }}
+          DevOps es mi trabajo favorito, disfruto al máximo el arte de conectar el desarrollo con las operaciones.
         </p>
         <v-spacer class="elements-spacer" />
       </v-flex>
@@ -89,7 +89,7 @@
         lg6
       >
         <v-spacer class="section-spacer" />
-        <span class="overline">{{ $t('devOps.elementOne') }}</span>
+        <span class="overline">Integración y entrega continuos</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -97,7 +97,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('devOps.elementTwo') }}</span>
+        <span class="overline">Control de versiones</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -105,7 +105,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('devOps.elementThree') }}</span>
+        <span class="overline">Desarrollo ágil de software</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -113,7 +113,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('devOps.elementFour') }}</span>
+        <span class="overline">Infraestructura como código</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -121,7 +121,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('devOps.elementFive') }}</span>
+        <span class="overline">Despliegue continuo</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -129,7 +129,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('devOps.elementSix') }}</span>
+        <span class="overline">Supervisión continua</span>
         <v-progress-linear
           color="secondary"
           height="10"

@@ -108,36 +108,7 @@ export default {
     'applicationinsightsfornuxt',
     '@nuxt/content',
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots',
-    [
-      'nuxt-i18n',
-      {
-        locales: [
-          {
-            name: 'Español',
-            code: 'es',
-            iso: 'es-MX',
-            file: 'es.js'
-          },
-          {
-            name: 'English',
-            code: 'en',
-            iso: 'en-US',
-            file: 'en.js'
-          }
-        ],
-        lazy: true,
-        langDir: 'lang/',
-        defaultLocale: 'es',
-        fallbackLocale: 'es',
-        strategy: 'prefix',
-        detectBrowserLanguage: {
-          useCookie: true,
-          cookieKey: 'i18n_redirected',
-          onlyOnRoot: true
-        }
-      }
-    ]
+    '@nuxtjs/robots'
   ],
   appInsights: {
     instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf'

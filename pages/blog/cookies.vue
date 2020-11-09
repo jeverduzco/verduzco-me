@@ -119,6 +119,12 @@ export default {
 }
 </script>
 <style scoped>
+.primary-background {
+  background-color: whitesmoke;
+}
+.primary-background-dark {
+  background-color: #272727;
+}
 .content-container {
   padding-bottom: 50px;
 }

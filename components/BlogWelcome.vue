@@ -10,11 +10,11 @@
     >
       <v-flex xs12 sm12 md6 lg6>
         <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-left">
-          {{ $t('blogWelcome.title') }}
+          Mi Blog
         </h1>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h4 text-md-h4 text-h5 text-center text-md-left">
-          {{ $t('blogWelcome.description') }}
+          Aquí escribo lo que pienso y comparto lo que sé hacer
         </p>
       </v-flex>
       <v-flex
@@ -24,7 +24,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/blogging.svg" :alt="$t('blogWelcome.title')">
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/blogging.svg" alt="Mi Blog">
       </v-flex>
     </v-layout>
   </v-container>

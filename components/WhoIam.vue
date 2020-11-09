@@ -26,11 +26,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h3 text-center text-md-right">
-          {{ $t('whoiam.title') }}
+          ¿Quién soy?
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          {{ $t('whoiam.description') }}
+          Soy un organismo complejo con conciencia propia que nunca para de aprender, al que llamaron Jesús Verduzco.
         </p>
         <div class="text-center text-md-right">
           <v-btn
@@ -39,11 +39,11 @@
             large
             rounded
             depressed
-            :to="localePath('blog') + '/'"
+            to="/blog/"
             nuxt
-            :title="$t('whoiam.button')"
+            title="Deberías leer mi blog"
           >
-            {{ $t('whoiam.button') }}
+            Deberías leer mi blog
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
@@ -56,7 +56,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/whoiam.png" :alt="$t('whoiam.title')">
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/whoiam.png" alt="¿Quién soy?">
       </v-flex>
     </v-layout>
   </v-container>

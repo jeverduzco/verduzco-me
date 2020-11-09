@@ -21,7 +21,7 @@
             :value="tag.slug"
             filter
           >
-            {{ $i18n.locale === 'es' ? tag.name : tag.name_en }}
+            {{ tag.name }}
           </v-chip>
         </v-chip-group>
         <v-card
@@ -73,7 +73,7 @@
             :title="$t('blogIndex.loadMore')"
             @click="loadMore"
           >
-            {{ $t('blogIndex.loadMore') }}
+            Cargar Más
           </v-btn>
         </div>
       </v-container>
@@ -85,82 +85,64 @@
 export default {
   watchQuery: ['filter'],
   name: 'Blog',
-  nuxtI18n: {
-    paths: {
-      es: '/blog/',
-      en: '/blog/'
-    }
-  },
   data() {
     return {
-      title: this.$t('blogIndex.title'),
+      title: 'Mi Blog',
       postsLoaded: 3,
-      description: this.$t('blogIndex.description'),
+      description:
+        'Aquí escribo lo que pienso, comparto lo que sé y devuelvo a internet un poco de lo que me ha dado.',
       activeTag: 'all',
       tags: [
         {
           name: 'VER TODO',
-          name_en: 'VIEW ALL',
           slug: 'all'
         },
         {
           name: 'DEVOPS',
-          name_en: 'DEVOPS',
           slug: 'dev-ops'
         },
         {
           name: 'DESARROLLO WEB',
-          name_en: 'WEB DEVELOPMENT',
           slug: 'web-development'
         },
         {
           name: 'COMPUTACIÓN EN LA NUBE',
-          name_en: 'CLOUD COMPUTING',
           slug: 'cloud-computing'
         },
         {
           name: 'TECNOLOGÍA',
-          name_en: 'TECHNOLOGY',
           slug: 'technology'
         },
         {
           name: 'SOFTWARE',
-          name_en: 'SOFTWARE',
           slug: 'software'
         },
         {
           name: 'EDUCACIÓN',
-          name_en: 'EDUCATION',
           slug: 'education'
         },
         {
           name: 'OPINIÓN',
-          name_en: 'OPINION',
           slug: 'opinion'
         },
         {
           name: 'NEGOCIOS',
-          name_en: 'BUSINESS',
           slug: 'business'
         },
         {
           name: 'MARKETING',
-          name_en: 'MARKETING',
           slug: 'marketing'
         },
         {
           name: 'CIENCIA',
-          name_en: 'SCIENCE',
           slug: 'science'
         },
         {
           name: 'LIBROS',
-          name_en: 'BOOKS',
           slug: 'books'
         },
         {
           name: 'OTROS TEMAS',
-          name_en: 'OTHER TOPICS',
           slug: 'other-topics'
         }
       ]
@@ -178,8 +160,8 @@ export default {
       }
     }
   },
-  async asyncData({ $content, app, params }) {
-    const blog = await $content(`${app.i18n.locale}/blog`, params.slug)
+  async asyncData({ $content, params }) {
+    const blog = await $content(`blog`, params.slug)
       .only(['title', 'description', 'img', 'slug', 'category', 'createdAt'])
       .sortBy('createdAt', 'desc')
       .fetch()
@@ -200,24 +182,13 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
+        lang: 'es-MX'
       },
       title: this.title,
       link: [
         {
           rel: 'canonical',
-          href:
-            this.$i18n.locale === 'en'
-              ? 'https://www.verduzco.me/en/blog/'
-              : 'https://www.verduzco.me/es/blog/'
-        },
-        {
-          rel: 'alternate',
-          hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
-          href:
-            this.$i18n.locale === 'es'
-              ? 'https://verduzco.me/en/blog/'
-              : 'https://verduzco.me/es/blog/'
+          href: 'https://www.verduzco.me/blog/'
         }
       ],
       meta: [
@@ -238,13 +209,11 @@ export default {
         {
           property: 'og:image',
           content:
-            this.$i18n.locale === 'es'
-              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
-              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open-g.png'
+            'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
         },
         {
           property: 'og:locale',
-          content: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
+          content: 'es-MX'
         },
         {
           property: 'og:type',
@@ -252,10 +221,7 @@ export default {
         },
         {
           property: 'og:url',
-          content:
-            this.$i18n.locale === 'en'
-              ? 'https://www.verduzco.me/en/blog/'
-              : 'https://www.verduzco.me/es/blog/'
+          content: 'https://www.verduzco.me/blog/'
         },
         {
           property: 'og:site_name',
@@ -284,9 +250,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            this.$i18n.locale === 'es'
-              ? 'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
-              : 'https://storage.verduzco.dev/dotme/website/en/jesus-en-open-g.png'
+            'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
         },
         {
           name: 'twitter:site',
@@ -298,12 +262,6 @@ export default {
 }
 </script>
 <style scoped>
-.primary-background {
-  background-color: whitesmoke;
-}
-.primary-background-dark {
-  background-color: #272727;
-}
 #article-content {
   padding: 20px;
 }

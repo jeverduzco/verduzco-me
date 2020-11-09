@@ -16,7 +16,7 @@
         lg6
       >
         <v-spacer class="section-spacer" />
-        <span class="overline">{{ $t('others.elementOne') }}</span>
+        <span class="overline">Seguridad informática</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -24,7 +24,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('others.elementTwo') }}</span>
+        <span class="overline">Marketing digital</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -32,7 +32,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('others.elementThree') }}</span>
+        <span class="overline">Ciencia de datos e IA</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -40,7 +40,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('others.elementFour') }}</span>
+        <span class="overline">Internet de las cosas</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -48,7 +48,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('others.elementFive') }}</span>
+        <span class="overline">Negocios y emprendimiento</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -56,7 +56,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('others.elementSix') }}</span>
+        <span class="overline">Gestión de proyectos</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -73,11 +73,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h3 text-center text-md-right">
-          {{ $t('others.title') }}
+          Otros
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          {{ $t('others.description') }}
+          Mi sed nata de conocimiento e internet son el complemento perfecto para nunca dejar de aprender.
         </p>
         <v-spacer class="elements-spacer" />
       </v-flex>
@@ -89,7 +89,7 @@
         lg6
       >
         <v-spacer class="section-spacer" />
-        <span class="overline">{{ $t('others.elementOne') }}</span>
+        <span class="overline">Seguridad informática</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -97,7 +97,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('others.elementTwo') }}</span>
+        <span class="overline">Marketing digital</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -105,7 +105,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('others.elementThree') }}</span>
+        <span class="overline">Ciencia de datos e IA</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -113,7 +113,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('others.elementFour') }}</span>
+        <span class="overline">Internet de las cosas</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -121,7 +121,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('others.elementFive') }}</span>
+        <span class="overline">Negocios y emprendimiento</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -129,7 +129,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('others.elementSix') }}</span>
+        <span class="overline">Gestión de proyectos</span>
         <v-progress-linear
           color="secondary"
           height="10"

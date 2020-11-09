@@ -16,11 +16,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h3 text-center text-md-left">
-          {{ $t('development.title') }}
+          Desarrollo Web
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          {{ $t('development.description') }}
+          Después de DevOps el desarrollo de aplicaciones web es algo que disfruto mucho y lo hice parte de mi trabajo.
         </p>
         <v-spacer class="elements-spacer" />
       </v-flex>
@@ -31,7 +31,7 @@
         lg6
       >
         <v-spacer class="section-spacer" />
-        <span class="overline">{{ $t('development.elementOne') }}</span>
+        <span class="overline">Frontend (HTML, CSS, JS, UX)</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -39,7 +39,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('development.elementTwo') }}</span>
+        <span class="overline">Backend (JS, PYTHON)</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -47,7 +47,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('development.elementThree') }}</span>
+        <span class="overline">Autenticación (OAuth, SSO)</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -55,7 +55,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('development.elementFour') }}</span>
+        <span class="overline">Frameworks (Nuxt, Express, Django)}</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -63,7 +63,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('development.elementFive') }}</span>
+        <span class="overline">API's (REST, GraphQL)</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -71,7 +71,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">{{ $t('development.elementSix') }}</span>
+        <span class="overline">Bases de datos (Mongo DB, Cosmos DB)</span>
         <v-progress-linear
           color="secondary"
           height="10"

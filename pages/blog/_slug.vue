@@ -27,13 +27,10 @@
 <script>
 export default {
   name: 'Article',
-  async asyncData({ $content, app, params }) {
-    const article = await $content(
-      `${app.i18n.locale}/blog`,
-      params.slug
-    ).fetch()
-    const [prev, next] = await $content(`${app.i18n.locale}/blog`)
-      .only(['title', 'related', 'slug'])
+  async asyncData({ $content, params }) {
+    const article = await $content(`blog`, params.slug).fetch()
+    const [prev, next] = await $content(`blog`)
+      .only(['title', 'slug'])
       .sortBy('createdAt', 'desc')
       .surround(params.slug)
       .fetch()
@@ -46,24 +43,13 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
+        lang: 'es-MX'
       },
       title: this.article.title,
       link: [
         {
           rel: 'canonical',
-          href:
-            this.$i18n.locale === 'es'
-              ? 'https://www.verduzco.me/es/blog/' + this.article.slug + '/'
-              : 'https://www.verduzco.me/en/blog/' + this.article.slug + '/'
-        },
-        {
-          rel: 'alternate',
-          hreflang: this.$i18n.locale === 'es' ? 'en-US' : 'es-MX',
-          href:
-            this.$i18n.locale === 'es'
-              ? 'https://verduzco.me/en/blog/' + this.article.related + '/'
-              : 'https://verduzco.me/es/blog/' + this.article.related + '/'
+          href: 'https://www.verduzco.me/blog/' + this.article.slug + '/'
         }
       ],
       meta: [
@@ -87,7 +73,7 @@ export default {
         },
         {
           property: 'og:locale',
-          content: this.$i18n.locale === 'es' ? 'es-MX' : 'en-US'
+          content: 'es-MX'
         },
         {
           property: 'og:type',
@@ -95,10 +81,7 @@ export default {
         },
         {
           property: 'og:url',
-          content:
-            this.$i18n.locale === 'es'
-              ? 'https://www.verduzco.me/es/blog/' + this.article.slug + '/'
-              : 'https://www.verduzco.me/en/blog/' + this.article.slug + '/'
+          content: 'https://www.verduzco.me/blog/' + this.article.slug + '/'
         },
         {
           property: 'og:site_name',
