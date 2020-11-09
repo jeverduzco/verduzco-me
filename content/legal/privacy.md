@@ -75,7 +75,7 @@ Tampoco se rastrea a los seguidores en redes sociales con fines publicitarios, n
 
 ## Cómo se protegen tus datos
 
-Visita el [aviso legal](https://www.verduzco.me/es/legal/aviso-legal/) para información referente a la forma en que se protege la información.  
+Visita el [aviso legal](https://www.verduzco.me/legal/aviso/) para información referente a la forma en que se protege la información.  
 
 El **Sitio Web** se encuentra alojado en **Microsoft Azure**, también utiliza servicios de **CloudFlare** como servicios de seguridad.  
 
@@ -97,7 +97,7 @@ Por seguridad del usuario del **Sitio Web** solo se inserta contenido almacenado
 
 ## Cookies
 
-Para que el **Sitio Web** funcione correctamente necesita utilizar cookies, es información que se almacena en el navegador, consulta la política de cookies [aquí.](https://www.verduzco.me/es/legal/cookies/)
+Para que el **Sitio Web** funcione correctamente necesita utilizar cookies, es información que se almacena en el navegador, consulta la política de cookies [aquí.](https://www.verduzco.me/legal/cookies/)
 
 Legitimación para el tratamiento de los datos.  
 

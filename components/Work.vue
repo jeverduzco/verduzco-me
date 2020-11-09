@@ -16,7 +16,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/work.png" :alt="$t('work.title')">
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/work.png" alt="¿De dónde soy?">
       </v-flex>
       <v-flex
         class="text-right"

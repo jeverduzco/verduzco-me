@@ -29,7 +29,7 @@
           :key="article.slug"
           class="article-card"
           nuxt
-          :to="localePath('blog') + '/' + article.slug + '/'"
+          :to="'/blog/' + article.slug + '/'"
           flat
           :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'"
         >
@@ -70,7 +70,7 @@
             rounded
             large
             depressed
-            :title="$t('blogIndex.loadMore')"
+            title="Cargar Más"
             @click="loadMore"
           >
             Cargar Más
@@ -173,7 +173,7 @@ export default {
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString(this.$i18n.locale, options)
+      return new Date(date).toLocaleDateString('es', options)
     },
     loadMore() {
       this.postsLoaded = this.postsLoaded + 3

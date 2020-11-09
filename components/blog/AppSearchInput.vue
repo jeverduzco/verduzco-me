@@ -65,7 +65,7 @@ export default {
         this.blog = []
         return
       }
-      this.blog = await this.$content(`${this.$i18n.locale}/blog`)
+      this.blog = await this.$content(`blog`)
         .limit(6)
         .search(searchQuery)
         .fetch()

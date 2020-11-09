@@ -88,7 +88,7 @@
             Política de privacidad
           </nuxt-link>
           &nbsp;
-          <nuxt-link title="Aviso Legal" to="/legal/aviso/legal">
+          <nuxt-link title="Aviso Legal" to="/legal/aviso/">
             Aviso Legal
           </nuxt-link>
         </p>
@@ -115,8 +115,7 @@
 export default {
   data() {
     return {
-      title: 'Verduzco.Me',
-      relatedArticle: ''
+      title: 'Verduzco.Me'
     }
   },
   mounted() {
