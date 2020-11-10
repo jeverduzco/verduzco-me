@@ -83,7 +83,6 @@
 </template>
 <script>
 export default {
-  watchQuery: ['filter'],
   name: 'Blog',
   data() {
     return {
@@ -157,6 +156,13 @@ export default {
         })
       } else {
         return this.blog
+      }
+    }
+  },
+  watch: {
+    activeTag(oldVal, newVal) {
+      if (!oldVal) {
+        this.activeTag = 'all'
       }
     }
   },
