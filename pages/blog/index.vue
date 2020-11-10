@@ -1,6 +1,6 @@
 <template>
   <div id="blog-page">
-    <section id="welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
+    <section id="blog-welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
       <BlogWelcome />
       <Waves />
     </section>

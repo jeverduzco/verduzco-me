@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="policy-welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
+    <section id="cookies-welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
       <PolicyWelcome :title="policy.title" />
       <Waves />
     </section>

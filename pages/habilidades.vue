@@ -5,15 +5,15 @@
       <SkillsWelcome />
       <Waves />
     </section>
-    <section id="whoiam">
+    <section id="skills-devops">
       <DevOps />
       <WavesSecondary />
     </section>
-    <section id="whatido" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
+    <section id="skills-development" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
       <Development />
       <Waves />
     </section>
-    <section id="why">
+    <section id="skills-others">
       <Others />
       <WavesSecondary />
     </section>
