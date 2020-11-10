@@ -76,35 +76,37 @@
     <v-main>
       <nuxt />
     </v-main>
-    <v-footer absolute app height="auto">
-      <v-card class="flex" flat tile color="transparent">
-        <p id="copyright" class="text-center caption">
-          &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br>
-          <nuxt-link to="/legal/cookies/" title="Política de cookies">
-            Política de cookies
-          </nuxt-link>
+    <client-only>
+      <v-footer absolute app height="auto">
+        <v-card class="flex" flat tile color="transparent">
+          <p id="copyright" class="text-center caption">
+            &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br>
+            <nuxt-link to="/legal/cookies/" title="Política de cookies">
+              Política de cookies
+            </nuxt-link>
           &nbsp;
-          <nuxt-link title="Política de privacidad" to="/legal/privacidad/">
-            Política de privacidad
-          </nuxt-link>
+            <nuxt-link title="Política de privacidad" to="/legal/privacidad/">
+              Política de privacidad
+            </nuxt-link>
           &nbsp;
-          <nuxt-link title="Aviso Legal" to="/legal/aviso/">
-            Aviso Legal
-          </nuxt-link>
-        </p>
-      </v-card>
-      <cookie-law
-        theme="dark-lime"
-        button-text="Aceptar"
-      >
-        <div slot="message">
-          Este sitio usa 🍪 (cookies) de las que no se comen.
-          <nuxt-link title="Política de cookies" to="/legal/cookies/">
-            Política de cookies
-          </nuxt-link>
-        </div>
-      </cookie-law>
-    </v-footer>
+            <nuxt-link title="Aviso Legal" to="/legal/aviso/">
+              Aviso Legal
+            </nuxt-link>
+          </p>
+        </v-card>
+        <cookie-law
+          theme="dark-lime"
+          button-text="Aceptar"
+        >
+          <div slot="message">
+            Este sitio usa 🍪 (cookies) de las que no se comen.
+            <nuxt-link title="Política de cookies" to="/legal/cookies/">
+              Política de cookies
+            </nuxt-link>
+          </div>
+        </cookie-law>
+      </v-footer>
+    </client-only>
     <Telegram />
   </v-app>
 </template>
