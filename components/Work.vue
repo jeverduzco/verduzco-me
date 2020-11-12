@@ -16,7 +16,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/work.png" alt="¿De dónde soy?">
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/work.webp" alt="¿De dónde soy?">
       </v-flex>
       <v-flex
         class="text-right"
@@ -57,7 +57,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/work.png" alt="¿De dónde soy?">
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/work.webp" alt="¿De dónde soy?">
       </v-flex>
     </v-layout>
   </v-container>

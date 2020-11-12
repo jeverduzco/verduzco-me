@@ -44,7 +44,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/whatido.png" alt="¿Qué hago?">
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/whatido.webp" alt="¿Qué hago?">
       </v-flex>
     </v-layout>
   </v-container>

@@ -24,7 +24,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/jesus-verduzco-p.png" alt="Jesús Verduzco">
+        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/jesus-verduzco.webp" alt="Jesús Verduzco">
       </v-flex>
     </v-layout>
   </v-container>
