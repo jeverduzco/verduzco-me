@@ -20,7 +20,7 @@
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          Después de DevOps el desarrollo de aplicaciones web es algo que disfruto mucho y lo hice parte de mi trabajo.
+          Después de DevOps el desarrollo de aplicaciones web es algo que disfruto y se me van las horas codificando.
         </p>
         <v-spacer class="elements-spacer" />
       </v-flex>
@@ -47,7 +47,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Autenticación (OAuth, SSO)</span>
+        <span class="overline">Autenticación (OAuth, SSO, JWT)</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -55,7 +55,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Frameworks (Nuxt, Express, Django)}</span>
+        <span class="overline">Frameworks (Vue, Express, Django)</span>
         <v-progress-linear
           color="secondary"
           height="10"

@@ -14,7 +14,7 @@
         </h1>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h4 text-md-h4 text-h5 text-center text-md-left">
-          Conoce todo lo que puedo hacer por ti gracias a mis habilidades principales
+          Conoce todo lo que puedo hacer por ti gracias a mis habilidades principales.
         </p>
       </v-flex>
       <v-flex

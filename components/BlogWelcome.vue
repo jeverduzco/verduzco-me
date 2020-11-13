@@ -14,7 +14,7 @@
         </h1>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h4 text-md-h4 text-h5 text-center text-md-left">
-          Aquí escribo lo que pienso y comparto lo que sé hacer
+          Aquí escribo lo que pienso y comparto lo que sé hacer.
         </p>
       </v-flex>
       <v-flex
