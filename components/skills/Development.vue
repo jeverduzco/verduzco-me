@@ -15,7 +15,7 @@
         md6
         lg6
       >
-        <h2 class="text-lg-h2 text-md-h2 text-h3 text-center text-md-left">
+        <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-left">
           Desarrollo Web
         </h2>
         <v-spacer class="elements-spacer" />

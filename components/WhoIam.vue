@@ -25,7 +25,7 @@
         md6
         lg6
       >
-        <h2 class="text-lg-h2 text-md-h2 text-h3 text-center text-md-right">
+        <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-right">
           ¿Quién soy?
         </h2>
         <v-spacer class="elements-spacer" />
