@@ -26,8 +26,12 @@
             <v-icon>mdi-dots-vertical</v-icon>
           </v-btn>
         </template>
-
-        <v-list width="250" shaped>
+        <v-list
+          width="250"
+          shaped
+          style="max-height: 95vh"
+          class="overflow-y-auto"
+        >
           <v-subheader>NAVEGACIÓN</v-subheader>
           <v-list-item
             title="Inicio"
@@ -70,6 +74,14 @@
           >
             <v-list-item-title>Github</v-list-item-title>
           </v-list-item>
+          <v-subheader>CONTACTO</v-subheader>
+          <v-list-item
+            title="Telegram"
+            href="ttps://t.me/jeverduzco"
+            target="_blank"
+          >
+            <v-list-item-title>Telegram</v-list-item-title>
+          </v-list-item>
         </v-list>
       </v-menu>
     </v-app-bar>
@@ -107,7 +119,6 @@
         </cookie-law>
       </v-footer>
     </client-only>
-    <Telegram />
   </v-app>
 </template>
 

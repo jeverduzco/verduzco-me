@@ -14,7 +14,7 @@
         </h1>
         <v-spacer id="text-spacer" />
         <p class="text-lg-h4 text-md-h4 text-h5 text-center text-md-left">
-          Ingeniero de DevOps.
+          Ingeniero de DevOps
         </p>
       </v-flex>
       <v-flex
