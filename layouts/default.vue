@@ -81,15 +81,15 @@
         <v-card class="flex" flat tile color="transparent">
           <p id="copyright" class="text-center caption">
             &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br>
-            <nuxt-link to="/legal/cookies/" title="Política de cookies">
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" to="/legal/cookies/" title="Política de cookies">
               Política de cookies
             </nuxt-link>
           &nbsp;
-            <nuxt-link title="Política de privacidad" to="/legal/privacidad/">
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Política de privacidad" to="/legal/privacidad/">
               Política de privacidad
             </nuxt-link>
           &nbsp;
-            <nuxt-link title="Aviso Legal" to="/legal/aviso/">
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Aviso Legal" to="/legal/aviso/">
               Aviso Legal
             </nuxt-link>
           </p>
@@ -141,5 +141,15 @@ export default {
 <style lang="css" scoped>
 #copyright {
   padding-top: 10px;
+}
+.footerLinksL {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footerLinksD {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 </style>
