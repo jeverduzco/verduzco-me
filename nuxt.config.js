@@ -114,7 +114,8 @@ export default {
           '/blog/consejos-aprender-en-linea/',
           '/blog/hosting-gratuitos/',
           '/blog/que-es-la-telemetria/',
-          '/blog/consejos-de-seguridad/'
+          '/blog/consejos-de-seguridad/',
+          '/blog/infraestructura-como-codigo/'
         ],
         exclude: [
           '/blog',
