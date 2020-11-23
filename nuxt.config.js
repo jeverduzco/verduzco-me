@@ -115,7 +115,8 @@ export default {
           '/blog/hosting-gratuitos/',
           '/blog/que-es-la-telemetria/',
           '/blog/consejos-de-seguridad/',
-          '/blog/infraestructura-como-codigo/'
+          '/blog/infraestructura-como-codigo/',
+          '/blog/sitio-web-vs-aplicacion-web/'
         ],
         exclude: [
           '/blog',
