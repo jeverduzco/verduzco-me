@@ -116,7 +116,8 @@ export default {
           '/blog/que-es-la-telemetria/',
           '/blog/consejos-de-seguridad/',
           '/blog/infraestructura-como-codigo/',
-          '/blog/sitio-web-vs-aplicacion-web/'
+          '/blog/sitio-web-vs-aplicacion-web/',
+          '/blog/gaming-as-a-service/'
         ],
         exclude: [
           '/blog',
