@@ -109,8 +109,8 @@ export default {
           slug: 'cloud-computing'
         },
         {
-          name: 'TECNOLOGÍA',
-          slug: 'technology'
+          name: 'TENDENCIAS',
+          slug: 'trends'
         },
         {
           name: 'SOFTWARE',
@@ -131,10 +131,6 @@ export default {
         {
           name: 'MARKETING',
           slug: 'marketing'
-        },
-        {
-          name: 'CIENCIA',
-          slug: 'science'
         },
         {
           name: 'LIBROS',
