@@ -34,7 +34,7 @@ export default {
         '@type': 'Person',
         name: 'Jesús Verduzco',
         url: 'https://verduzco.me/',
-        image: 'https://storage.verduzco.dev/dotme/website/jesus-verduzco.jpg',
+        image: 'https://storage.verduzco.me/dotme/website/jesus-verduzco.jpg',
         sameAs: [
           'https://www.linkedin.com/in/jeverduzco/',
           'https://github.com/jeverduzco',
@@ -81,7 +81,7 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
+            'https://storage.verduzco.me/dotme/website/es/jesus-es-open-g.png'
         },
         {
           property: 'og:locale',
@@ -122,7 +122,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.dev/dotme/website/es/jesus-es-open-g.png'
+            'https://storage.verduzco.me/dotme/website/es/jesus-es-open-g.png'
         },
         {
           name: 'twitter:site',

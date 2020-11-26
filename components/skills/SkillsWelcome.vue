@@ -24,7 +24,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.dev/dotme/website/landing/whoiam.webp" alt="Habilidades">
+        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whoiam.webp" alt="Habilidades">
       </v-flex>
     </v-layout>
   </v-container>

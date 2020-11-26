@@ -27,12 +27,12 @@ export default {
       {
         rel: 'icon',
         type: 'shortcut icon',
-        href: 'https://storage.verduzco.dev/dotme/website/icon-n-128.png'
+        href: 'https://storage.verduzco.me/dotme/website/icon-n-128.png'
       },
       {
         rel: 'apple-touch-icon',
         type: 'image/x-icon',
-        href: 'https://storage.verduzco.dev/dotme/website/icon-n-192.png'
+        href: 'https://storage.verduzco.me/dotme/website/icon-n-192.png'
       }
     ],
     script: [
