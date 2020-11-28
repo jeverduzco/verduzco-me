@@ -103,10 +103,6 @@ export default {
           name: 'twitter:image',
           content:
             'https://storage.verduzco.me/dotme/website/es/jesus-es-open-g.png'
-        },
-        {
-          name: 'twitter:site',
-          content: '@jeverduzco'
         }
       ]
     }

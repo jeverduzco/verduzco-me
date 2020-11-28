@@ -37,9 +37,7 @@ export default {
         image: 'https://storage.verduzco.me/dotme/website/jesus-verduzco.jpg',
         sameAs: [
           'https://www.linkedin.com/in/jeverduzco/',
-          'https://github.com/jeverduzco',
-          'https://twitter.com/jeverduzco',
-          'https://youtube.com/c/Jes%C3%BAsVerduzco'
+          'https://github.com/jeverduzco'
         ]
       }
     }
@@ -123,10 +121,6 @@ export default {
           name: 'twitter:image',
           content:
             'https://storage.verduzco.me/dotme/website/es/jesus-es-open-g.png'
-        },
-        {
-          name: 'twitter:site',
-          content: '@jeverduzco'
         }
       ]
     }

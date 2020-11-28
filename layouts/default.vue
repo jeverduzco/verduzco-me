@@ -61,13 +61,6 @@
             <v-list-item-title>LinkedIn</v-list-item-title>
           </v-list-item>
           <v-list-item
-            title="Twitter"
-            href="https://twitter.com/jeverduzco"
-            target="_blank"
-          >
-            <v-list-item-title>Twitter</v-list-item-title>
-          </v-list-item>
-          <v-list-item
             title="Github"
             href="https://github.com/jeverduzco"
             target="_blank"
