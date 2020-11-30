@@ -38,13 +38,12 @@
             color="secondary"
             large
             rounded
+            disabled
             depressed
-            href="https://www.verduzco.dev/"
-            target="_blank"
             nuxt
-            title="Conoce mi empresa"
+            title="Conoce mis servicios"
           >
-            Conoce mi empresa
+            Conoce mis servicios
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
