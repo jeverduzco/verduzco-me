@@ -20,8 +20,22 @@
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          Después de DevOps el desarrollo de aplicaciones web es algo que disfruto y se me van las horas codificando.
+          El Desarrollo Web moderno es altamente complejo, si no sabes por dónde empezar tal vez puedo ayudarte.
         </p>
+        <div class="text-center text-md-left">
+          <v-btn
+            class="more-info-btn"
+            color="secondary"
+            large
+            rounded
+            depressed
+            href="https://t.me/jeverduzco"
+            target="_blank"
+            title="Mándame un mensaje"
+          >
+            Mándame un mensaje
+          </v-btn>
+        </div>
         <v-spacer class="elements-spacer" />
       </v-flex>
       <v-flex
@@ -39,7 +53,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Backend (JS, PYTHON)</span>
+        <span class="overline">Backend (JS, PYTHON, .NET Core)</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -71,7 +85,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Bases de datos (Mongo DB, Cosmos DB)</span>
+        <span class="overline">Bases de datos (Mongo, Cosmos, MySql)</span>
         <v-progress-linear
           color="secondary"
           height="10"

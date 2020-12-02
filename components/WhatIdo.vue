@@ -20,7 +20,7 @@
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          Consultoría independiente en Desarrollo Web, Computación en la Nube, DevOps y otras cosas geniales.
+          Trabajo como consultor independiente en Desarrollo Web, Computación en la Nube, DevOps y otras cosas geniales.
         </p>
         <div class="text-center text-md-left">
           <v-btn

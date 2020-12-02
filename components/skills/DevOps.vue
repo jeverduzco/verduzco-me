@@ -77,8 +77,22 @@
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          DevOps es mi trabajo favorito, disfruto al máximo el arte de conectar el desarrollo con las operaciones.
+          DevOps es mi rol favorito, disfruto al máximo conectar el desarrollo con las operaciones y ayudar a lograrlo.
         </p>
+        <div class="text-center text-md-right">
+          <v-btn
+            class="more-info-btn"
+            color="secondary"
+            large
+            rounded
+            depressed
+            href="https://t.me/jeverduzco"
+            target="_blank"
+            title="Mándame un mensaje"
+          >
+            Mándame un mensaje
+          </v-btn>
+        </div>
         <v-spacer class="elements-spacer" />
       </v-flex>
       <v-flex

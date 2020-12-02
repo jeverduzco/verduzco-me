@@ -38,12 +38,12 @@
             color="secondary"
             large
             rounded
-            disabled
             depressed
-            nuxt
-            title="Conoce mis servicios"
+            href="https://t.me/jeverduzco"
+            target="_blank"
+            title="Mándame un mensaje"
           >
-            Conoce mis servicios
+            Mándame un mensaje
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />

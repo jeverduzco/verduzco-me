@@ -79,6 +79,20 @@
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
           Mi sed nata de conocimiento e internet son el complemento perfecto para nunca dejar de aprender.
         </p>
+        <div class="text-center text-md-right">
+          <v-btn
+            class="more-info-btn"
+            color="secondary"
+            large
+            rounded
+            depressed
+            href="https://t.me/jeverduzco"
+            target="_blank"
+            title="Mándame un mensaje"
+          >
+            Mándame un mensaje
+          </v-btn>
+        </div>
         <v-spacer class="elements-spacer" />
       </v-flex>
       <v-flex
