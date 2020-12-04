@@ -290,7 +290,7 @@ export default {
 .article-title {
   font-size: 1.6rem !important;
   font-weight: 300;
-  line-height: 1.8rem;
+  line-height: 2rem;
   letter-spacing: -0.0083333333em !important;
   font-family: 'Roboto', sans-serif !important;
 }

@@ -1,5 +1,5 @@
 ---
-title: ¿Necesitas un sitio web o una aplicación web? Entiende por fin las diferencias
+title: ¿Necesitas un sitio web o una aplicación web?
 description: No, los navegadores modernos no solo sirven para acceder a sitios web. También ejecutan aplicaciones complejas ¿lo sabías?
 img: https://storage.verduzco.me/dotme/blog/sitio-o-aplicacion.png
 opimg: https://storage.verduzco.me/dotme/blog/sitio-o-aplicacion-op.png

@@ -1,5 +1,5 @@
 ---
-title: 5 consejos de seguridad informática para el trabajo remoto
+title: 5 consejos de seguridad informática
 description: Cinco consejos que te pueden ser útiles para proteger tu información y la de tus clientes haciendo trabajo remoto.
 img: https://storage.verduzco.me/dotme/blog/consejos-de-seguridad.webp
 opimg: https://storage.verduzco.me/dotme/blog/consejos-de-seguridad-op.png

@@ -1,5 +1,5 @@
 ---
-title: Qué es y por qué es necesaria la telemetría en aplicaciones para el proceso DevOps
+title: ¿Qué es y por qué es necesaria la telemetría?
 description: La telemetría en aplicaciones es fundamental en el proceso de DevOps. ¿Quieres saber qué es, qué no es y por qué es importante?
 img: https://storage.verduzco.me/dotme/blog/telemetria.png
 opimg: https://storage.verduzco.me/dotme/blog/es/telemetria.png
