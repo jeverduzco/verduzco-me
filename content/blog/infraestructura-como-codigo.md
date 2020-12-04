@@ -1,5 +1,5 @@
 ---
-title: "Infraestructura como código: qué es y cuáles son sus ventajas"
+title: "Infraestructura como código, qué es y cuáles son sus ventajas"
 description: La infraestructura como código (IaC) es parte fundamental del proceso de DevOps, pero... ¿Sabes qué es y cómo beneficia a tu empresa?
 img: https://storage.verduzco.me/dotme/blog/infraestructura-como-codigo.png
 opimg: https://storage.verduzco.me/dotme/blog/infraestructura-como-codigo-op.png

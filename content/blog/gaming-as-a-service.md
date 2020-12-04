@@ -1,5 +1,5 @@
 ---
-title: "Gaming as a Service: el futuro de la industria de los videojuegos"
+title: "Gaming as a Service y el futuro de la industria de los videojuegos"
 description: Si eres de los que creen que aún existe una guerra de consolas deberías reflexionar sobre el Gaming as a Service.
 img: https://storage.verduzco.me/dotme/blog/gaming-as-a-service.png
 opimg: https://storage.verduzco.me/dotme/blog/gaming-as-a-service-op.png

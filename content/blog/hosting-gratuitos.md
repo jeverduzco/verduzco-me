@@ -1,6 +1,6 @@
 ---
-title: Tres servicios de hosting gratuitos que puedes usar para iniciar y crecer sin cambiar nada
-description: En tiempos de crisis muchas personas quieren iniciar un negocio por Internet. El problema es que no siempre se tiene el dinero para la infraestructura. ¿Quieres saber cómo solucionarlo?
+title: Tres servicios de hosting gratuitos que puedes usar para crecer sin cambiar nada
+description: En tiempos de crisis muchas personas quieren iniciar un negocio por Internet. El problema es que no siempre se tiene el dinero para la infraestructura.
 img: https://storage.verduzco.me/dotme/blog/static.png
 opimg: https://storage.verduzco.me/dotme/blog/es/hosting.png
 createdAt: 2020-10-14 10:00
