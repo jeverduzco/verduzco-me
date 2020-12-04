@@ -24,45 +24,52 @@
             {{ tag.name }}
           </v-chip>
         </v-chip-group>
-        <v-card
-          v-for="article of blogFiltered.slice(0, postsLoaded)"
-          :key="article.slug"
-          class="article-card"
-          nuxt
-          :to="'/blog/' + article.slug + '/'"
-          flat
-          :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'"
+      </v-container>
+      <v-container grid-list-xl>
+        <v-layout
+          wrap
+          row
+          align-center
         >
-          <v-layout
-            id="article-content"
-            wrap
-            row
-            align-center
+          <v-flex
+            v-for="article of blogFiltered.slice(0, postsLoaded)"
+            :key="article.slug"
+            xs12
+            sm12
+            md6
+            lg4
           >
-            <v-flex xs12 sm12 md8 lg8>
-              <h2 class="text-h5 text-center text-md-left">
+            <v-card
+              class="article-card text-center"
+              nuxt
+              :to="'/blog/' + article.slug + '/'"
+              flat
+              :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'"
+            >
+              <h2 class="article-title">
                 {{ article.title }}
               </h2>
               <v-spacer class="text-spacer" />
-              <h2 class="text-subtitle-1 text-center text-md-left">
+              <h2 class="text-subtitle-1">
                 {{ article.description }}
               </h2>
               <v-spacer class="text-spacer" />
-              <p class="text-overline text-center text-md-left">
-                {{ formatDate(article.createdAt) }}
+              <p class="text-caption text-uppercase">
+                EL {{ formatDate(article.createdAt) }} <br>EN {{ article.category_name }}
               </p>
-            </v-flex>
-            <v-flex
-              class="text-center"
-              xs12
-              sm12
-              md4
-              lg4
-            >
-              <img class="article-image" :src="article.img" :alt="article.title">
-            </v-flex>
-          </v-layout>
-        </v-card>
+            
+              <div>
+                <img
+                  class="article-image"
+                  :src="article.img"
+                  :alt="article.title"
+                >
+              </div>
+            </v-card>
+          </v-flex>
+        </v-layout>
+      </v-container>
+      <v-container>
         <div class="text-center">
           <v-btn
             v-if="postsLoaded <= blogFiltered.length"
@@ -268,22 +275,27 @@ export default {
 }
 </script>
 <style scoped>
-#article-content {
-  padding: 20px;
-}
 .text-spacer {
   height: 25px;
 }
 .article-image {
   max-height: 200px;
 }
+.article-title {
+  font-size: 1.6rem !important;
+  font-weight: 300;
+  line-height: 1.8rem;
+  letter-spacing: -0.0083333333em !important;
+  font-family: 'Roboto', sans-serif !important;
+}
 #blog-section {
   margin-bottom: 35px;
 }
 .article-card {
-  margin: 15px 15px 25px 15px !important;
+  padding: 15px 15px 25px 15px !important;
 }
 #article-filter {
   margin: 0px 15px 0px 15px !important;
+  padding: 0px 0px 15px 0px;
 }
 </style>
