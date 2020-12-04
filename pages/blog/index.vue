@@ -5,7 +5,12 @@
       <Waves />
     </section>
     <section id="blog-section">
-      <AppSearchInput />
+      <v-container
+        grid-list-xl
+        class="content-container"
+      >
+        <AppSearchInput />
+      </v-container>
       <v-container
         grid-list-xl
         class="content-container"
@@ -14,6 +19,7 @@
           id="article-filter"
           v-model="activeTag"
           color="secondary"
+          show-arrows
         >
           <v-chip
             v-for="tag in tags"
@@ -25,7 +31,7 @@
           </v-chip>
         </v-chip-group>
       </v-container>
-      <v-container grid-list-xl>
+      <v-container grid-list-md>
         <v-layout
           wrap
           row
@@ -94,7 +100,7 @@ export default {
   data() {
     return {
       title: 'Mi Blog',
-      postsLoaded: 3,
+      postsLoaded: 6,
       description:
         'Aquí escribo lo que pienso, comparto lo que sé y devuelvo a internet un poco de lo que me ha dado.',
       activeTag: 'all',
