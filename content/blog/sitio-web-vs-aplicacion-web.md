@@ -5,7 +5,8 @@ img: https://storage.verduzco.me/dotme/blog/sitio-o-aplicacion.png
 opimg: https://storage.verduzco.me/dotme/blog/sitio-o-aplicacion-op.png
 createdAt: 2020-11-23 10:00
 updatedAt: 2020-11-23 10:00
-category: web-development
+category_id: web-development
+category_name: Desarrollo Web
 ---
 
 El ecosistema de desarrollo web es tan complejo y amplio que causa mucha confusión entre los usuarios menos tecnológicos. Muchas personas me han buscado para **cotizar un sitio web**, pero lo que en realidad necesitan **es una aplicación web**. ¿Tú sabes las diferencias?  

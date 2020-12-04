@@ -5,7 +5,8 @@ img: https://storage.verduzco.me/dotme/blog/gaming-as-a-service.png
 opimg: https://storage.verduzco.me/dotme/blog/gaming-as-a-service-op.png
 createdAt: 2020-11-24 10:00
 updatedAt: 2020-11-24 10:00
-category: trends
+category_id: trends
+category_name: Tendencias
 ---
 
 Con la presentación reciente de la nueva generación de consolas por parte de Sony y Microsoft se ha desatado una guerra en redes sociales sobre cuál será la mejor. Pero a la industria eso no le interesa, lo de hoy es el **Gaming as a Service.** 

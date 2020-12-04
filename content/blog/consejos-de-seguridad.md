@@ -5,7 +5,8 @@ img: https://storage.verduzco.me/dotme/blog/consejos-de-seguridad.webp
 opimg: https://storage.verduzco.me/dotme/blog/consejos-de-seguridad-op.png
 createdAt: 2020-11-13 10:00
 updatedAt: 2020-11-13 10:00
-category: other-topics
+category_id: other-topics
+category_name: Otros Temas
 ---
 
 Gracias a la pandemia provocada por el **COVID-19** muchas pequeñas y medianas empresas se han visto obligadas a trabajar de forma remota **sin ninguna experiencia** previa. Esta falta de experiencia por supuesto también tiene que ver con proteger la información de la empresa. 

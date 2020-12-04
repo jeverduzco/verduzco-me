@@ -148,7 +148,7 @@ export default {
     blogFiltered() {
       if (this.activeTag !== 'all') {
         return this.blog.filter(item => {
-          return item.category.includes(this.activeTag)
+          return item.category_id.includes(this.activeTag)
         })
       } else {
         return this.blog
@@ -164,7 +164,15 @@ export default {
   },
   async asyncData({ $content, params }) {
     const blog = await $content(`blog`, params.slug)
-      .only(['title', 'description', 'img', 'slug', 'category', 'createdAt'])
+      .only([
+        'title',
+        'description',
+        'img',
+        'slug',
+        'category_id',
+        'category_name',
+        'createdAt'
+      ])
       .sortBy('createdAt', 'desc')
       .fetch()
 

@@ -5,7 +5,8 @@ img: https://storage.verduzco.me/dotme/blog/infraestructura-como-codigo.png
 opimg: https://storage.verduzco.me/dotme/blog/infraestructura-como-codigo-op.png
 createdAt: 2020-11-18 10:00
 updatedAt: 2020-11-18 10:00
-category: dev-ops
+category_id: dev-ops
+category_name: DevOps
 ---
 
 El diseño y despliegue de infraestructuras en la nube muchas veces se transforma en costosos desafíos. Esto es debido a los errores de inconsistencia entre los entornos de desarrollo y de producción o los errores humanos en el despliegue manual de recursos.  

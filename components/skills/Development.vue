@@ -53,7 +53,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Backend (JS, PYTHON, .NET Core)</span>
+        <span class="overline">Backend (JS, PYTHON)</span>
         <v-progress-linear
           color="secondary"
           height="10"
