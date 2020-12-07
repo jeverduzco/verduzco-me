@@ -138,7 +138,7 @@ export default {
         .only(['path'])
         .fetch()
 
-      return blog.map(file => (file.path === '/index' ? '/' : file.path + '/'))
+      return blog.map(file => (file.path === '/index' ? '/' : file.path))
     }
   },
   /*
