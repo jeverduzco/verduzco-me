@@ -1,6 +1,6 @@
 # My personal website
 
-Hello everyone, this is my personal web site.
+Hello everyone, this is my personal web site and blog.
 
 I made this with Nuxt.js, Nuxt Content, Nuxt i18n and hosted in Azure Static Web App.
 
