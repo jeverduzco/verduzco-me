@@ -134,7 +134,7 @@ export default {
     crawler: false,
     async routes() {
       const { $content } = require('@nuxt/content')
-      const blog = await $content({ deep: true })
+      const blog = await $content(`blog`, { deep: true })
         .only(['path'])
         .fetch()
 

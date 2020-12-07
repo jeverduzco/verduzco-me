@@ -1,9 +1,7 @@
 // vuetify.options.js
-import minifyTheme from 'minify-css-string'
 export default {
   theme: {
-    options: { minifyTheme },
-    dark: false,
+    dark: true,
     themes: {
       dark: {
         primary: '#03a9f4',
