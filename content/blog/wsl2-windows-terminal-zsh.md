@@ -139,7 +139,7 @@ El efecto de transparencia es preferible configurarlo en el perfil global dentro
         // Put settings here that you want to apply to all profiles
         "useAcrylic": true, 
         "acrylicOpacity": 0.4
-    }...
+    },
 ~~~
 
 ## Tips
