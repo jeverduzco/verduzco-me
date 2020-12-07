@@ -11,12 +11,12 @@ category_name: DevOps
 
 Para el **Desarrollo Web** con **Node.js o Python** me encanta trabajar con un entorno corriendo en **Linux**, pero para jugar y hacer cosas cotidianas amo a **Windows 10**. Afortunadamente no soy el único y Microsoft lo sabe, así que crearon **WSL2**. 
 
-De **WSL2** basta decir que es un entorno completo de **Linux** corriendo en nuestro **Windows 10**, sobre **Oh My Zsh** solo diré que es lo mejor para trabajar con Git. No voy a profundizar más en el tema ya que si el titúlo te llamo la atención seguramente sabes de que estoy hablando. 
+De **WSL2** basta decir que es un entorno completo de **Linux** corriendo en nuestro **Windows 10**, sobre **Oh My Zsh** solo diré que es lo mejor para trabajar con **Git**. No voy a profundizar más en el tema ya que si el titúlo te llamó la atención seguramente sabes de qué estoy hablando.
 
 También voy a asumir que sabes instalar [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) en tu computadora y que ya tienes [Windows Terminal](https://www.microsoft.com/es-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab), este articulo va sobre cómo hacer funcionar **Oh My Zsh con Windows Terminal** y configurar su aspecto visual. 
 
-Así que para empezar solo hay que asegurarnos de que tenemos la versión 2 de WSL con el siguiente comando en **PowerShell**:
-~~~{}[PowerShell]
+Así que para empezar solo hay que asegurarnos de que tenemos la versión 2 de **WSL** con el siguiente comando en **PowerShell**:
+~~~powershell {}[PowerShell]
 wsl -l -v
 ~~~
 El resultado debe ser el siguiente:
@@ -28,14 +28,14 @@ El resultado debe ser el siguiente:
 
 Lo que sigue es instalar **Oh My Zsh** así que ejecutamos los siguientes comandos para instalar los prerrequisitos: 
 
-~~~{}[Bash]
+~~~bash {}[Bash]
 sudo apt update
 sudo apt install git zsh -y
 ~~~
 
 Una vez que tenemos los prerrequisitos vamos a ejecutar la instalación: 
 
-~~~{}[Bash]
+~~~bash {}[Bash]
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ~~~
 
@@ -43,7 +43,7 @@ Cuando nos pregunte si queremos usar ***zsh*** como terminal le decimos que sí.
 
 El siguiente paso es configurar el tema, en mi caso me gusta `agnoster` así que con el comando `vi ~/.zshrc` editamos el archivo y nos aseguramos de que la línea de configuración del tema este así: `ZSH_THEME="agnoster"`
 
-Después hay que agregar nuestro estilo a **Windows Terminal**, así que abrimos la configuración que es un archivo `.json` y editamos para que se vea así:
+Después hay que agregar nuestro estilo a **Windows Terminal**, así que abrimos la configuración que es un archivo `.json` y lo editamos para que se vea así:
 ~~~json {}[settings.json]
 "schemes": [
     {
@@ -70,7 +70,7 @@ Después hay que agregar nuestro estilo a **Windows Terminal**, así que abrimos
 ],
 ~~~
 
-Para aplicar el estilo simplemente agregamos la siguiente línea `"colorScheme" : "wsl"` al perfil de la terminal correspondiente a **WSL**:
+Para aplicar el estilo simplemente agregamos la siguiente línea `"colorScheme" : "wsl"` al perfil de la **Terminal** correspondiente a **WSL**:
 ~~~json {}[settings.json]
 {
     "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
@@ -81,9 +81,9 @@ Para aplicar el estilo simplemente agregamos la siguiente línea `"colorScheme" 
 }
 ~~~
 
-Ahora nos falta instalar las fuentes para que nuestra terminal sea capaz de mostrar iconos como el de **Git**. Para esto tenemos que poder ejecutar `git clone` en **PowerShell**. Para hacer la instalación nos situamos en una carpeta vacía y ejecutamos lo siguiente:
+Ahora nos falta instalar las fuentes para que nuestra **Terminal** sea capaz de mostrar iconos como el de **Git**. Para esto tenemos que poder ejecutar `git clone` en **PowerShell**. Para hacer la instalación nos situamos en una carpeta vacía y ejecutamos lo siguiente:
 
-~~~{}[PowerShell]
+~~~powershell {}[PowerShell]
 git clone https://github.com/powerline/fonts.git
 cd fonts
 .\install.ps1
@@ -105,19 +105,19 @@ En el penúltimo paso de nuestra configuración cambiaremos la forma en la que s
 
 Para lograrlo hay que abrir el archivo de configuración de *zsh*:
 
-~~~{}[Bash]
+~~~bash {}[Bash]
 vi ~/.oh-my-zsh/themes/agnoster.zsh-theme
 ~~~
 
 Y sustituir la **línea 92** por la siguiente:
 
-~~~{}[Bash]
+~~~bash {}[Bash]
 prompt_segment green black "%(!.%{%F{yellow}%}.)%n"
 ~~~
 
-Por último, solo cambiamos la ruta por defecto que se abre cuando lanzamos la consola para que se abra nuestra carpeta principal de **Linux** y no la de **Windows**. Para lograrlo solo ejecutamos `~/.zshrc` y agregamos la siguiente línea:
+Por último, solo cambiamos la ruta por defecto que se abre cuando lanzamos la consola para que se abra nuestra carpeta principal de **Linux** y no la de **Windows**. Para lograrlo solo ejecutamos `vi ~/.zshrc` y agregamos la siguiente línea:
 
-~~~{}[Bash]
+~~~bash {}[Bash]
 cd ~
 ~~~
 
@@ -131,7 +131,7 @@ Y eso es todo, ahora tendremos una **Terminal** extremadamente bonita como resul
 
 ## Nota 
 
-El efecto de transparencia es preferible configurarlo en el perfil global dentro de los ajustes de la **Terminal**: 
+El efecto de transparencia es preferible configurarlo en el perfil global dentro de los ajustes de **Windows Terminal**: 
 
 ~~~json {}[settings.json]
 "defaults":
@@ -144,14 +144,14 @@ El efecto de transparencia es preferible configurarlo en el perfil global dentro
 
 ## Tips
 
-Si estamos usando ***nvm*** para administrar las versiones de **Node.js** no se reconocerán los comandos, para solucionarlo solo hay que agregar en el archivo `~/.zshrc` lo siguiente:
+Si estamos usando ***nvm*** para administrar las versiones de **Node.js** no se reconocerán los comandos, para solucionarlo solo hay que ejecutar `vi ~/.zshrc` y agregar lo siguiente al archivo:
 
-~~~{}[Bash]
+~~~bash {}[Bash]
 export NVM_DIR=~/.nvm
  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 ~~~
 
-Si queremos que la **Terminal** integrada de **Visual Studio Code** se vea hermosa como debería verse hay que agregar en la configuración de la instalación de *WSL* la fuente que permite mostrar los iconos en la **Terminal**:
+Si queremos que la **Terminal** integrada de **Visual Studio Code** se vea hermosa como debería verse hay que agregar en la configuración de la instalación de ***WSL*** dentro de **Code** la fuente que permite mostrar los iconos en la **Terminal**:
 
 ~~~json {}[settings.json (Remote)]
 {

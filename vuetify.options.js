@@ -1,7 +1,7 @@
 // vuetify.options.js
 export default {
   theme: {
-    dark: true,
+    dark: false,
     themes: {
       dark: {
         primary: '#03a9f4',
