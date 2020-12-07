@@ -33,10 +33,15 @@
   font-weight: 300;
   z-index: 10;
 }
-.v-application code {
-  background-color: transparent !important;
+.v-application pre code {
+  background-color: #263238 !important;
   color: #c3cee3 !important;
-  padding: 0 !important;
+  padding: 0rem !important;
+}
+.v-application p code {
+  background-color: #263238 !important;
+  color: #c3cee3 !important;
+  padding: 1px 0.4rem !important;
 }
 .nuxt-content p {
   font-size: 1rem! important;

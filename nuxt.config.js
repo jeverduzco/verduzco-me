@@ -117,7 +117,8 @@ export default {
           '/blog/consejos-de-seguridad/',
           '/blog/infraestructura-como-codigo/',
           '/blog/sitio-web-vs-aplicacion-web/',
-          '/blog/gaming-as-a-service/'
+          '/blog/gaming-as-a-service/',
+          '/blog/wsl2-windows-terminal-zsh/'
         ],
         exclude: [
           '/blog',
