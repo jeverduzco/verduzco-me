@@ -9,9 +9,9 @@
         >
       </nuxt-link>
       <v-spacer />
-      <!--  <v-btn icon title="Tema" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
+      <v-btn icon title="Tema" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
         <v-icon>invert_colors</v-icon>
-      </v-btn> -->
+      </v-btn>
       <v-menu
         bottom
         left
@@ -124,7 +124,7 @@ export default {
   },
   mounted() {
     // Change theme automatically
-    // this.changeTheme()
+    this.changeTheme()
     // eslint-disable-next-line no-console
     console.log(
       '%cAlto!',
