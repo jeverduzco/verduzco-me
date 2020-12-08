@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="notice-welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
+    <section id="privacy-welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
       <PolicyWelcome :title="policy.title" />
       <Waves />
     </section>
@@ -25,22 +25,22 @@
 </template>
 <script>
 export default {
-  name: 'LegalNotice',
+  name: 'PrivacyPolicy',
   async asyncData({ $content, app, params }) {
-    const policy = await $content(`legal`, 'notice').fetch()
+    const policy = await $content(`legal`, 'privacy').fetch()
 
     return { policy }
   },
   head() {
     return {
       htmlAttrs: {
-        lang: 'es-MX'
+        lang: 'en-US'
       },
       title: this.policy.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/legal/aviso/'
+          href: 'https://www.verduzco.me/legal/privacidad/'
         }
       ],
       meta: [
@@ -70,7 +70,7 @@ export default {
         },
         {
           property: 'og:locale',
-          content: 'es-MX'
+          content: 'en-US'
         },
         {
           property: 'og:type',
@@ -78,7 +78,7 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/legal/aviso/'
+          content: 'https://www.verduzco.me/legal/privacidad/'
         },
         {
           property: 'og:site_name',
@@ -115,6 +115,12 @@ export default {
 }
 </script>
 <style scoped>
+.primary-background {
+  background-color: whitesmoke;
+}
+.primary-background-dark {
+  background-color: #272727;
+}
 .content-container {
   padding-bottom: 50px;
 }

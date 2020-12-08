@@ -47,7 +47,7 @@ Para evitar este tipo de cosas te recomiendo usar navegadores web siempre actual
 
 Por lo que más quieras en el mundo deja de usar servicios de correo **obsoletos y baratijas.** La mayoría de los casos de **Phishing** exitosos se inician con la apertura de un correo electrónico diseñado para engañarte.  
 
-Utiliza servicios profesionales que garanticen que estarás a salvo. Para esto mi recomendación es por supuesto [**Microsoft 365**](https://www.microsoft.com/es-mx/microsoft-365/business), deja de usar correos por POP3 y las porquerías que te venden los hostings incluidas en el dominio. Dichos servicios suelen ser muy peligrosos en el trabajo remoto ya que muchos no cuentan ni con una **conexión cifrada.** 
+Utiliza servicios profesionales que garanticen que estarás a salvo. Para esto mi recomendación es por supuesto [**Microsoft 365**](https://www.microsoft.com/en-US/microsoft-365/business), deja de usar correos por POP3 y las porquerías que te venden los hostings incluidas en el dominio. Dichos servicios suelen ser muy peligrosos en el trabajo remoto ya que muchos no cuentan ni con una **conexión cifrada.** 
 
 Te dejo un [enlace](https://docs.microsoft.com/es-es/deployedge/ms-edge-security-for-business) sobre como **Microsoft Edge** puede ayudar a la seguridad de tu empresa. 
 

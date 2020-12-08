@@ -32,13 +32,13 @@
           style="max-height: 95vh"
           class="overflow-y-auto"
         >
-          <v-subheader>NAVEGACIÓN</v-subheader>
+          <v-subheader>NAVIGATION</v-subheader>
           <v-list-item
             title="Inicio"
             to="/"
             exact
           >
-            <v-list-item-title>Inicio</v-list-item-title>
+            <v-list-item-title>Home</v-list-item-title>
           </v-list-item>
           <v-list-item
             title="Blog"
@@ -48,11 +48,11 @@
           </v-list-item>
           <v-list-item
             title="Habilidades"
-            to="/habilidades/"
+            to="/skills/"
           >
-            <v-list-item-title>Habilidades</v-list-item-title>
+            <v-list-item-title>Skills</v-list-item-title>
           </v-list-item>
-          <v-subheader>REDES SOCIALES</v-subheader>
+          <v-subheader>SOCIAL NETWORKS</v-subheader>
           <v-list-item
             title="LinkedIn"
             href="https://www.linkedin.com/in/jeverduzco"
@@ -67,7 +67,7 @@
           >
             <v-list-item-title>Github</v-list-item-title>
           </v-list-item>
-          <v-subheader>CONTACTO</v-subheader>
+          <v-subheader>CONTACT</v-subheader>
           <v-list-item
             title="Telegram"
             href="ttps://t.me/jeverduzco"
@@ -90,11 +90,11 @@
               Política de cookies
             </nuxt-link>
           &nbsp;
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Política de privacidad" to="/legal/privacidad/">
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Política de privacidad" to="/legal/privacy/">
               Política de privacidad
             </nuxt-link>
           &nbsp;
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Aviso Legal" to="/legal/aviso/">
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Aviso Legal" to="/legal/notice/">
               Aviso Legal
             </nuxt-link>
           </p>
@@ -127,9 +127,9 @@ export default {
     this.changeTheme()
     // eslint-disable-next-line no-console
     console.log(
-      '%cAlto!',
+      '%cStop!',
       'color: red; font-size: 30px; font-weight: bold;',
-      'La consola del navegador está destinada únicamente a los desarrolladores, si no tienes claro lo que estás haciendo; no lo hagas. Alguien podría robar tu información.'
+      "The browser console is only for developers, if you are not clear about what you are doing; don't do it. Someone might steal your information."
     )
   },
   methods: {

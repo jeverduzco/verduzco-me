@@ -52,7 +52,7 @@ export default {
         }
       ],
       htmlAttrs: {
-        lang: 'es-MX'
+        lang: 'en-US'
       },
       title: this.title,
       link: [
@@ -83,7 +83,7 @@ export default {
         },
         {
           property: 'og:locale',
-          content: 'es-MX'
+          content: 'en-US'
         },
         {
           property: 'og:type',
