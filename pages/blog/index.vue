@@ -61,7 +61,7 @@
               </h2>
               <v-spacer class="text-spacer" />
               <p class="text-caption text-uppercase">
-                EL {{ formatDate(article.createdAt) }} <br>EN {{ article.category_name }}
+                {{ formatDate(article.createdAt) }} <br>{{ article.category_name }}
               </p>
             
               <div>
@@ -86,7 +86,7 @@
             title="Cargar Más"
             @click="loadMore"
           >
-            Cargar Más
+            Load More
           </v-btn>
         </div>
       </v-container>
@@ -99,14 +99,14 @@ export default {
   name: 'Blog',
   data() {
     return {
-      title: 'Mi Blog',
+      title: 'My Blog',
       postsLoaded: 6,
       description:
-        'Aquí escribo lo que pienso, comparto lo que sé y devuelvo a internet un poco de lo que me ha dado.',
+        'Here I write what I think, share what I know and give back to the internet a little bit of what it has given me.',
       activeTag: 'all',
       tags: [
         {
-          name: 'VER TODO',
+          name: 'VIEW ALL',
           slug: 'all'
         },
         {
@@ -114,15 +114,15 @@ export default {
           slug: 'dev-ops'
         },
         {
-          name: 'DESARROLLO WEB',
+          name: 'WEB DEVELOPMENT',
           slug: 'web-development'
         },
         {
-          name: 'COMPUTACIÓN EN LA NUBE',
+          name: 'CLOUD COMPUTING',
           slug: 'cloud-computing'
         },
         {
-          name: 'TENDENCIAS',
+          name: 'TRENDS',
           slug: 'trends'
         },
         {
@@ -130,15 +130,15 @@ export default {
           slug: 'software'
         },
         {
-          name: 'EDUCACIÓN',
+          name: 'EDUCATION',
           slug: 'education'
         },
         {
-          name: 'OPINIÓN',
+          name: 'OPINION',
           slug: 'opinion'
         },
         {
-          name: 'NEGOCIOS',
+          name: 'BUSINESS',
           slug: 'business'
         },
         {
@@ -146,11 +146,11 @@ export default {
           slug: 'marketing'
         },
         {
-          name: 'LIBROS',
+          name: 'BOOKS',
           slug: 'books'
         },
         {
-          name: 'OTROS TEMAS',
+          name: 'OTHER TOPICS',
           slug: 'other-topics'
         }
       ]
@@ -196,7 +196,7 @@ export default {
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('es', options)
+      return new Date(date).toLocaleDateString('en', options)
     },
     loadMore() {
       this.postsLoaded = this.postsLoaded + 3
@@ -205,7 +205,7 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en-US'
+        lang: 'en-us'
       },
       title: this.title,
       link: [
@@ -232,11 +232,11 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.me/dotme/website/es/jesus-es-open-g.png'
+            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
         },
         {
           property: 'og:locale',
-          content: 'en-US'
+          content: 'en-us'
         },
         {
           property: 'og:type',
@@ -273,7 +273,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.me/dotme/website/es/jesus-es-open-g.png'
+            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
         }
       ]
     }

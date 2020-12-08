@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar flat fixed app>
-      <nuxt-link to="/" title="Inicio">
+      <nuxt-link to="/" title="Home">
         <img
           src="https://storage.verduzco.me/dotme/website/landing/jesus.webp"
           alt="Jesús Verduzco"
@@ -9,7 +9,7 @@
         >
       </nuxt-link>
       <v-spacer />
-      <v-btn icon title="Tema" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
+      <v-btn icon title="Theme" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
         <v-icon>invert_colors</v-icon>
       </v-btn>
       <v-menu
@@ -18,7 +18,7 @@
       >
         <template v-slot:activator="{ on, attrs }">
           <v-btn
-            title="Más"
+            title="Menu"
             icon
             v-bind="attrs"
             v-on="on"
@@ -34,7 +34,7 @@
         >
           <v-subheader>NAVIGATION</v-subheader>
           <v-list-item
-            title="Inicio"
+            title="Home"
             to="/"
             exact
           >
@@ -47,7 +47,7 @@
             <v-list-item-title>Blog</v-list-item-title>
           </v-list-item>
           <v-list-item
-            title="Habilidades"
+            title="Skills"
             to="/skills/"
           >
             <v-list-item-title>Skills</v-list-item-title>
@@ -86,27 +86,27 @@
         <v-card class="flex" flat tile color="transparent">
           <p id="copyright" class="text-center caption">
             &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br>
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" to="/legal/cookies/" title="Política de cookies">
-              Política de cookies
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" to="/legal/cookies/" title="Cookie policy">
+              Cookie Policy
             </nuxt-link>
           &nbsp;
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Política de privacidad" to="/legal/privacy/">
-              Política de privacidad
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Privacy Policy" to="/legal/privacy/">
+              Privacy Policy
             </nuxt-link>
           &nbsp;
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Aviso Legal" to="/legal/notice/">
-              Aviso Legal
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Legal Notice" to="/legal/notice/">
+              Legal Notice
             </nuxt-link>
           </p>
         </v-card>
         <cookie-law
           theme="dark-lime"
-          button-text="Aceptar"
+          button-text="Ok"
         >
           <div slot="message">
-            Este sitio usa 🍪 (cookies) de las que no se comen.
+            This site uses 🍪 (cookies) that are not eaten.
             <nuxt-link title="Política de cookies" to="/legal/cookies/">
-              Política de cookies
+              Cookie Policy
             </nuxt-link>
           </div>
         </cookie-law>

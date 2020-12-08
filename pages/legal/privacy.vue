@@ -34,7 +34,7 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en-US'
+        lang: 'en-us'
       },
       title: this.policy.title,
       link: [
@@ -66,11 +66,11 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.me/dotme/website/es/jesus-es-open-g.png'
+            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
         },
         {
           property: 'og:locale',
-          content: 'en-US'
+          content: 'en-us'
         },
         {
           property: 'og:type',
@@ -107,7 +107,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.me/dotme/website/es/jesus-es-open-g.png'
+            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
         }
       ]
     }

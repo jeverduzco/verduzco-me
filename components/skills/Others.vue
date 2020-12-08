@@ -16,7 +16,7 @@
         lg6
       >
         <v-spacer class="section-spacer" />
-        <span class="overline">Seguridad informática</span>
+        <span class="overline">Computer security</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -24,7 +24,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Marketing digital</span>
+        <span class="overline">Digital marketing</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -32,7 +32,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Ciencia de datos e IA</span>
+        <span class="overline">Data science and AI</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -40,7 +40,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Internet de las cosas</span>
+        <span class="overline">Internet of Things</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -48,7 +48,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Negocios y emprendimiento</span>
+        <span class="overline">Business and entrepreneurship</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -56,7 +56,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Gestión de proyectos</span>
+        <span class="overline">Project management</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -73,11 +73,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-right">
-          Otras habilidades
+          Other skills
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Mi sed nata de conocimiento e internet son el complemento perfecto para nunca dejar de aprender.
+          My natural curiosity for knowledge and the Internet are the perfect complement to never stop learning.
         </p>
         <div class="text-center text-md-right">
           <v-btn
@@ -88,9 +88,9 @@
             depressed
             href="https://t.me/jeverduzco"
             target="_blank"
-            title="Mándame un mensaje"
+            title="Send me a message"
           >
-            Mándame un mensaje
+            Send me a message
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
@@ -103,7 +103,7 @@
         lg6
       >
         <v-spacer class="section-spacer" />
-        <span class="overline">Seguridad informática</span>
+        <span class="overline">Computer security</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -111,7 +111,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Marketing digital</span>
+        <span class="overline">Digital marketing</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -119,7 +119,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Ciencia de datos e IA</span>
+        <span class="overline">Data science and AI</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -127,7 +127,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Internet de las cosas</span>
+        <span class="overline">Internet of Things</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -135,7 +135,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Negocios y emprendimiento</span>
+        <span class="overline">Business and entrepreneurship</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -143,7 +143,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Gestión de proyectos</span>
+        <span class="overline">Project management</span>
         <v-progress-linear
           color="secondary"
           height="10"

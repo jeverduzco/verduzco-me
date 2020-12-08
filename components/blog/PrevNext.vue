@@ -18,7 +18,7 @@
           height="150"
         >
           <v-card-title primary-title>
-            Más nuevo
+            Newer
           </v-card-title>
           <v-card-text>
             {{ prev.title }}
@@ -30,10 +30,10 @@
           height="150"
         >
           <v-card-title primary-title>
-            Más nuevo
+            Newer
           </v-card-title>
           <v-card-text>
-            No hay artículos más nuevos.
+            There are no newer articles.
           </v-card-text>
         </v-card>
       </v-flex>
@@ -47,7 +47,7 @@
           height="150"
         >
           <v-card-title primary-title>
-            Más antiguo
+            Older
           </v-card-title>
           <v-card-text>
             {{ next.title }}
@@ -59,10 +59,10 @@
           height="150"
         >
           <v-card-title primary-title>
-            Más antiguo
+            Older
           </v-card-title>
           <v-card-text>
-            No hay artículos más antiguos.
+            There are no older articles.
           </v-card-text>
         </v-card>
       </v-flex>

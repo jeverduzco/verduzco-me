@@ -10,11 +10,11 @@
     >
       <v-flex xs12 sm12 md6 lg6>
         <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-left">
-          Habilidades
+          Skills
         </h1>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h4 text-md-h4 text-h5 text-center text-md-left">
-          Conoce todo lo que puedo hacer por ti gracias a mis habilidades principales.
+          Know everything I can do for you thanks to my main skills.
         </p>
       </v-flex>
       <v-flex
@@ -24,7 +24,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whoiam.webp" alt="Habilidades">
+        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whoiam.webp" alt="Skills">
       </v-flex>
     </v-layout>
   </v-container>

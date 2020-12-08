@@ -26,9 +26,9 @@ export default {
   name: 'Landing',
   data() {
     return {
-      title: 'Jesús Verduzco - Ingeniero de DevOps',
+      title: 'Jesús Verduzco - DevOps Engineer',
       description:
-        'Soy Jesús Verduzco, un Geek entusiasta del código y de crear cosas geniales con él.',
+        'I am Jesús Verduzco, a Geek enthusiastic about code and creating great things with it.',
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'Person',
@@ -52,7 +52,7 @@ export default {
         }
       ],
       htmlAttrs: {
-        lang: 'en-US'
+        lang: 'en-us'
       },
       title: this.title,
       link: [
@@ -79,11 +79,11 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.me/dotme/website/es/jesus-es-open-g.png'
+            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
         },
         {
           property: 'og:locale',
-          content: 'en-US'
+          content: 'en-us'
         },
         {
           property: 'og:type',
@@ -120,7 +120,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.me/dotme/website/es/jesus-es-open-g.png'
+            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
         }
       ]
     }

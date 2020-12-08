@@ -16,7 +16,7 @@
         lg6
       >
         <v-spacer class="section-spacer" />
-        <span class="overline">Integración y entrega continuos</span>
+        <span class="overline">Continuous integration and delivery</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -24,7 +24,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Control de versiones</span>
+        <span class="overline">Version control</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -32,7 +32,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Desarrollo ágil de software</span>
+        <span class="overline">Agile software development</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -40,7 +40,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Infraestructura como código</span>
+        <span class="overline">Infrastructure as code</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -48,7 +48,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Despliegue continuo</span>
+        <span class="overline">Configuration management</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -56,7 +56,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Supervisión continua</span>
+        <span class="overline">Continuous monitoring</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -77,7 +77,7 @@
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          DevOps es mi rol favorito, disfruto al máximo conectar el desarrollo con las operaciones y ayudar a lograrlo.
+          DevOps is my favorite role, I enjoy connecting development with operations.
         </p>
         <div class="text-center text-md-right">
           <v-btn
@@ -88,9 +88,9 @@
             depressed
             href="https://t.me/jeverduzco"
             target="_blank"
-            title="Mándame un mensaje"
+            title="Send me a message"
           >
-            Mándame un mensaje
+            Send me a message
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
@@ -103,7 +103,7 @@
         lg6
       >
         <v-spacer class="section-spacer" />
-        <span class="overline">Integración y entrega continuos</span>
+        <span class="overline">Continuous integration and delivery</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -111,7 +111,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Control de versiones</span>
+        <span class="overline">Version control</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -119,7 +119,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Desarrollo ágil de software</span>
+        <span class="overline">Agile software development</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -127,7 +127,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Infraestructura como código</span>
+        <span class="overline">Infrastructure as code</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -135,7 +135,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Despliegue continuo</span>
+        <span class="overline">Configuration management</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -143,7 +143,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Supervisión continua</span>
+        <span class="overline">Continuous monitoring</span>
         <v-progress-linear
           color="secondary"
           height="10"

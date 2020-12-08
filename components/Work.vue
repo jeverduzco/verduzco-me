@@ -16,7 +16,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/work.webp" alt="¿De dónde soy?">
+        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/work.webp" alt="Where am I from?">
       </v-flex>
       <v-flex
         class="text-right"
@@ -26,11 +26,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-right">
-          ¿De dónde soy?
+          Where am I from?
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Soy ciudadano del universo, mi oficina es internet, mi pasaporte es mexicano y mi infraestructura es la nube.
+          I am a citizen of the universe, my office is internet, my passport is Mexican, and my infrastructure is the cloud.
         </p>
         <div class="text-center text-md-right">
           <v-btn
@@ -41,9 +41,9 @@
             depressed
             href="https://t.me/jeverduzco"
             target="_blank"
-            title="Mándame un mensaje"
+            title="Send me a message"
           >
-            Mándame un mensaje
+            Send me a message
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
@@ -56,7 +56,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/work.webp" alt="¿De dónde soy?">
+        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/work.webp" alt="Where am I from?">
       </v-flex>
     </v-layout>
   </v-container>

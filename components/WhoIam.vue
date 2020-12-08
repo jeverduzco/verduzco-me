@@ -16,7 +16,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whoiam.webp" alt="¿Quién soy?">
+        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whoiam.webp" alt="Who am I?">
       </v-flex>
       <v-flex
         class="text-right"
@@ -26,11 +26,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-right">
-          ¿Quién soy?
+          Who am I?
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          Soy un organismo complejo con conciencia propia que nunca para de aprender, al que llamaron Jesús Verduzco.
+          I am a complex organism with its own consciousness and my name is Jesús Verduzco.
         </p>
         <div class="text-center text-md-right">
           <v-btn
@@ -41,9 +41,9 @@
             depressed
             to="/blog/"
             nuxt
-            title="Deberías leer mi blog"
+            title="You should read my blog"
           >
-            Deberías leer mi blog
+            You should read my blog
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
@@ -56,7 +56,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whoiam.webp" alt="¿Quién soy?">
+        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whoiam.webp" alt="Who am I?">
       </v-flex>
     </v-layout>
   </v-container>

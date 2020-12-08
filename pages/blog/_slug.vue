@@ -40,7 +40,7 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en-US'
+        lang: 'en-us'
       },
       title: this.article.title,
       link: [
@@ -70,7 +70,7 @@ export default {
         },
         {
           property: 'og:locale',
-          content: 'en-US'
+          content: 'en-us'
         },
         {
           property: 'og:type',

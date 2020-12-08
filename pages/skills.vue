@@ -26,21 +26,21 @@ export default {
   name: 'Skills',
   data() {
     return {
-      title: 'Mis Habilidades',
+      title: 'My Skills',
       description:
-        'Nunca parar de aprender me ha permitido saber de DevOps, Software, Marketing y otras cosas.'
+        'Never stopping learning has allowed me to learn about DevOps, Software, Marketing and other things.'
     }
   },
   head() {
     return {
       htmlAttrs: {
-        lang: 'en-US'
+        lang: 'en-us'
       },
       title: this.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://verduzco.me/habilidades/'
+          href: 'https://verduzco.me/skills/'
         }
       ],
       meta: [
@@ -61,11 +61,11 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.me/dotme/website/es/jesus-es-open-g.png'
+            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
         },
         {
           property: 'og:locale',
-          content: 'en-US'
+          content: 'en-us'
         },
         {
           property: 'og:type',
@@ -73,7 +73,7 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://verduzco.me/habilidades/'
+          content: 'https://verduzco.me/skills/'
         },
         {
           property: 'og:site_name',
@@ -102,7 +102,7 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.me/dotme/website/es/jesus-es-open-g.png'
+            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
         }
       ]
     }

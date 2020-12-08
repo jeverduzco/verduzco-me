@@ -16,11 +16,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-left">
-          ¿Qué hago?
+          What do I do?
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          Trabajo como consultor independiente en Desarrollo Web, Computación en la Nube, DevOps y otras cosas geniales.
+          I work as an independent consultant in DevOps, Web Development, Cloud, and other cool stuff.
         </p>
         <div class="text-center text-md-left">
           <v-btn
@@ -29,11 +29,11 @@
             large
             rounded
             depressed
-            to="/habilidades/"
+            to="/skills/"
             nuxt
-            title="Conoce mis habilidades"
+            title="Know my skills"
           >
-            Conoce mis habilidades
+            Know my skills
           </v-btn>
         </div>
       </v-flex>
@@ -44,7 +44,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whatido.webp" alt="¿Qué hago?">
+        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whatido.webp" alt="What do I do?">
       </v-flex>
     </v-layout>
   </v-container>

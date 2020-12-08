@@ -16,11 +16,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-left">
-          Desarrollo Web
+          Web Development
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          El Desarrollo Web moderno es altamente complejo, si no sabes por dónde empezar tal vez puedo ayudarte.
+          Modern Web Development is highly complex, if you don't know where to start maybe I can help you.
         </p>
         <div class="text-center text-md-left">
           <v-btn
@@ -31,9 +31,9 @@
             depressed
             href="https://t.me/jeverduzco"
             target="_blank"
-            title="Mándame un mensaje"
+            title="Send me a message"
           >
-            Mándame un mensaje
+            Send me a message
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
@@ -61,7 +61,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Autenticación (OAuth, SSO, JWT)</span>
+        <span class="overline">Authentication (OAuth, SSO, JWT)</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -85,7 +85,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Bases de datos (Mongo, Cosmos, MySql)</span>
+        <span class="overline">Databases (Mongo, Cosmos, MySql)</span>
         <v-progress-linear
           color="secondary"
           height="10"
