@@ -1,49 +1,49 @@
 ---
-title: Configurando WSL2, Windows Terminal y Oh My Zsh
-description: ¿Te gusta Windows 10 pero amas desarrollar en Linux? Con WSL2, Windows Terminal y Oh My Zsh podemos hacer maravillas.
+title: Configuring WSL2, Windows Terminal and Oh My Zsh
+description: Do you like Windows 10 but love to develop on Linux? With WSL2, Windows Terminal and Oh My Zsh we can do wonders.
 img: https://storage.verduzco.me/dotme/blog/wsl-zsh.png
-opimg: https://storage.verduzco.me/dotme/blog/wsl-zsh-op.png
+opimg: https://storage.verduzco.me/dotme/blog/wsl-zsh-op-en.png
 createdAt: 2020-12-05 10:00
 updatedAt: 2020-12-05 10:00
 category_id: dev-ops
 category_name: DevOps
 ---
 
-Para el **Desarrollo Web** con **Node.js o Python** me encanta trabajar con un entorno corriendo en **Linux**, pero para jugar y hacer cosas cotidianas amo a **Windows 10**. Afortunadamente no soy el único y Microsoft lo sabe, así que crearon **WSL2**. 
+For **Web Development** with **Node.js or Python** I love working with a environment running in **Linux**, but for playing and doing everyday things I love **Windows 10**. Luckily I'm not the only one and Microsoft knows it, so they created **WSL2**.
 
-De **WSL2** basta decir que es un entorno completo de **Linux** corriendo en nuestro **Windows 10**, sobre **Oh My Zsh** solo diré que es lo mejor para trabajar con **Git**. No voy a profundizar más en el tema ya que si el titúlo te llamó la atención seguramente sabes de qué estoy hablando.
+From **WSL2** it is enough to say that it is a complete environment of **Linux** running on our **Windows 10**, about **Oh My Zsh** I will only say that it is the best to work with **Git**. I'm not going to go deeper into the subject because if the title caught your attention you surely know what I'm talking about.
 
-También voy a asumir que sabes instalar [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) en tu computadora y que ya tienes [Windows Terminal](https://www.microsoft.com/es-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab), este articulo va sobre cómo hacer funcionar **Oh My Zsh con Windows Terminal** y configurar su aspecto visual. 
+I will also assume that you know how to install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10) on your computer and that you already have [Windows Terminal](https://www.microsoft.com/es-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab), this article is about how to run **Oh My Zsh with Windows Terminal** and configure its visual appearance. 
 
-Así que para empezar solo hay que asegurarnos de que tenemos la versión 2 de **WSL** con el siguiente comando en **PowerShell**:
+So to start with we just need to make sure we have version 2 of **WSL** with the following command in **PowerShell**:
 ~~~powershell {}[PowerShell]
 wsl -l -v
 ~~~
-El resultado debe ser el siguiente:
+The result should be as follows:
 <center>
 
 ![Versión de WSL](https://storage.verduzco.me/dotme/blog/wsl-version-ps.png)
 
 </center>
 
-Lo que sigue es instalar **Oh My Zsh** así que ejecutamos los siguientes comandos para instalar los prerrequisitos: 
+What follows is to install **Oh My Zsh** so we execute the following commands to install the prerequisites: 
 
 ~~~bash {}[Bash]
 sudo apt update
 sudo apt install git zsh -y
 ~~~
 
-Una vez que tenemos los prerrequisitos vamos a ejecutar la instalación: 
+Once we have the prerequisites we will run the installation:
 
 ~~~bash {}[Bash]
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ~~~
 
-Cuando nos pregunte si queremos usar ***zsh*** como terminal le decimos que sí.
+When he asks us if we want to use ***zsh*** as a terminal we say yes.
 
-El siguiente paso es configurar el tema, en mi caso me gusta `agnoster` así que con el comando `vi ~/.zshrc` editamos el archivo y nos aseguramos de que la línea de configuración del tema este así: `ZSH_THEME="agnoster"`
+The next step is to configure the theme, in my case I like `agnoster` so with the `vi ~/.zshrc` command we edit the file and make sure the theme configuration line looks like this: `ZSH_THEME="agnoster"`.
 
-Después hay que agregar nuestro estilo a **Windows Terminal**, así que abrimos la configuración que es un archivo `.json` y lo editamos para que se vea así:
+Then we have to add our style to **Windows Terminal**, so we open the configuration which is a `.json` file and edit it to look like this:
 ~~~json {}[settings.json]
 "schemes": [
     {
@@ -70,7 +70,7 @@ Después hay que agregar nuestro estilo a **Windows Terminal**, así que abrimos
 ],
 ~~~
 
-Para aplicar el estilo simplemente agregamos la siguiente línea `"colorScheme" : "wsl"` al perfil de la **Terminal** correspondiente a **WSL**:
+To apply the style we simply add the following line `"colorScheme" : "wsl"` in the profile of the **Terminal** corresponding to **WSL**:
 ~~~json {}[settings.json]
 {
     "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
@@ -81,7 +81,7 @@ Para aplicar el estilo simplemente agregamos la siguiente línea `"colorScheme" 
 }
 ~~~
 
-Ahora nos falta instalar las fuentes para que nuestra **Terminal** sea capaz de mostrar iconos como el de **Git**. Para esto tenemos que poder ejecutar `git clone` en **PowerShell**. Para hacer la instalación nos situamos en una carpeta vacía y ejecutamos lo siguiente:
+Now we need to install the fonts so that our **Terminal** is able to show icons like the one in **Git**. For this we have to be able to run `git clone` in **PowerShell**. To do the installation we place ourselves in an empty folder and run the following:
 
 ~~~powershell {}[PowerShell]
 git clone https://github.com/powerline/fonts.git
@@ -89,7 +89,7 @@ cd fonts
 .\install.ps1
 ~~~
 
-Cuando el *script* termine de instalar todas las fuentes simplemente agregamos la que deseamos utilizar en los ajustes del perfil de **Windows Terminal**: 
+When the *script* finishes installing all the fonts we simply add the one we want to use in the profile settings of **Windows Terminal**: 
 
 ~~~json {}[settings.json]
 {
@@ -101,27 +101,27 @@ Cuando el *script* termine de instalar todas las fuentes simplemente agregamos l
     "fontFace" : "DejaVu Sans Mono for Powerline"
 }
 ~~~
-En el penúltimo paso de nuestra configuración cambiaremos la forma en la que se muestra el nombre de usuario y ocultaremos el nombre del equipo. 
+In the penultimate step of our configuration we will change the way the username is displayed and hide the name of the computer. 
 
-Para lograrlo hay que abrir el archivo de configuración de *zsh*:
+To do this we must open the *zsh* configuration file:
 
 ~~~bash {}[Bash]
 vi ~/.oh-my-zsh/themes/agnoster.zsh-theme
 ~~~
 
-Y sustituir la **línea 92** por la siguiente:
+And replace **line 92** with the following one:
 
 ~~~bash {}[Bash]
 prompt_segment green black "%(!.%{%F{yellow}%}.)%n"
 ~~~
 
-Por último, solo cambiamos la ruta por defecto que se abre cuando lanzamos la consola para que se abra nuestra carpeta principal de **Linux** y no la de **Windows**. Para lograrlo solo ejecutamos `vi ~/.zshrc` y agregamos la siguiente línea:
+Finally, we only change the default path that opens when we launch the console so that our main folder of **Linux** is opened and not that of **Windows**. To achieve this we just execute `vi ~/.zshrc` and add the following line:
 
 ~~~bash {}[Bash]
 cd ~
 ~~~
 
-Y eso es todo, ahora tendremos una **Terminal** extremadamente bonita como resultado.
+And that's it, now we will have an extremely nice **Terminal** as a result.
 
 <center>
 
@@ -129,9 +129,9 @@ Y eso es todo, ahora tendremos una **Terminal** extremadamente bonita como resul
 
 </center>
 
-## Nota 
+## Note
 
-El efecto de transparencia es preferible configurarlo en el perfil global dentro de los ajustes de **Windows Terminal**: 
+The transparency effect is best set in the global profile within the **Windows Terminal** settings: 
 
 ~~~json {}[settings.json]
 "defaults":
@@ -144,14 +144,14 @@ El efecto de transparencia es preferible configurarlo en el perfil global dentro
 
 ## Tips
 
-Si estamos usando ***nvm*** para administrar las versiones de **Node.js** no se reconocerán los comandos, para solucionarlo solo hay que ejecutar `vi ~/.zshrc` y agregar lo siguiente al archivo:
+If we're using ***nvm*** to manage the versions of **Node.js** the commands won't be recognized, to fix this just run `vi ~/.zshrc` and add the following to the file:
 
 ~~~bash {}[Bash]
 export NVM_DIR=~/.nvm
  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 ~~~
 
-Si queremos que la **Terminal** integrada de **Visual Studio Code** se vea hermosa como debería verse hay que agregar en la configuración de la instalación de ***WSL*** dentro de **Code** la fuente que permite mostrar los iconos en la **Terminal**:
+If we want the integrated **Terminal** of **Visual Studio Code** to look beautiful as it should, we have to add in the installation configuration of ***WSL*** inside **Code** the font that allows to show the icons in the **Terminal**:
 
 ~~~json {}[settings.json (Remote)]
 {
@@ -159,7 +159,7 @@ Si queremos que la **Terminal** integrada de **Visual Studio Code** se vea hermo
 }
 ~~~
 
-Y eso es todo... con dichos ajustes tendremos una **Terminal** en la que da gusto trabajar dentro de **Visual Studio Code**. 
+And that's it... with these settings we will have a **Terminal** in which it is a pleasure to work within **Visual Studio Code**. 
 
 <center>
 
@@ -167,4 +167,4 @@ Y eso es todo... con dichos ajustes tendremos una **Terminal** en la que da gust
 
 </center>
 
-Por hoy es todo, espero disfruten de su entorno profesional para desarrollar cosas súper geniales. Recuerden que si en su empresa necesitan asesoría para este y muchos temas más siempre pueden enviarme un mensaje y veo en que puedo ayudar.
+That's all for today, I hope you enjoy your professional environment to develop super cool things. Remember that if your company needs advice for this and many other issues you can always send me a message and I see how I can help.
