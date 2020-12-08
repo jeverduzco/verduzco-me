@@ -1,40 +1,40 @@
 ---
-title: "Gaming as a Service y el futuro de los videojuegos"
-description: Si eres de los que creen que aún existe una guerra de consolas deberías reflexionar sobre el Gaming as a Service.
+title: Gaming as a Service and the future of video games
+description: If you are one of those who believe that a console war still exists, you should think about Gaming as a Service.
 img: https://storage.verduzco.me/dotme/blog/gaming-as-a-service.png
-opimg: https://storage.verduzco.me/dotme/blog/gaming-as-a-service-op.png
+opimg: https://storage.verduzco.me/dotme/blog/gaming-as-a-service-op-en.png
 createdAt: 2020-11-24 10:00
 updatedAt: 2020-11-24 10:00
 category_id: trends
-category_name: Tendencias
+category_name: Trends
 ---
 
-Con la presentación reciente de la nueva generación de consolas por parte de Sony y Microsoft se ha desatado una guerra en redes sociales sobre cuál será la mejor. Pero a la industria eso no le interesa, lo de hoy es el **Gaming as a Service.** 
+With the recent introduction of the new generation of consoles by Sony and Microsoft, a war has broken out in social networks over which one will be the best. But the industry is not interested in that, today's is **Gaming as a Service.** 
 
-Mientras los usuarios en Twitter se pelean por qué consola es mejor, en la industria hay una fuerte tendencia que se aleja de ellas. Esta tendencia es impulsada principalmente por dos empresas, **Microsoft con xCloud y Google con Stadia.** La primera ve esta tecnología como el camino a seguir para mantener el liderazgo en los videojuegos y la segunda la ve como la oportunidad para ser alguien en una industria desconocida para ellos. 
+While users on Twitter are fighting over which console is better, there is a strong trend in the industry away from them. This trend is mainly driven by two companies, **Microsoft with xCloud and Google with Stadia.** The first sees this technology as the way to go to keep the leadership in video games and the second sees it as the opportunity to be someone in an industry unknown to them. 
 
-## La nube al servicio de los Gamers 
+## The Cloud at the service of the Gamers 
 
-En esta nueva etapa de la industria que da vida a **Twitch** no se trata de quien tenga la mejor consola o la mejor PC, se trata de quien tiene la mejor nube. Y al hablar de nubes tenemos que hablar de **Amazon, Microsoft y Google.** 
+In this new stage of the industry that gives life to **Twitch** it is not about who has the best console or the best PC, it is about who has the best cloud. And when we talk about clouds we have to talk about **Amazon, Microsoft and Google.** 
 
-Curiosamente las tres compañías están incursionando en la tendencia de Gaming as a Service, **Amazon lo hace con Luna, Microsoft con xCloud y Google con Stadia.** Cada una en su propia nube, con sus propias tecnologías y con sus propios planes, pero su esencia es la misma; pagar una suscripción y jugar en cualquier dispositivo. 
+Curiously enough, all three companies are making inroads into the trend of Gaming as a Service, **Amazon does it with Luna, Microsoft with xCloud and Google with Stadia.** Each one in its own cloud, with its own technologies and its own plans, but their essence is the same; pay a subscription and play on any device. 
 
-El problema va a ser para **las empresas que no tengan una nube** con la capacidad suficiente como es el caso de **Sony**. El único camino que parece existir para ellos es asociarse con uno de los servicios anteriores. Pues subcontratar una nube haría que no pudieran competir en precios. 
+The problem will be for **companies that don't have a cloud** with enough capacity as is the case with **Sony**. The only way that seems to exist for them is to partner with one of the previous services. Outsourcing a cloud would mean they couldn't compete on price. 
 
-## Compatibilidad: la clave del éxito 
+## Compatibility: the key to success 
 
-Parte del atractivo en estos servicios es que nos van a permitir **jugar desde cualquier parte** (con una buena conexión) y sin necesidad de tener un equipo con una potencia desorbitante, igualmente, la compatibilidad de equipos es lo que puede ser el detonante para el éxito. 
+Part of the attraction of these services is that they will allow us to **play from anywhere** (with a good connection) and without the need to have a computer with an exorbitant power, likewise, the compatibility of equipment is what can be the trigger for success. 
 
-Microsoft está dando soporte a todos los dispositivos Android 6.0 o superiores, que cuenten con WIFI de 5GHz y Bluetooth 4.0 o superior. Además de que ya se anunció que será compatible con los **televisores de Samsung**, que funcionará en PC con la app de Xbox y que llegará a iOS como una Web App; así que tampoco se descarta que se pueda jugar desde el navegador en un futuro. 
+Microsoft is supporting all Android 6.0 or higher devices that have 5GHz WIFI and Bluetooth 4.0 or higher. In addition, it has already announced that it will be compatible with **Samsung TVs**, that it will work on PCs with the Xbox app and that it will arrive at iOS as a Web App; so it is not ruled out that it can be played from the browser in the future either. 
 
-Google y Amazon también intentan dar soporte a la mayor cantidad de dispositivos posible, esto solo nos deja claro que no les importa el dispositivo, les importa que el cliente les pague una suscripción. **Aquí es donde la guerra de consolas pierde todo el sentido.** 
+Google and Amazon also try to support as many devices as possible, this only makes it clear that they don't care about the device, they care about the customer paying for a subscription. **This is where the console war loses all meaning.** 
 
-## El modelo de negocio que todos quieren 
+## The business model that everyone wants 
 
-El modelo de **suscripción** ha demostrado su eficacia en todas las industrias que lo han implementado. Esto es debido a que da **más estabilidad** a las empresas al tener un ingreso más predecible y pone a disposición de los usuarios lo que necesitan a precios muy bajos. 
+The **subscription** model has proven its effectiveness in all industries that have implemented it. This is because it gives **more stability** to companies by having a more predictable income and makes available to users what they need at very low prices. 
 
-Microsoft fue la primera empresa en arriesgarse de forma masiva con este modelo en la industria de los videojuegos con **Game Pass**, una jugada que les salió magnífica y que desde su nacimiento no ha hecho más que crecer. Se podría decir que el modelo de suscripción es el precursor de lo que es y será la industria del **Gaming as a Service.** 
+Microsoft was the first company to take a massive risk with this model in the video game industry with **Game Pass**, a move that turned out to be magnificent and that has only grown since its birth. It could be said that the subscription model is the precursor of what is and will be the industry of **Gaming as a Service.** 
 
-El detalle está en que para que este modelo de negocio sea rentable hay que cumplir un requisito importante: **tener una nube propia.** Y esto lo complica todo para quien no sea ni Amazon ni Microsoft ni Google. Pero como todo lleva su tiempo toca esperar a ver cómo evoluciona. 
+The detail is that in order for this business model to be profitable, an important requirement must be met: **having your own cloud.** And this complicates everything for those who are not Amazon, Microsoft or Google. But as everything takes time, we have to wait and see how it evolves. 
 
-Lo que no se puede negar es que la tendencia apenas ha empezado y que a los tres gigantes de la computación en la nube está claro que **no les importa en que dispositivo juegues**, importa que lo hagas en su plataforma y por supuesto pagando una mensualidad.
+What can't be denied is that the trend has just begun and that the three giants of cloud computing are clear that **it doesn't matter what device you play on**, it matters that you play on their platform and of course paying a monthly fee.
