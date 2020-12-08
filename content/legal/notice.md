@@ -1,100 +1,100 @@
 ---
-title: Aviso legal
-description: Aviso legal para el sitio web verduzco.me
+title: Legal Notice
+description: Legal Notice for the verduzco.me website
 ---
 
-## Identificación y Titularidad
+## Identification and Ownership
 
-**Titular:** JESÚS VERDUZCO DÍAZ.  
+**Owner:** JESÚS VERDUZCO DÍAZ.  
 
-**Domicilio Fiscal:** Av. Adolfo López Mateos 1001 OTE, CC. Plaza Kristal Torre A PH-4, Aguascalientes, México.  
+**Address:** Av. Adolfo López Mateos 1001 OTE, CC. Plaza Kristal Torre A PH-4, Aguascalientes, México.  
 
-## Finalidad
+## Purpose
 
-Proveer información pública de servicios y artículos de interés. 
+Provide public information on services and articles of interest 
 
-## Condiciones de Uso
+## Terms of use
 
-La navegación por este Sitio Web le otorga la condición de usuario, sin importar si es una persona física o jurídica (moral), y obligatoriamente implica la aceptación completa, plena y sin reservas de todas y cada una de las cláusulas y condiciones generales incluidas en este Aviso Legal.  
+By browsing this Website you are granted the status of user, regardless of whether you are an individual or a legal entity (corporation), and this necessarily implies full, complete and unreserved acceptance of each and every one of the clauses and general conditions included in this Legal Notice.  
 
-Si no se estuviera conforme con cada una de las cláusulas y condiciones de uso de este Aviso Legal, se debe abstener de navegar por el Sitio Web.  
+If you do not agree with each of the clauses and conditions of use of this Legal Notice, you must refrain from browsing the Website.  
 
-El acceso al Sitio Web no supone, en modo alguno, el inicio de una relación comercial con **JESÚS VERDUZCO DÍAZ**.  
+The access to the Website does not suppose, in any way, the beginning of a commercial relationship with **JESÚS VERDUZCO DÍAZ**.  
 
-El usuario se obliga y se compromete a NO utilizar cualquiera de los contenidos del Sitio Web con fines o efectos ilícitos, prohibidos en el Aviso Legal o por la legislación vigente, lesivos de los derechos e intereses de terceros, o que de cualquier forma puedan dañar, inutilizar, sobrecargar, deteriorar o impedir la normal utilización del Sitio Web, los equipos informáticos o los documentos y toda clase de contenidos almacenados en cualquier equipo informático propios o contratados por **JESÚS VERDUZCO DÍAZ**, de otros Usuarios o de cualquier usuario de Internet (hardware y software).  
+The user is obliged and committed NOT to use any of the contents of the Website for illicit purposes or effects, prohibited in the Legal Notice or by the legislation in force, harmful to the rights and interests of third parties, or that in any way could damage, render useless, overload, deteriorate or prevent the normal use of the Website, the computer equipment or documents and all kinds of contents stored in any computer equipment owned or contracted by **JESÚS VERDUZCO DÍAZ**, other Users or any Internet user (hardware and software).  
 
-## Mayoría de edad
+## Coming of age
 
-El usuario, debe tener al menos la edad que se considere mayoría en su país para navegar en el Sitio Web y utilizar los servicios ofrecidos por **JESÚS VERDUZCO DÍAZ**.  
+The user must be at least the age considered to be the majority in his or her country to navigate the Website and use the services offered by **JESÚS VERDUZCO DÍAZ**.  
 
-Además de tener la edad mínima requerida, por su país, para usar el Sitio Web en virtud de la ley aplicable, si no tiene la edad suficiente para poder aceptar nuestras condiciones en su país, su padre, madre, o tutor deben aceptar estas condiciones en su nombre, para poder acceder y utilizar los servicios.  
+In addition to having the minimum age required, by their country, to use the Website under the applicable law, if they are not old enough to be able to accept our conditions in their country, their father, mother, or guardian must accept these conditions on their behalf, in order to access and use the services.  
 
-## Medidas de seguridad
+## Security measures
 
-Los datos personales comunicados por el usuario a **JESÚS VERDUZCO DÍAZ** pueden ser almacenados en bases de datos automatizadas o no, cuya titularidad corresponde a **JESÚS VERDUZCO DÍAZ** o sus socios comerciales, asumiendo estos todas las medidas de índole técnica, organizativa y de seguridad que garantizan la confidencialidad, integridad y calidad de la información contenida en las mismas de acuerdo con lo establecido en la normativa vigente en protección de datos.  
+The personal data communicated by the user to **JESÚS VERDUZCO DÍAZ** can be stored in automated databases or not, whose ownership corresponds to **JESÚS VERDUZCO DÍAZ** or its commercial partners, assuming all the measures of technical, organizational and security nature that guarantee the confidentiality, integrity and quality of the information contained in the same ones in accordance with the established in the in force regulation in protection of data.  
 
-No obstante, el usuario debe ser consciente de que las medidas de seguridad de los sistemas informáticos en Internet no son enteramente fiables y que, por tanto **JESÚS VERDUZCO DÍAZ** no puede garantizar la inexistencia de malware u otros elementos que puedan producir alteraciones en los sistemas informáticos (software y hardware) del usuario o en sus documentos electrónicos y datos contenidos en los mismos, aunque se toman todas las medidas de seguridad oportunas para evitar la presencia de estos elementos dañinos.  
+However, the user must be aware that the security measures of computer systems on the Internet are not entirely reliable and that, therefore, **JESÚS VERDUZCO DÍAZ** cannot guarantee the absence of malware or other elements that could produce alterations in the user's computer systems (software and hardware) or in their electronic documents and data contained therein, although all the appropriate security measures are taken to avoid the presence of these harmful elements.  
 
-## Datos personales
+## Personal information
 
-Puedes consultar toda la información relativa a los datos personales que guarda **JESÚS VERDUZCO DÍAZ** en la página de la [política de privacidad.](https://www.verduzco.me/legal/privacidad/) 
+You can consult all the information relative to the personal data that it keeps **JESÚS VERDUZCO DÍAZ** in the page of the <nuxt-link to="/legal/privacy/">privacy policy.</nuxt-link>
 
-## Contenidos
+## Contents
 
-**JESÚS VERDUZCO DÍAZ** ha obtenido la información y los materiales incluidos en la web de fuentes consideradas como fiables, pero, si bien se han tomado medidas razonables para asegurarse de que la Información contenida sea correcta, **JESÚS VERDUZCO DÍAZ** no garantiza que sea exacta, completa, o actualizada.  
+**JESÚS VERDUZCO DÍAZ** has obtained the information and materials included in the web from sources considered as reliable, but, although reasonable measures have been taken to ensure that the Information contained is correct, **JESÚS VERDUZCO DÍAZ** does not guarantee that it is exact, complete or updated.  
 
-**JESÚS VERDUZCO DÍAZ** declina expresamente cualquier responsabilidad por error u omisión en la Información contenida en el Sitio Web.  
+**JESÚS VERDUZCO DÍAZ** expressly declines any responsibility for error or omission in the Information contained in the Website.  
 
-Queda prohibido transmitir o enviar a través del Sitio Web cualquier contenido ilegal o ilícito, virus informáticos, o mensajes que, en general, afecten o violen derechos de **JESÚS VERDUZCO DÍAZ** o de terceros.  
+It is prohibited to transmit or send through the Website any illegal or illicit content, computer virus, or messages that, in general, affect or violate the rights of **JESÚS VERDUZCO DÍAZ** or of third parties.  
 
-Los contenidos del Sitio Web tienen únicamente finalidad informativa y en ninguna circunstancia deben usarse ni considerarse como oferta de venta, tampoco como solicitud de una oferta de compra ni recomendación para realizar cualquier otra operación, salvo que así se indique expresamente.  
+The contents of the Website are for information purposes only and under no circumstances should they be used or considered as an offer to sell, nor as a request for an offer to buy or a recommendation to carry out any other operation, unless expressly indicated.  
 
-**JESÚS VERDUZCO DÍAZ** se reserva el derecho a modificar, suspender, cancelar o restringir el contenido del Sitio Web, los vínculos o la información obtenida a través de ella, sin necesidad de previo aviso.  
+**JESÚS VERDUZCO DÍAZ** reserves the right to modify, suspend, cancel or restrict the content of the Website, the links or the information obtained through it, without the need for prior notice.  
 
-**JESÚS VERDUZCO DÍAZ** no es responsable de los daños y perjuicios que pudieran derivarse de la utilización del Sitio Web por el usuario receptor.  
+**JESÚS VERDUZCO DÍAZ** is not responsible for the damages that could be derived from the use of the Website by the receiving user.  
 
-## Política de cookies
+## Cookie policy
 
-Puedes consultar [aquí](https://www.verduzco.me/legal/cookies/) la política de cookies.  
+You can consult <nuxt-link to="/legal/cookies/">here</nuxt-link> the policy of cookies.
 
-## Enlaces de acceso a otros sitios web
+## Links to other websites
 
-**JESÚS VERDUZCO DÍAZ** proporciona al usuario el acceso a otros sitios web de terceras personas mediante links (enlaces) con la finalidad exclusiva de informar sobre la existencia de otras fuentes de información en Internet con las que podrá ampliar los datos que se le ofrecen en el Sitio Web.  
+**JESÚS VERDUZCO DÍAZ** provides the user with access to other third party Websites by means of links with the exclusive purpose of informing about the existence of other sources of information on the Internet with which the user can extend the data offered on the Website.  
 
-Estos enlaces a otros sitios web no suponen en ningún caso una sugerencia o recomendación de visitar dichas páginas de destino, que se encuentran fuera del control de **JESÚS VERDUZCO DÍAZ**, por lo que **JESÚS VERDUZCO DÍAZ**, no es responsable del contenido de la web vinculada ni del resultado obtenido por el usuario a través de dichos enlaces hipertextuales.  
+These links to other Websites do not in any case suppose a suggestion or recommendation to visit these destination pages, which are out of the control of **JESÚS VERDUZCO DÍAZ**, therefore **JESÚS VERDUZCO DÍAZ**, is not responsible for the content of the linked Website nor for the results obtained by the user through these hypertextual links.  
 
-Asimismo, **JESÚS VERDUZCO DÍAZ** no responde de los links o enlaces ubicados en los sitios vinculados a los que proporciona acceso.  
+Likewise, **JESÚS VERDUZCO DÍAZ** is not responsible for the links or connections located in the linked sites to which it provides access.  
 
-## Propiedad intelectual e industrial
+## Intellectual and industrial property
 
-Todos los derechos están reservados.  
+All rights reserved.  
 
-Todo acceso al Sitio Web está sujeto a las siguientes condiciones: la reproducción, almacenaje permanente y la difusión de los contenidos o cualquier otro uso que tenga finalidad pública o comercial queda expresamente prohibida sin el consentimiento previo expreso y por escrito de **JESÚS VERDUZCO DÍAZ**.  
+All access to the Website is subject to the following conditions: the reproduction, permanent storage and diffusion of the contents or any other use that has a public or commercial purpose is expressly prohibited without the prior express written consent of **JESÚS VERDUZCO DÍAZ**. 
 
-## Limitación de responsabilidad
+## Limitation of liability
 
-La información y servicios incluidos o disponibles a través del Sitio Web pueden incluir incorrecciones o errores tipográficos.  
+The information and services included in or available through the Website may include inaccuracies or typographical errors.  
 
-De forma periódica se incorporan cambios a la información contenida.  
+Changes are periodically made to the information contained.  
 
-**JESÚS VERDUZCO DÍAZ** puede introducir en cualquier momento mejoras y/o cambios en los servicios o contenidos.  
+**JESÚS VERDUZCO DÍAZ** can introduce at any time improvements and/or changes in the services or contents.  
 
-**JESÚS VERDUZCO DÍAZ** declina cualquier responsabilidad en caso de que existan interrupciones o un mal funcionamiento de los servicios o contenidos ofrecidos en Internet, cualquiera que sea su causa.  
+**JESÚS VERDUZCO DÍAZ** declines any responsibility in case of interruptions or a bad functioning of the services or contents offered on the Internet, whatever their cause.  
 
-Asimismo, **JESÚS VERDUZCO DÍAZ** no se hace responsable por caídas de la red, pérdidas de negocio a consecuencia de dichas caídas, suspensiones temporales de fluido eléctrico o cualquier otro tipo de daño indirecto que le pueda ser causado a los usuarios por causas ajenas a **JESÚS VERDUZCO DÍAZ**.  
+Likewise, **JESÚS VERDUZCO DÍAZ** is not responsible for network failures, business losses as a consequence of these failures, temporary suspensions of electrical fluid or any other type of indirect damage that may be caused to users due to causes beyond the control of **JESÚS VERDUZCO DÍAZ**.  
 
-**JESÚS VERDUZCO DÍAZ** no declara ni garantiza que los servicios o contenidos sean ininterrumpidos o que estén libres de errores, que los defectos sean corregidos, o que el servicio o el servidor que lo pone a disposición estén libres de virus u otros componentes nocivos sin prejuicio de que **JESÚS VERDUZCO DÍAZ** realiza sus mejores esfuerzos en evitar este tipo de incidentes.  
+**JESÚS VERDUZCO DÍAZ** does not declare or guarantee that the services or contents will be uninterrupted or error-free, that defects will be corrected, or that the service or the server that makes it available are free of viruses or other harmful components without prejudice to the fact that **JESÚS VERDUZCO DÍAZ** makes its best efforts to avoid this type of incident.  
 
-En caso de que el usuario tomara determinadas decisiones o realizara acciones con base a la información incluida en el Sitio Web, se recomienda la comprobación de la información recibida con otras fuentes.  
+Should the user make certain decisions or carry out actions based on the information included in the Website, it is recommended that the information received be checked with other sources.  
 
-## Derecho de exclusión
+## Right of exclusion
 
-**JESÚS VERDUZCO DÍAZ** se reserva el derecho a denegar o retirar el acceso al portal y/o los servicios ofrecidos sin necesidad de previo aviso, a instancia propia o de un tercero, a aquellos usuarios que incumplan con el presente Aviso Legal.  
+**JESÚS VERDUZCO DÍAZ** reserves the right to deny or withdraw access to the portal and/or the services offered without prior notice, at its own request or that of a third party, to those users who do not comply with this Legal Notice.  
 
-## Jurisdicción
+## Jurisdiction
 
-Para cuantas cuestiones se susciten sobre la interpretación, aplicación y cumplimiento de este Aviso Legal, así como de las reclamaciones que puedan derivarse de su uso, todas las partes intervinientes se someten a los Jueces y Tribunales del Estado de Aguascalientes, México, renunciando de forma expresa a cualquier otro fuero que pudiera corresponderles.  
+Para cuantas cuestiones se susciten sobre la interpretación, aplicación y cumplimiento de este Aviso Legal, así como de las reclamaciones que puedan derivarse de su uso, All the intervening parties submit themselves to the Judges and Courts of the State of Aguascalientes, Mexico, expressly waiving any other jurisdiction that may correspond to them.  
 
-## Contacto
+## Contact
 
-En caso de que cualquier usuario tuviese alguna duda acerca de estas condiciones legales o cualquier comentario sobre el Sitio Web, puede enviar un mensaje desde el botón de Telegram. 
+In case any user has any doubt about these legal conditions or any comment about the Website, he/she can send a message from the Telegram option in the navigation menu. 

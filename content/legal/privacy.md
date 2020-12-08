@@ -75,7 +75,7 @@ Nor will followers be tracked in social networks for advertising purposes, nor w
 
 ## How your data is protected
 
-See the [legal notice](https://www.verduzco.me/legal/notice/) for information regarding how the information is protected.  
+See the <nuxt-link to="/legal/notice/">legal notice</nuxt-link> for information regarding how the information is protected.  
 
 The **Website** is hosted by **Microsoft Azure**, it also uses services from **CloudFlare** as security services.  
 
@@ -97,7 +97,7 @@ For the security of the user of the **Website** only content stored in the domai
 
 ## Cookies
 
-For the **Web Site** to work properly you need to use cookies, this is information that is stored in the browser, see the cookie policy [here.](https://www.verduzco.me/legal/cookies/)
+For the **Web Site** to work properly you need to use cookies, this is information that is stored in the browser, see the cookie policy <nuxt-link to="/legal/cookies/">here.</nuxt-link>
 
 ## Legitimacy for data processing.  
 
