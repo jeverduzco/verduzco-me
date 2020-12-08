@@ -108,24 +108,23 @@ export default {
         generate: false,
         routes: [
           '/',
-          '/habilidades/',
+          '/skills/',
           '/blog/',
-          '/blog/como-aumentar-la-productividad/',
-          '/blog/consejos-aprender-en-linea/',
-          '/blog/hosting-gratuitos/',
-          '/blog/que-es-la-telemetria/',
-          '/blog/consejos-de-seguridad/',
-          '/blog/infraestructura-como-codigo/',
-          '/blog/sitio-web-vs-aplicacion-web/',
+          '/blog/free-hosting-services/',
           '/blog/gaming-as-a-service/',
+          '/blog/infrastructure-as-code/',
+          '/blog/remote-work-tips/',
+          '/blog/tips-for-learning-online/',
+          '/blog/web-site-vs-web-app/',
+          '/blog/what-is-telemetry/',
           '/blog/wsl2-windows-terminal-zsh/'
         ],
         exclude: [
           '/blog',
           '/legal/cookies',
-          '/legal/privacidad',
-          '/legal/aviso',
-          '/habilidades'
+          '/legal/privacy',
+          '/legal/notice',
+          '/skills'
         ]
       }
     ]
