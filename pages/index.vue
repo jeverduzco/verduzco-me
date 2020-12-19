@@ -26,7 +26,7 @@ export default {
   name: 'Landing',
   data() {
     return {
-      title: 'Jesús Verduzco - DevOps Engineer',
+      title: 'Jesús Verduzco - Business Technology Consultant',
       description:
         'I am Jesús Verduzco, a Geek enthusiastic about code and creating great things with it.',
       structuredData: {

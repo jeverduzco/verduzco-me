@@ -4,6 +4,7 @@
     class="content-container"
   >
     <v-layout
+      class="section-content"
       wrap
       row
       align-center
@@ -151,6 +152,58 @@
           striped
         />
         <v-spacer class="section-spacer" />
+      </v-flex>
+      <v-flex>
+        <v-expansion-panels flat focusable>
+          <v-expansion-panel>
+            <v-expansion-panel-header>What do I know about DevOps?</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-list three-line>
+                <v-list-item>
+                  <v-list-item-content>
+                    <v-list-item-title>Linux Server Administration</v-list-item-title>
+                    <v-list-item-subtitle>Ubuntu Server and CentOS</v-list-item-subtitle>
+                  </v-list-item-content>
+                </v-list-item>
+                <v-divider />
+                <v-list-item>
+                  <v-list-item-content>
+                    <v-list-item-title>Azure DevOps</v-list-item-title>
+                    <v-list-item-subtitle>Boards, Pipelines, Repos, Test Plans, Artifacts, Application Insights and Azure Monitor</v-list-item-subtitle>
+                  </v-list-item-content>
+                </v-list-item>
+                <v-divider />
+                <v-list-item>
+                  <v-list-item-content>
+                    <v-list-item-title>Containerization</v-list-item-title>
+                    <v-list-item-subtitle>Docker and Kubernetes</v-list-item-subtitle>
+                  </v-list-item-content>
+                </v-list-item>
+                <v-divider />
+                <v-list-item>
+                  <v-list-item-content>
+                    <v-list-item-title>Azure PaaS</v-list-item-title>
+                    <v-list-item-subtitle>Docker and Kubernetes</v-list-item-subtitle>
+                  </v-list-item-content>
+                </v-list-item>
+              </v-list>
+              <v-divider />
+              <v-list-item>
+                <v-list-item-content>
+                  <v-list-item-title>Azure IaaS</v-list-item-title>
+                  <v-list-item-subtitle>Docker and Kubernetes</v-list-item-subtitle>
+                </v-list-item-content>
+              </v-list-item>
+              <v-divider />
+              <v-list-item>
+                <v-list-item-content>
+                  <v-list-item-title>Gitlab DevOps</v-list-item-title>
+                  <v-list-item-subtitle>Administration, Planning, Verification, Packaging, Distribution and Monitoring</v-list-item-subtitle>
+                </v-list-item-content>
+              </v-list-item>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-expansion-panels>
       </v-flex>
     </v-layout>
   </v-container>

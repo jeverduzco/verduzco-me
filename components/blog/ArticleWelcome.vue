@@ -4,12 +4,13 @@
     class="content-container"
   >
     <v-layout
+      class="section-content"
       wrap
       row
       align-center
     >
       <v-flex xs12 sm12 md6 lg6>
-        <h1 class="text-h4 text-center text-md-left">
+        <h1 class="text-h3 text-center text-md-left">
           {{ title }}
         </h1>
         <v-spacer class="elements-spacer" />

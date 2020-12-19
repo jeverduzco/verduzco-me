@@ -9,6 +9,7 @@
       class="content-container"
     >
       <v-layout
+        class="section-content"
         wrap
         row
         align-center

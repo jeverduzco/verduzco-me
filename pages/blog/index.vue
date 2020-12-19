@@ -4,7 +4,7 @@
       <BlogWelcome />
       <Waves />
     </section>
-    <section id="blog-section">
+    <section id="blog-section" class="section-content">
       <v-container
         grid-list-xl
         class="content-container"
