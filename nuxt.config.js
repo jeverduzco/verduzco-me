@@ -7,8 +7,8 @@ module.exports = {
   target: 'server',
   telemetry: true,
   server: {
-    port: 3000, // default: 3000
-    host: 'localhost' // default: localhost
+    port: 8080, // default: 3000
+    host: '0.0.0.0' // default: localhost
   },
   /*
    ** Headers of the page
