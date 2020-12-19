@@ -1,8 +1,13 @@
 // vuetify.options.js
 import minifyTheme from 'minify-css-string'
+import LRU from 'lru-cache'
+const themeCache = new LRU({
+  max: 10,
+  maxAge: 1000 * 60 * 60 // 1 hour
+})
 export default {
   theme: {
-    options: { minifyTheme },
+    options: { minifyTheme, themeCache },
     dark: false,
     themes: {
       dark: {

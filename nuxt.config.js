@@ -1,9 +1,15 @@
-export default {
+// eslint-disable-next-line nuxt/no-cjs-in-config
+module.exports = {
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
-  target: 'static',
+  target: 'server',
+  telemetry: true,
+  server: {
+    port: 3000, // default: 3000
+    host: 'localhost' // default: localhost
+  },
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -86,7 +92,16 @@ export default {
     'applicationinsightsfornuxt',
     '@nuxt/content',
     '@nuxtjs/sitemap',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    'nuxt-helmet',
+    '@nuxtjs/redirect-module'
+  ],
+  redirect: [
+    {
+      from: '^.*(?<!/)$',
+      to: (from, req) => req.url + '/',
+      statusCode: 301
+    }
   ],
   appInsights: {
     instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf'
@@ -98,8 +113,11 @@ export default {
       }
     }
   },
+  axios: {
+    // See https://github.com/nuxt-community/axios-module#options
+    retry: true
+  },
   sitemap: {
-    hostname: 'https://www.verduzco.me',
     sitemaps: [
       {
         path: '/sitemap.xml',
@@ -129,20 +147,21 @@ export default {
       }
     ]
   },
-  generate: {
-    crawler: false,
-    async routes() {
-      const { $content } = require('@nuxt/content')
-      const blog = await $content(`blog`, { deep: true })
-        .only(['path'])
-        .fetch()
-
-      return blog.map(file => (file.path === '/index' ? '/' : file.path))
-    }
+  router: {
+    trailingSlash: true
   },
-  /*
-   ** Build configuration
-   ** See https://nuxtjs.org/api/configuration-build/
-   */
-  build: {}
+  build: {
+    extractCSS: true,
+    extend(config, ctx) {
+      // Run ESLint on save
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/
+        })
+      }
+    }
+  }
 }
