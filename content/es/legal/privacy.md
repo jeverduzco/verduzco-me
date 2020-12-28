@@ -1,160 +1,160 @@
 ---
-title: Privacy Policy
-description: Privacy policy for the verduzco.me website
+title: Política de privacidad
+description: Política de privacidad para el **Sitio Web** verduzco.me
 ---
 
-Users of the **Website** are informed of the policy regarding the treatment and protection of user's personal data that may be collected through browsing or communication through the **Website** and other media such as social networks, messaging applications, telephone or in person.
+Se informa a los usuarios del **Sitio Web** sobre la política respecto al tratamiento y protección de los datos de carácter personal de los usuarios que puedan ser recabados por la navegación o comunicación a través del **Sitio Web** y otros medios como redes sociales, aplicaciones de mensajería, teléfono o de forma interpersonal.   
 
-In this sense, compliance with current regulations on personal data protection is guaranteed, as reflected in the **Ley Federal de Protección de Datos Personales en Posesión de los Particulares de los Estados Unidos Mexicanos.**  
+En este sentido, se garantiza el cumplimiento de la normativa vigente en materia de protección de datos personales, reflejada en la **Ley Federal de Protección de Datos Personales en Posesión de los Particulares de los Estados Unidos Mexicanos.**  
 
-The purpose of the **Website** (www.verduzco.me) is the following: to provide public information on services and articles of interest.
+El alcance del **Sitio Web** (www.verduzco.me) es el siguiente: proveer información pública de servicios y artículos de interés. 
 
-## Identity of the responsible
+## Identidad del responsable
 
-**Name:** JESUS VERDUZCO DIAZ.
+**Titular:** JESUS VERDUZCO DIAZ.
 
-**Address:** Av. Adolfo López Mateos 1001 OTE 20250, CC. Plaza Kristal Torre A PH-4, Aguascalientes, México.  
+**Domicilio Fiscal:** Av. Adolfo López Mateos 1001 OTE 20250, CC. Plaza Kristal Torre A PH-4, Aguascalientes, México.  
 
-## Principles applied
+## Principios aplicados
 
-In the treatment of personal data, the following principles shall be applied, which conform to the requirements of the **Ley Federal de Protección de Datos Personales en Posesión de los particulares de los Estados Unidos Mexicanos.** 
+En el tratamiento de los datos personales, se aplicarán los siguientes principios que se ajustan a las exigencias de la **Ley Federal de Protección de Datos Personales en Posesión de los particulares de los Estados Unidos Mexicanos.** 
 
-### Principle of legality, loyalty and transparency
+### Principio de licitud, lealtad y transparencia
 
-The user's consent will always be required for the processing of his/her personal data for one or more specific purposes which will be previously informed with absolute transparency.  
+Siempre se va a requerir el consentimiento del usuario para el tratamiento de sus datos personales para uno o varios fines específicos que se informarán previamente con absoluta transparencia.  
 
-### Data minimization principle
+### Principio de minimización de datos
 
-Only data strictly necessary for the applicable purposes will be requested. The minimum possible.  
+Solo se van a solicitar datos estrictamente necesarios en relación con los fines aplicables. Los mínimos posibles.  
 
-### Principle of conservation period limitation
+### Principio de limitación del plazo de conservación
 
-The data will be stored for no longer than the time necessary for the purposes of the treatment, depending on the purpose, will be informed of the corresponding conservation period in the terms and conditions applicable, in the case of services of interpersonal interaction, periodically review the databases and delete those records inactive for a considerable time of 180 days.  
+Los datos serán almacenados durante no más del tiempo necesario para los fines del tratamiento, en función de la finalidad, se informará del plazo de conservación correspondiente en los términos y condiciones aplicables, en el caso de servicios de interacción interpersonal, periódicamente se revisan las bases de datos y se eliminan aquellos registros inactivos durante un tiempo considerable de 180 días.  
 
-### Principle of integrity and confidentiality
+### Principio de integridad y confidencialidad
 
-The data will be treated in such a way as to guarantee adequate security and confidentiality.  
+Los datos serán tratados de tal manera que se garantice una seguridad adecuada y su confidencialidad.  
 
-All necessary precautions are taken to avoid unauthorized access or improper use of the data by third parties following the guidelines of the **ISO 27001.**
+Se toman todas las precauciones necesarias para evitar el acceso no autorizado o uso indebido de los datos por parte de terceros siguiendo los lineamientos de **ISO 27001.**
 
-## How the data was obtained
+## Cómo se han obtenido los datos
 
-To browse the public sections of the **Website** it is not necessary to provide any personal data in addition to the technical browsing data: IP address, browser version, operating system version and type of device.  
+Para navegar por las secciones públicas del **Sitio Web** no es necesario que se facilite ningún dato personal adicional a los datos técnicos de navegación: dirección IP, versión del navegador, versión del sistema operativo y tipo de dispositivo.  
 
-### Cases in which if data are provided
+### Casos en los que si se proporcionan datos
 
-When you send a message by email, by some social network through the official profiles, by an instant messaging platform and when you call to **JESUS VERDUZCO DIAZ.** 
+Cuando se envía un mensaje por correo electrónico, por alguna red social mediante los perfiles oficiales, por una plataforma de mensajería instantánea y cuando se llama por teléfono a **JESUS VERDUZCO DIAZ.** 
 
-## Rights of the data owner
+## Derechos del propietario de los datos
 
-Users who provide personal data have the right to request access to their data, to ask for their rectification or deletion, to request the limitation of their processing and to oppose to the processing. 
+Los usuarios que proporcionen datos personales tienen derecho a solicitar el acceso a sus datos, solicitar su rectificación o supresión, solicitar la limitación de su tratamiento y oponerse al tratamiento. 
 
-The exercise of these rights is personal and must therefore be exercised directly by the interested party, which means that any user, subscriber or collaborator who has provided data at any time, may contact **JESUS VERDUZCO DIAZ** and ask for information about the data they have stored and how they have been obtained (right of access), may request the rectification of the same, oppose the treatment or, if necessary, request the elimination of such data.  
+El ejercicio de estos derechos es personal y debe por tanto ser ejercido directamente por el interesado, lo que significa que cualquier usuario, suscriptor o colaborador que haya proporcionado datos en algún momento, puede dirigirse a **JESUS VERDUZCO DIAZ** y pedir la información sobre los datos que se tienen almacenados y cómo se han obtenido (derecho de acceso), puede solicitar la rectificación de los mismos, oponerse al tratamiento o en su caso solicitar la eliminación de esos datos.  
 
-Any such request must be made by means of the Telegram button included in this **Website**. The user must confirm his/her identity and the ownership of the data before exercising one of his/her rights. 
+Cualquier petición de este tipo debe hacerse mediante el botón de Telegram de incluido en este **Sitio Web**. El usuario deberá conformar su identidad y la titularidad de los datos antes de ejercer uno de sus derechos. 
 
-The owners of the data are also entitled to effective judicial protection and to file a complaint with the corresponding control authority if they consider that the processing of their personal data concerning them violates the regulations.  
+Los propietarios de los datos también tienen derecho a la tutela judicial efectiva y a presentar una reclamación ante la autoridad de control, correspondiente, si consideran que el tratamiento de sus datos personales que le conciernen infringe el reglamento.  
 
-## What is the purpose of the processing of personal data?
+## Con qué finalidad se tratan los datos personales
 
-When a user enters the **Website**, contacts by e-mail, a messaging application, a social network or a phone call, he is providing information of a personal nature for which **JESUS VERDUZCO DIAZ** is responsible.  
+Cuando un usuario ingresa al **Sitio Web**, contacta por correo electrónico, una aplicación de mensajería, una red social o una llamada telefónica, está facilitando información de carácter personal de la que **JESUS VERDUZCO DIAZ** es responsable.  
 
-This information may include personal data such as IP address, name, country, e-mail address, and other information.  
+Esa información puede incluir datos de carácter personal como pueden ser la dirección IP, nombre, país, dirección de correo electrónico, y otra información.  
 
-By providing this information, the user consents to the collection, use, management and storage of his/her information by **JESUS VERDUZCO DIAZ** and its technological partners. 
+Al facilitar esta información, el usuario da su consentimiento para que su información sea recopilada, utilizada, gestionada y almacenada por **JESUS VERDUZCO DIAZ** y sus socios tecnológicos. 
 
-The main purpose in collecting the data is to engage in a two-way conversation of a personal or professional nature. 
+La finalidad principal al recopilar los datos es entablar una conversación de carácter personal o profesional de dos vías. 
 
-Other purposes for which the personal data is processed are, to guarantee the fulfilment of the conditions of use and the applicable law, the development of tools and algorithms that help to guarantee the confidentiality of the personal data provided and to improve the services offered by **JESUS VERDUZCO DIAZ.**  
+Otras finalidades para las que se tratan los datos personales son, garantizar el cumplimiento de las condiciones de uso y la ley aplicable, el desarrollo de herramientas y algoritmos que ayudan a garantizar la confidencialidad de los datos personales que se proporcionan y mejorar los servicios que ofrece **JESUS VERDUZCO DIAZ.**  
 
-The treatment of the data that is carried out of the people who become followers in the social networks by the official profiles, will be governed by these conditions and by those conditions of use, privacy policies and regulations of access that belong to the social network that proceed in each case and accepted previously by the user.  
+El tratamiento de los datos que se lleva a cabo de las personas que se hagan seguidoras en las redes sociales por los perfiles oficiales, se regirá por estas condiciones y por aquellas condiciones de uso, políticas de privacidad y normativas de acceso que pertenezcan a la red social que proceda en cada caso y aceptadas previamente por el usuario.  
 
-Under no circumstances will the profiles of followers in social networks be used to send advertising individually.  
+En ningún caso se utilizarán los perfiles de seguidores en redes sociales para enviar publicidad de manera individual.  
 
-Nor will followers be tracked in social networks for advertising purposes, nor will social network code be used in the **Website**.  
+Tampoco se rastrea a los seguidores en redes sociales con fines publicitarios, ni mucho menos se usará código de redes sociales en el **Sitio Web**.  
 
-## How your data is protected
+## Cómo se protegen tus datos
 
-See the <nuxt-link to="/legal/notice/">legal notice</nuxt-link> for information regarding how the information is protected.  
+Visita el [aviso legal](https://www.verduzco.me/legal/aviso/) para información referente a la forma en que se protege la información.  
 
-The **Website** is hosted by **Microsoft Azure**, it also uses services from **CloudFlare** as security services.  
+El **Sitio Web** se encuentra alojado en **Microsoft Azure**, también utiliza servicios de **CloudFlare** como servicios de seguridad.  
 
-Data security is guaranteed, as they take all the necessary security measures.  
+La seguridad de los datos está garantizada, ya que toman todas las medidas de seguridad necesarias para ello.  
 
 **Microsoft Azure:** https://www.microsoft.com/en-us/trustcenter/privacy/default.aspx   
 
 **CloudFlare:** https://www.cloudflare.com/privacypolicy/  
 
-To protect personal information, reasonable precautions are taken and industry best practices are followed so that there is no loss, misuse, access, disclosure, alteration or destruction of personal information.
+Para proteger la información personal, se toman las precauciones razonables y se siguen las mejores prácticas de la industria para que no haya pérdida, mal uso, acceso, divulgación, alteración o destrucción de esta.  
 
-The information you provide by e-mail is stored and processed by **Microsoft 365**, see their privacy policy here: https://products.office.com/en-us/business/office-365-trust-center-privacy  
+La información que proporcionas por correo electrónico es almacenada y procesada por **Microsoft 365**, consulta su política de privacidad aquí: https://products.office.com/en-us/business/office-365-trust-center-privacy  
 
-The information stored by the **Website** is transported using the TLS 1.2 and TLS 1.3 protocols, and is also stored in encrypted form using the AES 256 security standard.  
+La información almacenada por el **Sitio Web** se transporta usando los protocolos TLS 1.2 y TLS 1.3, además de que se almacena de forma cifrada mediante el estándar de seguridad AES 256.  
 
-## Content from other websites
+## Contenido de otros sitios web
 
-For the security of the user of the **Website** only content stored in the domains of **JESUS VERDUZCO DIAZ** is inserted, thus avoiding tracking by third parties.  
+Por seguridad del usuario del **Sitio Web** solo se inserta contenido almacenado en los propios dominios de **JESUS VERDUZCO DIAZ**, con esto se evita el rastreo por parte de terceros.  
 
 ## Cookies
 
-For the **Web Site** to work properly you need to use cookies, this is information that is stored in the browser, see the cookie policy <nuxt-link to="/legal/cookies/">here.</nuxt-link>
+Para que el **Sitio Web** funcione correctamente necesita utilizar cookies, es información que se almacena en el navegador, consulta la política de cookies [aquí.](https://www.verduzco.me/legal/cookies/)
 
-## Legitimacy for data processing.  
+Legitimación para el tratamiento de los datos.  
 
-The legal basis for data processing is: consent.  
+La base legal para el tratamiento de los datos es: el consentimiento.  
 
-To use the services of **JESUS VERDUZCO DIAZ** the acceptance of this privacy policy is required.  
+Para utilizar los servicios de **JESUS VERDUZCO DIAZ** se requiere la aceptación de esta política de privacidad.  
 
-## Data category
+## Categoría de datos
 
-The category of data being processed is identifying data.  
+La categoría de datos que se tratan son datos identificativos.  
 
-## To which recipients the data will be communicated.  
+A qué destinatarios se comunicarán los datos.  
 
-For the correct functioning of the **Website** it is necessary that the data provided be treated by more than one business partner.  
+Para el correcto funcionamiento del **Sitio Web** es necesario que los datos proporcionados sean tratados por más de un socio comercial.  
 
 ### Microsoft Azure
 
-Cloud Computing service provided by Microsoft Corporation. a company whose main office is at One Microsoft Way Redmond, WA, 98052, USA.  
+Servicio de Cloud Computing prestado por Microsoft Corporation. una compañía cuya oficina principal está en One Microsoft Way Redmond, WA, 98052, USA.  
 
-Microsoft uses identifying data such as IP address to manage the CDN that will deliver the **Website** to a specific user. 
+Microsoft utiliza datos identificativos como la dirección IP para gestionar el CDN que entregará el **Sitio Web** a un usuario específico. 
 
-The information will be directly transmitted to and stored by Microsoft Corporation on servers in the United States.  
+La información será directamente transmitida y archivada por Microsoft Corporation en los servidores de Estados Unidos.  
 
 ### CloudFlare
 
-Security and optimization service provided by Cloudflare, Inc. a company whose main office is at 101 Townsend St, San Francisco, CA 94107, USA.  
+Servicio de seguridad y optimización prestado por Cloudflare, Inc., una compañía cuya oficina principal está en 101 Townsend St, San Francisco, CA 94107, EE. UU.  
 
-CloudFlare uses 'cookies', which are text files placed on the browser, to help the **Website** verify whether users are real or robots, protect the **Website** from cyber attacks, as well as speed up delivery.  
+CloudFlare utiliza 'cookies', que son archivos de texto ubicados en el navegador, para ayudar al **Sitio Web** a verificar si los usuarios son reales o robots, proteger el **Sitio Web** de ataques cibernéticos, así como acelerar su entrega.  
 
-The information generated by the cookie about the use of the **Website** (including your IP address) will be directly transmitted to and stored by CloudFlare on servers in the United States. 
+La información que genera la cookie acerca del uso del **Sitio Web** (incluyendo tu dirección IP) será directamente transmitida y archivada por CloudFlare en los servidores de Estados Unidos. 
 
-## Navigation and use of the Website
+## Navegación y utilización del Sitio Web
 
-When using the **Website** non-identifiable data may be collected, which may include, approximate geographic location, a record of how the services are used, and other data that cannot be used to identify the user.  
+Al utilizar el **Sitio Web** se pueden recoger datos no identificables, que pueden incluir, ubicación geográfica aproximada, un registro de cómo se utilizan los servicios, y otros datos que no pueden ser utilizados para identificar al usuario.  
 
-Among the non-identifying data is also related to your usage habits through Microsoft Azure services, the **Website** uses in particular **Azure Application Insights and Microsoft Clarity.**
+Entre los datos no identificativos están también los relacionados a tus hábitos de uso a través de servicios de Microsoft Azure, el **Sitio Web** utiliza en concreto **Azure Application Insights y Microsoft Clarity.**
 
-**JESUS VERDUZCO DIAZ** uses this information to analyze the performance of the **Website** based on each user's computer and to identify possible errors.
+**JESUS VERDUZCO DIAZ** utiliza esta información para analizar el rendimiento del **Sitio Web** en base al equipo de cada usuario e identificar posibles errores.  
 
-## Accuracy and veracity of data
+## Exactitud y veracidad de los datos
 
-The user is the only responsible for the veracity and correctness of the data that he/she sends, exonerating **JESUS VERDUZCO DIAZ**, from any responsibility in this respect.  
+El usuario es el único responsable de la veracidad y corrección de los datos que remita, exonerando a **JESUS VERDUZCO DIAZ**, de cualquier responsabilidad al respecto.  
 
-The user guarantees and is responsible, in any case, for the accuracy, validity and authenticity of the personal data provided, and undertakes to keep them duly updated.  
+El usuario garantiza y responde, en cualquier caso, de la exactitud, vigencia y autenticidad de los datos personales facilitados, y se compromete a mantenerlos debidamente actualizados.  
 
-## Acceptance and consent
+## Aceptación y consentimiento
 
-The user declares to have been informed of the conditions on protection of personal data, accepting and consenting to the treatment of these by **JESUS VERDUZCO DIAZ** in the form and for the purposes indicated in this privacy policy.  
+El usuario declara haber sido informado de las condiciones sobre protección de datos de carácter personal, aceptando y consintiendo el tratamiento de estos por parte de **JESUS VERDUZCO DIAZ** en la forma y para las finalidades indicadas en esta política de privacidad.  
 
-## Revocability
+## Revocabilidad
 
-At all times, users who wish to access or rectify their data can send a message from the Telegram button and will be explained how to exercise their rights of opposition, access, rectification and revocation of their authorization.  
+En todo momento, los usuarios que quieran acceder a sus datos o rectificarlos pueden mandar un mensaje desde el botón de Telegram y se les explicará como ejercer sus derechos de oposición, acceso, rectificación y revocación de su autorización.  
 
-This does not include any data that **JESUS VERDUZCO DIAZ** is obliged to keep for administrative, legal or security purposes.  
+Esto no incluye ningún dato que **JESUS VERDUZCO DIAZ** esté obligado a conservar con fines administrativos, legales o de seguridad.  
 
-## Changes in Privacy Policy
+## Cambios en la política de privacidad
 
-**JESUS VERDUZCO DIAZ** reserves the right to modify the present policy to adapt it to new legislation or jurisprudence, as well as to industry practices.  
+**JESUS VERDUZCO DIAZ** se reserva el derecho a modificar la presente política para adaptarla a novedades legislativas o jurisprudenciales, así como a prácticas de la industria.  
 
-In such cases, **JESUS VERDUZCO DIAZ** will announce on this page the changes introduced with reasonable advance of their implementation.
+En dichos supuestos, **JESUS VERDUZCO DIAZ** anunciará en esta página los cambios introducidos con razonable antelación a su puesta en práctica.

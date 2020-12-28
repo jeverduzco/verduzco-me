@@ -26,8 +26,14 @@
 <script>
 export default {
   name: 'PrivacyPolicy',
+  nuxtI18n: {
+    paths: {
+      es: '/legal/privacidad/',
+      en: '/legal/privacy/'
+    }
+  },
   async asyncData({ $content, app, params }) {
-    const policy = await $content(`legal`, 'privacy').fetch()
+    const policy = await $content(`${app.i18n.locale}/legal`, 'privacy').fetch()
 
     return { policy }
   },

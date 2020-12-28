@@ -26,8 +26,14 @@
 <script>
 export default {
   name: 'LegalNotice',
+  nuxtI18n: {
+    paths: {
+      es: '/legal/aviso-legal/',
+      en: '/legal/legal-notice/'
+    }
+  },
   async asyncData({ $content, app, params }) {
-    const policy = await $content(`legal`, 'notice').fetch()
+    const policy = await $content(`${app.i18n.locale}/legal`, 'notice').fetch()
 
     return { policy }
   },
