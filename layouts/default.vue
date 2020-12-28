@@ -121,15 +121,15 @@
         <v-card class="flex" flat tile color="transparent">
           <p id="copyright" class="text-center caption">
             &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br>
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" to="/legal/cookies/" title="Cookie policy">
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :to="localePath('legal-cookies')" :title="$t('default.cookies')">
               {{ $t('default.cookies') }}
             </nuxt-link>
           &nbsp;
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Privacy Policy" to="/legal/privacy/">
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :title="$t('default.privacy')" :to="localePath('legal-privacy')">
               {{ $t('default.privacy') }}
             </nuxt-link>
           &nbsp;
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Legal Notice" to="/legal/notice/">
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :title="$t('default.notice')" :to="localePath('legal-notice')">
               {{ $t('default.notice') }}
             </nuxt-link>
           </p>
@@ -140,7 +140,7 @@
         >
           <div slot="message">
             {{ $t('default.cookiesMessage') }}
-            <nuxt-link title="Política de cookies" to="/legal/cookies/">
+            <nuxt-link :title="$t('default.cookies')" :to="localePath('legal-cookies')">
               {{ $t('default.cookies') }}
             </nuxt-link>
           </div>
@@ -200,12 +200,12 @@ export default {
 #copyright {
   padding-top: 10px;
 }
-.footerLinksL {
+.footer-links-light {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
 }
-.footerLinksD {
+.footer-links-dark {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
