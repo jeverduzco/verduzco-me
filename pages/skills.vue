@@ -24,6 +24,12 @@
 <script>
 export default {
   name: 'Skills',
+  nuxtI18n: {
+    paths: {
+      es: '/habilidades/',
+      en: '/skills/'
+    }
+  },
   data() {
     return {
       title: 'My Skills',

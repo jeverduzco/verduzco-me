@@ -94,7 +94,36 @@ module.exports = {
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
     'nuxt-helmet',
-    '@nuxtjs/redirect-module'
+    '@nuxtjs/redirect-module',
+    [
+      'nuxt-i18n',
+      {
+        locales: [
+          {
+            name: 'English',
+            code: 'en',
+            iso: 'en-US',
+            file: 'en.js'
+          },
+          {
+            name: 'Español',
+            code: 'es',
+            iso: 'es-MX',
+            file: 'es.js'
+          }
+        ],
+        lazy: true,
+        langDir: 'lang/',
+        defaultLocale: 'es',
+        fallbackLocale: 'es',
+        strategy: 'prefix',
+        detectBrowserLanguage: {
+          useCookie: true,
+          cookieKey: 'i18n_redirected',
+          onlyOnRoot: true
+        }
+      }
+    ]
   ],
   redirect: [
     {
@@ -120,30 +149,36 @@ module.exports = {
   sitemap: {
     sitemaps: [
       {
-        path: '/sitemap.xml',
+        path: '/pages_en.xml',
+        hostname: 'https://verduzco.me',
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,
-        routes: [
-          '/',
-          '/skills/',
-          '/blog/',
-          '/blog/free-hosting-services/',
-          '/blog/gaming-as-a-service/',
-          '/blog/infrastructure-as-code/',
-          '/blog/remote-work-tips/',
-          '/blog/tips-for-learning-online/',
-          '/blog/web-site-vs-web-app/',
-          '/blog/what-is-telemetry/',
-          '/blog/wsl2-windows-terminal-zsh/'
-        ],
-        exclude: [
-          '/blog',
-          '/legal/cookies',
-          '/legal/privacy',
-          '/legal/notice',
-          '/skills'
-        ]
+        trailingSlash: true
+      },
+      {
+        path: '/pages_es.xml',
+        hostname: 'https://verduzco.me',
+        cacheTime: 1000 * 60 * 15,
+        gzip: true,
+        generate: false,
+        trailingSlash: true
+      },
+      {
+        path: '/articles_en.xml',
+        hostname: 'https://verduzco.me',
+        cacheTime: 1000 * 60 * 15,
+        gzip: true,
+        generate: false,
+        trailingSlash: true
+      },
+      {
+        path: '/articles_es.xml',
+        hostname: 'https://verduzco.me',
+        cacheTime: 1000 * 60 * 15,
+        gzip: true,
+        generate: false,
+        trailingSlash: true
       }
     ]
   },

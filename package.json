@@ -29,6 +29,7 @@
     "nodemon": "^2.0.6",
     "nuxt": "^2.14.10",
     "nuxt-helmet": "^2.0.0",
+    "nuxt-i18n": "^6.16.0",
     "prism-themes": "^1.5.0",
     "vue-cookie-law": "^1.13.3",
     "vue-plyr": "^7.0.0"

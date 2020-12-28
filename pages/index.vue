@@ -26,7 +26,7 @@ export default {
   name: 'Landing',
   data() {
     return {
-      title: 'Jesús Verduzco - Business Technology Consultant',
+      title: this.$t('global.name') + ' - ' + this.$t('global.slogan'),
       description:
         'I am Jesús Verduzco, a Geek enthusiastic about code and creating great things with it.',
       structuredData: {

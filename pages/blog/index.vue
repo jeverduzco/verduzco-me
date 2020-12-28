@@ -97,6 +97,12 @@
 <script>
 export default {
   name: 'Blog',
+  nuxtI18n: {
+    paths: {
+      es: '/blog/',
+      en: '/blog/'
+    }
+  },
   data() {
     return {
       title: 'My Blog',

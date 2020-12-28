@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar flat fixed app>
-      <nuxt-link to="/" title="Home">
+      <nuxt-link to="/" :title="$t('default.home')">
         <img
           src="https://storage.verduzco.me/dotme/website/landing/jesus.webp"
           alt="Jesús Verduzco"
@@ -9,16 +9,51 @@
         >
       </nuxt-link>
       <v-spacer />
-      <v-btn icon title="Theme" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
+      <v-btn icon :title="$t('default.theme')" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
         <v-icon>invert_colors</v-icon>
       </v-btn>
+      <!-- Start language button -->
+      <v-menu
+        bottom
+        origin="center center"
+        transition="scale-transition"
+      >
+        <template v-slot:activator="{ on }">
+          <v-btn
+            class="menu-button"
+            :title="$t('default.language')"
+            icon
+            v-on="on"
+            @click="$appInsights.trackEvent({ name: 'change-language' })"
+          >
+            <v-icon>translate</v-icon>
+          </v-btn>
+        </template>
+        <v-list v-if="!activeArticle">
+          <v-list-item
+            v-for="locale in $i18n.locales"
+            :key="locale.code"
+            :to="switchLocalePath(locale.code)"
+          >
+            <v-list-item-title>{{ locale.name }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+        <v-list v-if="activeArticle">
+          <v-list-item
+            :to="$i18n.locale === 'es' ? '/en/blog/' + relatedArticle : '/es/blog/' + relatedArticle"
+          >
+            <v-list-item-title>{{ $i18n.locale === 'es' ? $t('default.read_en') : $t('default.read_es') }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
+      <!-- End language button -->
       <v-menu
         bottom
         left
       >
         <template v-slot:activator="{ on, attrs }">
           <v-btn
-            title="Menu"
+            :title="$t('default.menu')"
             icon
             v-bind="attrs"
             v-on="on"
@@ -32,48 +67,48 @@
           style="max-height: 95vh"
           class="overflow-y-auto"
         >
-          <v-subheader>NAVIGATION</v-subheader>
+          <v-subheader>{{ $t('default.navigation') }}</v-subheader>
           <v-list-item
-            title="Home"
-            to="/"
+            :title="$t('default.home_menu')"
+            :to="localePath('index')"
             exact
           >
-            <v-list-item-title>Home</v-list-item-title>
+            <v-list-item-title>{{ $t('default.home_menu') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
-            title="Blog"
-            to="/blog/"
+            :title="$t('default.blog')"
+            :to="localePath('blog')"
           >
-            <v-list-item-title>Blog</v-list-item-title>
+            <v-list-item-title>{{ $t('default.blog') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
-            title="Skills"
-            to="/skills/"
+            :title="$t('default.skills')"
+            :to="localePath('skills')"
           >
-            <v-list-item-title>Skills</v-list-item-title>
+            <v-list-item-title>{{ $t('default.skills') }}</v-list-item-title>
           </v-list-item>
-          <v-subheader>SOCIAL NETWORKS</v-subheader>
+          <v-subheader>{{ $t('default.social') }}</v-subheader>
           <v-list-item
-            title="LinkedIn"
+            :title="$t('default.linkedin')"
             href="https://www.linkedin.com/in/jeverduzco"
             target="_blank"
           >
-            <v-list-item-title>LinkedIn</v-list-item-title>
+            <v-list-item-title>{{ $t('default.linkedin') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
-            title="Github"
+            :title="$t('default.github')"
             href="https://github.com/jeverduzco"
             target="_blank"
           >
-            <v-list-item-title>Github</v-list-item-title>
+            <v-list-item-title>{{ $t('default.github') }}</v-list-item-title>
           </v-list-item>
-          <v-subheader>CONTACT</v-subheader>
+          <v-subheader>{{ $t('default.contact') }}</v-subheader>
           <v-list-item
-            title="Telegram"
+            :title="$t('default.telegram')"
             href="ttps://t.me/jeverduzco"
             target="_blank"
           >
-            <v-list-item-title>Telegram</v-list-item-title>
+            <v-list-item-title>{{ $t('default.telegram') }}</v-list-item-title>
           </v-list-item>
         </v-list>
       </v-menu>
@@ -87,15 +122,15 @@
           <p id="copyright" class="text-center caption">
             &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br>
             <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" to="/legal/cookies/" title="Cookie policy">
-              Cookie Policy
+              {{ $t('default.cookies') }}
             </nuxt-link>
           &nbsp;
             <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Privacy Policy" to="/legal/privacy/">
-              Privacy Policy
+              {{ $t('default.privacy') }}
             </nuxt-link>
           &nbsp;
             <nuxt-link :class="this.$vuetify.theme.dark ? 'footerLinksD' : 'footerLinksL'" title="Legal Notice" to="/legal/notice/">
-              Legal Notice
+              {{ $t('default.notice') }}
             </nuxt-link>
           </p>
         </v-card>
@@ -104,9 +139,9 @@
           button-text="Ok"
         >
           <div slot="message">
-            This site uses 🍪 (cookies) that are not eaten.
+            {{ $t('default.cookiesMessage') }}
             <nuxt-link title="Política de cookies" to="/legal/cookies/">
-              Cookie Policy
+              {{ $t('default.cookies') }}
             </nuxt-link>
           </div>
         </cookie-law>
@@ -119,8 +154,27 @@
 export default {
   data() {
     return {
-      title: 'Verduzco.Me'
+      title: 'Verduzco.Me',
+      relatedArticle: ''
     }
+  },
+  computed: {
+    activeArticle() {
+      if (
+        this.$route.matched.some(({ name }) => name === 'blog-slug___es') ||
+        this.$route.matched.some(({ name }) => name === 'blog-slug___en')
+      ) {
+        return true
+      } else {
+        return false
+      }
+    }
+  },
+  // Listening events
+  created() {
+    this.$nuxt.$on('related-article', value => {
+      this.relatedArticle = value
+    })
   },
   mounted() {
     // Change theme automatically
