@@ -26,8 +26,14 @@
 <script>
 export default {
   name: 'CookiesPolicy',
+  nuxtI18n: {
+    paths: {
+      es: '/legal/cookies/',
+      en: '/legal/cookies/'
+    }
+  },
   async asyncData({ $content, app, params }) {
-    const policy = await $content(`legal`, 'cookies').fetch()
+    const policy = await $content(`${app.i18n.locale}/legal`, 'cookies').fetch()
 
     return { policy }
   },
