@@ -23,5 +23,11 @@ export default {
     privacy: 'Privacy Policy',
     notice: 'Legal Notice',
     cookiesMessage: 'This site uses 🍪 (cookies) that are not eaten.'
+  },
+  whoAmI: {
+    title: 'Who am I?',
+    text:
+      'I am a complex organism with its own consciousness and my name is Jesús Verduzco.',
+    btn: 'You should read my blog'
   }
 }

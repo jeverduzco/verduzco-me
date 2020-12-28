@@ -23,5 +23,11 @@ export default {
     privacy: 'Política de Privacidad',
     notice: 'Aviso Legal',
     cookiesMessage: 'Este sitio utiliza 🍪 (cookies) que no se comen.'
+  },
+  whoAmI: {
+    title: '¿Quién soy?',
+    text:
+      'Soy un organismo complejo con su propia conciencia y mi nombre es Jesús Verduzco.',
+    btn: 'Deberías leer mi blog'
   }
 }

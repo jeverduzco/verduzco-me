@@ -5,8 +5,8 @@
       <Welcome />
       <Waves />
     </section>
-    <section id="whoiam">
-      <WhoIam />
+    <section id="whoami">
+      <WhoAmI />
       <WavesSecondary />
     </section>
     <section id="whatido" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
