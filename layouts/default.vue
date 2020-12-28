@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar flat fixed app>
-      <nuxt-link to="/" :title="$t('default.home')">
+      <nuxt-link :to="localePath('index')" :title="$t('default.home')">
         <img
           src="https://storage.verduzco.me/dotme/website/landing/jesus.webp"
           alt="Jesús Verduzco"
