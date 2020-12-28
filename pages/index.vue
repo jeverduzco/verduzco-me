@@ -14,7 +14,7 @@
       <Waves />
     </section>
     <section id="from">
-      <Work />
+      <WhereAmIFrom />
       <WavesSecondary />
     </section>
     <!-- End page content -->

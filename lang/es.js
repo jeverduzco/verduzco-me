@@ -29,5 +29,17 @@ export default {
     text:
       'Soy un organismo complejo con su propia conciencia y mi nombre es Jesús Verduzco.',
     btn: 'Deberías leer mi blog'
+  },
+  whatIDo: {
+    title: '¿Qué hago?',
+    text:
+      'Soy consultor independiente en Desarrollo Web, DevOps, Tecnología en la Nube y otras cosas geniales.',
+    btn: 'Conoce mis habilidades'
+  },
+  whereAmIFrom: {
+    title: '¿De dónde soy?',
+    text:
+      'Soy un ciudadano del universo, mi oficina es Internet, mi pasaporte es Mexicano y mi infraestructura es la Nube.',
+    btn: 'Envíame un mensaje'
   }
 }

@@ -29,5 +29,17 @@ export default {
     text:
       'I am a complex organism with its own consciousness and my name is Jesús Verduzco.',
     btn: 'You should read my blog'
+  },
+  whatIDo: {
+    title: 'What do I do?',
+    text:
+      'I work as an independent consultant in Web Development, DevOps, Cloud Computing, and other cool stuff.',
+    btn: 'Know my skills'
+  },
+  whereAmIFrom: {
+    title: 'Where am I from?',
+    text:
+      'I am a citizen of the universe, my office is internet, my passport is Mexican, and my infrastructure is the cloud.',
+    btn: 'Send me a message'
   }
 }

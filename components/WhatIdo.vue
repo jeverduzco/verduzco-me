@@ -17,11 +17,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-left">
-          What do I do?
+          {{ $t('whatIDo.title') }}
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          I work as an independent consultant in DevOps, Web Development, Cloud, and other cool stuff.
+          {{ $t('whatIDo.text') }}
         </p>
         <div class="text-center text-md-left">
           <v-btn
@@ -30,11 +30,11 @@
             large
             rounded
             depressed
-            to="/skills/"
+            :to="localePath('skills')"
             nuxt
-            title="Know my skills"
+            :title="$t('whatIDo.btn')"
           >
-            Know my skills
+            {{ $t('whatIDo.btn') }}
           </v-btn>
         </div>
       </v-flex>
@@ -45,7 +45,7 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whatido.webp" alt="What do I do?">
+        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whatido.webp" :alt="$t('whatIDo.title')">
       </v-flex>
     </v-layout>
   </v-container>

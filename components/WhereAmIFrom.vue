@@ -27,11 +27,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-right">
-          Where am I from?
+          {{ $t('whereAmIFrom.title') }}
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          I am a citizen of the universe, my office is internet, my passport is Mexican, and my infrastructure is the cloud.
+          {{ $t('whereAmIFrom.text') }}
         </p>
         <div class="text-center text-md-right">
           <v-btn
@@ -42,9 +42,9 @@
             depressed
             href="https://t.me/jeverduzco"
             target="_blank"
-            title="Send me a message"
+            :title="$t('whereAmIFrom.btn')"
           >
-            Send me a message
+            {{ $t('whereAmIFrom.btn') }}
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
