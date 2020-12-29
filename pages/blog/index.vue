@@ -27,7 +27,7 @@
             :value="tag.slug"
             filter
           >
-            {{ tag.name }}
+            {{ $i18n.locale === 'en' ? tag.name : tag.name_es }}
           </v-chip>
         </v-chip-group>
       </v-container>
@@ -48,7 +48,7 @@
             <v-card
               class="article-card text-center"
               nuxt
-              :to="'/blog/' + article.slug + '/'"
+              :to="localePath('blog') + article.slug + '/'"
               flat
               :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'"
             >
@@ -113,50 +113,62 @@ export default {
       tags: [
         {
           name: 'VIEW ALL',
+          name_es: 'VER TODO',
           slug: 'all'
         },
         {
           name: 'DEVOPS',
+          name_es: 'DEVOPS',
           slug: 'dev-ops'
         },
         {
           name: 'WEB DEVELOPMENT',
+          name_es: 'DESARROLLO WEB',
           slug: 'web-development'
         },
         {
           name: 'CLOUD COMPUTING',
+          name_es: 'COMPUTACIÓN EN LA NUBE',
           slug: 'cloud-computing'
         },
         {
           name: 'TRENDS',
+          name_es: 'TENDENCIAS',
           slug: 'trends'
         },
         {
           name: 'SOFTWARE',
+          name_es: 'SOFTWARE',
           slug: 'software'
         },
         {
           name: 'EDUCATION',
+          name_es: 'EDUCACIÓN',
           slug: 'education'
         },
         {
           name: 'OPINION',
+          name_es: 'OPINIÓN',
           slug: 'opinion'
         },
         {
           name: 'BUSINESS',
+          name_es: 'NEGOCIOS',
           slug: 'business'
         },
         {
           name: 'MARKETING',
+          name_es: 'MARKETING',
           slug: 'marketing'
         },
         {
           name: 'BOOKS',
+          name_es: 'LIBROS',
           slug: 'books'
         },
         {
           name: 'OTHER TOPICS',
+          name_es: 'OTROS TEMAS',
           slug: 'other-topics'
         }
       ]
@@ -181,8 +193,8 @@ export default {
       }
     }
   },
-  async asyncData({ $content, params }) {
-    const blog = await $content(`blog`, params.slug)
+  async asyncData({ $content, app, params }) {
+    const blog = await $content(`${app.i18n.locale}/blog`, params.slug)
       .only([
         'title',
         'description',
@@ -202,7 +214,7 @@ export default {
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
+      return new Date(date).toLocaleDateString(this.$i18n.locale, options)
     },
     loadMore() {
       this.postsLoaded = this.postsLoaded + 3

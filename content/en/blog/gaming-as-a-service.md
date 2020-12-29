@@ -7,6 +7,7 @@ createdAt: 2020-11-24 10:00
 updatedAt: 2020-11-24 10:00
 category_id: trends
 category_name: Trends
+related: wsl2-windows-terminal-zsh
 ---
 
 With the recent introduction of the new generation of consoles by Sony and Microsoft, a war has broken out in social networks over which one will be the best. But the industry is not interested in that, today's is **Gaming as a Service.** 

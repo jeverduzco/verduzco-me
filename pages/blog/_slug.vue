@@ -9,7 +9,6 @@
       class="content-container"
     >
       <v-layout
-        class="section-content"
         wrap
         row
         align-center
@@ -28,15 +27,21 @@
 <script>
 export default {
   name: 'Article',
-  async asyncData({ $content, params }) {
-    const article = await $content(`blog`, params.slug).fetch()
-    const [prev, next] = await $content(`blog`)
+  async asyncData({ $content, app, params }) {
+    const article = await $content(
+      `${app.i18n.locale}/blog`,
+      params.slug
+    ).fetch()
+    const [prev, next] = await $content(`${app.i18n.locale}/blog`)
       .only(['title', 'slug'])
       .sortBy('createdAt', 'desc')
       .surround(params.slug)
       .fetch()
 
     return { article, prev, next }
+  },
+  beforeMount() {
+    this.$nuxt.$emit('related-article', this.article.related)
   },
   head() {
     return {

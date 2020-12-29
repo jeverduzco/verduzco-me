@@ -7,6 +7,7 @@ createdAt: 2020-10-16 10:00
 updatedAt: 2020-10-16 10:00
 category_id: dev-ops
 category_name: DevOps
+related: que-es-la-telemetria
 ---
 
 Surely you have heard that Windows 10 has a lot of telemetry that it sends in real time to Microsoft and that Android sends real time telemetry to Google. You probably also thought that the operating system is spying on you with such telemetry. But telemetry **has nothing to do with spying on you**, it has to do with the very operation of each system or application and is part of the DevOps cycle. 

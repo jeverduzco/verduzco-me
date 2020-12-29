@@ -7,6 +7,7 @@ createdAt: 2020-10-12 10:00
 updatedAt: 2020-10-12 10:00
 category_id: opinion
 category_name: Opinion
+related: trabajo-remoto
 ---
 
 If you're already here, it's probably because remote working has caused you frustration. Don't worry, you're not the only one who feels this way. 

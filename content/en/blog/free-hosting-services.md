@@ -7,6 +7,7 @@ createdAt: 2020-10-14 10:00
 updatedAt: 2020-10-14 10:00
 category_id: cloud-computing
 category_name: Cloud Computing
+related: hosting-gratuitos
 ---
 
 We cannot deny that we have a crisis that is leaving many people with few options, one of these options is undoubtedly to undertake by Internet; **either selling products or services**. The problem is that you don't always have the money for the infrastructure (hosting, SSL certificates, etc.). Fortunately the cloud can save the day, read on and learn how.

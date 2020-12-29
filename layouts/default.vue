@@ -40,7 +40,7 @@
         </v-list>
         <v-list v-if="activeArticle">
           <v-list-item
-            :to="$i18n.locale === 'es' ? '/en/blog/' + relatedArticle : '/es/blog/' + relatedArticle"
+            :to="$i18n.locale === 'es' ? '/en/blog/' + relatedArticle + '/' : '/es/blog/' + relatedArticle + '/'"
           >
             <v-list-item-title>{{ $i18n.locale === 'es' ? $t('default.read_en') : $t('default.read_es') }}</v-list-item-title>
           </v-list-item>
