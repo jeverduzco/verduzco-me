@@ -41,5 +41,9 @@ export default {
     text:
       'I am a citizen of the universe, my office is internet, my passport is Mexican, and my infrastructure is the cloud.',
     btn: 'Send me a message'
+  },
+  blogWelcome: {
+    title: 'My Blog',
+    text: 'Here I write what I think and share what I know how to do.'
   }
 }

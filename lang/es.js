@@ -41,5 +41,9 @@ export default {
     text:
       'Soy un ciudadano del universo, mi oficina es Internet, mi pasaporte es Mexicano y mi infraestructura es la Nube.',
     btn: 'Envíame un mensaje'
+  },
+  blogWelcome: {
+    title: 'Mi Blog',
+    text: 'Aquí escribo lo que pienso y comparto lo que sé hacer.'
   }
 }
