@@ -154,7 +154,16 @@ module.exports = {
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,
-        trailingSlash: true
+        trailingSlash: true,
+        routes: ['/en/', '/en/skills/', '/en/blog/'],
+        exclude: [
+          '/',
+          '/blog/',
+          '/legal/cookies/',
+          '/legal/privacy/',
+          '/legal/notice/',
+          '/skills/'
+        ]
       },
       {
         path: '/pages_es.xml',
@@ -162,7 +171,16 @@ module.exports = {
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,
-        trailingSlash: true
+        trailingSlash: true,
+        routes: ['/es/', '/es/habilidades/', '/es/blog/'],
+        exclude: [
+          '/',
+          '/blog/',
+          '/legal/cookies/',
+          '/legal/privacy/',
+          '/legal/notice/',
+          '/skills/'
+        ]
       },
       {
         path: '/articles_en.xml',
@@ -170,7 +188,25 @@ module.exports = {
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,
-        trailingSlash: true
+        trailingSlash: true,
+        routes: [
+          '/en/free-hosting-services/',
+          '/en/gaming-as-a-service/',
+          '/en/infrastructure-as-code/',
+          '/en/remote-work-tips/',
+          '/en/tips-for-learning-online/',
+          '/en/web-site-vs-web-app/',
+          '/en/what-is-telemetry/',
+          '/en/wsl2-windows-terminal-zsh/'
+        ],
+        exclude: [
+          '/',
+          '/blog/',
+          '/legal/cookies/',
+          '/legal/privacy/',
+          '/legal/notice/',
+          '/skills/'
+        ]
       },
       {
         path: '/articles_es.xml',
@@ -178,7 +214,25 @@ module.exports = {
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,
-        trailingSlash: true
+        trailingSlash: true,
+        routes: [
+          '/es/consejos-aprender-en-linea/',
+          '/es/gaming-as-a-service/',
+          '/es/hosting-gratuitos/',
+          '/es/infraestructura-como-codigo/',
+          '/es/que-es-la-telemetria/',
+          '/es/sitio-web-vs-aplicacion-web/',
+          '/es/trabajo-remoto/',
+          '/es/wsl2-windows-terminal-zsh/'
+        ],
+        exclude: [
+          '/',
+          '/blog/',
+          '/legal/cookies/',
+          '/legal/privacy/',
+          '/legal/notice/',
+          '/skills/'
+        ]
       }
     ]
   },
