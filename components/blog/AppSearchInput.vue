@@ -29,7 +29,7 @@
           <template
             v-for="(article, index) of blog"
           >
-            <v-list-item :key="article.slug" two-line :to="'/blog/' + article.slug">
+            <v-list-item :key="article.slug" two-line :to="localePath('blog') + article.slug + '/'">
               <v-list-item-avatar>
                 <v-icon
                   :class="$vuetify.theme.dark ? 'blue-grey white--text' : 'grey darken-3 white--text'"
