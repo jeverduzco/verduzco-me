@@ -25,7 +25,7 @@
         lg12
         xl12
       >
-        <v-list :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'" rounded class="article-list">
+        <v-list :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'" class="article-list">
           <template
             v-for="(article, index) of blog"
           >

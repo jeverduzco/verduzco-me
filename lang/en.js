@@ -48,5 +48,8 @@ export default {
   },
   appSearchImput: {
     label: 'Search articles'
+  },
+  blogIndex: {
+    loadMore: 'Load More'
   }
 }

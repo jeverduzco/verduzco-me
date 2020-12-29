@@ -4,7 +4,7 @@
       <BlogWelcome />
       <Waves />
     </section>
-    <section id="blog-section" class="section-content">
+    <section id="blog-section">
       <v-container
         grid-list-xl
         class="content-container"
@@ -83,10 +83,10 @@
             rounded
             large
             depressed
-            title="Cargar Más"
+            :title="$t('blogIndex.loadMore')"
             @click="loadMore"
           >
-            Load More
+            {{ $t('blogIndex.loadMore') }}
           </v-btn>
         </div>
       </v-container>
