@@ -46,7 +46,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/legal/aviso/'
+          href: 'https://verduzco.me/legal/aviso/'
         }
       ],
       meta: [
@@ -84,7 +84,7 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/legal/aviso/'
+          content: 'https://verduzco.me/legal/aviso/'
         },
         {
           property: 'og:site_name',

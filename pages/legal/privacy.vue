@@ -46,7 +46,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/legal/privacidad/'
+          href: 'https://verduzco.me/legal/privacidad/'
         }
       ],
       meta: [
@@ -84,7 +84,7 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/legal/privacidad/'
+          content: 'https://verduzco.me/legal/privacidad/'
         },
         {
           property: 'og:site_name',

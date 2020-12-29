@@ -7,7 +7,7 @@ Se informa a los usuarios del **Sitio Web** sobre la política respecto al trata
 
 En este sentido, se garantiza el cumplimiento de la normativa vigente en materia de protección de datos personales, reflejada en la **Ley Federal de Protección de Datos Personales en Posesión de los Particulares de los Estados Unidos Mexicanos.**  
 
-El alcance del **Sitio Web** (www.verduzco.me) es el siguiente: proveer información pública de servicios y artículos de interés. 
+El alcance del **Sitio Web** (verduzco.me) es el siguiente: proveer información pública de servicios y artículos de interés. 
 
 ## Identidad del responsable
 
@@ -75,7 +75,7 @@ Tampoco se rastrea a los seguidores en redes sociales con fines publicitarios, n
 
 ## Cómo se protegen tus datos
 
-Visita el [aviso legal](https://www.verduzco.me/legal/aviso/) para información referente a la forma en que se protege la información.  
+Visita el <nuxt-link to="/es/legal/aviso-legal/">aviso legal</nuxt-link> para información referente a la forma en que se protege la información.  
 
 El **Sitio Web** se encuentra alojado en **Microsoft Azure**, también utiliza servicios de **CloudFlare** como servicios de seguridad.  
 
@@ -97,7 +97,7 @@ Por seguridad del usuario del **Sitio Web** solo se inserta contenido almacenado
 
 ## Cookies
 
-Para que el **Sitio Web** funcione correctamente necesita utilizar cookies, es información que se almacena en el navegador, consulta la política de cookies [aquí.](https://www.verduzco.me/legal/cookies/)
+Para que el **Sitio Web** funcione correctamente necesita utilizar cookies, es información que se almacena en el navegador, consulta la política de cookies <nuxt-link to="/es/legal/cookies/">aquí.</nuxt-link>
 
 Legitimación para el tratamiento de los datos.  
 

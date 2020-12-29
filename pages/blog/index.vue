@@ -217,7 +217,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/blog/'
+          href: 'https://verduzco.me/blog/'
         }
       ],
       meta: [
@@ -250,7 +250,7 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/blog/'
+          content: 'https://verduzco.me/blog/'
         },
         {
           property: 'og:site_name',

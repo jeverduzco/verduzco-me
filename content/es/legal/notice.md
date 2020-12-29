@@ -37,7 +37,7 @@ No obstante, el usuario debe ser consciente de que las medidas de seguridad de l
 
 ## Datos personales
 
-Puedes consultar toda la información relativa a los datos personales que guarda **JESÚS VERDUZCO DÍAZ** en la página de la [política de privacidad.](https://www.verduzco.me/legal/privacidad/) 
+Puedes consultar toda la información relativa a los datos personales que guarda **JESÚS VERDUZCO DÍAZ** en la página de la <nuxt-link to="/es/legal/privacidad/">política de privacidad.</nuxt-link>
 
 ## Contenidos
 
@@ -55,7 +55,7 @@ Los contenidos del Sitio Web tienen únicamente finalidad informativa y en ningu
 
 ## Política de cookies
 
-Puedes consultar [aquí](https://www.verduzco.me/legal/cookies/) la política de cookies.  
+Puedes consultar <nuxt-link to="/es/legal/cookies/">aquí</nuxt-link> la política de cookies.  
 
 ## Enlaces de acceso a otros sitios web
 

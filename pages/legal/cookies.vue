@@ -46,7 +46,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/legal/cookies/'
+          href: 'https://verduzco.me/legal/cookies/'
         }
       ],
       meta: [
@@ -84,7 +84,7 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/legal/cookies/'
+          content: 'https://verduzco.me/legal/cookies/'
         },
         {
           property: 'og:site_name',

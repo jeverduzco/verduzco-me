@@ -7,7 +7,7 @@ Users of the **Website** are informed of the policy regarding the treatment and 
 
 In this sense, compliance with current regulations on personal data protection is guaranteed, as reflected in the **Ley Federal de Protección de Datos Personales en Posesión de los Particulares de los Estados Unidos Mexicanos.**  
 
-The purpose of the **Website** (www.verduzco.me) is the following: to provide public information on services and articles of interest.
+The purpose of the **Website** (verduzco.me) is the following: to provide public information on services and articles of interest.
 
 ## Identity of the responsible
 
@@ -75,7 +75,7 @@ Nor will followers be tracked in social networks for advertising purposes, nor w
 
 ## How your data is protected
 
-See the <nuxt-link to="/legal/notice/">legal notice</nuxt-link> for information regarding how the information is protected.  
+See the <nuxt-link to="/en/legal/legal-notice/">legal notice</nuxt-link> for information regarding how the information is protected.  
 
 The **Website** is hosted by **Microsoft Azure**, it also uses services from **CloudFlare** as security services.  
 
@@ -97,7 +97,7 @@ For the security of the user of the **Website** only content stored in the domai
 
 ## Cookies
 
-For the **Web Site** to work properly you need to use cookies, this is information that is stored in the browser, see the cookie policy <nuxt-link to="/legal/cookies/">here.</nuxt-link>
+For the **Web Site** to work properly you need to use cookies, this is information that is stored in the browser, see the cookie policy <nuxt-link to="/en/legal/cookies/">here.</nuxt-link>
 
 ## Legitimacy for data processing.  
 
