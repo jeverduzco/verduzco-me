@@ -190,14 +190,14 @@ module.exports = {
         generate: false,
         trailingSlash: true,
         routes: [
-          '/en/free-hosting-services/',
-          '/en/gaming-as-a-service/',
-          '/en/infrastructure-as-code/',
-          '/en/remote-work-tips/',
-          '/en/tips-for-learning-online/',
-          '/en/web-site-vs-web-app/',
-          '/en/what-is-telemetry/',
-          '/en/wsl2-windows-terminal-zsh/'
+          '/en/blog/free-hosting-services/',
+          '/en/blog/gaming-as-a-service/',
+          '/en/blog/infrastructure-as-code/',
+          '/en/blog/remote-work-tips/',
+          '/en/blog/tips-for-learning-online/',
+          '/en/blog/web-site-vs-web-app/',
+          '/en/blog/what-is-telemetry/',
+          '/en/blog/wsl2-windows-terminal-zsh/'
         ],
         exclude: [
           '/',
@@ -216,14 +216,14 @@ module.exports = {
         generate: false,
         trailingSlash: true,
         routes: [
-          '/es/consejos-aprender-en-linea/',
-          '/es/gaming-as-a-service/',
-          '/es/hosting-gratuitos/',
-          '/es/infraestructura-como-codigo/',
-          '/es/que-es-la-telemetria/',
-          '/es/sitio-web-vs-aplicacion-web/',
-          '/es/trabajo-remoto/',
-          '/es/wsl2-windows-terminal-zsh/'
+          '/es/blog/consejos-aprender-en-linea/',
+          '/es/blog/gaming-as-a-service/',
+          '/es/blog/hosting-gratuitos/',
+          '/es/blog/infraestructura-como-codigo/',
+          '/es/blog/que-es-la-telemetria/',
+          '/es/blog/sitio-web-vs-aplicacion-web/',
+          '/es/blog/trabajo-remoto/',
+          '/es/blog/wsl2-windows-terminal-zsh/'
         ],
         exclude: [
           '/',
