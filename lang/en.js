@@ -56,6 +56,9 @@ export default {
     noOlder: 'There are no older articles.'
   },
   blogIndex: {
+    title: 'My Blog',
+    description:
+      'Here I write what I think, share what I know and give back to the internet a little bit of what it has given me.',
     loadMore: 'Load More'
   }
 }

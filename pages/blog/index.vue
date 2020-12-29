@@ -105,10 +105,9 @@ export default {
   },
   data() {
     return {
-      title: 'My Blog',
+      title: this.$t('blogIndex.title'),
       postsLoaded: 6,
-      description:
-        'Here I write what I think, share what I know and give back to the internet a little bit of what it has given me.',
+      description: this.$t('blogIndex.description'),
       activeTag: 'all',
       tags: [
         {
@@ -223,13 +222,24 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en-us'
+        lang: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
       },
       title: this.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://verduzco.me/blog/'
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/blog/'
+              : 'https://verduzco.me/es/blog/'
+        },
+        {
+          rel: 'alternate',
+          hreflang: this.$i18n.locale === 'en' ? 'es-MX' : 'en-US',
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/es/'
+              : 'https://verduzco.me/en/'
         }
       ],
       meta: [
@@ -250,11 +260,13 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
+            this.$i18n.locale === 'en'
+              ? 'https://storage.verduzco.me/dotme/website/seo/blog_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/blog_es.png'
         },
         {
           property: 'og:locale',
-          content: 'en-us'
+          content: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
         },
         {
           property: 'og:type',
@@ -262,7 +274,10 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://verduzco.me/blog/'
+          content:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/blog/'
+              : 'https://verduzco.me/es/blog/'
         },
         {
           property: 'og:site_name',
@@ -291,7 +306,9 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
+            this.$i18n.locale === 'en'
+              ? 'https://storage.verduzco.me/dotme/website/seo/blog_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/blog_es.png'
         }
       ]
     }
