@@ -11,13 +11,13 @@
     >
       <v-flex
         v-if="$vuetify.breakpoint.mdAndUp"
-        class="text-center"
+        class="text-center text-md-left"
         xs12
         sm12
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/work.webp" alt="Where am I from?">
+        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/work.webp" :alt="$t('whereAmIFrom.title')">
       </v-flex>
       <v-flex
         class="text-right"
@@ -51,13 +51,13 @@
       </v-flex>
       <v-flex
         v-if="$vuetify.breakpoint.smAndDown"
-        class="text-center"
+        class="text-center text-md-left"
         xs12
         sm12
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/work.webp" alt="Where am I from?">
+        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/work.webp" :alt="$t('whereAmIFrom.title')">
       </v-flex>
     </v-layout>
   </v-container>

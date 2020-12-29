@@ -19,7 +19,7 @@
         </p>
       </v-flex>
       <v-flex
-        class="text-center"
+        class="text-center text-md-right"
         xs12
         sm12
         md6

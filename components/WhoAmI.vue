@@ -11,7 +11,7 @@
     >
       <v-flex
         v-if="$vuetify.breakpoint.mdAndUp"
-        class="text-center"
+        class="text-center text-md-left"
         xs12
         sm12
         md6
@@ -51,7 +51,7 @@
       </v-flex>
       <v-flex
         v-if="$vuetify.breakpoint.smAndDown"
-        class="text-center"
+        class="text-center text-md-left"
         xs12
         sm12
         md6
