@@ -55,6 +55,47 @@ export default {
     older: 'Más antiguo',
     noOlder: 'No hay artículos más antiguos.'
   },
+  skillsWelcome: {
+    title: 'Habilidades',
+    text:
+      'Conoce todo lo que puedo hacer por ti gracias a mis habilidades principales.'
+  },
+  development: {
+    title: 'Desarrollo Web',
+    text:
+      'El Desarrollo Web Full Stack es bastante complejo, pero también es lo que más me apasiona en la vida.',
+    btn: 'Envíame un mensaje',
+    front: 'Frontend (HTML, CSS, JS y UX)',
+    back: 'Backend (JS y Python)',
+    auth: 'Autenticación (OAUTH y SAML)',
+    frameworks: 'Frameworks (Vue, Express y Django)',
+    api: 'APIs (REST y GRAPHQL)',
+    dataBases: 'Bases de Datos (MONGO, COSMOS y MYSQL)'
+  },
+  devOps: {
+    title: 'DevOps',
+    text:
+      'DevOps es un rol asombroso, disfruto mucho conectando el desarrollo con las operaciones.',
+    btn: 'Envíame un mensaje',
+    cicd: 'Integración y entrega continuos',
+    versionControl: 'Control de versiones',
+    agileDevelopment: 'Desarrollo ágil de software',
+    ifraestructureAsACode: 'Infraestructura como código',
+    configurationManagment: 'Despliegue continuo',
+    continuousMonitoring: 'Supervisión continua'
+  },
+  otherSkills: {
+    title: 'Otras Habilidades',
+    text:
+      'Mi sed nata de conocimiento e internet son el complemento perfecto para nunca dejar de aprender.',
+    btn: 'Envíame un mensaje',
+    security: 'Seguridad informática',
+    marketing: 'Marketing digital',
+    dataScience: 'Ciencia de datos e IA',
+    iot: 'Internet de las cosas',
+    business: 'Negocios y emprendimiento',
+    project: 'Gestión de proyectos'
+  },
   index: {
     description:
       'Soy Jesús Verduzco, un Geek entusiasta del código y de crear grandes cosas con él.'
@@ -64,5 +105,10 @@ export default {
     description:
       'Aquí escribo lo que pienso, comparto lo que sé y devuelvo a Internet un poco de lo que me ha dado.',
     loadMore: 'Cargar Más'
+  },
+  skills: {
+    title: 'Mis Habilidades',
+    description:
+      'Nunca parar de aprender me ha permitido saber de DevOps, Software, Marketing y otras cosas.'
   }
 }

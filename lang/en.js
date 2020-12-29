@@ -55,6 +55,46 @@ export default {
     older: 'Older',
     noOlder: 'There are no older articles.'
   },
+  skillsWelcome: {
+    title: 'Skills',
+    text: 'Know everything I can do for you thanks to my main skills.'
+  },
+  development: {
+    title: 'Web Development',
+    text:
+      'Full Stack Web Development is quite complex, but it is also what I am most passionate about in life.',
+    btn: 'Send me a message',
+    front: 'Frontend (HTML, CSS, JS and UX)',
+    back: 'Backend Backend (JS and Python)',
+    auth: 'Authentication (OAUTH and SAML)',
+    frameworks: 'Framework (Vue, Express and Django)',
+    api: 'APIs (REST y GRAPHQL)',
+    dataBases: 'Databases (MONGO, COSMOS and MYSQL)'
+  },
+  devOps: {
+    title: 'DevOps',
+    text:
+      'DevOps is an amazing role, I enjoy connecting development with operations.',
+    btn: 'Send me a message',
+    cicd: 'Continuous integration and delivery',
+    versionControl: 'Version control',
+    agileDevelopment: 'Agile software development',
+    ifraestructureAsACode: 'Infrastructure as code',
+    configurationManagment: 'Configuration management',
+    continuousMonitoring: 'Continuous monitoring'
+  },
+  otherSkills: {
+    title: 'Other Skills',
+    text:
+      'My natural curiosity for knowledge and the Internet are the perfect complement to never stop learning.',
+    btn: 'Send me a message',
+    security: 'Computer security',
+    marketing: 'Digital marketing',
+    dataScience: 'Data science and AI',
+    iot: 'Internet of Things',
+    business: 'Business and entrepreneurship',
+    project: 'Project management'
+  },
   index: {
     description:
       'I am Jesús Verduzco, a Geek enthusiastic about code and creating great things with it.'
@@ -64,5 +104,10 @@ export default {
     description:
       'Here I write what I think, share what I know and give back to the internet a little bit of what it has given me.',
     loadMore: 'Load More'
+  },
+  skills: {
+    title: 'My Skills',
+    description:
+      'Never stopping learning has allowed me to learn about DevOps, Software, Marketing and other things.'
   }
 }
