@@ -40,13 +40,24 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en-us'
+        lang: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
       },
       title: this.policy.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://verduzco.me/legal/aviso/'
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/'
+              : 'https://verduzco.me/es/'
+        },
+        {
+          rel: 'alternate',
+          hreflang: this.$i18n.locale === 'en' ? 'es-MX' : 'en-US',
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/es/'
+              : 'https://verduzco.me/en/'
         }
       ],
       meta: [
@@ -72,11 +83,13 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
+            this.$i18n.locale === 'en'
+              ? 'https://storage.verduzco.me/dotme/website/seo/blog_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/blog_es.png'
         },
         {
           property: 'og:locale',
-          content: 'en-us'
+          content: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
         },
         {
           property: 'og:type',
@@ -84,7 +97,10 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://verduzco.me/legal/aviso/'
+          content:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/'
+              : 'https://verduzco.me/es/'
         },
         {
           property: 'og:site_name',
@@ -113,7 +129,9 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
+            this.$i18n.locale === 'en'
+              ? 'https://storage.verduzco.me/dotme/website/seo/blog_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/blog_es.png'
         }
       ]
     }
