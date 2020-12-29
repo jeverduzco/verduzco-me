@@ -27,8 +27,7 @@ export default {
   data() {
     return {
       title: this.$t('global.name') + ' - ' + this.$t('global.slogan'),
-      description:
-        'I am Jesús Verduzco, a Geek enthusiastic about code and creating great things with it.',
+      description: this.$t('index.description'),
       structuredData: {
         '@context': 'http://schema.org',
         '@type': 'Person',
@@ -52,13 +51,24 @@ export default {
         }
       ],
       htmlAttrs: {
-        lang: 'en-us'
+        lang: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
       },
       title: this.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://verduzco.me/'
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/'
+              : 'https://verduzco.me/es/'
+        },
+        {
+          rel: 'alternate',
+          hreflang: this.$i18n.locale === 'en' ? 'es-MX' : 'en-US',
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/es/'
+              : 'https://verduzco.me/en/'
         }
       ],
       meta: [
@@ -79,11 +89,13 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
+            this.$i18n.locale === 'en'
+              ? 'https://storage.verduzco.me/dotme/website/seo/index_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/index_es.png'
         },
         {
           property: 'og:locale',
-          content: 'en-us'
+          content: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
         },
         {
           property: 'og:type',
@@ -91,7 +103,10 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://verduzco.me/'
+          content:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/'
+              : 'https://verduzco.me/es/'
         },
         {
           property: 'og:site_name',
@@ -120,7 +135,9 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
+            this.$i18n.locale === 'en'
+              ? 'https://storage.verduzco.me/dotme/website/seo/index_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/index_es.png'
         }
       ]
     }

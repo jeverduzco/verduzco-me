@@ -238,8 +238,8 @@ export default {
           hreflang: this.$i18n.locale === 'en' ? 'es-MX' : 'en-US',
           href:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/es/'
-              : 'https://verduzco.me/en/'
+              ? 'https://verduzco.me/es/blog/'
+              : 'https://verduzco.me/en/blog/'
         }
       ],
       meta: [

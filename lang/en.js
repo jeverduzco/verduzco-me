@@ -55,6 +55,10 @@ export default {
     older: 'Older',
     noOlder: 'There are no older articles.'
   },
+  index: {
+    description:
+      'I am Jesús Verduzco, a Geek enthusiastic about code and creating great things with it.'
+  },
   blogIndex: {
     title: 'My Blog',
     description:

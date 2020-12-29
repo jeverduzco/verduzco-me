@@ -55,6 +55,10 @@ export default {
     older: 'Más antiguo',
     noOlder: 'No hay artículos más antiguos.'
   },
+  index: {
+    description:
+      'Soy Jesús Verduzco, un Geek entusiasta del código y de crear grandes cosas con él.'
+  },
   blogIndex: {
     title: 'Mi Blog',
     description:
