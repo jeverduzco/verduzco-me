@@ -45,5 +45,8 @@ export default {
   blogWelcome: {
     title: 'Mi Blog',
     text: 'Aquí escribo lo que pienso y comparto lo que sé hacer.'
+  },
+  appSearchImput: {
+    label: 'Buscar artículos'
   }
 }
