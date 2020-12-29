@@ -49,6 +49,12 @@ export default {
   appSearchImput: {
     label: 'Buscar artículos'
   },
+  prevAndNext: {
+    newer: 'Más nuevo',
+    noNewer: 'No hay artículos más recientes.',
+    older: 'Más antiguo',
+    noOlder: 'No hay artículos más antiguos.'
+  },
   blogIndex: {
     loadMore: 'Cargar Más'
   }

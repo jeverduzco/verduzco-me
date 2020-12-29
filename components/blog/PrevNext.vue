@@ -11,14 +11,14 @@
       <v-flex xs12 md6>
         <v-card
           v-if="prev"
-          :to="'/blog/' + prev.slug + '/'"
+          :to="localePath('blog') + prev.slug + '/'"
           nuxt
           exact
           outlined
           height="150"
         >
           <v-card-title primary-title>
-            Newer
+            {{ $t('prevAndNext.newer') }}
           </v-card-title>
           <v-card-text>
             {{ prev.title }}
@@ -30,24 +30,24 @@
           height="150"
         >
           <v-card-title primary-title>
-            Newer
+            {{ $t('prevAndNext.newer') }}
           </v-card-title>
           <v-card-text>
-            There are no newer articles.
+            {{ $t('prevAndNext.noNewer') }}
           </v-card-text>
         </v-card>
       </v-flex>
       <v-flex xs12 md6>
         <v-card
           v-if="next"
-          :to="'/blog/' + next.slug + '/'"
+          :to="localePath('blog') + next.slug + '/'"
           nuxt
           exact
           outlined
           height="150"
         >
           <v-card-title primary-title>
-            Older
+            {{ $t('prevAndNext.older') }}
           </v-card-title>
           <v-card-text>
             {{ next.title }}
@@ -59,10 +59,10 @@
           height="150"
         >
           <v-card-title primary-title>
-            Older
+            {{ $t('prevAndNext.older') }}
           </v-card-title>
           <v-card-text>
-            There are no older articles.
+            {{ $t('prevAndNext.noOlder') }}
           </v-card-text>
         </v-card>
       </v-flex>
