@@ -7,6 +7,7 @@ createdAt: 2020-11-18 10:00
 updatedAt: 2020-11-18 10:00
 category_id: dev-ops
 category_name: DevOps
+related: infraestructura-como-codigo
 ---
 
 Designing and deploying cloud infrastructure often becomes a costly challenge. This is due to inconsistent errors between development and production environments or human errors in manual resource deployment.  

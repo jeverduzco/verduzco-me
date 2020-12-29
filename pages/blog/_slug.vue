@@ -9,7 +9,6 @@
       class="content-container"
     >
       <v-layout
-        class="section-content"
         wrap
         row
         align-center
@@ -28,9 +27,12 @@
 <script>
 export default {
   name: 'Article',
-  async asyncData({ $content, params }) {
-    const article = await $content(`blog`, params.slug).fetch()
-    const [prev, next] = await $content(`blog`)
+  async asyncData({ $content, app, params }) {
+    const article = await $content(
+      `${app.i18n.locale}/blog`,
+      params.slug
+    ).fetch()
+    const [prev, next] = await $content(`${app.i18n.locale}/blog`)
       .only(['title', 'slug'])
       .sortBy('createdAt', 'desc')
       .surround(params.slug)
@@ -38,16 +40,30 @@ export default {
 
     return { article, prev, next }
   },
+  beforeMount() {
+    this.$nuxt.$emit('related-article', this.article.related)
+  },
   head() {
     return {
       htmlAttrs: {
-        lang: 'en-us'
+        lang: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
       },
       title: this.article.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/blog/' + this.article.slug + '/'
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/blog/' + this.article.slug + '/'
+              : 'https://verduzco.me/es/blog/' + this.article.slug + '/'
+        },
+        {
+          rel: 'alternate',
+          hreflang: this.$i18n.locale === 'en' ? 'es-MX' : 'en-US',
+          href:
+            this.$i18n.locale === 'es'
+              ? 'https://verduzco.me/en/blog/' + this.article.related + '/'
+              : 'https://verduzco.me/es/blog/' + this.article.related + '/'
         }
       ],
       meta: [
@@ -71,7 +87,7 @@ export default {
         },
         {
           property: 'og:locale',
-          content: 'en-us'
+          content: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
         },
         {
           property: 'og:type',
@@ -79,7 +95,10 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/blog/' + this.article.slug + '/'
+          content:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/blog/' + this.article.slug + '/'
+              : 'https://verduzco.me/es/blog/' + this.article.slug + '/'
         },
         {
           property: 'og:site_name',

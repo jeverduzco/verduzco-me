@@ -5,12 +5,12 @@
       <SkillsWelcome />
       <Waves />
     </section>
-    <section id="skills-devops">
-      <DevOps />
+    <section id="skills-development">
+      <Development />
       <WavesSecondary />
     </section>
-    <section id="skills-development" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
-      <Development />
+    <section id="skills-devops" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
+      <DevOps />
       <Waves />
     </section>
     <section id="skills-others">
@@ -24,23 +24,39 @@
 <script>
 export default {
   name: 'Skills',
+  nuxtI18n: {
+    paths: {
+      es: '/habilidades/',
+      en: '/skills/'
+    }
+  },
   data() {
     return {
-      title: 'My Skills',
-      description:
-        'Never stopping learning has allowed me to learn about DevOps, Software, Marketing and other things.'
+      title: this.$t('skills.title'),
+      description: this.$t('skills.description')
     }
   },
   head() {
     return {
       htmlAttrs: {
-        lang: 'en-us'
+        lang: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
       },
       title: this.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://verduzco.me/skills/'
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/skills/'
+              : 'https://verduzco.me/es/habilidades/'
+        },
+        {
+          rel: 'alternate',
+          hreflang: this.$i18n.locale === 'en' ? 'es-MX' : 'en-US',
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/es/habilidades/'
+              : 'https://verduzco.me/en/skills/'
         }
       ],
       meta: [
@@ -61,11 +77,13 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
+            this.$i18n.locale === 'en'
+              ? 'https://storage.verduzco.me/dotme/website/seo/skills_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/skills_es.png'
         },
         {
           property: 'og:locale',
-          content: 'en-us'
+          content: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
         },
         {
           property: 'og:type',
@@ -73,7 +91,10 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://verduzco.me/skills/'
+          content:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/skills/'
+              : 'https://verduzco.me/es/habilidades/'
         },
         {
           property: 'og:site_name',
@@ -102,7 +123,9 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
+            this.$i18n.locale === 'en'
+              ? 'https://storage.verduzco.me/dotme/website/seo/skills_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/skills_es.png'
         }
       ]
     }

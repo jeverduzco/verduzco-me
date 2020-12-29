@@ -4,7 +4,7 @@
       <BlogWelcome />
       <Waves />
     </section>
-    <section id="blog-section" class="section-content">
+    <section id="blog-section">
       <v-container
         grid-list-xl
         class="content-container"
@@ -27,7 +27,7 @@
             :value="tag.slug"
             filter
           >
-            {{ tag.name }}
+            {{ $i18n.locale === 'en' ? tag.name : tag.name_es }}
           </v-chip>
         </v-chip-group>
       </v-container>
@@ -48,7 +48,7 @@
             <v-card
               class="article-card text-center"
               nuxt
-              :to="'/blog/' + article.slug + '/'"
+              :to="localePath('blog') + article.slug + '/'"
               flat
               :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'"
             >
@@ -83,10 +83,10 @@
             rounded
             large
             depressed
-            title="Cargar Más"
+            :title="$t('blogIndex.loadMore')"
             @click="loadMore"
           >
-            Load More
+            {{ $t('blogIndex.loadMore') }}
           </v-btn>
         </div>
       </v-container>
@@ -97,60 +97,77 @@
 <script>
 export default {
   name: 'Blog',
+  nuxtI18n: {
+    paths: {
+      es: '/blog/',
+      en: '/blog/'
+    }
+  },
   data() {
     return {
-      title: 'My Blog',
+      title: this.$t('blogIndex.title'),
       postsLoaded: 6,
-      description:
-        'Here I write what I think, share what I know and give back to the internet a little bit of what it has given me.',
+      description: this.$t('blogIndex.description'),
       activeTag: 'all',
       tags: [
         {
           name: 'VIEW ALL',
+          name_es: 'VER TODO',
           slug: 'all'
         },
         {
           name: 'DEVOPS',
+          name_es: 'DEVOPS',
           slug: 'dev-ops'
         },
         {
           name: 'WEB DEVELOPMENT',
+          name_es: 'DESARROLLO WEB',
           slug: 'web-development'
         },
         {
           name: 'CLOUD COMPUTING',
+          name_es: 'COMPUTACIÓN EN LA NUBE',
           slug: 'cloud-computing'
         },
         {
           name: 'TRENDS',
+          name_es: 'TENDENCIAS',
           slug: 'trends'
         },
         {
           name: 'SOFTWARE',
+          name_es: 'SOFTWARE',
           slug: 'software'
         },
         {
           name: 'EDUCATION',
+          name_es: 'EDUCACIÓN',
           slug: 'education'
         },
         {
           name: 'OPINION',
+          name_es: 'OPINIÓN',
           slug: 'opinion'
         },
         {
           name: 'BUSINESS',
+          name_es: 'NEGOCIOS',
           slug: 'business'
         },
         {
           name: 'MARKETING',
+          name_es: 'MARKETING',
           slug: 'marketing'
         },
         {
           name: 'BOOKS',
+          name_es: 'LIBROS',
           slug: 'books'
         },
         {
           name: 'OTHER TOPICS',
+          name_es: 'OTROS TEMAS',
           slug: 'other-topics'
         }
       ]
@@ -175,8 +192,8 @@ export default {
       }
     }
   },
-  async asyncData({ $content, params }) {
-    const blog = await $content(`blog`, params.slug)
+  async asyncData({ $content, app, params }) {
+    const blog = await $content(`${app.i18n.locale}/blog`, params.slug)
       .only([
         'title',
         'description',
@@ -196,7 +213,7 @@ export default {
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
+      return new Date(date).toLocaleDateString(this.$i18n.locale, options)
     },
     loadMore() {
       this.postsLoaded = this.postsLoaded + 3
@@ -205,13 +222,24 @@ export default {
   head() {
     return {
       htmlAttrs: {
-        lang: 'en-us'
+        lang: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
       },
       title: this.title,
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.verduzco.me/blog/'
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/blog/'
+              : 'https://verduzco.me/es/blog/'
+        },
+        {
+          rel: 'alternate',
+          hreflang: this.$i18n.locale === 'en' ? 'es-MX' : 'en-US',
+          href:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/es/blog/'
+              : 'https://verduzco.me/en/blog/'
         }
       ],
       meta: [
@@ -232,11 +260,13 @@ export default {
         {
           property: 'og:image',
           content:
-            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
+            this.$i18n.locale === 'en'
+              ? 'https://storage.verduzco.me/dotme/website/seo/blog_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/blog_es.png'
         },
         {
           property: 'og:locale',
-          content: 'en-us'
+          content: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
         },
         {
           property: 'og:type',
@@ -244,7 +274,10 @@ export default {
         },
         {
           property: 'og:url',
-          content: 'https://www.verduzco.me/blog/'
+          content:
+            this.$i18n.locale === 'en'
+              ? 'https://verduzco.me/en/blog/'
+              : 'https://verduzco.me/es/blog/'
         },
         {
           property: 'og:site_name',
@@ -273,7 +306,9 @@ export default {
         {
           name: 'twitter:image',
           content:
-            'https://storage.verduzco.me/dotme/website/en/jesus-en-open-g.png'
+            this.$i18n.locale === 'en'
+              ? 'https://storage.verduzco.me/dotme/website/seo/blog_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/blog_es.png'
         }
       ]
     }

@@ -94,7 +94,36 @@ module.exports = {
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
     'nuxt-helmet',
-    '@nuxtjs/redirect-module'
+    '@nuxtjs/redirect-module',
+    [
+      'nuxt-i18n',
+      {
+        locales: [
+          {
+            name: 'Español',
+            code: 'es',
+            iso: 'es-MX',
+            file: 'es.js'
+          },
+          {
+            name: 'English',
+            code: 'en',
+            iso: 'en-US',
+            file: 'en.js'
+          }
+        ],
+        lazy: true,
+        langDir: 'lang/',
+        defaultLocale: 'es',
+        fallbackLocale: 'es',
+        strategy: 'prefix',
+        detectBrowserLanguage: {
+          useCookie: true,
+          cookieKey: 'i18n_redirected',
+          onlyOnRoot: true
+        }
+      }
+    ]
   ],
   redirect: [
     {
@@ -120,29 +149,89 @@ module.exports = {
   sitemap: {
     sitemaps: [
       {
-        path: '/sitemap.xml',
+        path: '/pages_en.xml',
+        hostname: 'https://verduzco.me',
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,
-        routes: [
+        trailingSlash: true,
+        routes: ['/en/', '/en/skills/', '/en/blog/'],
+        exclude: [
           '/',
-          '/skills/',
           '/blog/',
-          '/blog/free-hosting-services/',
-          '/blog/gaming-as-a-service/',
-          '/blog/infrastructure-as-code/',
-          '/blog/remote-work-tips/',
-          '/blog/tips-for-learning-online/',
-          '/blog/web-site-vs-web-app/',
-          '/blog/what-is-telemetry/',
-          '/blog/wsl2-windows-terminal-zsh/'
+          '/legal/cookies/',
+          '/legal/privacy/',
+          '/legal/notice/',
+          '/skills/'
+        ]
+      },
+      {
+        path: '/pages_es.xml',
+        hostname: 'https://verduzco.me',
+        cacheTime: 1000 * 60 * 15,
+        gzip: true,
+        generate: false,
+        trailingSlash: true,
+        routes: ['/es/', '/es/habilidades/', '/es/blog/'],
+        exclude: [
+          '/',
+          '/blog/',
+          '/legal/cookies/',
+          '/legal/privacy/',
+          '/legal/notice/',
+          '/skills/'
+        ]
+      },
+      {
+        path: '/articles_en.xml',
+        hostname: 'https://verduzco.me',
+        cacheTime: 1000 * 60 * 15,
+        gzip: true,
+        generate: false,
+        trailingSlash: true,
+        routes: [
+          '/en/free-hosting-services/',
+          '/en/gaming-as-a-service/',
+          '/en/infrastructure-as-code/',
+          '/en/remote-work-tips/',
+          '/en/tips-for-learning-online/',
+          '/en/web-site-vs-web-app/',
+          '/en/what-is-telemetry/',
+          '/en/wsl2-windows-terminal-zsh/'
         ],
         exclude: [
-          '/blog',
-          '/legal/cookies',
-          '/legal/privacy',
-          '/legal/notice',
-          '/skills'
+          '/',
+          '/blog/',
+          '/legal/cookies/',
+          '/legal/privacy/',
+          '/legal/notice/',
+          '/skills/'
+        ]
+      },
+      {
+        path: '/articles_es.xml',
+        hostname: 'https://verduzco.me',
+        cacheTime: 1000 * 60 * 15,
+        gzip: true,
+        generate: false,
+        trailingSlash: true,
+        routes: [
+          '/es/consejos-aprender-en-linea/',
+          '/es/gaming-as-a-service/',
+          '/es/hosting-gratuitos/',
+          '/es/infraestructura-como-codigo/',
+          '/es/que-es-la-telemetria/',
+          '/es/sitio-web-vs-aplicacion-web/',
+          '/es/trabajo-remoto/',
+          '/es/wsl2-windows-terminal-zsh/'
+        ],
+        exclude: [
+          '/',
+          '/blog/',
+          '/legal/cookies/',
+          '/legal/privacy/',
+          '/legal/notice/',
+          '/skills/'
         ]
       }
     ]

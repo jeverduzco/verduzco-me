@@ -37,7 +37,7 @@ However, the user must be aware that the security measures of computer systems o
 
 ## Personal information
 
-You can consult all the information relative to the personal data that it keeps **JESÚS VERDUZCO DÍAZ** in the page of the <nuxt-link to="/legal/privacy/">privacy policy.</nuxt-link>
+You can consult all the information relative to the personal data that it keeps **JESÚS VERDUZCO DÍAZ** in the page of the <nuxt-link to="/en/legal/privacy/">privacy policy.</nuxt-link>
 
 ## Contents
 
@@ -55,7 +55,7 @@ The contents of the Website are for information purposes only and under no circu
 
 ## Cookie policy
 
-You can consult <nuxt-link to="/legal/cookies/">here</nuxt-link> the policy of cookies.
+You can consult <nuxt-link to="/en/legal/cookies/">here</nuxt-link> the policy of cookies.
 
 ## Links to other websites
 

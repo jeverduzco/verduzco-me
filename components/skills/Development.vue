@@ -10,20 +10,77 @@
       align-center
     >
       <v-flex
-        class="text-left"
+        v-if="$vuetify.breakpoint.mdAndUp"
         xs12
         sm12
         md6
         lg6
       >
-        <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-left">
-          Web Development
+        <v-spacer class="section-spacer" />
+        <span class="overline">{{ $t('development.front') }}</span>
+        <v-progress-linear
+          color="primary"
+          height="10"
+          value="95"
+          striped
+        />
+        <v-spacer class="progress-spacer" />
+        <span class="overline">{{ $t('development.back') }}</span>
+        <v-progress-linear
+          color="secondary"
+          height="10"
+          value="97"
+          striped
+        />
+        <v-spacer class="progress-spacer" />
+        <span class="overline">{{ $t('development.auth') }}</span>
+        <v-progress-linear
+          color="primary"
+          height="10"
+          value="95"
+          striped
+        />
+        <v-spacer class="progress-spacer" />
+        <span class="overline">{{ $t('development.frameworks') }}</span>
+        <v-progress-linear
+          color="secondary"
+          height="10"
+          value="91"
+          striped
+        />
+        <v-spacer class="progress-spacer" />
+        <span class="overline">{{ $t('development.api') }}</span>
+        <v-progress-linear
+          color="primary"
+          height="10"
+          value="95"
+          striped
+        />
+        <v-spacer class="progress-spacer" />
+        <span class="overline">{{ $t('development.dataBases') }}</span>
+        <v-progress-linear
+          color="secondary"
+          height="10"
+          value="95"
+          striped
+        />
+        <v-spacer class="section-spacer" />
+      </v-flex>
+      <v-flex
+        class="text-right"
+        xs12
+        sm12
+        md6
+        lg6
+      >
+        <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-right">
+          {{ $t('development.title') }}
         </h2>
         <v-spacer class="elements-spacer" />
-        <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-left">
-          Modern Web Development is highly complex, if you don't know where to start maybe I can help you.
+        <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
+          {{ $t('development.text') }}
         </p>
-        <div class="text-center text-md-left">
+        <div class="text-center text-md-right">
           <v-btn
             class="more-info-btn"
             color="secondary"
@@ -32,21 +89,22 @@
             depressed
             href="https://t.me/jeverduzco"
             target="_blank"
-            title="Send me a message"
+            :title="$t('development.btn')"
           >
-            Send me a message
+            {{ $t('development.btn') }}
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
       </v-flex>
       <v-flex
+        v-if="$vuetify.breakpoint.smAndDown"
         xs12
         sm12
         md6
         lg6
       >
         <v-spacer class="section-spacer" />
-        <span class="overline">Frontend (HTML, CSS, JS, UX)</span>
+        <span class="overline">{{ $t('development.front') }}</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -54,15 +112,15 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Backend (JS, PYTHON)</span>
+        <span class="overline">{{ $t('development.back') }}</span>
         <v-progress-linear
           color="secondary"
           height="10"
-          value="90"
+          value="97"
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Authentication (OAuth, SSO, JWT)</span>
+        <span class="overline">{{ $t('development.auth') }}</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -70,7 +128,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Frameworks (Vue, Express, Django)</span>
+        <span class="overline">{{ $t('development.frameworks') }}</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -78,15 +136,15 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">API's (REST, GraphQL)</span>
+        <span class="overline">{{ $t('development.api') }}</span>
         <v-progress-linear
           color="primary"
           height="10"
-          value="89"
+          value="95"
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Databases (Mongo, Cosmos, MySql)</span>
+        <span class="overline">{{ $t('development.dataBases') }}</span>
         <v-progress-linear
           color="secondary"
           height="10"

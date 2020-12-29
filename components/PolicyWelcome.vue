@@ -4,6 +4,7 @@
     class="content-container"
   >
     <v-layout
+      class="section-content"
       wrap
       row
       align-center
@@ -14,7 +15,7 @@
         </h1>
       </v-flex>
       <v-flex
-        class="text-center"
+        class="text-center text-md-right"
         xs12
         sm12
         md6

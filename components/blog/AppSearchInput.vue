@@ -11,7 +11,7 @@
       <v-flex xs12 sm12 md12 lg12 xl12>
         <v-text-field
           v-model="searchQuery"
-          label="Search articles"
+          :label="$t('appSearchImput.label')"
           color="secondary"
           outlined
           class="article-list"
@@ -25,11 +25,11 @@
         lg12
         xl12
       >
-        <v-list :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'" rounded class="article-list">
+        <v-list :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'" class="article-list">
           <template
             v-for="(article, index) of blog"
           >
-            <v-list-item :key="article.slug" two-line :to="'/blog/' + article.slug">
+            <v-list-item :key="article.slug" two-line :to="localePath('blog') + article.slug + '/'">
               <v-list-item-avatar>
                 <v-icon
                   :class="$vuetify.theme.dark ? 'blue-grey white--text' : 'grey darken-3 white--text'"
@@ -65,7 +65,7 @@ export default {
         this.blog = []
         return
       }
-      this.blog = await this.$content(`blog`)
+      this.blog = await this.$content(`${this.$i18n.locale}/blog`)
         .limit(6)
         .search(searchQuery)
         .fetch()

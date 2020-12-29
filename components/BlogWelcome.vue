@@ -11,21 +11,21 @@
     >
       <v-flex xs12 sm12 md6 lg6>
         <h1 class="text-lg-h1 text-md-h2 text-h3 text-center text-md-left">
-          My Blog
+          {{ $t('blogWelcome.title') }}
         </h1>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h4 text-md-h4 text-h5 text-center text-md-left">
-          Here I write what I think and share what I know how to do.
+          {{ $t('blogWelcome.text') }}
         </p>
       </v-flex>
       <v-flex
-        class="text-center"
+        class="text-center text-md-right"
         xs12
         sm12
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/blogging.webp" alt="My Blog">
+        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/blogging.webp" :alt="$t('blogWelcome.title')">
       </v-flex>
     </v-layout>
   </v-container>

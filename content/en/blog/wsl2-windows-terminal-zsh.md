@@ -7,6 +7,7 @@ createdAt: 2020-12-05 10:00
 updatedAt: 2020-12-05 10:00
 category_id: dev-ops
 category_name: DevOps
+related: wsl2-windows-terminal-zsh
 ---
 
 For **Web Development** with **Node.js or Python** I love working with a environment running in **Linux**, but for playing and doing everyday things I love **Windows 10**. Luckily I'm not the only one and Microsoft knows it, so they created **WSL2**.

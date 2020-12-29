@@ -7,6 +7,7 @@ createdAt: 2020-11-23 10:00
 updatedAt: 2020-11-23 10:00
 category_id: web-development
 category_name: Web Development
+related: sitio-web-vs-aplicacion-web
 ---
 
 The web development ecosystem is so complex and broad that it causes much confusion among less technological users. Many people have sought me out to **quote a website**, but what they really need **is a web application**. Do you know the differences?  

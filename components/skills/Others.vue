@@ -17,7 +17,7 @@
         lg6
       >
         <v-spacer class="section-spacer" />
-        <span class="overline">Computer security</span>
+        <span class="overline">{{ $t('otherSkills.security') }}</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -25,7 +25,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Digital marketing</span>
+        <span class="overline">{{ $t('otherSkills.marketing') }}</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -33,7 +33,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Data science and AI</span>
+        <span class="overline">{{ $t('otherSkills.dataScience') }}</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -41,7 +41,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Internet of Things</span>
+        <span class="overline">{{ $t('otherSkills.iot') }}</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -49,7 +49,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Business and entrepreneurship</span>
+        <span class="overline">{{ $t('otherSkills.business') }}</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -57,7 +57,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Project management</span>
+        <span class="overline">{{ $t('otherSkills.project') }}</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -74,11 +74,11 @@
         lg6
       >
         <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-right">
-          Other skills
+          {{ $t('otherSkills.title') }}
         </h2>
         <v-spacer class="elements-spacer" />
         <p class="text-lg-h5 text-md-h5 text-body-1 text-center text-md-right">
-          My natural curiosity for knowledge and the Internet are the perfect complement to never stop learning.
+          {{ $t('otherSkills.text') }}
         </p>
         <div class="text-center text-md-right">
           <v-btn
@@ -89,9 +89,9 @@
             depressed
             href="https://t.me/jeverduzco"
             target="_blank"
-            title="Send me a message"
+            :title="$t('otherSkills.btn')"
           >
-            Send me a message
+            {{ $t('otherSkills.btn') }}
           </v-btn>
         </div>
         <v-spacer class="elements-spacer" />
@@ -104,7 +104,7 @@
         lg6
       >
         <v-spacer class="section-spacer" />
-        <span class="overline">Computer security</span>
+        <span class="overline">{{ $t('otherSkills.security') }}</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -112,7 +112,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Digital marketing</span>
+        <span class="overline">{{ $t('otherSkills.marketing') }}</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -120,7 +120,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Data science and AI</span>
+        <span class="overline">{{ $t('otherSkills.dataScience') }}</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -128,7 +128,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Internet of Things</span>
+        <span class="overline">{{ $t('otherSkills.iot') }}</span>
         <v-progress-linear
           color="secondary"
           height="10"
@@ -136,7 +136,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Business and entrepreneurship</span>
+        <span class="overline">{{ $t('otherSkills.business') }}</span>
         <v-progress-linear
           color="primary"
           height="10"
@@ -144,7 +144,7 @@
           striped
         />
         <v-spacer class="progress-spacer" />
-        <span class="overline">Project management</span>
+        <span class="overline">{{ $t('otherSkills.project') }}</span>
         <v-progress-linear
           color="secondary"
           height="10"
