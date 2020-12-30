@@ -16,7 +16,7 @@ Yo empecé en el mundo autodidacta **hace 14 años** cuando era adolescente. En 
 
 Tras todos estos años de estudio autodidacta continuo, tengo algunos consejos que te puedo dar si quieres **impulsar tu carrera y aprender por tu cuenta.** Debes de saber que no es algo simple y requiere mucha disciplina y entusiasmo. Pero una vez que le tomas el gusto puedes estar a la vanguardia en las áreas que te interesen. 
 
-Abre tu bloc de notas favorito, toma una libreta o simplemente prepara el cerebro. A continuación, te voy a dar los que considero los mejores consejos para ser un ninja en el autoaprendizaje. **¡Empecemos! **
+Abre tu bloc de notas favorito, toma una libreta o simplemente prepara el cerebro. A continuación, te voy a dar los que considero los mejores consejos para ser un ninja en el autoaprendizaje. **¡Empecemos!**
 
 ## Asigna una cantidad de tiempo mínima y máxima para estudiar en tu día. 
 
@@ -46,6 +46,6 @@ Pon a prueba tu conocimiento creando **proyectos completos.** La forma más efic
 
 ## Debate, colabora y comparte con todo el mundo. 
 
-Uno de los inconvenientes de ser autodidacta es que no tienes compañeros de clase con los que puedas debatir y compartir lo aprendido de forma presencial. Afortunadamente en Internet encuentras comunidades de todos los temas que te imagines. **¡Debate, colabora y comparte! **
+Uno de los inconvenientes de ser autodidacta es que no tienes compañeros de clase con los que puedas debatir y compartir lo aprendido de forma presencial. Afortunadamente en Internet encuentras comunidades de todos los temas que te imagines. **¡Debate, colabora y comparte!**
 
 Y lo más importante... **¡Jamás dejes de aprender!** Actualmente vivimos en un mundo que cambia más rápido de lo que la mayoría lo percibe. No esperes a aprender algo nuevo una vez que lo necesitas, aprende desde antes; prepárate para el futuro. 
