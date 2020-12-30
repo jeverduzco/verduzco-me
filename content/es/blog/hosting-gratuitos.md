@@ -1,5 +1,5 @@
 ---
-title: Tres servicios de hosting gratuitos que puedes usar para crecer sin cambiar nada
+title: Tres hostings gratuitos para tu aplicación estática
 description: En tiempos de crisis muchas personas quieren iniciar un negocio por Internet. El problema es que no siempre se tiene el dinero para la infraestructura.
 img: https://storage.verduzco.me/dotme/blog/static.png
 opimg: https://storage.verduzco.me/dotme/blog/es/hosting.png
