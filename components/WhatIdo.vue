@@ -30,8 +30,8 @@
             large
             rounded
             depressed
-            :to="localePath('skills')"
-            nuxt
+            href="https://treintaytres.uno/"
+            target="_blank"
             :title="$t('whatIDo.btn')"
           >
             {{ $t('whatIDo.btn') }}

@@ -1,7 +1,7 @@
 export default {
   global: {
     name: 'Jesús Verduzco',
-    slogan: 'Full Stack Developer'
+    slogan: 'Geek and Entrepreneur'
   },
   default: {
     home: 'Go to home',
@@ -13,7 +13,6 @@ export default {
     navigation: 'NAVIGATION',
     home_menu: 'Home',
     blog: 'Blog',
-    skills: 'Skills',
     social: 'SOCIAL NETWORKS',
     linkedin: 'LinkedIn',
     github: 'Github',
@@ -33,8 +32,8 @@ export default {
   whatIDo: {
     title: 'What do I do?',
     text:
-      'I work as an independent consultant in Web Development, DevOps, Cloud Computing, and other cool stuff.',
-    btn: 'Know my skills'
+      'I am Director of Operations at 33.1, an agency that provides digital services to clients throughout Mexico. ',
+    btn: 'visit 33.1'
   },
   whereAmIFrom: {
     title: 'Where am I from?',

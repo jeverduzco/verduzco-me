@@ -90,8 +90,8 @@ export default {
           property: 'og:image',
           content:
             this.$i18n.locale === 'en'
-              ? 'https://storage.verduzco.me/dotme/website/seo/index_en.png'
-              : 'https://storage.verduzco.me/dotme/website/seo/index_es.png'
+              ? 'https://storage.verduzco.me/dotme/website/seo/home_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/home_es.png'
         },
         {
           property: 'og:locale',
@@ -136,8 +136,8 @@ export default {
           name: 'twitter:image',
           content:
             this.$i18n.locale === 'en'
-              ? 'https://storage.verduzco.me/dotme/website/seo/index_en.png'
-              : 'https://storage.verduzco.me/dotme/website/seo/index_es.png'
+              ? 'https://storage.verduzco.me/dotme/website/seo/home_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/home_es.png'
         }
       ]
     }
