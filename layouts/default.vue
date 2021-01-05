@@ -81,12 +81,6 @@
           >
             <v-list-item-title>{{ $t('default.blog') }}</v-list-item-title>
           </v-list-item>
-          <v-list-item
-            :title="$t('default.skills')"
-            :to="localePath('skills')"
-          >
-            <v-list-item-title>{{ $t('default.skills') }}</v-list-item-title>
-          </v-list-item>
           <v-subheader>{{ $t('default.social') }}</v-subheader>
           <v-list-item
             :title="$t('default.linkedin')"

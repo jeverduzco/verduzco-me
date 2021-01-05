@@ -155,14 +155,13 @@ module.exports = {
         gzip: true,
         generate: false,
         trailingSlash: true,
-        routes: ['/en/', '/en/skills/', '/en/blog/'],
+        routes: ['/en/', '/en/blog/'],
         exclude: [
           '/',
           '/blog/',
           '/legal/cookies/',
           '/legal/privacy/',
-          '/legal/notice/',
-          '/skills/'
+          '/legal/notice/'
         ]
       },
       {
@@ -172,14 +171,13 @@ module.exports = {
         gzip: true,
         generate: false,
         trailingSlash: true,
-        routes: ['/es/', '/es/habilidades/', '/es/blog/'],
+        routes: ['/es/', '/es/blog/'],
         exclude: [
           '/',
           '/blog/',
           '/legal/cookies/',
           '/legal/privacy/',
-          '/legal/notice/',
-          '/skills/'
+          '/legal/notice/'
         ]
       },
       {
@@ -204,8 +202,7 @@ module.exports = {
           '/blog/',
           '/legal/cookies/',
           '/legal/privacy/',
-          '/legal/notice/',
-          '/skills/'
+          '/legal/notice/'
         ]
       },
       {
@@ -230,8 +227,7 @@ module.exports = {
           '/blog/',
           '/legal/cookies/',
           '/legal/privacy/',
-          '/legal/notice/',
-          '/skills/'
+          '/legal/notice/'
         ]
       }
     ]

@@ -1,7 +1,7 @@
 export default {
   global: {
     name: 'Jesús Verduzco',
-    slogan: 'Desarrollador Full Stack'
+    slogan: 'Geek y Emprendedor'
   },
   default: {
     home: 'Ir al inicio',
@@ -13,7 +13,6 @@ export default {
     navigation: 'NAVEGACIÓN',
     home_menu: 'Inicio',
     blog: 'Blog',
-    skills: 'Habilidades',
     social: 'REDES SOCIALES',
     linkedin: 'LinkedIn',
     github: 'Github',
@@ -33,8 +32,8 @@ export default {
   whatIDo: {
     title: '¿Qué hago?',
     text:
-      'Soy consultor independiente en Desarrollo Web, DevOps, Tecnología en la Nube y otras cosas geniales.',
-    btn: 'Conoce mis habilidades'
+      'Soy Director de Operaciones en 33.1, una agencia que brinda servicios digitales a clientes de todo México.',
+    btn: 'Visita 33.1'
   },
   whereAmIFrom: {
     title: '¿De dónde soy?',
