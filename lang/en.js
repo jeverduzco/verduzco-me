@@ -33,7 +33,7 @@ export default {
     title: 'What do I do?',
     text:
       'I am Director of Operations at 33.1, an agency that provides digital services to clients throughout Mexico. ',
-    btn: 'visit 33.1'
+    btn: 'Visit the 33.1 website'
   },
   whereAmIFrom: {
     title: 'Where am I from?',
