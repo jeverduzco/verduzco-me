@@ -7,9 +7,6 @@
 .content-container {
   max-width: 1280px !important;
 }
-.section-content {
-  padding: 98px 0px;
-}
 .nuxt-content-highlight {
   position: relative;
 }
@@ -89,5 +86,10 @@
 @media screen and (max-width: 768px) {
   .Cookie__content {
     text-align: center !important;
+  }
+}
+@media screen and (min-width: 960px) {
+  .section-content {
+    padding: 98px 10px;
   }
 }
