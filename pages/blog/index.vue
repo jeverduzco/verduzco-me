@@ -31,7 +31,7 @@
           </v-chip>
         </v-chip-group>
       </v-container>
-      <v-container grid-list-md>
+      <v-container grid-list-md class="content-container">
         <v-layout
           wrap
           row
