@@ -3,7 +3,7 @@ title: Política de cookies
 description: Política de cookies para el sitio web verduzco.me
 ---
 
-Mi Sitio Web, https://verduzco.me/ utiliza cookies para mejorar la experiencia.  
+Mi Sitio Web, https://www.verduzco.me/ utiliza cookies para mejorar la experiencia.  
 
 ## ¿Qué son las cookies?  
 

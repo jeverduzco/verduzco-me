@@ -150,7 +150,7 @@ module.exports = {
     sitemaps: [
       {
         path: '/pages_en.xml',
-        hostname: 'https://verduzco.me',
+        hostname: 'https://www.verduzco.me',
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,
@@ -166,7 +166,7 @@ module.exports = {
       },
       {
         path: '/pages_es.xml',
-        hostname: 'https://verduzco.me',
+        hostname: 'https://www.verduzco.me',
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,
@@ -182,7 +182,7 @@ module.exports = {
       },
       {
         path: '/articles_en.xml',
-        hostname: 'https://verduzco.me',
+        hostname: 'https://www.verduzco.me',
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,
@@ -207,7 +207,7 @@ module.exports = {
       },
       {
         path: '/articles_es.xml',
-        hostname: 'https://verduzco.me',
+        hostname: 'https://www.verduzco.me',
         cacheTime: 1000 * 60 * 15,
         gzip: true,
         generate: false,

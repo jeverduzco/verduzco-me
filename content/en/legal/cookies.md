@@ -3,7 +3,7 @@ title: Cookie policy
 description: Cookie policy for the verduzco.me website
 ---
 
-My Website, https://verduzco.me/ uses Cookies to enhance the experience.  
+My Website, https://www.verduzco.me/ uses Cookies to enhance the experience.  
 
 ## What are Cookies?  
 

@@ -230,16 +230,16 @@ export default {
           rel: 'canonical',
           href:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/en/blog/'
-              : 'https://verduzco.me/es/blog/'
+              ? 'https://www.verduzco.me/en/blog/'
+              : 'https://www.verduzco.me/es/blog/'
         },
         {
           rel: 'alternate',
           hreflang: this.$i18n.locale === 'en' ? 'es-MX' : 'en-US',
           href:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/es/blog/'
-              : 'https://verduzco.me/en/blog/'
+              ? 'https://www.verduzco.me/es/blog/'
+              : 'https://www.verduzco.me/en/blog/'
         }
       ],
       meta: [
@@ -276,8 +276,8 @@ export default {
           property: 'og:url',
           content:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/en/blog/'
-              : 'https://verduzco.me/es/blog/'
+              ? 'https://www.verduzco.me/en/blog/'
+              : 'https://www.verduzco.me/es/blog/'
         },
         {
           property: 'og:site_name',

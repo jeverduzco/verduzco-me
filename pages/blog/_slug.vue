@@ -54,16 +54,16 @@ export default {
           rel: 'canonical',
           href:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/en/blog/' + this.article.slug + '/'
-              : 'https://verduzco.me/es/blog/' + this.article.slug + '/'
+              ? 'https://www.verduzco.me/en/blog/' + this.article.slug + '/'
+              : 'https://www.verduzco.me/es/blog/' + this.article.slug + '/'
         },
         {
           rel: 'alternate',
           hreflang: this.$i18n.locale === 'en' ? 'es-MX' : 'en-US',
           href:
             this.$i18n.locale === 'es'
-              ? 'https://verduzco.me/en/blog/' + this.article.related + '/'
-              : 'https://verduzco.me/es/blog/' + this.article.related + '/'
+              ? 'https://www.verduzco.me/en/blog/' + this.article.related + '/'
+              : 'https://www.verduzco.me/es/blog/' + this.article.related + '/'
         }
       ],
       meta: [
@@ -97,8 +97,8 @@ export default {
           property: 'og:url',
           content:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/en/blog/' + this.article.slug + '/'
-              : 'https://verduzco.me/es/blog/' + this.article.slug + '/'
+              ? 'https://www.verduzco.me/en/blog/' + this.article.slug + '/'
+              : 'https://www.verduzco.me/es/blog/' + this.article.slug + '/'
         },
         {
           property: 'og:site_name',

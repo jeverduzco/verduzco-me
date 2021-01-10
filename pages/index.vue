@@ -32,7 +32,7 @@ export default {
         '@context': 'http://schema.org',
         '@type': 'Person',
         name: 'Jesús Verduzco',
-        url: 'https://verduzco.me/',
+        url: 'https://www.verduzco.me/',
         image: 'https://storage.verduzco.me/dotme/website/jesus-verduzco.jpg',
         sameAs: [
           'https://www.linkedin.com/in/jeverduzco/',
@@ -59,16 +59,16 @@ export default {
           rel: 'canonical',
           href:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/en/'
-              : 'https://verduzco.me/es/'
+              ? 'https://www.verduzco.me/en/'
+              : 'https://www.verduzco.me/es/'
         },
         {
           rel: 'alternate',
           hreflang: this.$i18n.locale === 'en' ? 'es-MX' : 'en-US',
           href:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/es/'
-              : 'https://verduzco.me/en/'
+              ? 'https://www.verduzco.me/es/'
+              : 'https://www.verduzco.me/en/'
         }
       ],
       meta: [
@@ -105,8 +105,8 @@ export default {
           property: 'og:url',
           content:
             this.$i18n.locale === 'en'
-              ? 'https://verduzco.me/en/'
-              : 'https://verduzco.me/es/'
+              ? 'https://www.verduzco.me/en/'
+              : 'https://www.verduzco.me/es/'
         },
         {
           property: 'og:site_name',
