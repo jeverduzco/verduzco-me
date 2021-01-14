@@ -15,6 +15,7 @@ export default {
     blog: 'Blog',
     social: 'REDES SOCIALES',
     linkedin: 'LinkedIn',
+    twitter: 'Twitter',
     github: 'Github',
     contact: 'CONTACTO',
     telegram: 'Telegram',

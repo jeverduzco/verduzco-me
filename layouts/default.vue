@@ -83,6 +83,13 @@
           </v-list-item>
           <v-subheader>{{ $t('default.social') }}</v-subheader>
           <v-list-item
+            :title="$t('default.twitter')"
+            href="https://twitter.com/jeverduzco"
+            target="_blank"
+          >
+            <v-list-item-title>{{ $t('default.twitter') }}</v-list-item-title>
+          </v-list-item>
+          <v-list-item
             :title="$t('default.linkedin')"
             href="https://www.linkedin.com/in/jeverduzco"
             target="_blank"

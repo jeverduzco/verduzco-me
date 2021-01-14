@@ -36,7 +36,8 @@ export default {
         image: 'https://storage.verduzco.me/dotme/website/jesus-verduzco.jpg',
         sameAs: [
           'https://www.linkedin.com/in/jeverduzco/',
-          'https://github.com/jeverduzco'
+          'https://github.com/jeverduzco',
+          'https://twitter.com/jeverduzco'
         ]
       }
     }
@@ -123,6 +124,10 @@ export default {
         {
           name: 'twitter:card',
           content: 'summary_large_image'
+        },
+        {
+          name: 'twitter:creator',
+          content: '@jeverduzco'
         },
         {
           name: 'twitter:description',
