@@ -296,6 +296,10 @@ export default {
           content: 'summary_large_image'
         },
         {
+          name: 'twitter:creator',
+          content: '@jeverduzco'
+        },
+        {
           name: 'twitter:description',
           content: this.description
         },
