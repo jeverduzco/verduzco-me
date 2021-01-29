@@ -195,7 +195,8 @@ module.exports = {
           '/en/blog/tips-for-learning-online/',
           '/en/blog/web-site-vs-web-app/',
           '/en/blog/what-is-telemetry/',
-          '/en/blog/wsl2-windows-terminal-zsh/'
+          '/en/blog/wsl2-windows-terminal-zsh/',
+          '/en/blog/reasons-to-have-your-own-online-store/'
         ],
         exclude: [
           '/',
@@ -220,7 +221,8 @@ module.exports = {
           '/es/blog/que-es-la-telemetria/',
           '/es/blog/sitio-web-vs-aplicacion-web/',
           '/es/blog/trabajo-remoto/',
-          '/es/blog/wsl2-windows-terminal-zsh/'
+          '/es/blog/wsl2-windows-terminal-zsh/',
+          '/es/blog/razones-para-tener-tu-propia-tienda-en-linea/'
         ],
         exclude: [
           '/',
