@@ -97,6 +97,13 @@
             <v-list-item-title>{{ $t('default.linkedin') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
+            :title="$t('default.twitch')"
+            href="https://www.twitch.tv/jeverduzco"
+            target="_blank"
+          >
+            <v-list-item-title>{{ $t('default.twitch') }}</v-list-item-title>
+          </v-list-item>
+          <v-list-item
             :title="$t('default.github')"
             href="https://github.com/jeverduzco"
             target="_blank"
