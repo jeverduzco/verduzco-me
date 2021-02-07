@@ -196,7 +196,8 @@ module.exports = {
           '/en/blog/web-site-vs-web-app/',
           '/en/blog/what-is-telemetry/',
           '/en/blog/wsl2-windows-terminal-zsh/',
-          '/en/blog/reasons-to-have-your-own-online-store/'
+          '/en/blog/reasons-to-have-your-own-online-store/',
+          '/en/blog/the-end-of-advertising-on-the-web/'
         ],
         exclude: [
           '/',
@@ -222,7 +223,8 @@ module.exports = {
           '/es/blog/sitio-web-vs-aplicacion-web/',
           '/es/blog/trabajo-remoto/',
           '/es/blog/wsl2-windows-terminal-zsh/',
-          '/es/blog/razones-para-tener-tu-propia-tienda-en-linea/'
+          '/es/blog/razones-para-tener-tu-propia-tienda-en-linea/',
+          '/es/blog/el-fin-de-la-publicidad-en-la-web/'
         ],
         exclude: [
           '/',
