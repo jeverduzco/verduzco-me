@@ -34,8 +34,9 @@ export default {
   whatIDo: {
     title: '¿Qué hago?',
     text:
-      'Soy Director de Operaciones en 33.1, una agencia que brinda servicios digitales a clientes de todo México.',
-    btn: 'Visita la web de 33.1'
+      'Soy Director de Tecnología (CTO) en la Agencia de Marketing 33.1 y también en Prenlu.',
+    btn: 'Web de 33.1',
+    btnPrenlu: 'Web de Prenlu'
   },
   whereAmIFrom: {
     title: '¿De dónde soy?',

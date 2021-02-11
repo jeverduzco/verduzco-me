@@ -34,8 +34,9 @@ export default {
   whatIDo: {
     title: 'What do I do?',
     text:
-      'I am Director of Operations at 33.1, an agency that provides digital services to clients throughout Mexico. ',
-    btn: 'Visit the 33.1 website'
+      'I am Chief Technology Officer (CTO) at 33.1 Marketing Agency and also at Prenlu.',
+    btn: '33.1 Website',
+    btnPrenlu: 'Prenlu Website'
   },
   whereAmIFrom: {
     title: 'Where am I from?',
