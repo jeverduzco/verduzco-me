@@ -46,7 +46,10 @@ export default {
   },
   blogWelcome: {
     title: 'My Blog',
-    text: 'Here I write what I think and share what I know how to do.'
+    text: 'Here I write what I think and share what I know how to do.',
+    linkedin:
+      'In this space I write one article a week, to read more of my publications please go to my LinkedIn blog.',
+    linkedinBtn: 'Visit my LinkedIn'
   },
   appSearchImput: {
     label: 'Search articles'
