@@ -17,6 +17,18 @@
         <p class="text-lg-h4 text-md-h4 text-h5 text-center text-md-left">
           {{ $t('blogWelcome.text') }}
         </p>
+        <p class="text-center text-md-left">
+          {{ $t('blogWelcome.linkedin') }}
+        </p>
+        <v-btn
+          color="secondary"
+          rounded
+          depressed
+          href="https://www.linkedin.com/in/jeverduzco/detail/recent-activity/posts/"
+          target="_blank"
+        >
+          {{ $t('blogWelcome.linkedinBtn') }}
+        </v-btn>
       </v-flex>
       <v-flex
         class="text-center text-md-right"

@@ -8,7 +8,7 @@ const themeCache = new LRU({
 export default {
   theme: {
     options: { minifyTheme, themeCache },
-    dark: false,
+    dark: true,
     themes: {
       dark: {
         primary: '#03a9f4',

@@ -46,7 +46,10 @@ export default {
   },
   blogWelcome: {
     title: 'Mi Blog',
-    text: 'Aquí escribo lo que pienso y comparto lo que sé hacer.'
+    text: 'Aquí escribo lo que pienso y comparto lo que sé hacer.',
+    linkedin:
+      'En este espacio escribo un artículo a la semana, para leer más de mis publicaciones por favor dirígete a mi blog de LinkedIn.',
+    linkedinBtn: 'Visita mi LinkedIn'
   },
   appSearchImput: {
     label: 'Buscar artículos'
