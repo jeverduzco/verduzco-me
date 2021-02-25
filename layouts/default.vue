@@ -185,22 +185,12 @@ export default {
     })
   },
   mounted() {
-    // Change theme automatically
-    this.changeTheme()
     // eslint-disable-next-line no-console
     console.log(
       '%cStop!',
       'color: red; font-size: 30px; font-weight: bold;',
       "The browser console is only for developers, if you are not clear about what you are doing; don't do it. Someone might steal your information."
     )
-  },
-  methods: {
-    // Change theme automatically
-    changeTheme() {
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        this.$vuetify.theme.dark = true
-      }
-    }
   }
 }
 </script>
