@@ -197,7 +197,8 @@ module.exports = {
           '/en/blog/what-is-telemetry/',
           '/en/blog/wsl2-windows-terminal-zsh/',
           '/en/blog/reasons-to-have-your-own-online-store/',
-          '/en/blog/the-end-of-advertising-on-the-web/'
+          '/en/blog/the-end-of-advertising-on-the-web/',
+          '/en/blog/five-points-which-a-cto-must-consider-when-choosing-technologies/'
         ],
         exclude: [
           '/',
@@ -224,7 +225,8 @@ module.exports = {
           '/es/blog/trabajo-remoto/',
           '/es/blog/wsl2-windows-terminal-zsh/',
           '/es/blog/razones-para-tener-tu-propia-tienda-en-linea/',
-          '/es/blog/el-fin-de-la-publicidad-en-la-web/'
+          '/es/blog/el-fin-de-la-publicidad-en-la-web/',
+          '/es/blog/cinco-puntos-que-un-cto-debe-considerar-al-elegir-tecnologias/'
         ],
         exclude: [
           '/',
