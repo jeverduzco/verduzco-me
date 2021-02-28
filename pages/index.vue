@@ -37,7 +37,8 @@ export default {
         sameAs: [
           'https://www.linkedin.com/in/jeverduzco/',
           'https://github.com/jeverduzco',
-          'https://twitter.com/jeverduzco'
+          'https://twitter.com/jeverduzco',
+          'https://www.twitch.tv/jeverduzco'
         ]
       }
     }

@@ -24,7 +24,7 @@
           color="secondary"
           rounded
           depressed
-          href="https://www.linkedin.com/in/jeverduzco/detail/recent-activity/posts/"
+          href="http://linkedin.verduzco.me/"
           target="_blank"
         >
           {{ $t('blogWelcome.linkedinBtn') }}
