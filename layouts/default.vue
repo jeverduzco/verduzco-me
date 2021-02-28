@@ -84,28 +84,28 @@
           <v-subheader>{{ $t('default.social') }}</v-subheader>
           <v-list-item
             :title="$t('default.twitter')"
-            href="https://twitter.com/jeverduzco"
+            href="http://twitter.verduzco.me/"
             target="_blank"
           >
             <v-list-item-title>{{ $t('default.twitter') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
             :title="$t('default.linkedin')"
-            href="https://www.linkedin.com/in/jeverduzco"
+            href="http://linkedin.verduzco.me/"
             target="_blank"
           >
             <v-list-item-title>{{ $t('default.linkedin') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
             :title="$t('default.twitch')"
-            href="https://www.twitch.tv/jeverduzco"
+            href="http://twitch.verduzco.me/"
             target="_blank"
           >
             <v-list-item-title>{{ $t('default.twitch') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
             :title="$t('default.github')"
-            href="https://github.com/jeverduzco"
+            href="http://github.verduzco.me/"
             target="_blank"
           >
             <v-list-item-title>{{ $t('default.github') }}</v-list-item-title>
@@ -113,7 +113,7 @@
           <v-subheader>{{ $t('default.contact') }}</v-subheader>
           <v-list-item
             :title="$t('default.telegram')"
-            href="ttps://t.me/jeverduzco"
+            href="http://telegram.verduzco.me/"
             target="_blank"
           >
             <v-list-item-title>{{ $t('default.telegram') }}</v-list-item-title>

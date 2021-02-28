@@ -40,7 +40,7 @@
             large
             rounded
             depressed
-            href="https://t.me/jeverduzco"
+            href="http://telegram.verduzco.me/"
             target="_blank"
             :title="$t('whereAmIFrom.btn')"
           >
