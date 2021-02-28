@@ -21,7 +21,9 @@
           {{ $t('blogWelcome.linkedin') }}
         </p>
         <v-btn
+          class="more-info-btn"
           color="secondary"
+          large
           rounded
           depressed
           href="http://linkedin.verduzco.me/"
