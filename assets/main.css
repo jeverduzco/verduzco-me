@@ -78,6 +78,7 @@
 }
 .more-info-btn {
   margin-top: 25px;
+  min-width: 49% !important;
 }
 .elements-spacer {
   height: 25px;
