@@ -198,7 +198,8 @@ module.exports = {
           '/en/blog/wsl2-windows-terminal-zsh/',
           '/en/blog/reasons-to-have-your-own-online-store/',
           '/en/blog/the-end-of-advertising-on-the-web/',
-          '/en/blog/five-points-which-a-cto-must-consider-when-choosing-technologies/'
+          '/en/blog/five-points-which-a-cto-must-consider-when-choosing-technologies/',
+          '/en/blog/areas-en-las-que-la-ia-me-ha-hecho-la-vida-mas-facil/'
         ],
         exclude: [
           '/',
@@ -226,7 +227,8 @@ module.exports = {
           '/es/blog/wsl2-windows-terminal-zsh/',
           '/es/blog/razones-para-tener-tu-propia-tienda-en-linea/',
           '/es/blog/el-fin-de-la-publicidad-en-la-web/',
-          '/es/blog/cinco-puntos-que-un-cto-debe-considerar-al-elegir-tecnologias/'
+          '/es/blog/cinco-puntos-que-un-cto-debe-considerar-al-elegir-tecnologias/',
+          '/es/blog/areas-in-which-ai-has-made-my-life-easier/'
         ],
         exclude: [
           '/',
