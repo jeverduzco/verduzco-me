@@ -35,10 +35,11 @@ export default {
         url: 'https://www.verduzco.me/',
         image: 'https://storage.verduzco.me/dotme/website/jesus-verduzco.jpg',
         sameAs: [
-          'https://www.linkedin.com/in/jeverduzco/',
+          'https://www.linkedin.com/in/verduzcodotme/',
           'https://github.com/jeverduzco',
-          'https://twitter.com/jeverduzco',
-          'https://www.twitch.tv/jeverduzco'
+          'https://twitter.com/verduzcodotme',
+          'https://www.twitch.tv/verduzcodotme',
+          'https://www.instagram.com/verduzcodotme/'
         ]
       }
     }
@@ -92,8 +93,8 @@ export default {
           property: 'og:image',
           content:
             this.$i18n.locale === 'en'
-              ? 'https://storage.verduzco.me/dotme/website/seo/home_en.png'
-              : 'https://storage.verduzco.me/dotme/website/seo/home_es.png'
+              ? 'https://storage.verduzco.me/dotme/website/seo/inicio_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/inicio_es.png'
         },
         {
           property: 'og:locale',
@@ -142,8 +143,8 @@ export default {
           name: 'twitter:image',
           content:
             this.$i18n.locale === 'en'
-              ? 'https://storage.verduzco.me/dotme/website/seo/home_en.png'
-              : 'https://storage.verduzco.me/dotme/website/seo/home_es.png'
+              ? 'https://storage.verduzco.me/dotme/website/seo/inicio_en.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/inicio_es.png'
         }
       ]
     }
