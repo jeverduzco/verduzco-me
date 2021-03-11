@@ -3,7 +3,7 @@
     <v-app-bar flat fixed app>
       <nuxt-link :to="localePath('index')" :title="$t('default.home')">
         <img
-          src="https://storage.verduzco.me/dotme/website/landing/jesus.webp"
+          src="https://storage.verduzco.me/dotme/website/favicon-128.png"
           alt="Jesús Verduzco"
           height="36"
         >
