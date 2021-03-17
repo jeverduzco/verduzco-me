@@ -18,6 +18,8 @@ export default {
     twitch: 'Twitch',
     twitter: 'Twitter',
     github: 'Github',
+    youtube: 'YouTube',
+    instagram: 'Instagram',
     contact: 'CONTACT',
     telegram: 'Telegram',
     cookies: 'Cookie Policy',
