@@ -39,7 +39,8 @@ export default {
           'https://github.com/jeverduzco',
           'https://twitter.com/soy_jeshu/',
           'https://www.twitch.tv/soy_jeshu/',
-          'https://www.instagram.com/soy_jeshu/'
+          'https://www.instagram.com/soy_jeshu/',
+          'https://www.youtube.com/channel/UCLS-IeTV50b7yBYytRcsi2Q'
         ]
       }
     }
