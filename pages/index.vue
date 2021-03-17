@@ -38,8 +38,9 @@ export default {
           'https://www.linkedin.com/in/soy-jeshu/',
           'https://github.com/jeverduzco',
           'https://twitter.com/soy_jeshu/',
-          'https://www.twitch.tv/verduzcodotme/',
-          'https://www.instagram.com/soy_jeshu/'
+          'https://www.twitch.tv/soy_jeshu/',
+          'https://www.instagram.com/soy_jeshu/',
+          'https://www.youtube.com/channel/UCLS-IeTV50b7yBYytRcsi2Q'
         ]
       }
     }
