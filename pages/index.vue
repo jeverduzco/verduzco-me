@@ -35,11 +35,11 @@ export default {
         url: 'https://www.verduzco.me/',
         image: 'https://storage.verduzco.me/dotme/website/jesus-verduzco.jpg',
         sameAs: [
-          'https://www.linkedin.com/in/verduzcodotme/',
+          'https://www.linkedin.com/in/soy-jeshu/',
           'https://github.com/jeverduzco',
-          'https://twitter.com/verduzcodotme',
-          'https://www.twitch.tv/verduzcodotme',
-          'https://www.instagram.com/verduzcodotme/'
+          'https://twitter.com/soy_jeshu/',
+          'https://www.twitch.tv/verduzcodotme/',
+          'https://www.instagram.com/soy_jeshu/'
         ]
       }
     }

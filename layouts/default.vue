@@ -110,6 +110,20 @@
           >
             <v-list-item-title>{{ $t('default.github') }}</v-list-item-title>
           </v-list-item>
+          <v-list-item
+            :title="$t('default.youtube')"
+            href="http://youtube.verduzco.me/"
+            target="_blank"
+          >
+            <v-list-item-title>{{ $t('default.youtube') }}</v-list-item-title>
+          </v-list-item>
+          <v-list-item
+            :title="$t('default.youtube')"
+            href="http://instagram.verduzco.me/"
+            target="_blank"
+          >
+            <v-list-item-title>{{ $t('default.instagram') }}</v-list-item-title>
+          </v-list-item>
           <v-subheader>{{ $t('default.contact') }}</v-subheader>
           <v-list-item
             :title="$t('default.telegram')"
