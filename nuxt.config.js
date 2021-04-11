@@ -22,12 +22,7 @@ module.exports = {
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
-  target: 'server',
   telemetry: true,
-  server: {
-    port: 3000, // default: 3000
-    host: 'localhost' // default: localhost
-  },
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -112,7 +107,6 @@ module.exports = {
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
     'nuxt-helmet',
-    '@nuxtjs/redirect-module',
     [
       'nuxt-i18n',
       {
@@ -142,13 +136,6 @@ module.exports = {
         }
       }
     ]
-  ],
-  redirect: [
-    {
-      from: '^.*(?<!/)$',
-      to: (from, req) => req.url + '/',
-      statusCode: 301
-    }
   ],
   appInsights: {
     instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf'
@@ -235,18 +222,5 @@ module.exports = {
   router: {
     trailingSlash: true
   },
-  build: {
-    extractCSS: true,
-    extend(config, ctx) {
-      // Run ESLint on save
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
-  }
+  build: {}
 }
