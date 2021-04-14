@@ -36,18 +36,6 @@
           >
             {{ $t('whatIDo.btn') }}
           </v-btn>
-          <v-btn
-            class="more-info-btn"
-            color="secondary"
-            large
-            rounded
-            depressed
-            href="https://prenlu.com/"
-            target="_blank"
-            :title="$t('whatIDo.btnPrenlu')"
-          >
-            {{ $t('whatIDo.btnPrenlu') }}
-          </v-btn>
         </div>
       </v-flex>
       <v-flex
