@@ -50,7 +50,7 @@ export default {
     title: 'Mi Blog',
     text: 'Aquí escribo lo que pienso y comparto lo que sé hacer.',
     linkedin:
-      'En este espacio escribo un artículo a la semana, para leer más de mis publicaciones por favor dirígete a mi blog de LinkedIn.',
+      'En este espacio escribo un artículo cada que tengo ganas, este es un blog personal por lo que encontrarás artículos de muchos temas.',
     linkedinBtn: 'Visita mi LinkedIn'
   },
   appSearchImput: {
