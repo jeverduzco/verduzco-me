@@ -50,7 +50,7 @@ export default {
     title: 'My Blog',
     text: 'Here I write what I think and share what I know how to do.',
     linkedin:
-      'In this space I write one article a week, to read more of my publications please go to my LinkedIn blog.',
+      'In this space I write an article every time I feel like it, this is a personal blog so you will find articles on many topics.',
     linkedinBtn: 'Visit my LinkedIn'
   },
   appSearchImput: {
