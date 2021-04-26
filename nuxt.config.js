@@ -179,7 +179,8 @@ module.exports = {
           '/blog/',
           '/legal/cookies/',
           '/legal/privacy/',
-          '/legal/notice/'
+          '/legal/notice/',
+          '/re/'
         ]
       },
       {
@@ -195,7 +196,8 @@ module.exports = {
           '/blog/',
           '/legal/cookies/',
           '/legal/privacy/',
-          '/legal/notice/'
+          '/legal/notice/',
+          '/re/'
         ]
       },
       {
@@ -211,7 +213,8 @@ module.exports = {
           '/blog/',
           '/legal/cookies/',
           '/legal/privacy/',
-          '/legal/notice/'
+          '/legal/notice/',
+          '/re/'
         ]
       },
       {
@@ -227,7 +230,8 @@ module.exports = {
           '/blog/',
           '/legal/cookies/',
           '/legal/privacy/',
-          '/legal/notice/'
+          '/legal/notice/',
+          '/re/'
         ]
       }
     ]

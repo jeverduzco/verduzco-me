@@ -43,6 +43,7 @@
             :to="localePath('blog')"
             nuxt
             :title="$t('whoAmI.btn')"
+            @click="$appInsights.trackEvent({ name: 'open-blog-from-home' })"
           >
             {{ $t('whoAmI.btn') }}
           </v-btn>

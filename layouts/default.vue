@@ -41,6 +41,7 @@
         <v-list v-if="activeArticle">
           <v-list-item
             :to="$i18n.locale === 'es' ? '/en/blog/' + relatedArticle + '/' : '/es/blog/' + relatedArticle + '/'"
+            @click="$appInsights.trackEvent({ name: 'change-article-language' })"
           >
             <v-list-item-title>{{ $i18n.locale === 'es' ? $t('default.read_en') : $t('default.read_es') }}</v-list-item-title>
           </v-list-item>
@@ -57,6 +58,7 @@
             icon
             v-bind="attrs"
             v-on="on"
+            @click="$appInsights.trackEvent({ name: 'open-navigation' })"
           >
             <v-icon>mdi-dots-vertical</v-icon>
           </v-btn>
@@ -72,12 +74,14 @@
             :title="$t('default.home_menu')"
             :to="localePath('index')"
             exact
+            @click="$appInsights.trackEvent({ name: 'navigate-to-home' })"
           >
             <v-list-item-title>{{ $t('default.home_menu') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
             :title="$t('default.blog')"
             :to="localePath('blog')"
+            @click="$appInsights.trackEvent({ name: 'navigate-to-blog' })"
           >
             <v-list-item-title>{{ $t('default.blog') }}</v-list-item-title>
           </v-list-item>
@@ -86,6 +90,7 @@
             :title="$t('default.twitter')"
             href="http://twitter.verduzco.me/"
             target="_blank"
+            @click="$appInsights.trackEvent({ name: 'go-to-twitter' })"
           >
             <v-list-item-title>{{ $t('default.twitter') }}</v-list-item-title>
           </v-list-item>
@@ -93,6 +98,7 @@
             :title="$t('default.linkedin')"
             href="http://linkedin.verduzco.me/"
             target="_blank"
+            @click="$appInsights.trackEvent({ name: 'go-to-linkedin' })"
           >
             <v-list-item-title>{{ $t('default.linkedin') }}</v-list-item-title>
           </v-list-item>
@@ -100,6 +106,7 @@
             :title="$t('default.twitch')"
             href="http://twitch.verduzco.me/"
             target="_blank"
+            @click="$appInsights.trackEvent({ name: 'go-to-twitch' })"
           >
             <v-list-item-title>{{ $t('default.twitch') }}</v-list-item-title>
           </v-list-item>
@@ -107,6 +114,7 @@
             :title="$t('default.github')"
             href="http://github.verduzco.me/"
             target="_blank"
+            @click="$appInsights.trackEvent({ name: 'go-to-github' })"
           >
             <v-list-item-title>{{ $t('default.github') }}</v-list-item-title>
           </v-list-item>
@@ -114,6 +122,7 @@
             :title="$t('default.youtube')"
             href="http://youtube.verduzco.me/"
             target="_blank"
+            @click="$appInsights.trackEvent({ name: 'go-to-youtube' })"
           >
             <v-list-item-title>{{ $t('default.youtube') }}</v-list-item-title>
           </v-list-item>
@@ -122,6 +131,7 @@
             :title="$t('default.telegram')"
             href="http://telegram.verduzco.me/"
             target="_blank"
+            @click="$appInsights.trackEvent({ name: 'go-to-telegram' })"
           >
             <v-list-item-title>{{ $t('default.telegram') }}</v-list-item-title>
           </v-list-item>

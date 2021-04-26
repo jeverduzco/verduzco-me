@@ -43,6 +43,7 @@
             href="http://telegram.verduzco.me/"
             target="_blank"
             :title="$t('whereAmIFrom.btn')"
+            @click="$appInsights.trackEvent({ name: 'open-telegram-from-home' })"
           >
             {{ $t('whereAmIFrom.btn') }}
           </v-btn>

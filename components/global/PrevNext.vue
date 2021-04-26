@@ -16,6 +16,7 @@
           exact
           outlined
           height="150"
+          @click="$appInsights.trackEvent({ name: 'go-to-prev-post' })"
         >
           <v-card-title primary-title>
             {{ $t('prevAndNext.newer') }}
@@ -45,6 +46,7 @@
           exact
           outlined
           height="150"
+          @click="$appInsights.trackEvent({ name: 'go-to-next-post' })"
         >
           <v-card-title primary-title>
             {{ $t('prevAndNext.older') }}
