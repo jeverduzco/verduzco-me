@@ -28,6 +28,7 @@
           depressed
           href="http://linkedin.verduzco.me/"
           target="_blank"
+          @click="$appInsights.trackEvent({ name: 'go-to-linkedin-from-blog' })"
         >
           {{ $t('blogWelcome.linkedinBtn') }}
         </v-btn>

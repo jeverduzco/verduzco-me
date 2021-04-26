@@ -33,6 +33,7 @@
             href="https://treintaytres.uno/"
             target="_blank"
             :title="$t('whatIDo.btn')"
+            @click="$appInsights.trackEvent({ name: 'open-33.1-website' })"
           >
             {{ $t('whatIDo.btn') }}
           </v-btn>
@@ -45,6 +46,7 @@
             href="https://prenlu.com/"
             target="_blank"
             :title="$t('whatIDo.btnPrenlu')"
+            @click="$appInsights.trackEvent({ name: 'open-prenlu-website' })"
           >
             {{ $t('whatIDo.btnPrenlu') }}
           </v-btn>

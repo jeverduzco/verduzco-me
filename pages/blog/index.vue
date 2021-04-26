@@ -51,6 +51,7 @@
               :to="localePath('blog') + article.slug + '/'"
               flat
               :color="$vuetify.theme.dark ? 'grey darken-3' : 'blue-grey lighten-5'"
+              @click="$appInsights.trackEvent({ name: 'go-to-post' })"
             >
               <h2 class="article-title">
                 {{ article.title }}
