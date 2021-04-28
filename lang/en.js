@@ -3,6 +3,12 @@ export default {
     name: 'Jesús Verduzco',
     slogan: 'Geek and Entrepreneur'
   },
+  error: {
+    goToHome: 'Go to Home',
+    error: 'Unknown Error',
+    text:
+      "Some ad blockers like uBlock Origin don't work well with Nuxt.js, check if you don't have it active. Don't worry there are no ads here. 😋"
+  },
   default: {
     home: 'Go to home',
     theme: 'Change theme',

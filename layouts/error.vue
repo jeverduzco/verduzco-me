@@ -14,14 +14,20 @@
         depressed
         :to="localePath('index')"
       >
-        Ir al Inicio
+        {{ $t('error.goToHome') }}
       </v-btn>
     </div>
     <div v-else class="text-center">
       <h1 class="text-h3 error-item">
-        Error Desconocido
+        😱
       </h1>
-      <img width="350" src="https://storage.verduzco.me/dotme/website/landing/error.png" alt="Error 404">
+      <p class="error-item">
+        <b>{{ $t('error.error') }}</b>
+      </p>
+      <p class="error-item">
+        {{ $t('error.text') }}
+      </p>
+      <img width="350" src="https://storage.verduzco.me/dotme/website/landing/error.png" alt="Error">
       <v-divider />
       <v-btn
         class="error-item"
@@ -31,7 +37,7 @@
         depressed
         :to="localePath('index')"
       >
-        Ir al Inicio
+        {{ $t('error.goToHome') }}
       </v-btn>
     </div>
   </v-app>
