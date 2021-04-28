@@ -1,14 +1,45 @@
 <template>
   <v-app dark>
-    <h1 v-if="error.statusCode === 404">
-      {{ pageNotFound }}
-    </h1>
-    <h1 v-else>
-      {{ otherError }}
-    </h1>
-    <NuxtLink to="/">
-      Home page
-    </NuxtLink>
+    <div v-if="error.statusCode === 404" class="text-center">
+      <h1 class="text-h3 error-item">
+        😱
+      </h1>
+      <img width="350" src="https://storage.verduzco.me/dotme/website/landing/error-404.png" alt="Error 404">
+      <v-divider />
+      <v-btn
+        class="error-item"
+        color="secondary"
+        large
+        rounded
+        depressed
+        :to="localePath('index')"
+      >
+        {{ $t('error.goToHome') }}
+      </v-btn>
+    </div>
+    <div v-else class="text-center">
+      <h1 class="text-h3 error-item">
+        😱
+      </h1>
+      <p class="error-item">
+        <b>{{ $t('error.error') }}</b>
+      </p>
+      <p class="error-item">
+        {{ $t('error.text') }}
+      </p>
+      <img width="350" src="https://storage.verduzco.me/dotme/website/landing/error.png" alt="Error">
+      <v-divider />
+      <v-btn
+        class="error-item"
+        color="secondary"
+        large
+        rounded
+        depressed
+        :to="localePath('index')"
+      >
+        {{ $t('error.goToHome') }}
+      </v-btn>
+    </div>
   </v-app>
 </template>
 
@@ -23,8 +54,14 @@ export default {
   },
   data() {
     return {
-      pageNotFound: '404 Not Found',
-      otherError: 'An error occurred'
+      pageNotFound:
+        this.$i18n.locale === 'en'
+          ? '404 NOT FOUND'
+          : '404 PÁGINA NO ENCONTRADA',
+      otherError:
+        this.$i18n.locale === 'en'
+          ? 'AN ERROR OCCURRED'
+          : 'HA OCURRIDO UN ERROR'
     }
   },
   head() {
@@ -38,7 +75,7 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  font-size: 20px;
+.error-item {
+  margin-top: 35px;
 }
 </style>

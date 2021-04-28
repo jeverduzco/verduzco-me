@@ -3,6 +3,12 @@ export default {
     name: 'Jesús Verduzco',
     slogan: 'Geek y Emprendedor'
   },
+  error: {
+    goToHome: 'Ir al Inicio',
+    error: 'Error Desconocido',
+    text:
+      'Algunos bloqueadores de anuncios como uBlock Origin no se llevan bien con Nuxt.js, revisa si no lo tienes activo. No te preocupes no hay publicidad aquí. 😋'
+  },
   default: {
     home: 'Ir al inicio',
     theme: 'Cambiar tema',
@@ -44,14 +50,14 @@ export default {
     title: '¿De dónde soy?',
     text:
       'Soy un ciudadano del universo, mi oficina es Internet, mi pasaporte es Mexicano y mi infraestructura es la Nube.',
-    btn: 'Envíame un mensaje'
+    btn: 'Aprende conmigo en Twitch'
   },
   blogWelcome: {
     title: 'Mi Blog',
     text: 'Aquí escribo lo que pienso y comparto lo que sé hacer.',
     linkedin:
-      'En este espacio escribo un artículo cada que tengo ganas, este es un blog personal por lo que encontrarás artículos de muchos temas.',
-    linkedinBtn: 'Visita mi LinkedIn'
+      'En este espacio escribo un artículo cada que tengo ganas, mi blog principal se encuentra en Linkedin.',
+    linkedinBtn: 'Visita mi blog en LinkedIn'
   },
   appSearchImput: {
     label: 'Buscar artículos'
