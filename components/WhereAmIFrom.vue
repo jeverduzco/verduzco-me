@@ -40,10 +40,10 @@
             large
             rounded
             depressed
-            href="http://telegram.verduzco.me/"
+            href="http://twitch.verduzco.me/"
             target="_blank"
             :title="$t('whereAmIFrom.btn')"
-            @click="$appInsights.trackEvent({ name: 'open-telegram-from-home' })"
+            @click="$appInsights.trackEvent({ name: 'open-twitch-from-home' })"
           >
             {{ $t('whereAmIFrom.btn') }}
           </v-btn>
