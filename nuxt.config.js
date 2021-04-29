@@ -73,6 +73,7 @@ module.exports = {
     [
       '@nuxtjs/vuetify',
       {
+        treeShake: true,
         optionsPath: './vuetify.options.js'
       }
     ]
