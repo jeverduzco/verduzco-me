@@ -28,8 +28,7 @@
     "nuxt-i18n": "^6.26.0",
     "prism-themes": "^1.6.0",
     "vue-cookie-law": "^1.13.3",
-    "vue-plyr": "^7.0.0",
-    "@nuxtjs/vuetify": "^1.11.2"
+    "vue-plyr": "^7.0.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
