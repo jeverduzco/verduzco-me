@@ -40,10 +40,10 @@
             large
             rounded
             depressed
-            :to="localePath('blog')"
-            nuxt
+            href="http://linkedin.verduzco.me/"
+            target="_blank"
             :title="$t('whoAmI.btn')"
-            @click="$appInsights.trackEvent({ name: 'open-blog-from-home' })"
+            @click="$appInsights.trackEvent({ name: 'open-linkedin-from-home' })"
           >
             {{ $t('whoAmI.btn') }}
           </v-btn>
