@@ -5,13 +5,6 @@ module.exports = {
    ** See https://nuxtjs.org/api/configuration-target
    */
   telemetry: true,
-<<<<<<< HEAD
-  server: {
-    port: 8080, // default: 3000
-    host: '0.0.0.0' // default: localhost
-  },
-=======
->>>>>>> development
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
