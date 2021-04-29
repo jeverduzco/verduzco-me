@@ -58,7 +58,7 @@ module.exports = {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [{ src: '~plugins/vue-cookie-law.js', ssr: false }],
+  plugins: [{ src: '~plugins/vue-cookie-law.js' }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -73,6 +73,7 @@ module.exports = {
     [
       '@nuxtjs/vuetify',
       {
+        treeShake: true,
         optionsPath: './vuetify.options.js'
       }
     ]
@@ -117,13 +118,6 @@ module.exports = {
   ],
   appInsights: {
     instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf'
-  },
-  content: {
-    markdown: {
-      prism: {
-        theme: 'prism-themes/themes/prism-material-oceanic.css'
-      }
-    }
   },
   axios: {
     // See https://github.com/nuxt-community/axios-module#options

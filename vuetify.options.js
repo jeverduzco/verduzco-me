@@ -1,7 +1,8 @@
 // vuetify.options.js
+import minifyTheme from 'minify-css-string'
 export default {
   theme: {
-    treeShake: true,
+    options: { minifyTheme },
     dark: false,
     themes: {
       dark: {
