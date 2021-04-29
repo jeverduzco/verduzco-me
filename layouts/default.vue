@@ -29,21 +29,13 @@
             <v-icon>translate</v-icon>
           </v-btn>
         </template>
-        <v-list v-if="!activeArticle">
+        <v-list>
           <v-list-item
             v-for="locale in $i18n.locales"
             :key="locale.code"
             :to="switchLocalePath(locale.code)"
           >
             <v-list-item-title>{{ locale.name }}</v-list-item-title>
-          </v-list-item>
-        </v-list>
-        <v-list v-if="activeArticle">
-          <v-list-item
-            :to="$i18n.locale === 'es' ? '/en/blog/' + relatedArticle + '/' : '/es/blog/' + relatedArticle + '/'"
-            @click="$appInsights.trackEvent({ name: 'change-article-language' })"
-          >
-            <v-list-item-title>{{ $i18n.locale === 'es' ? $t('default.read_en') : $t('default.read_es') }}</v-list-item-title>
           </v-list-item>
         </v-list>
       </v-menu>
@@ -69,22 +61,6 @@
           style="max-height: 95vh"
           class="overflow-y-auto"
         >
-          <v-subheader>{{ $t('default.navigation') }}</v-subheader>
-          <v-list-item
-            :title="$t('default.home_menu')"
-            :to="localePath('index')"
-            exact
-            @click="$appInsights.trackEvent({ name: 'navigate-to-home' })"
-          >
-            <v-list-item-title>{{ $t('default.home_menu') }}</v-list-item-title>
-          </v-list-item>
-          <v-list-item
-            :title="$t('default.blog')"
-            :to="localePath('blog')"
-            @click="$appInsights.trackEvent({ name: 'navigate-to-blog' })"
-          >
-            <v-list-item-title>{{ $t('default.blog') }}</v-list-item-title>
-          </v-list-item>
           <v-subheader>{{ $t('default.social') }}</v-subheader>
           <v-list-item
             :title="$t('default.twitter')"
@@ -141,37 +117,35 @@
     <v-main>
       <nuxt />
     </v-main>
-    <client-only>
-      <v-footer absolute app height="auto">
-        <v-card class="flex" flat tile color="transparent">
-          <p id="copyright" class="text-center caption">
-            &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br>
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :to="localePath('legal-cookies')" :title="$t('default.cookies')">
-              {{ $t('default.cookies') }}
-            </nuxt-link>
+    <v-footer absolute app height="auto">
+      <v-card class="flex" flat tile color="transparent">
+        <p id="copyright" class="text-center caption">
+          &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br>
+          <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :to="localePath('legal-cookies')" :title="$t('default.cookies')">
+            {{ $t('default.cookies') }}
+          </nuxt-link>
           &nbsp;
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :title="$t('default.privacy')" :to="localePath('legal-privacy')">
-              {{ $t('default.privacy') }}
-            </nuxt-link>
+          <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :title="$t('default.privacy')" :to="localePath('legal-privacy')">
+            {{ $t('default.privacy') }}
+          </nuxt-link>
           &nbsp;
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :title="$t('default.notice')" :to="localePath('legal-notice')">
-              {{ $t('default.notice') }}
-            </nuxt-link>
-          </p>
-        </v-card>
-        <cookie-law
-          theme="dark-lime"
-          button-text="Ok"
-        >
-          <div slot="message">
-            {{ $t('default.cookiesMessage') }}
-            <nuxt-link :title="$t('default.cookies')" :to="localePath('legal-cookies')">
-              {{ $t('default.cookies') }}
-            </nuxt-link>
-          </div>
-        </cookie-law>
-      </v-footer>
-    </client-only>
+          <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :title="$t('default.notice')" :to="localePath('legal-notice')">
+            {{ $t('default.notice') }}
+          </nuxt-link>
+        </p>
+      </v-card>
+      <cookie-law
+        theme="dark-lime"
+        button-text="Ok"
+      >
+        <div slot="message">
+          {{ $t('default.cookiesMessage') }}
+          <nuxt-link :title="$t('default.cookies')" :to="localePath('legal-cookies')">
+            {{ $t('default.cookies') }}
+          </nuxt-link>
+        </div>
+      </cookie-law>
+    </v-footer>
   </v-app>
 </template>
 

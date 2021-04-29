@@ -1,33 +1,17 @@
-const createSitemapRoutes = async () => {
-  const routes = []
-  const { $content } = require('@nuxt/content')
-  const posts = await $content('es/blog').fetch()
-  for (const post of posts) {
-    routes.push(`es/blog/${post.slug}`)
-  }
-  return routes
-}
-const createEnSitemapRoutes = async () => {
-  const routes = []
-  const { $content } = require('@nuxt/content')
-  const posts = await $content('en/blog').fetch()
-  for (const post of posts) {
-    routes.push(`en/blog/${post.slug}`)
-  }
-  return routes
-}
 // eslint-disable-next-line nuxt/no-cjs-in-config
 module.exports = {
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
-  target: 'server',
   telemetry: true,
+<<<<<<< HEAD
   server: {
     port: 8080, // default: 3000
     host: '0.0.0.0' // default: localhost
   },
+=======
+>>>>>>> development
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -80,10 +64,7 @@ module.exports = {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [
-    { src: '~plugins/vue-cookie-law.js', ssr: false },
-    { src: '~/plugins/vue-plyr', mode: 'client' }
-  ],
+  plugins: [{ src: '~plugins/vue-cookie-law.js', ssr: false }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -98,7 +79,6 @@ module.exports = {
     [
       '@nuxtjs/vuetify',
       {
-        treeShake: true,
         optionsPath: './vuetify.options.js'
       }
     ]
@@ -111,8 +91,6 @@ module.exports = {
     '@nuxt/content',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
-    'nuxt-helmet',
-    '@nuxtjs/redirect-module',
     [
       'nuxt-i18n',
       {
@@ -143,13 +121,6 @@ module.exports = {
       }
     ]
   ],
-  redirect: [
-    {
-      from: '^.*(?<!/)$',
-      to: (from, req) => req.url + '/',
-      statusCode: 301
-    }
-  ],
   appInsights: {
     instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf'
   },
@@ -173,14 +144,8 @@ module.exports = {
         gzip: true,
         generate: false,
         trailingSlash: true,
-        routes: ['/en/', '/en/blog/'],
-        exclude: [
-          '/',
-          '/blog/',
-          '/legal/cookies/',
-          '/legal/privacy/',
-          '/legal/notice/'
-        ]
+        routes: ['/en/'],
+        exclude: ['/', '/legal/cookies/', '/legal/privacy/', '/legal/notice/']
       },
       {
         path: '/pages_es.xml',
@@ -189,64 +154,13 @@ module.exports = {
         gzip: true,
         generate: false,
         trailingSlash: true,
-        routes: ['/es/', '/es/blog/'],
-        exclude: [
-          '/',
-          '/blog/',
-          '/legal/cookies/',
-          '/legal/privacy/',
-          '/legal/notice/'
-        ]
-      },
-      {
-        path: '/articles_en.xml',
-        hostname: 'https://www.verduzco.me',
-        cacheTime: 1000 * 60 * 15,
-        gzip: true,
-        generate: false,
-        trailingSlash: true,
-        routes: createEnSitemapRoutes,
-        exclude: [
-          '/',
-          '/blog/',
-          '/legal/cookies/',
-          '/legal/privacy/',
-          '/legal/notice/'
-        ]
-      },
-      {
-        path: '/articles_es.xml',
-        hostname: 'https://www.verduzco.me',
-        cacheTime: 1000 * 60 * 15,
-        gzip: true,
-        generate: false,
-        trailingSlash: true,
-        routes: createSitemapRoutes,
-        exclude: [
-          '/',
-          '/blog/',
-          '/legal/cookies/',
-          '/legal/privacy/',
-          '/legal/notice/'
-        ]
+        routes: ['/es/'],
+        exclude: ['/', '/legal/cookies/', '/legal/privacy/', '/legal/notice/']
       }
     ]
   },
   router: {
     trailingSlash: true
   },
-  build: {
-    extractCSS: true,
-    extend(config, ctx) {
-      // Run ESLint on save
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
-  }
+  build: {}
 }
