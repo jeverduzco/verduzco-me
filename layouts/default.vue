@@ -117,35 +117,37 @@
     <v-main>
       <nuxt />
     </v-main>
-    <v-footer absolute app height="auto">
-      <v-card class="flex" flat tile color="transparent">
-        <p id="copyright" class="text-center caption">
-          &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br>
-          <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :to="localePath('legal-cookies')" :title="$t('default.cookies')">
-            {{ $t('default.cookies') }}
-          </nuxt-link>
+    <client-only>
+      <v-footer absolute app height="auto">
+        <v-card class="flex" flat tile color="transparent">
+          <p id="copyright" class="text-center caption">
+            &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br>
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :to="localePath('legal-cookies')" :title="$t('default.cookies')">
+              {{ $t('default.cookies') }}
+            </nuxt-link>
           &nbsp;
-          <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :title="$t('default.privacy')" :to="localePath('legal-privacy')">
-            {{ $t('default.privacy') }}
-          </nuxt-link>
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :title="$t('default.privacy')" :to="localePath('legal-privacy')">
+              {{ $t('default.privacy') }}
+            </nuxt-link>
           &nbsp;
-          <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :title="$t('default.notice')" :to="localePath('legal-notice')">
-            {{ $t('default.notice') }}
-          </nuxt-link>
-        </p>
-      </v-card>
-      <cookie-law
-        theme="dark-lime"
-        button-text="Ok"
-      >
-        <div slot="message">
-          {{ $t('default.cookiesMessage') }}
-          <nuxt-link :title="$t('default.cookies')" :to="localePath('legal-cookies')">
-            {{ $t('default.cookies') }}
-          </nuxt-link>
-        </div>
-      </cookie-law>
-    </v-footer>
+            <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :title="$t('default.notice')" :to="localePath('legal-notice')">
+              {{ $t('default.notice') }}
+            </nuxt-link>
+          </p>
+        </v-card>
+        <cookie-law
+          theme="dark-lime"
+          button-text="Ok"
+        >
+          <div slot="message">
+            {{ $t('default.cookiesMessage') }}
+            <nuxt-link :title="$t('default.cookies')" :to="localePath('legal-cookies')">
+              {{ $t('default.cookies') }}
+            </nuxt-link>
+          </div>
+        </cookie-law>
+      </v-footer>
+    </client-only>
   </v-app>
 </template>
 
