@@ -64,7 +64,7 @@
           <v-subheader>{{ $t('default.social') }}</v-subheader>
           <v-list-item
             :title="$t('default.twitter')"
-            href="http://twitter.verduzco.me/"
+            href="https://twitter.com/soy_jeshu"
             target="_blank"
             @click="$appInsights.trackEvent({ name: 'go-to-twitter' })"
           >
@@ -72,7 +72,7 @@
           </v-list-item>
           <v-list-item
             :title="$t('default.linkedin')"
-            href="http://linkedin.verduzco.me/"
+            href="https://www.linkedin.com/in/soy-jeshu"
             target="_blank"
             @click="$appInsights.trackEvent({ name: 'go-to-linkedin' })"
           >
@@ -80,7 +80,7 @@
           </v-list-item>
           <v-list-item
             :title="$t('default.twitch')"
-            href="http://twitch.verduzco.me/"
+            href="https://www.twitch.tv/soy_jeshu"
             target="_blank"
             @click="$appInsights.trackEvent({ name: 'go-to-twitch' })"
           >
@@ -88,7 +88,7 @@
           </v-list-item>
           <v-list-item
             :title="$t('default.github')"
-            href="http://github.verduzco.me/"
+            href="https://github.com/jeverduzco"
             target="_blank"
             @click="$appInsights.trackEvent({ name: 'go-to-github' })"
           >
@@ -96,7 +96,7 @@
           </v-list-item>
           <v-list-item
             :title="$t('default.youtube')"
-            href="http://youtube.verduzco.me/"
+            href="https://www.youtube.com/channel/UCLS-IeTV50b7yBYytRcsi2Q"
             target="_blank"
             @click="$appInsights.trackEvent({ name: 'go-to-youtube' })"
           >
@@ -105,7 +105,7 @@
           <v-subheader>{{ $t('default.contact') }}</v-subheader>
           <v-list-item
             :title="$t('default.telegram')"
-            href="http://telegram.verduzco.me/"
+            href="https://t.me/soy_jeshu"
             target="_blank"
             @click="$appInsights.trackEvent({ name: 'go-to-telegram' })"
           >
