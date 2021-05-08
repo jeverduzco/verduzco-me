@@ -40,7 +40,7 @@
             large
             rounded
             depressed
-            href="http://twitch.verduzco.me/"
+            href="https://www.twitch.tv/soy_jeshu"
             target="_blank"
             :title="$t('whereAmIFrom.btn')"
             @click="$appInsights.trackEvent({ name: 'open-twitch-from-home' })"

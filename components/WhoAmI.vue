@@ -40,7 +40,7 @@
             large
             rounded
             depressed
-            href="http://linkedin.verduzco.me/"
+            href="https://www.linkedin.com/in/soy-jeshu"
             target="_blank"
             :title="$t('whoAmI.btn')"
             @click="$appInsights.trackEvent({ name: 'open-linkedin-from-home' })"
