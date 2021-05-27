@@ -23,6 +23,7 @@ export default {
     github: 'Github',
     youtube: 'YouTube',
     instagram: 'Instagram',
+    tiktok: 'TikTok',
     contact: 'CONTACTO',
     telegram: 'Telegram',
     cookies: 'Política de cookies',

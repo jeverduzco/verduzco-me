@@ -87,6 +87,22 @@
             <v-list-item-title>{{ $t('default.twitch') }}</v-list-item-title>
           </v-list-item>
           <v-list-item
+            :title="$t('default.instagram')"
+            href="https://www.instagram.com/soy_jeshu/"
+            target="_blank"
+            @click="$appInsights.trackEvent({ name: 'go-to-instagram' })"
+          >
+            <v-list-item-title>{{ $t('default.instagram') }}</v-list-item-title>
+          </v-list-item>
+          <v-list-item
+            :title="$t('default.tiktok')"
+            href="https://www.tiktok.com/@soy_jeshu?"
+            target="_blank"
+            @click="$appInsights.trackEvent({ name: 'go-to-tiktok' })"
+          >
+            <v-list-item-title>{{ $t('default.tiktok') }}</v-list-item-title>
+          </v-list-item>
+          <v-list-item
             :title="$t('default.github')"
             href="https://github.com/jeverduzco"
             target="_blank"
