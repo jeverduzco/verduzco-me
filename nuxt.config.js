@@ -48,13 +48,6 @@ module.exports = {
         charset: 'utf-8'
       }
     ],
-    script: [
-      {
-        innerHTML: `function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"f7bfecf0d4d0b39e32bfce1a06884916"})});`,
-        type: 'text/javascript',
-        charset: 'utf-8'
-      }
-    ],
     __dangerouslyDisableSanitizers: ['script', 'innerHTML']
   },
   /*
