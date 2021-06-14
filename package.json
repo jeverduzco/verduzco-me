@@ -21,14 +21,14 @@
     "lru-cache": "^6.0.0",
     "minify-css-string": "^1.0.0",
     "nodemon": "^2.0.7",
-    "nuxt": "^2.15.6",
+    "nuxt": "^2.15.7",
     "nuxt-i18n": "^6.27.0",
     "vue-cookie-law": "^1.13.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
     "@nuxtjs/eslint-module": "^2.0.0",
-    "@nuxtjs/vuetify": "^1.11.3",
+    "@nuxtjs/vuetify": "^1.12.1",
     "babel-eslint": "^8.2.6",
     "caniuse-lite": "1.0.30000974",
     "eslint": "^5.16.0",
