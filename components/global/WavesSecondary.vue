@@ -54,10 +54,11 @@
   position: relative;
   width: 100%;
   height: 15vh;
-  margin-bottom: -7px; /*Fix for safari gap*/
+  margin-bottom: -7px; /* Fix for safari gap */
   min-height: 100px;
   max-height: 150px;
 }
+
 /* Animation */
 
 .parallax > use {
@@ -87,7 +88,8 @@
     transform: translate3d(85px, 0, 0);
   }
 }
-/*Shrinking for mobile*/
+
+/* Shrinking for mobile */
 @media (max-width: 768px) {
   .waves {
     height: 40px;
