@@ -1,14 +1,6 @@
 <template>
-  <v-container
-    grid-list-xl
-    class="content-container"
-  >
-    <v-layout
-      class="section-content"
-      wrap
-      row
-      align-center
-    >
+  <v-container grid-list-xl class="content-container">
+    <v-layout class="section-content" wrap row align-center>
       <v-flex
         v-if="$vuetify.breakpoint.mdAndUp"
         class="text-center text-md-left"
@@ -17,15 +9,13 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whoiam.webp" :alt="$t('whoAmI.title')">
+        <img
+          class="section-image"
+          src="https://storage.verduzco.me/dotme/website/landing/whoiam.webp"
+          :alt="$t('whoAmI.title')"
+        />
       </v-flex>
-      <v-flex
-        class="text-right"
-        xs12
-        sm12
-        md6
-        lg6
-      >
+      <v-flex class="text-right" xs12 sm12 md6 lg6>
         <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-right">
           {{ $t('whoAmI.title') }}
         </h2>
@@ -43,7 +33,9 @@
             href="https://www.linkedin.com/in/soy-jeshu"
             target="_blank"
             :title="$t('whoAmI.btn')"
-            @click="$appInsights.trackEvent({ name: 'open-linkedin-from-home' })"
+            @click="
+              $appInsights.trackEvent({ name: 'open-linkedin-from-home' })
+            "
           >
             {{ $t('whoAmI.btn') }}
           </v-btn>
@@ -58,7 +50,11 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whoiam.webp" :alt="$t('whoAmI.title')">
+        <img
+          class="section-image"
+          src="https://storage.verduzco.me/dotme/website/landing/whoiam.webp"
+          :alt="$t('whoAmI.title')"
+        />
       </v-flex>
     </v-layout>
   </v-container>

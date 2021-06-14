@@ -11,9 +11,7 @@
       fab
       dark
     >
-      <v-icon>
-        fab fa-telegram
-      </v-icon>
+      <v-icon> fab fa-telegram </v-icon>
     </v-btn>
   </div>
 </template>

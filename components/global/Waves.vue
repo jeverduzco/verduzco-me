@@ -9,13 +9,42 @@
       shape-rendering="auto"
     >
       <defs>
-        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        <path
+          id="gentle-wave"
+          d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+        />
       </defs>
       <g class="parallax">
-        <use xlink:href="#gentle-wave" x="48" y="0" :fill="this.$vuetify.theme.dark ? 'rgba(18,18,18,0.7' : 'rgba(255,255,255,0.7'" />
-        <use xlink:href="#gentle-wave" x="48" y="3" :fill="this.$vuetify.theme.dark ? 'rgba(18,18,18,0.5' : 'rgba(255,255,255,0.7'" />
-        <use xlink:href="#gentle-wave" x="48" y="5" :fill="this.$vuetify.theme.dark ? 'rgba(18,18,18,0.7' : 'rgba(255,255,255,0.3'" />
-        <use xlink:href="#gentle-wave" x="48" y="7" :fill="this.$vuetify.theme.dark ? '#121212' : '#fff'" />
+        <use
+          xlink:href="#gentle-wave"
+          x="48"
+          y="0"
+          :fill="
+            $vuetify.theme.dark ? 'rgba(18,18,18,0.7' : 'rgba(255,255,255,0.7'
+          "
+        />
+        <use
+          xlink:href="#gentle-wave"
+          x="48"
+          y="3"
+          :fill="
+            $vuetify.theme.dark ? 'rgba(18,18,18,0.5' : 'rgba(255,255,255,0.7'
+          "
+        />
+        <use
+          xlink:href="#gentle-wave"
+          x="48"
+          y="5"
+          :fill="
+            $vuetify.theme.dark ? 'rgba(18,18,18,0.7' : 'rgba(255,255,255,0.3'
+          "
+        />
+        <use
+          xlink:href="#gentle-wave"
+          x="48"
+          y="7"
+          :fill="$vuetify.theme.dark ? '#121212' : '#fff'"
+        />
       </g>
     </svg>
   </div>
@@ -25,10 +54,11 @@
   position: relative;
   width: 100%;
   height: 15vh;
-  margin-bottom: -7px; /*Fix for safari gap*/
+  margin-bottom: -7px; /* Fix for safari gap */
   min-height: 100px;
   max-height: 150px;
 }
+
 /* Animation */
 
 .parallax > use {
@@ -58,7 +88,8 @@
     transform: translate3d(85px, 0, 0);
   }
 }
-/*Shrinking for mobile*/
+
+/* Shrinking for mobile */
 @media (max-width: 768px) {
   .waves {
     height: 40px;

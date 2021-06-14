@@ -1,21 +1,7 @@
 <template>
-  <v-container
-    grid-list-xl
-    class="content-container"
-  >
-    <v-layout
-      class="section-content"
-      wrap
-      row
-      align-center
-    >
-      <v-flex
-        class="text-left"
-        xs12
-        sm12
-        md6
-        lg6
-      >
+  <v-container grid-list-xl class="content-container">
+    <v-layout class="section-content" wrap row align-center>
+      <v-flex class="text-left" xs12 sm12 md6 lg6>
         <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-left">
           {{ $t('whatIDo.title') }}
         </h2>
@@ -52,14 +38,12 @@
           </v-btn>
         </div>
       </v-flex>
-      <v-flex
-        class="text-center text-md-right"
-        xs12
-        sm12
-        md6
-        lg6
-      >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/whatido.webp" :alt="$t('whatIDo.title')">
+      <v-flex class="text-center text-md-right" xs12 sm12 md6 lg6>
+        <img
+          class="section-image"
+          src="https://storage.verduzco.me/dotme/website/landing/whatido.webp"
+          :alt="$t('whatIDo.title')"
+        />
       </v-flex>
     </v-layout>
   </v-container>

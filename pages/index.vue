@@ -1,7 +1,12 @@
 <template>
   <div id="index-page">
     <!-- start page content -->
-    <section id="welcome" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
+    <section
+      id="welcome"
+      :class="
+        $vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'
+      "
+    >
       <Welcome />
       <Waves />
     </section>
@@ -9,7 +14,12 @@
       <WhoAmI />
       <WavesSecondary />
     </section>
-    <section id="whatido" :class="this.$vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'">
+    <section
+      id="whatido"
+      :class="
+        $vuetify.theme.dark ? 'primary-background-dark' : 'primary-background'
+      "
+    >
       <WhatIdo />
       <Waves />
     </section>
@@ -40,9 +50,9 @@ export default {
           'https://twitter.com/soy_jeshu/',
           'https://www.twitch.tv/soy_jeshu/',
           'https://www.instagram.com/soy_jeshu/',
-          'https://www.youtube.com/channel/UCLS-IeTV50b7yBYytRcsi2Q'
-        ]
-      }
+          'https://www.youtube.com/channel/UCLS-IeTV50b7yBYytRcsi2Q',
+        ],
+      },
     }
   },
   head() {
@@ -51,11 +61,11 @@ export default {
       script: [
         {
           innerHTML: JSON.stringify(this.structuredData),
-          type: 'application/ld+json'
-        }
+          type: 'application/ld+json',
+        },
       ],
       htmlAttrs: {
-        lang: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
+        lang: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX',
       },
       title: this.title,
       link: [
@@ -64,7 +74,7 @@ export default {
           href:
             this.$i18n.locale === 'en'
               ? 'https://www.verduzco.me/en/'
-              : 'https://www.verduzco.me/es/'
+              : 'https://www.verduzco.me/es/',
         },
         {
           rel: 'alternate',
@@ -72,83 +82,83 @@ export default {
           href:
             this.$i18n.locale === 'en'
               ? 'https://www.verduzco.me/es/'
-              : 'https://www.verduzco.me/en/'
-        }
+              : 'https://www.verduzco.me/en/',
+        },
       ],
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
           hid: 'description',
           name: 'description',
-          content: this.description
+          content: this.description,
         },
         {
           property: 'og:title',
-          content: this.title
+          content: this.title,
         },
         {
           property: 'og:description',
-          content: this.description
+          content: this.description,
         },
         {
           property: 'og:image',
           content:
             this.$i18n.locale === 'en'
               ? 'https://storage.verduzco.me/dotme/website/seo/inicio_en.png'
-              : 'https://storage.verduzco.me/dotme/website/seo/inicio_es.png'
+              : 'https://storage.verduzco.me/dotme/website/seo/inicio_es.png',
         },
         {
           property: 'og:locale',
-          content: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX'
+          content: this.$i18n.locale === 'en' ? 'en-US' : 'es-MX',
         },
         {
           property: 'og:type',
-          content: 'website'
+          content: 'website',
         },
         {
           property: 'og:url',
           content:
             this.$i18n.locale === 'en'
               ? 'https://www.verduzco.me/en/'
-              : 'https://www.verduzco.me/es/'
+              : 'https://www.verduzco.me/es/',
         },
         {
           property: 'og:site_name',
-          content: this.title
+          content: this.title,
         },
         {
           property: 'og:image:width',
-          content: '1200'
+          content: '1200',
         },
         {
           property: 'og:image:width',
-          content: '630'
+          content: '630',
         },
         {
           name: 'twitter:card',
-          content: 'summary_large_image'
+          content: 'summary_large_image',
         },
         {
           name: 'twitter:creator',
-          content: '@jeverduzco'
+          content: '@jeverduzco',
         },
         {
           name: 'twitter:description',
-          content: this.description
+          content: this.description,
         },
         {
           name: 'twitter:title',
-          content: this.title
+          content: this.title,
         },
         {
           name: 'twitter:image',
           content:
             this.$i18n.locale === 'en'
               ? 'https://storage.verduzco.me/dotme/website/seo/inicio_en.png'
-              : 'https://storage.verduzco.me/dotme/website/seo/inicio_es.png'
-        }
-      ]
+              : 'https://storage.verduzco.me/dotme/website/seo/inicio_es.png',
+        },
+      ],
     }
-  }
+  },
 }
 </script>
