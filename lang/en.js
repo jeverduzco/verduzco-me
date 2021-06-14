@@ -22,8 +22,6 @@ export default {
     twitter: 'Twitter',
     github: 'Github',
     youtube: 'YouTube',
-    instagram: 'Instagram',
-    tiktok: 'TikTok',
     contact: 'CONTACT',
     telegram: 'Telegram',
     cookies: 'Cookie Policy',
