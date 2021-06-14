@@ -12,7 +12,7 @@ export default {
         error: '#f44336',
         warning: '#ff5722',
         info: '#ffc107',
-        success: '#4caf50'
+        success: '#4caf50',
       },
       light: {
         primary: '#03a9f4',
@@ -21,8 +21,8 @@ export default {
         error: '#f44336',
         warning: '#ff5722',
         info: '#ffc107',
-        success: '#4caf50'
-      }
-    }
-  }
+        success: '#4caf50',
+      },
+    },
+  },
 }

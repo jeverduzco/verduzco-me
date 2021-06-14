@@ -6,19 +6,19 @@
           src="https://storage.verduzco.me/dotme/website/favicon-128.png"
           alt="Jesús Verduzco"
           height="36"
-        >
+        />
       </nuxt-link>
       <v-spacer />
-      <v-btn icon :title="$t('default.theme')" @click="$vuetify.theme.dark = !$vuetify.theme.dark">
+      <v-btn
+        icon
+        :title="$t('default.theme')"
+        @click="$vuetify.theme.dark = !$vuetify.theme.dark"
+      >
         <v-icon>invert_colors</v-icon>
       </v-btn>
       <!-- Start language button -->
-      <v-menu
-        bottom
-        origin="center center"
-        transition="scale-transition"
-      >
-        <template v-slot:activator="{ on }">
+      <v-menu bottom origin="center center" transition="scale-transition">
+        <template #activator="{ on }">
           <v-btn
             class="menu-button"
             :title="$t('default.language')"
@@ -40,11 +40,8 @@
         </v-list>
       </v-menu>
       <!-- End language button -->
-      <v-menu
-        bottom
-        left
-      >
-        <template v-slot:activator="{ on, attrs }">
+      <v-menu bottom left>
+        <template #activator="{ on, attrs }">
           <v-btn
             :title="$t('default.menu')"
             icon
@@ -121,27 +118,45 @@
       <v-footer absolute app height="auto">
         <v-card class="flex" flat tile color="transparent">
           <p id="copyright" class="text-center caption">
-            &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br>
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :to="localePath('legal-cookies')" :title="$t('default.cookies')">
+            &copy; {{ new Date().getFullYear() }} JESÚS VERDUZCO <br />
+            <nuxt-link
+              :class="
+                $vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'
+              "
+              :to="localePath('legal-cookies')"
+              :title="$t('default.cookies')"
+            >
               {{ $t('default.cookies') }}
             </nuxt-link>
-          &nbsp;
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :title="$t('default.privacy')" :to="localePath('legal-privacy')">
+            &nbsp;
+            <nuxt-link
+              :class="
+                $vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'
+              "
+              :title="$t('default.privacy')"
+              :to="localePath('legal-privacy')"
+            >
               {{ $t('default.privacy') }}
             </nuxt-link>
-          &nbsp;
-            <nuxt-link :class="this.$vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'" :title="$t('default.notice')" :to="localePath('legal-notice')">
+            &nbsp;
+            <nuxt-link
+              :class="
+                $vuetify.theme.dark ? 'footer-links-dark' : 'footer-links-light'
+              "
+              :title="$t('default.notice')"
+              :to="localePath('legal-notice')"
+            >
               {{ $t('default.notice') }}
             </nuxt-link>
           </p>
         </v-card>
-        <cookie-law
-          theme="dark-lime"
-          button-text="Ok"
-        >
+        <cookie-law theme="dark-lime" button-text="Ok">
           <div slot="message">
             {{ $t('default.cookiesMessage') }}
-            <nuxt-link :title="$t('default.cookies')" :to="localePath('legal-cookies')">
+            <nuxt-link
+              :title="$t('default.cookies')"
+              :to="localePath('legal-cookies')"
+            >
               {{ $t('default.cookies') }}
             </nuxt-link>
           </div>
@@ -156,7 +171,7 @@ export default {
   data() {
     return {
       title: 'Verduzco.Me',
-      relatedArticle: ''
+      relatedArticle: '',
     }
   },
   computed: {
@@ -169,11 +184,11 @@ export default {
       } else {
         return false
       }
-    }
+    },
   },
   // Listening events
   created() {
-    this.$nuxt.$on('related-article', value => {
+    this.$nuxt.$on('related-article', (value) => {
       this.relatedArticle = value
     })
   },
@@ -184,7 +199,7 @@ export default {
       'color: red; font-size: 30px; font-weight: bold;',
       "The browser console is only for developers, if you are not clear about what you are doing; don't do it. Someone might steal your information."
     )
-  }
+  },
 }
 </script>
 <style lang="css" scoped>

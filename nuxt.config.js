@@ -14,28 +14,27 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'apple-mobile-web-app-status-bar-style', content: 'default' }
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
     ],
     link: [
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+        href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons',
       },
       {
         rel: 'stylesheet',
-        href: 'https://use.fontawesome.com/releases/v5.14.0/css/all.css'
+        href: 'https://use.fontawesome.com/releases/v5.14.0/css/all.css',
       },
       {
         rel: 'icon',
         type: 'shortcut icon',
-        href: 'https://storage.verduzco.me/dotme/website/favicon-128.png'
+        href: 'https://storage.verduzco.me/dotme/website/favicon-128.png',
       },
       {
         rel: 'apple-touch-icon',
         type: 'image/x-icon',
-        href: 'https://storage.verduzco.me/dotme/website/favicon-192.png'
-      }
+        href: 'https://storage.verduzco.me/dotme/website/favicon-192.png',
+      },
     ],
     script: [
       {
@@ -45,10 +44,10 @@ module.exports = {
           y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
           })(window, document, "clarity", "script", "4x7tnhv7eu");`,
         type: 'text/javascript',
-        charset: 'utf-8'
-      }
+        charset: 'utf-8',
+      },
     ],
-    __dangerouslyDisableSanitizers: ['script', 'innerHTML']
+    __dangerouslyDisableSanitizers: ['script', 'innerHTML'],
   },
   /*
    ** Global CSS
@@ -74,9 +73,9 @@ module.exports = {
       '@nuxtjs/vuetify',
       {
         treeShake: true,
-        optionsPath: './vuetify.options.js'
-      }
-    ]
+        optionsPath: './vuetify.options.js',
+      },
+    ],
   ],
   /*
    ** Nuxt.js modules
@@ -94,14 +93,14 @@ module.exports = {
             name: 'Español',
             code: 'es',
             iso: 'es-MX',
-            file: 'es.js'
+            file: 'es.js',
           },
           {
             name: 'English',
             code: 'en',
             iso: 'en-US',
-            file: 'en.js'
-          }
+            file: 'en.js',
+          },
         ],
         lazy: true,
         langDir: 'lang/',
@@ -111,17 +110,17 @@ module.exports = {
         detectBrowserLanguage: {
           useCookie: true,
           cookieKey: 'i18n_redirected',
-          onlyOnRoot: true
-        }
-      }
-    ]
+          onlyOnRoot: true,
+        },
+      },
+    ],
   ],
   appInsights: {
-    instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf'
+    instrumentationKey: 'd09a11fe-afd1-4fdb-8fbd-29b60e067caf',
   },
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-    retry: true
+    retry: true,
   },
   sitemap: {
     sitemaps: [
@@ -133,7 +132,7 @@ module.exports = {
         generate: false,
         trailingSlash: true,
         routes: ['/en/'],
-        exclude: ['/', '/legal/cookies/', '/legal/privacy/', '/legal/notice/']
+        exclude: ['/', '/legal/cookies/', '/legal/privacy/', '/legal/notice/'],
       },
       {
         path: '/pages_es.xml',
@@ -143,12 +142,12 @@ module.exports = {
         generate: false,
         trailingSlash: true,
         routes: ['/es/'],
-        exclude: ['/', '/legal/cookies/', '/legal/privacy/', '/legal/notice/']
-      }
-    ]
+        exclude: ['/', '/legal/cookies/', '/legal/privacy/', '/legal/notice/'],
+      },
+    ],
   },
   router: {
-    trailingSlash: true
+    trailingSlash: true,
   },
-  build: {}
+  build: {},
 }

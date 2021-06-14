@@ -1,14 +1,6 @@
 <template>
-  <v-container
-    grid-list-xl
-    class="content-container"
-  >
-    <v-layout
-      class="section-content"
-      wrap
-      row
-      align-center
-    >
+  <v-container grid-list-xl class="content-container">
+    <v-layout class="section-content" wrap row align-center>
       <v-flex
         v-if="$vuetify.breakpoint.mdAndUp"
         class="text-center text-md-left"
@@ -17,15 +9,13 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/work.webp" :alt="$t('whereAmIFrom.title')">
+        <img
+          class="section-image"
+          src="https://storage.verduzco.me/dotme/website/landing/work.webp"
+          :alt="$t('whereAmIFrom.title')"
+        />
       </v-flex>
-      <v-flex
-        class="text-right"
-        xs12
-        sm12
-        md6
-        lg6
-      >
+      <v-flex class="text-right" xs12 sm12 md6 lg6>
         <h2 class="text-lg-h2 text-md-h2 text-h4 text-center text-md-right">
           {{ $t('whereAmIFrom.title') }}
         </h2>
@@ -58,7 +48,11 @@
         md6
         lg6
       >
-        <img class="section-image" src="https://storage.verduzco.me/dotme/website/landing/work.webp" :alt="$t('whereAmIFrom.title')">
+        <img
+          class="section-image"
+          src="https://storage.verduzco.me/dotme/website/landing/work.webp"
+          :alt="$t('whereAmIFrom.title')"
+        />
       </v-flex>
     </v-layout>
   </v-container>
