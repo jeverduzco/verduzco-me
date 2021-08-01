@@ -20,7 +20,6 @@ export default {
     twitch: 'Twitch',
     twitter: 'Twitter',
     github: 'Github',
-    youtube: 'YouTube',
     contact: 'CONTACT',
     telegram: 'Telegram',
     cookies: 'Cookie Policy',
@@ -30,13 +29,12 @@ export default {
   },
   whoAmI: {
     title: 'Who am I?',
-    text: 'I am a complex organism with its own consciousness and my name is Jesús Verduzco.',
+    text: "I'm Jesus Verduzco, Born Entrepreneur, DevOps Passionate and Full-Time Full Stack.",
     btn: 'Visit my blog on LinkedIn',
   },
   whatIDo: {
     title: 'What do I do?',
-    text: 'I am Chief Technology Officer (CTO) at 33.1 Marketing Agency and also at Prenlu.',
-    btn: '33.1 Website',
+    text: 'I am Co-Founder of Prenlu, here we mix Psychology, Innovation and Technology.',
     btnPrenlu: 'Prenlu Website',
   },
   whereAmIFrom: {

@@ -20,7 +20,6 @@ export default {
     twitch: 'Twitch',
     twitter: 'Twitter',
     github: 'Github',
-    youtube: 'YouTube',
     contact: 'CONTACTO',
     telegram: 'Telegram',
     cookies: 'Política de cookies',
@@ -30,18 +29,17 @@ export default {
   },
   whoAmI: {
     title: '¿Quién soy?',
-    text: 'Soy un organismo complejo con su propia conciencia y mi nombre es Jesús Verduzco.',
+    text: 'Soy Jesús Verduzco, emprendedor de nacimiento, apasionado devops y full stack de tiempo completo.',
     btn: 'Visita mi blog en LinkedIn',
   },
   whatIDo: {
     title: '¿Qué hago?',
-    text: 'Soy Director de Tecnología (CTO) en la Agencia de Marketing 33.1 y también en Prenlu.',
-    btn: 'Web de 33.1',
+    text: 'Soy cofundador de Prenlu, aquí mezclamos psicología, innovación y tecnología.',
     btnPrenlu: 'Web de Prenlu',
   },
   whereAmIFrom: {
     title: '¿De dónde soy?',
-    text: 'Soy un ciudadano del universo, mi oficina es Internet, mi pasaporte es Mexicano y mi infraestructura es la Nube.',
+    text: 'Soy un ciudadano del universo, mi oficina es internet, mi pasaporte es Mexicano y mi infraestructura es la nube.',
     btn: 'Aprende conmigo en Twitch',
   },
   index: {
