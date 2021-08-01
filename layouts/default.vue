@@ -91,14 +91,6 @@
           >
             <v-list-item-title>{{ $t('default.github') }}</v-list-item-title>
           </v-list-item>
-          <v-list-item
-            :title="$t('default.youtube')"
-            href="https://www.youtube.com/channel/UCLS-IeTV50b7yBYytRcsi2Q"
-            target="_blank"
-            @click="$appInsights.trackEvent({ name: 'go-to-youtube' })"
-          >
-            <v-list-item-title>{{ $t('default.youtube') }}</v-list-item-title>
-          </v-list-item>
           <v-subheader>{{ $t('default.contact') }}</v-subheader>
           <v-list-item
             :title="$t('default.telegram')"
