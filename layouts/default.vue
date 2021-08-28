@@ -9,8 +9,13 @@
         />
       </nuxt-link>
       <v-spacer />
+      <v-btn icon :title="$t('default.twitch')" :to="localePath('twitch')">
+        <v-icon>mdi-twitch</v-icon>
+      </v-btn>
       <v-btn
         icon
+        nuxt
+        active-class="no-active"
         :title="$t('default.theme')"
         @click="$vuetify.theme.dark = !$vuetify.theme.dark"
       >
@@ -207,5 +212,8 @@ export default {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+}
+.v-btn--active::before {
+  opacity: 0 !important;
 }
 </style>

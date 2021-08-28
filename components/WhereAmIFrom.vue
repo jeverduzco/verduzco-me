@@ -30,9 +30,8 @@
             large
             rounded
             depressed
-            href="https://www.twitch.tv/soy_jeshu"
-            target="_blank"
-            :title="$t('whereAmIFrom.btn')"
+            :to="localePath('twitch')"
+            :title="$t('default.twitch')"
             @click="$appInsights.trackEvent({ name: 'open-twitch-from-home' })"
           >
             {{ $t('whereAmIFrom.btn') }}
