@@ -35,6 +35,10 @@ module.exports = {
         type: 'image/x-icon',
         href: 'https://storage.verduzco.me/dotme/website/favicon-192.png',
       },
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/vue-plyr/dist/vue-plyr.css',
+      },
     ],
     script: [
       {
@@ -57,7 +61,10 @@ module.exports = {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [{ src: '~plugins/vue-cookie-law.js', ssr: false }],
+  plugins: [
+    { src: '~plugins/vue-cookie-law.js', ssr: false },
+    { src: '~plugins/vue-plyr.js', ssr: false },
+  ],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
