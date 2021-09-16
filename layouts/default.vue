@@ -3,13 +3,18 @@
     <v-app-bar flat fixed app>
       <nuxt-link :to="localePath('index')" :title="$t('default.home')">
         <img
-          src="https://storage.verduzco.me/dotme/website/favicon-128.png"
+          src="https://storage.verduzco.me/dotme/nuevo/favicon-128.png"
           alt="Jesús Verduzco"
           height="36"
         />
       </nuxt-link>
       <v-spacer />
-      <v-btn icon :title="$t('default.twitch')" :to="localePath('twitch')">
+      <v-btn
+        icon
+        :title="$t('default.twitch')"
+        href="https://www.twitch.tv/soy_jeshu"
+        target="_blank"
+      >
         <v-icon>mdi-twitch</v-icon>
       </v-btn>
       <v-btn

@@ -28,12 +28,12 @@ module.exports = {
       {
         rel: 'icon',
         type: 'shortcut icon',
-        href: 'https://storage.verduzco.me/dotme/website/favicon-128.png',
+        href: 'https://storage.verduzco.me/dotme/nuevo/favicon-128.png',
       },
       {
         rel: 'apple-touch-icon',
         type: 'image/x-icon',
-        href: 'https://storage.verduzco.me/dotme/website/favicon-192.png',
+        href: 'https://storage.verduzco.me/dotme/nuevo/favicon-192.png',
       },
       {
         rel: 'stylesheet',
@@ -61,10 +61,7 @@ module.exports = {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [
-    { src: '~plugins/vue-cookie-law.js', ssr: false },
-    { src: '~plugins/vue-plyr.js', ssr: false },
-  ],
+  plugins: [{ src: '~plugins/vue-cookie-law.js', ssr: false }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components

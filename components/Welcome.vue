@@ -13,7 +13,7 @@
       <v-flex class="text-center text-md-right" xs12 sm12 md6 lg6>
         <img
           class="section-image"
-          src="https://storage.verduzco.me/dotme/website/landing/jesus-verduzco.png"
+          src="https://storage.verduzco.me/dotme/nuevo/jesus-verduzco.png"
           alt="Jesús Verduzco"
         />
       </v-flex>
