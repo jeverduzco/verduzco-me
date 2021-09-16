@@ -21,16 +21,15 @@
     "@nuxtjs/robots": "^2.5.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "applicationinsightsfornuxt": "^1.4.5",
+    "core-js": "^3.9.1",
     "cross-env": "^7.0.3",
     "express": "^4.17.1",
     "lru-cache": "^6.0.0",
     "minify-css-string": "^1.0.0",
     "nodemon": "^2.0.7",
     "nuxt": "^2.15.8",
-    "core-js": "^3.9.1",
     "nuxt-i18n": "^6.27.0",
-    "vue-cookie-law": "^1.13.3",
-    "vue-plyr": "^6.0.4"
+    "vue-cookie-law": "^1.13.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.0.1",
