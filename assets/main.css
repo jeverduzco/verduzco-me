@@ -85,6 +85,9 @@
   max-height: 350px;
   max-width: 100%;
 }
+.v-card__title {
+  word-break: break-word !important;
+}
 @media screen and (max-width: 768px) {
   .Cookie__content {
     text-align: center !important;

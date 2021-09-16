@@ -28,12 +28,16 @@ module.exports = {
       {
         rel: 'icon',
         type: 'shortcut icon',
-        href: 'https://storage.verduzco.me/dotme/website/favicon-128.png',
+        href: 'https://storage.verduzco.me/dotme/nuevo/favicon-128.png',
       },
       {
         rel: 'apple-touch-icon',
         type: 'image/x-icon',
-        href: 'https://storage.verduzco.me/dotme/website/favicon-192.png',
+        href: 'https://storage.verduzco.me/dotme/nuevo/favicon-192.png',
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/vue-plyr/dist/vue-plyr.css',
       },
     ],
     script: [
